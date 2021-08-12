@@ -1,0 +1,10 @@
+# General
+.DS_Store
+__pycache__
+
+# Project
+.vscode
+.idea
+venv
+out
+*.bk
