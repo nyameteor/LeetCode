@@ -7,12 +7,12 @@ set -o xtrace
 
 readonly CUR_DIR="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
 readonly OUT_DIR="${CUR_DIR}/../out"
-readonly CLASS_NAME="Solution"
+readonly OUT_FILE="solution.out"
 
 main() {
   local src_file="${1}"
 
-  javac -d "${OUT_DIR}" "${src_file}" && cd "${OUT_DIR}" && java "${CLASS_NAME}"
+  g++ -std=c++14 "${src_file}" --output "${OUT_DIR}/${OUT_FILE}" && cd "${OUT_DIR}" && "${OUT_DIR}/${OUT_FILE}"
 }
 
 main "${1}"
