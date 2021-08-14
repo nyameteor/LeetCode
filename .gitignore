@@ -5,6 +5,7 @@ __pycache__
 # Project
 .vscode
 .idea
-venv
+.venv
 out
 *.bk
+test.*
