@@ -55,7 +55,7 @@ def is_tracked(filepath):
     """
     if not os.path.exists(filepath):
         print("File not exist!")
-        sys.exit(1)
+        return False
     # Check if file is tracked
     output = subprocess.run(
         ["git", "ls-files", f"{filepath}"], capture_output=True, text=True)
@@ -63,3 +63,24 @@ def is_tracked(filepath):
         return False
     else:
         return True
+
+
+# Refer: https://stackoverflow.com/a/21286092
+def insert_lines_after_matching(filepath, content, lines):
+    """
+    insert lines after matched specific line
+    """
+    if not os.path.exists(filepath):
+        print("File not exist!")
+        return False
+    with open(filepath, "r")as in_file:
+        buf = in_file.readlines()
+
+    with open(filepath, "w")as out_file:
+        for line in buf:
+            if line == content:
+                for l in lines:
+                    line = line + l
+            out_file.write(line)
+
+    return True
