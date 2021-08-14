@@ -47,33 +47,33 @@ def main():
 
     code_infos = {
         "cpp": {
-            "pattern": re.compile(r'cpp\/(\d+)\.cpp', re.ASCII),
-            "filelist": Path(root_dir).glob('cpp/*.cpp'),
+            "pattern": re.compile(r'code\/cpp\/(\d+)\.cpp', re.ASCII),
+            "filelist": Path(root_dir).glob('code/cpp/*.cpp'),
             "name": "C++"
         },
         "go": {
-            "pattern": re.compile(r'go\/(\d+)\.go', re.ASCII),
-            "filelist": Path(root_dir).glob('go/*.go'),
+            "pattern": re.compile(r'code\/go\/(\d+)\.go', re.ASCII),
+            "filelist": Path(root_dir).glob('code/go/*.go'),
             "name": "Go"
         },
         "java": {
-            "pattern": re.compile(r'java\/(\d+)\.java', re.ASCII),
-            "filelist": Path(root_dir).glob('java/*.java'),
+            "pattern": re.compile(r'code\/java\/(\d+)\.java', re.ASCII),
+            "filelist": Path(root_dir).glob('code/java/*.java'),
             "name": "Java"
         },
         "js": {
-            "pattern": re.compile(r'js\/(\d+)\.js', re.ASCII),
-            "filelist": Path(root_dir).glob('js/*.js'),
+            "pattern": re.compile(r'code\/js\/(\d+)\.js', re.ASCII),
+            "filelist": Path(root_dir).glob('code/js/*.js'),
             "name": "JS"
         },
         "py3": {
-            "pattern": re.compile(r'py3\/(\d+)\.py', re.ASCII),
-            "filelist": Path(root_dir).glob('py3/*.py'),
+            "pattern": re.compile(r'code\/py3\/(\d+)\.py', re.ASCII),
+            "filelist": Path(root_dir).glob('code/py3/*.py'),
             "name": "Python"
         },
         "rust": {
-            "pattern": re.compile(r'rust\/(\d+)\.rs', re.ASCII),
-            "filelist": Path(root_dir).glob('rust/*.rs'),
+            "pattern": re.compile(r'code\/rust\/(\d+)\.rs', re.ASCII),
+            "filelist": Path(root_dir).glob('code/rust/*.rs'),
             "name": "Rust"
         }
     }
