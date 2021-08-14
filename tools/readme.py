@@ -157,7 +157,7 @@ def main():
         lines.append(line)
 
     shutil.copy(template_file, output_file)
-    matching_line = "| --- | ----- | -------- | ---------- | ---- |\n"
+    matching_line = "| --- | ----- | -------- | ---------- | --- |\n"
     insert_lines_after_matching(output_file, matching_line, lines)
 
 

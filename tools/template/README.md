@@ -5,8 +5,8 @@
 
 ## Problems
 
-| #   | Title | Solution | Difficulty | Docs |
-| --- | ----- | -------- | ---------- | ---- |
+| #   | Title | Solution | Difficulty | Doc |
+| --- | ----- | -------- | ---------- | --- |
 
 ## Links
 
