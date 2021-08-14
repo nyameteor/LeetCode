@@ -12,6 +12,7 @@
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 
 ## Links
