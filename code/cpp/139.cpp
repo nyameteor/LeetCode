@@ -5,8 +5,6 @@
 
 using namespace std;
 
-// Format Style: LLVM
-
 class Solution {
 public:
   bool wordBreak(string s, vector<string> &wordDict) {
@@ -24,7 +22,7 @@ public:
       return true;
 
     for (int i = 0; i < wordDict.size(); i++) {
-      // check if s start with wordDict[i]
+      // if s start with wordDict[i]
       if (s.rfind(wordDict[i], 0) == 0) {
         string reminder = s;
         reminder.replace(0, wordDict[i].length(), "");
