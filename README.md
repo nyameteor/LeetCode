@@ -7,6 +7,7 @@
 
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](code/cpp/118.cpp) | Easy | [📃](docs/118.%20Pascal%27s%20Triangle.md) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp),[Java](code/java/139.java),[JS](code/js/139.js),[Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
