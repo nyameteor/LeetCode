@@ -148,16 +148,16 @@ def main():
         else:
             logging.warning("No code file found, ignored...")
 
-    for number, problem in problems.items():
+    for number, problem in sorted(problems.items()):
         title = problem["title"]
-        solution = " ".join(problem["solution"])
+        solution = ",".join(problem["solution"])
         difficulty = problem["difficulty"]
         doc = problem["doc"]
         line = f"| {number} | {title} | {solution} | {difficulty} | {doc} |\n"
         lines.append(line)
 
     shutil.copy(template_file, output_file)
-    matching_line = "| :-: | :---: | :------: | :--------: | :--: |\n"
+    matching_line = "| --- | ----- | -------- | ---------- | ---- |\n"
     insert_lines_after_matching(output_file, matching_line, lines)
 
 
