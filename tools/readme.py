@@ -82,7 +82,7 @@ def main():
         r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-\,\.]+)\.md', re.ASCII)
 
     problem_info_pattern = re.compile(
-        r'-\sSubtitle:\s(.*)\s*\n-\sDifficulty:\s(Easy|Medium|Hard)\s*\n-\sTopics:(.*)\s*\n-\sLink:\s((?:http|https):\/\/.*)\s*\n', re.ASCII)
+        r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n-\sTopics:(.*)\s*\n-\sLink:\s((?:http|https):\/\/.*)\s*\n', re.ASCII)
 
     doc_filelist = Path(root_dir).glob('docs/*.md')
 
@@ -136,10 +136,9 @@ def main():
                     'Cannot get problem info in {} , ignored'.format(doc_file))
                 logging.debug(file_head)
             else:
-                subtitle = file_res.group(1)
-                difficulty = file_res.group(2)
-                topic = file_res.group(3)
-                problem_link = file_res.group(4)
+                difficulty = file_res.group(1)
+                topic = file_res.group(2)
+                problem_link = file_res.group(3)
 
         if number in problems:
             problems[number]["title"] = f"[{title}]({problem_link})"

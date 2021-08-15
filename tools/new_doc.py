@@ -9,7 +9,6 @@ from utils import sed
 def main():
     number = input("Input problem number:")
     title = input("Input problem title:")
-    subtitle = input("Input problem subtitle:")
     difficulty = input("Input problem difficulty(e:Easy, m:Medium, h:Hard):")
     difficulty = {
         'e': 'Easy',
@@ -34,7 +33,6 @@ def main():
     shutil.copy(template_path, doc_path)
     sed("<NUMBER>", number, doc_path)
     sed("<TITLE>", title, doc_path)
-    sed("<SUBTITLE>", subtitle, doc_path)
     sed("<DIFFICULTY>", difficulty, doc_path)
     sed("<TOPICS>", ", ".join(topics), doc_path)
     sed("<LINK>", link, doc_path)
