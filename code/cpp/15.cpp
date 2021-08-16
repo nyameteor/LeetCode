@@ -17,7 +17,10 @@ public:
       return ans;
     }
 
-    for (int i = 0; i < nums.size() - 2; i++) {
+    // Use `while` instead of `for` to make
+    // the structure of loop and sub-loop more similar
+    int i = 0;
+    while (i < nums.size() - 2) {
       // left pointer
       int l = i + 1;
       // right pointer
@@ -26,25 +29,29 @@ public:
       while (l < r) {
         int sum = nums[i] + nums[l] + nums[r];
         if (sum < 0) {
+          while (l < r && nums[l] == nums[l + 1])
+            l++;
           l++;
         } else if (sum > 0) {
+          while (l < r && nums[r] == nums[r - 1])
+            r--;
           r--;
         } else if (sum == 0) {
           vector<int> triplet = {nums[i], nums[l], nums[r]};
           ans.push_back(triplet);
-          // optimize: skip the same value
+          // optimize: skip same element
           while (l < r && nums[l] == nums[l + 1])
-            l = l + 1;
+            l++;
           while (l < r && nums[r] == nums[r - 1])
-            r = r - 1;
+            r--;
 
           l++;
           r--;
         }
       }
-      // optimize: skip the same value
       while (i < nums.size() - 3 && nums[i] == nums[i + 1])
-        i = i + 1;
+        i++;
+      i++;
     }
     return ans;
   }
