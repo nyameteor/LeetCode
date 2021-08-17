@@ -5,6 +5,8 @@
 import shutil
 from utils import sed
 
+from pathlib import Path
+
 
 def main():
     number = input("Input problem number:")
@@ -15,6 +17,9 @@ def main():
         'm': 'Medium',
         'h': 'Hard',
     }.get(difficulty)
+
+    cwd = Path(__file__).parents[0]
+    root_dir = cwd / '..'
 
     topics_str = input('Input the problem topics (sep in comma): ')
     topics = topics_str.split(',')
@@ -28,8 +33,8 @@ def main():
         print('The problem link must be start with `http://` or `https://`')
         exit(1)
     filename = f"{number}. {title}"
-    template_path = "./tools/template/solution.md"
-    doc_path = f"./docs/{filename}.md"
+    template_path = root_dir / 'tools' / 'template' / 'solution.md'
+    doc_path = root_dir / 'docs' / f"{filename}.md"
     shutil.copy(template_path, doc_path)
     sed("<NUMBER>", number, doc_path)
     sed("<TITLE>", title, doc_path)

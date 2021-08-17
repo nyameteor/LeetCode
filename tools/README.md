@@ -8,14 +8,16 @@ Create new doc(interactive mode):
 make doc
 ```
 
-Update README:
+Update README with solutions and docs:
 
 ```shell
 make readme
 ```
 
-Run code file:
+Compile and run from source file:
 
 ```shell
-./tools/run-java.sh code/java/1.java
+./tools/run-code.sh code/java/1.java
+./tools/run-code.sh code/cpp/1.cpp
+...
 ```
