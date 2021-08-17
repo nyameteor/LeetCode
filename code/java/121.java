@@ -19,7 +19,7 @@ class Solution {
 
   public static void main(String[] args) {
     Solution solution = new Solution();
-    System.out.println(solution.maxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
-    System.out.println(solution.maxProfit(new int[] { 7, 6, 4, 3, 1 }));
+    assert solution.maxProfit(new int[] { 7, 1, 5, 3, 6, 4 }) == 5;
+    assert solution.maxProfit(new int[] { 7, 6, 4, 3, 1 }) == 0;
   }
 }
