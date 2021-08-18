@@ -15,6 +15,7 @@
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](code/cpp/15.cpp) | Medium | [📃](docs/15.%203Sum.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](code/cpp/16.cpp) | Medium | [📃](docs/16.%203Sum%20Closest.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](code/java/21.java) | Easy | [📃](docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
