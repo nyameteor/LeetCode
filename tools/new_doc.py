@@ -25,8 +25,6 @@ def main():
     topics = topics_str.split(',')
     for i, topic in enumerate(topics):
         topics[i] = topic.strip()
-    for topic in topics:
-        topic = f"`topic`"
 
     link = input('Input the problem link: ')
     if not (link.startswith('http://') or link.startswith('https://')):
