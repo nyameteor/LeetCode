@@ -18,6 +18,7 @@
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](code/java/206.java) | Easy | [📃](docs/206.%20Reverse%20Linked%20List.md) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](code/java/21.java) | Easy | [📃](docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](code/java/232.java) | Easy | [📃](docs/232.%20Implement%20Queue%20using%20Stacks.md) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](code/java/29.java) | Medium | [📃](docs/29.%20Divide%20Two%20Integers.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
