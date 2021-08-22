@@ -14,6 +14,7 @@
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](code/cpp/15.cpp) | Medium | [📃](docs/15.%203Sum.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](code/cpp/16.cpp) | Medium | [📃](docs/16.%203Sum%20Closest.md) |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](code/java/160.java) | Easy | [📃](docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](code/java/206.java) | Easy | [📃](docs/206.%20Reverse%20Linked%20List.md) |
