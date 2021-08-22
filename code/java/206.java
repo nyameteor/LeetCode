@@ -25,9 +25,10 @@ class Solution {
 
     ListNode backword = head;
     ListNode current = head.next;
+    ListNode forward = current;
 
     while (current != null) {
-      ListNode forward = current.next;
+      forward = current.next;
 
       // reverse
       current.next = backword;
