@@ -99,7 +99,10 @@ def main():
             number = code_res.group(1)
             logging.debug(f"process {number} {key} file")
 
-            number = f"{number}"
+            try:
+                number = int(f"{number}")
+            except ValueError:
+                number = f"{number}"
             if number not in problems:
                 problems[number] = {
                     "title": "",
@@ -140,6 +143,10 @@ def main():
                 topic = file_res.group(2)
                 problem_link = file_res.group(3)
 
+        try:
+            number = int(f"{number}")
+        except ValueError:
+            number = f"{number}"
         if number in problems:
             problems[number]["title"] = f"[{title}]({problem_link})"
             problems[number]["difficulty"] = f"{difficulty}"
