@@ -1,3 +1,4 @@
+#include <cassert>
 #include <iostream>
 #include <map>
 #include <string>
@@ -61,25 +62,20 @@ int main() {
   Solution solution;
   vector<string> wordDict;
   vector<string> ans;
+  vector<string> res;
 
   wordDict = {"cat", "cats", "and", "sand", "dog"};
-  ans = solution.wordBreak("catsanddog", wordDict);
-  for (int i = 0; i < ans.size(); i++) {
-    cout << ans[i] << ' ';
-  }
-  cout << endl;
+  ans = {"cat sand dog", "cats and dog"};
+  res = solution.wordBreak("catsanddog", wordDict);
+  assert(res == ans);
 
   wordDict = {"apple", "pen", "applepen", "pine", "pineapple"};
-  ans = solution.wordBreak("pineapplepenapple", wordDict);
-  for (int i = 0; i < ans.size(); i++) {
-    cout << ans[i] << ' ';
-  }
-  cout << endl;
+  ans = {"pine apple pen apple", "pine applepen apple", "pineapple pen apple"};
+  res = solution.wordBreak("pineapplepenapple", wordDict);
+  assert(res == ans);
 
   wordDict = {"cats", "dog", "sand", "and", "cat"};
-  ans = solution.wordBreak("catsandog", wordDict);
-  for (int i = 0; i < ans.size(); i++) {
-    cout << ans[i] << ' ';
-  }
-  cout << endl;
+  ans = {};
+  res = solution.wordBreak("catsandog", wordDict);
+  assert(res == ans);
 }

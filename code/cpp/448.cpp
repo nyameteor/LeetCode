@@ -1,7 +1,6 @@
+#include <cassert>
 #include <cmath>
-#include <cstdio>
 #include <iostream>
-#include <map>
 #include <vector>
 
 using namespace std;
@@ -29,20 +28,17 @@ int main() {
   Solution solution;
   vector<int> nums;
   vector<int> result;
+  vector<int> answer;
 
   // [5, 6]
   nums = {4, 3, 2, 7, 8, 2, 3, 1};
+  answer = {5, 6};
   result = solution.findDisappearedNumbers(nums);
-  for (int i = 0; i < result.size(); i++) {
-    cout << result[i] << " ";
-  }
-  cout << endl;
+  assert(result == answer);
 
   // [2]
   nums = {1, 1};
+  answer = {2};
   result = solution.findDisappearedNumbers(nums);
-  for (int i = 0; i < result.size(); i++) {
-    cout << result[i] << " ";
-  }
-  cout << endl;
+  assert(result == answer);
 }

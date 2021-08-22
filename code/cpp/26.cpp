@@ -1,3 +1,4 @@
+#include <cassert>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -32,32 +33,17 @@ public:
 int main() {
   Solution solution;
   vector<int> nums;
+  int result;
 
   nums = {1, 1, 2};
-  cout << solution.removeDuplicates(nums) << endl;
-  for (int i = 0; i < nums.size(); i++) {
-    cout << nums[i] << ' ';
-  }
-  cout << endl;
+  assert(solution.removeDuplicates(nums) == 2);
 
   nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-  cout << solution.removeDuplicates(nums) << endl;
-  for (int i = 0; i < nums.size(); i++) {
-    cout << nums[i] << ' ';
-  }
-  cout << endl;
+  assert(solution.removeDuplicates(nums) == 5);
 
   nums = {1, 1};
-  cout << solution.removeDuplicates(nums) << endl;
-  for (int i = 0; i < nums.size(); i++) {
-    cout << nums[i] << ' ';
-  }
-  cout << endl;
+  assert(solution.removeDuplicates(nums) == 1);
 
   nums = {1, 2, 2, 2, 2};
-  cout << solution.removeDuplicates(nums) << endl;
-  for (int i = 0; i < nums.size(); i++) {
-    cout << nums[i] << ' ';
-  }
-  cout << endl;
+  assert(solution.removeDuplicates(nums) == 2);
 }

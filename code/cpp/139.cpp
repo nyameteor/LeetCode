@@ -1,3 +1,4 @@
+#include <cassert>
 #include <iostream>
 #include <map>
 #include <string>
@@ -43,12 +44,17 @@ public:
 
 int main() {
   Solution solution;
-  vector<string> wordDict = {"leet", "code"};
-  cout << solution.wordBreak("leetcode", wordDict);
+  vector<string> wordDict;
+
+  wordDict = {"leet", "code"};
+  assert(solution.wordBreak("leetcode", wordDict) == true);
+
   wordDict = {"apple", "pen"};
-  cout << solution.wordBreak("applepenapple", wordDict);
+  assert(solution.wordBreak("applepenapple", wordDict) == true);
+
   wordDict = {"cats", "dog", "sand", "and", "cat"};
-  cout << solution.wordBreak("acatsandog", wordDict);
+  assert(solution.wordBreak("acatsandog", wordDict) == false);
+
   wordDict = {"cats", "dog", "sand", "and", "cat"};
-  cout << solution.wordBreak("acatsandandcatdogcatssanddog", wordDict);
+  assert(solution.wordBreak("acatsandandcatdogcatssanddog", wordDict) == false);
 }

@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cassert>
 #include <iostream>
 #include <vector>
 
@@ -61,34 +62,20 @@ int main() {
   Solution solution;
   vector<int> nums;
   vector<vector<int>> result;
+  vector<vector<int>> answer;
 
-  // [[-1,-1,2],[-1,0,1]]
   nums = {-1, 0, 1, 2, -1, -4};
+  answer = {{-1, -1, 2}, {-1, 0, 1}};
   result = solution.threeSum(nums);
-  for (int i = 0; i < result.size(); i++) {
-    for (int j = 0; j < result[i].size(); j++) {
-      cout << result[i][j] << " ";
-    }
-    cout << endl;
-  }
+  assert(result == answer);
 
-  // [[0,0,0]]
   nums = {0, 0, 0, 0, 0, 0, 0, 0, 0};
+  answer = {{0, 0, 0}};
   result = solution.threeSum(nums);
-  for (int i = 0; i < result.size(); i++) {
-    for (int j = 0; j < result[i].size(); j++) {
-      cout << result[i][j] << " ";
-    }
-    cout << endl;
-  }
+  assert(result == answer);
 
-  // []
   nums = {0};
+  answer = {};
   result = solution.threeSum(nums);
-  for (int i = 0; i < result.size(); i++) {
-    for (int j = 0; j < result[i].size(); j++) {
-      cout << result[i][j] << " ";
-    }
-    cout << endl;
-  }
+  assert(result == answer);
 }
