@@ -52,10 +52,10 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.wordBreak("leetcode", List.of("leet", "code")) == true);
-        System.out.println(solution.wordBreak("applepenapple", List.of("apple", "pen")) == true);
-        System.out.println(solution.wordBreak("catsandog", List.of("cats", "dog", "sand", "and", "cat")) == false);
-        System.out.println(solution.wordBreak("ccbb", List.of("bc", "cb")) == false);
-        System.out.println(solution.wordBreak("cars", List.of("car", "ca", "rs")) == true);
+        assert solution.wordBreak("leetcode", List.of("leet", "code")) == true;
+        assert solution.wordBreak("applepenapple", List.of("apple", "pen")) == true;
+        assert solution.wordBreak("catsandog", List.of("cats", "dog", "sand", "and", "cat")) == false;
+        assert solution.wordBreak("ccbb", List.of("bc", "cb")) == false;
+        assert solution.wordBreak("cars", List.of("car", "ca", "rs")) == true;
     }
 }
