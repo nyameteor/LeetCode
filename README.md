@@ -30,6 +30,7 @@
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](code/java/232.java) | Easy | [📃](docs/232.%20Implement%20Queue%20using%20Stacks.md) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](code/cpp/242.cpp) | Easy | [📃](docs/242.%20Valid%20Anagram.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
 
 ## Links
 
