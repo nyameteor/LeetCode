@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 class Solution {
+    private StringBuilder builder = new StringBuilder();
+
     public List<String> wordBreak(String s, List<String> wordDict) {
         HashMap<String, List<String>> memo = new HashMap<>();
         return dp(s, wordDict, memo);
@@ -37,11 +39,15 @@ class Solution {
     }
 
     private String resultAdd(String e, String word) {
+        // empty string builder
+        builder.delete(0, builder.length());
+
         // edge case
-        if (e == "") {
-            return word + e;
+        if (e.equals("")) {
+            // Use StringBuilder inside a loop body when concatenating multiple strings
+            return builder.append(word).append(e).toString();
         } else {
-            return word + " " + e;
+            return builder.append(word).append(" ").append(e).toString();
         }
     }
 
