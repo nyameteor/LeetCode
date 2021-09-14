@@ -1,8 +1,4 @@
-#include <cstdio>
 #include <iostream>
-#include <set>
-#include <stack>
-#include <string>
 #include <vector>
 
 using namespace std;
