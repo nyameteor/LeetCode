@@ -22,7 +22,7 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](code/cpp/118.cpp) | Easy | [📃](docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](code/java/121.java) | Easy | [📃](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](code/java/122.java) | Easy | [📃](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp),[Java](code/java/139.java),[JS](code/js/139.js),[Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp),[Java](code/java/139.java),[Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](code/java/144.java) | Easy | [📃](docs/144.%20Binary%20Tree%20Preorder%20Traversal.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](code/java/146.java) | Medium | [📃](docs/146.%20LRU%20Cache.md) |
