@@ -25,7 +25,7 @@ class Solution {
             }
             h = p.next;
             n = t.next;
-            ListNode[] result = reverseSub(h, t);
+            ListNode[] result = reverse(h, t);
             h = result[0];
             t = result[1];
             p.next = h;
@@ -38,7 +38,8 @@ class Solution {
         return root.next;
     }
 
-    private ListNode[] reverseSub(ListNode head, ListNode tail) {
+    // reverse the linked list in a particular range.
+    private ListNode[] reverse(ListNode head, ListNode tail) {
         // current, backfoward, forward
         ListNode b = head;
         ListNode c = b.next, f = b.next;
@@ -56,17 +57,15 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        ListNode a = new ListNode(1);
-        ListNode b = new ListNode(2);
-        ListNode c = new ListNode(3);
-        a.next = b;
-        b.next = c;
-        c.next = null;
 
-        ListNode[] result = solution.reverseSub(a, c);
-        ListNode h = result[0];
-        // avoid linked list become ring
-        a.next = null;
+        // a -> b -> c -> d -> e
+        ListNode e = new ListNode(5);
+        ListNode d = new ListNode(4, e);
+        ListNode c = new ListNode(3, d);
+        ListNode b = new ListNode(2, c);
+        ListNode a = new ListNode(1, b);
+
+        ListNode h = solution.reverseKGroup(a, 2);
 
         while (h != null) {
             System.out.println(h.val);
