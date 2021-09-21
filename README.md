@@ -14,6 +14,7 @@
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](code/java/25.java) | Hard | [📃](docs/25.%20Reverse%20Nodes%20in%20k-Group.md) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](code/java/29.java) | Medium | [📃](docs/29.%20Divide%20Two%20Integers.md) |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](code/cpp/33.cpp) | Medium | [📃](docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](code/cpp/42.cpp) | Hard | [📃](docs/42.%20Trapping%20Rain%20Water.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
