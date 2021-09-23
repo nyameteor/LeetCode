@@ -18,6 +18,7 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](code/cpp/33.cpp) | Medium | [📃](docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](code/cpp/42.cpp) | Hard | [📃](docs/42.%20Trapping%20Rain%20Water.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](code/cpp/53.cpp) | Easy | [📃](docs/53.%20Maximum%20Subarray.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](code/java/101.java) | Easy | [📃](docs/101.%20Symmetric%20Tree.md) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](code/java/102.java) | Medium | [📃](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal.md) |
