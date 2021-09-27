@@ -34,6 +34,7 @@
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](code/java/160.java) | Easy | [📃](docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](code/cpp/199.cpp) | Medium | [📃](docs/199.%20Binary%20Tree%20Right%20Side%20View.md) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](code/java/206.java) | Easy | [📃](docs/206.%20Reverse%20Linked%20List.md) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](code/java/215.java) | Medium | [📃](docs/215.%20Kth%20Largest%20Element%20in%20an%20Array.md) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](code/java/226.java) | Easy | [📃](docs/226.%20Invert%20Binary%20Tree.md) |
