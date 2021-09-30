@@ -26,6 +26,7 @@
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](code/java/102.java) | Medium | [📃](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal.md) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](code/cpp/103.cpp) | Medium | [📃](docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](code/cpp/113.cpp) | Medium | [📃](docs/113.%20Path%20Sum%20II.md) |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](code/cpp/114.cpp) | Medium | [📃](docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](code/cpp/118.cpp) | Easy | [📃](docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](code/java/121.java) | Easy | [📃](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](code/java/122.java) | Easy | [📃](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
