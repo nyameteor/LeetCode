@@ -43,6 +43,7 @@
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](code/cpp/234.cpp) | Easy | [📃](docs/234.%20Palindrome%20Linked%20List.md) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](code/cpp/236.cpp) | Medium | [📃](docs/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](code/cpp/242.cpp) | Easy | [📃](docs/242.%20Valid%20Anagram.md) |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](code/cpp/300.cpp) | Medium | [📃](docs/300.%20Longest%20Increasing%20Subsequence.md) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](code/cpp/347.cpp) | Medium | [📃](docs/347.%20Top%20K%20Frequent%20Elements.md) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Java](code/java/415.java) | Easy | [📃](docs/415.%20Add%20Strings.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
