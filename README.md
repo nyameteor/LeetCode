@@ -51,6 +51,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | [C++](code/cpp/470.cpp) | Medium | [📃](docs/470.%20Implement%20Rand10%28%29%20Using%20Rand7%28%29.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
+| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](code/cpp/958.cpp) | Medium | [📃](docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 
 ## Links
 
