@@ -11,6 +11,7 @@
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](code/cpp/15.cpp) | Medium | [📃](docs/15.%203Sum.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](code/cpp/16.cpp) | Medium | [📃](docs/16.%203Sum%20Closest.md) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](code/java/21.java) | Easy | [📃](docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](code/cpp/22.cpp) | Medium | [📃](docs/22.%20Generate%20Parentheses.md) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](code/java/25.java) | Hard | [📃](docs/25.%20Reverse%20Nodes%20in%20k-Group.md) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](code/java/29.java) | Medium | [📃](docs/29.%20Divide%20Two%20Integers.md) |
