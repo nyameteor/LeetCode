@@ -21,6 +21,7 @@
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](code/cpp/53.cpp) | Easy | [📃](docs/53.%20Maximum%20Subarray.md) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](code/cpp/54.cpp) | Medium | [📃](docs/54.%20Spiral%20Matrix.md) |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](code/cpp/56.cpp) | Medium | [📃](docs/56.%20Merge%20Intervals.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](code/cpp/74.cpp) | Medium | [📃](docs/74.%20Search%20a%202D%20Matrix.md) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](code/java/101.java) | Easy | [📃](docs/101.%20Symmetric%20Tree.md) |
