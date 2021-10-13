@@ -36,6 +36,7 @@
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](code/java/144.java) | Easy | [📃](docs/144.%20Binary%20Tree%20Preorder%20Traversal.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](code/java/146.java) | Medium | [📃](docs/146.%20LRU%20Cache.md) |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](code/cpp/155.cpp) | Easy | [📃](docs/155.%20Min%20Stack.md) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](code/java/160.java) | Easy | [📃](docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
