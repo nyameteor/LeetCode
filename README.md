@@ -25,6 +25,7 @@
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](code/cpp/56.cpp) | Medium | [📃](docs/56.%20Merge%20Intervals.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](code/cpp/74.cpp) | Medium | [📃](docs/74.%20Search%20a%202D%20Matrix.md) |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [C++](code/cpp/98.cpp) | Medium | [📃](docs/98.%20Validate%20Binary%20Search%20Tree.md) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](code/java/101.java) | Easy | [📃](docs/101.%20Symmetric%20Tree.md) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](code/java/102.java) | Medium | [📃](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal.md) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](code/cpp/103.cpp) | Medium | [📃](docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md) |
