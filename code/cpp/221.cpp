@@ -34,12 +34,12 @@ class Solution {
                             len++;
                         }
                     }
-                    maxLen = max(len * len, maxLen);
+                    maxLen = max(len, maxLen);
                 }
             }
         }
 
-        return maxLen;
+        return maxLen * maxLen;
     }
 };
 
@@ -97,18 +97,19 @@ class Solution3 {
             return memo[i][j];
         }
 
+        // corner case
         if (i == 0 || j == 0) {
-            return 0;
+            return memo[i][j];
         }
 
-        memo[i][j] = min(dp(matrix, memo, memoed, maxLen, i, j - 1),
-                         min(dp(matrix, memo, memoed, maxLen, i - 1, j),
-                             dp(matrix, memo, memoed, maxLen, i - 1, j - 1)));
+        int currentValue =
+            min(dp(matrix, memo, memoed, maxLen, i, j - 1),
+                min(dp(matrix, memo, memoed, maxLen, i - 1, j),
+                    dp(matrix, memo, memoed, maxLen, i - 1, j - 1))) +
+            1;
         if (matrix[i - 1][j - 1] == '1') {
-            memo[i][j] += 1;
+            memo[i][j] += currentValue;
             maxLen = max(maxLen, memo[i][j]);
-        } else {
-            memo[i][j] = 0;
         }
         memoed[i][j] = true;
 
