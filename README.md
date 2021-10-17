@@ -7,13 +7,13 @@
 
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](code/cpp/1.cpp),[Java](code/java/1.java) | Easy | [📃](docs/1.%20Two%20Sum.md) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](code/cpp/1.cpp), [Java](code/java/1.java) | Easy | [📃](docs/1.%20Two%20Sum.md) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](code/cpp/15.cpp) | Medium | [📃](docs/15.%203Sum.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](code/cpp/16.cpp) | Medium | [📃](docs/16.%203Sum%20Closest.md) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](code/java/21.java) | Easy | [📃](docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](code/cpp/22.cpp) | Medium | [📃](docs/22.%20Generate%20Parentheses.md) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](code/java/25.java) | Hard | [📃](docs/25.%20Reverse%20Nodes%20in%20k-Group.md) |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp),[Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](code/cpp/26.cpp), [Python](code/py3/26.py) | Easy | [📃](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](code/java/29.java) | Medium | [📃](docs/29.%20Divide%20Two%20Integers.md) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](code/cpp/31.cpp) | Medium | [📃](docs/31.%20Next%20Permutation.md) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](code/cpp/33.cpp) | Medium | [📃](docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
@@ -34,8 +34,8 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](code/cpp/118.cpp) | Easy | [📃](docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](code/java/121.java) | Easy | [📃](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](code/java/122.java) | Easy | [📃](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp),[Java](code/java/139.java),[Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
-| 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp),[Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp), [Java](code/java/139.java), [Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
+| 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp), [Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](code/cpp/141.cpp) | Easy | [📃](docs/141.%20Linked%20List%20Cycle.md) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](code/java/144.java) | Easy | [📃](docs/144.%20Binary%20Tree%20Preorder%20Traversal.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](code/java/146.java) | Medium | [📃](docs/146.%20LRU%20Cache.md) |

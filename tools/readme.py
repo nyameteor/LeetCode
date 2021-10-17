@@ -156,7 +156,7 @@ def main():
 
     for number, problem in sorted(problems.items()):
         title = problem["title"]
-        solution = ",".join(problem["solution"])
+        solution = ", ".join(problem["solution"])
         difficulty = problem["difficulty"]
         doc = problem["doc"]
         line = f"| {number} | {title} | {solution} | {difficulty} | {doc} |\n"
