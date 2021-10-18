@@ -37,6 +37,7 @@
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp), [Java](code/java/139.java), [Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp), [Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](code/cpp/141.cpp) | Easy | [📃](docs/141.%20Linked%20List%20Cycle.md) |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](code/cpp/142.cpp) | Medium | [📃](docs/142.%20Linked%20List%20Cycle%20II.md) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](code/java/144.java) | Easy | [📃](docs/144.%20Binary%20Tree%20Preorder%20Traversal.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](code/java/146.java) | Medium | [📃](docs/146.%20LRU%20Cache.md) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](code/cpp/155.cpp) | Easy | [📃](docs/155.%20Min%20Stack.md) |
