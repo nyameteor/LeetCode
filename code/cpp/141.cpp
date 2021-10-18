@@ -11,9 +11,9 @@ struct ListNode {
 /**
  * Two Pointers
  *
- * Use slow(1 step) and fast(2 step) pointers to traversal the linked list at
- * the same time, if these two pointers meet at a specific node, that means
- * the linked list has a cycle in it.
+ * Use slow(1 step) and fast(2 step) pointers to traverse the linked list
+ * synchronously, if these two pointers meet at a specific node, that means the
+ * linked list has a cycle in it.
  */
 class Solution {
   public:
