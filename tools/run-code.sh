@@ -2,8 +2,9 @@
 
 # shellcheck disable=SC2155
 
-set -o errexit
-set -o xtrace
+set -o errexit \
+    -o nounset \
+    -o xtrace
 
 readonly CUR_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 readonly OUT_DIR="${CUR_DIR}/../out"
@@ -13,7 +14,7 @@ readonly CPP_OUT="solution.out"
 run_cpp() {
     local src_file="${1}"
 
-    g++ -g -std=c++14 "${src_file}" --output "${OUT_DIR}/${CPP_OUT}" &&
+    g++ -g -std=c++17 "${src_file}" --output "${OUT_DIR}/${CPP_OUT}" &&
         "${OUT_DIR}/${CPP_OUT}"
 }
 
