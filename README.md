@@ -50,6 +50,7 @@
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](code/java/206.java) | Easy | [📃](docs/206.%20Reverse%20Linked%20List.md) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](code/java/215.java) | Medium | [📃](docs/215.%20Kth%20Largest%20Element%20in%20an%20Array.md) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](code/cpp/221.cpp) | Medium | [📃](docs/221.%20Maximal%20Square.md) |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [C++](code/cpp/222.cpp) | Medium | [📃](docs/222.%20Count%20Complete%20Tree%20Nodes.md) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](code/java/226.java) | Easy | [📃](docs/226.%20Invert%20Binary%20Tree.md) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](code/java/232.java) | Easy | [📃](docs/232.%20Implement%20Queue%20using%20Stacks.md) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](code/cpp/234.cpp) | Easy | [📃](docs/234.%20Palindrome%20Linked%20List.md) |
