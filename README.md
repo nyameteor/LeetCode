@@ -65,6 +65,7 @@
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](code/cpp/451.cpp) | Medium | [📃](docs/451.%20Sort%20Characters%20By%20Frequency.md) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | [C++](code/cpp/470.cpp) | Medium | [📃](docs/470.%20Implement%20Rand10%28%29%20Using%20Rand7%28%29.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](code/cpp/958.cpp) | Medium | [📃](docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](code/cpp/994.cpp) | Medium | [📃](docs/994.%20Rotting%20Oranges.md) |
 
@@ -72,8 +73,9 @@
 
 - [Triple-Z/LeetCode](https://github.com/Triple-Z/LeetCode) - Thanks a lot!
 - [haoel/leetcode](https://github.com/haoel/leetcode)
+- [oi-wiki/oi-wiki](https://oi-wiki.org/graph/)
+- [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 - [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master)
 - [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 - [freecodecamp - Dynamic Programming](https://www.youtube.com/watch?v=oBt53YbR9Kk&t=2259s)
-- [pdb - cheatsheet](https://kapeli.com/cheat_sheets/Python_Debugger.docset/Contents/Resources/Documents/index)
 - [skywind/gdb - cheatsheet](https://github.com/skywind3000/awesome-cheatsheets/blob/master/tools/gdb.txt)
