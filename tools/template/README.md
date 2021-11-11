@@ -13,6 +13,8 @@
 - [Triple-Z/LeetCode](https://github.com/Triple-Z/LeetCode) - Thanks a lot!
 - [haoel/leetcode](https://github.com/haoel/leetcode)
 - [oi-wiki/oi-wiki](https://oi-wiki.org/graph/)
+- [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions)
+- [doocs/leetcode](https://github.com/doocs/leetcode)
 - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 - [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master)
 - [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
