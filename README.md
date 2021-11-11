@@ -19,6 +19,7 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](code/cpp/31.cpp) | Medium | [📃](docs/31.%20Next%20Permutation.md) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](code/cpp/33.cpp) | Medium | [📃](docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](code/cpp/42.cpp) | Hard | [📃](docs/42.%20Trapping%20Rain%20Water.md) |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](code/cpp/43.cpp) | Medium | [📃](docs/43.%20Multiply%20Strings.md) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](code/cpp/46.cpp) | Medium | [📃](docs/46.%20Permutations.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](code/cpp/53.cpp) | Easy | [📃](docs/53.%20Maximum%20Subarray.md) |
