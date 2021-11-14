@@ -5,8 +5,6 @@ using namespace std;
 
 /**
  * Generate combinations with DFS
- *
- * TODO: Optimize
  */
 class CombinationIterator {
   private:
@@ -21,21 +19,16 @@ class CombinationIterator {
         if (chars == "") {
             return;
         }
+        // chars [i]: current node
+        // chars from i+1 to the end: branches to traverse
         for (int i = 0; i < chars.size(); i++) {
-            string branches = chars;
-            branches.erase(0, i + 1);
-            dfs(path + chars[i], branches, len);
+            dfs(path + chars[i], chars.substr(i + 1), len);
         }
     }
 
   public:
     CombinationIterator(string characters, int combinationLength) {
-        for (int i = 0; i < characters.size(); i++) {
-            string path = "";
-            string branches = characters;
-            branches.erase(0, i + 1);
-            dfs(path + characters[i], branches, combinationLength);
-        }
+        dfs("", characters, combinationLength);
     }
 
     string next() {
