@@ -25,6 +25,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](code/cpp/53.cpp) | Easy | [📃](docs/53.%20Maximum%20Subarray.md) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](code/cpp/54.cpp) | Medium | [📃](docs/54.%20Spiral%20Matrix.md) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](code/cpp/56.cpp) | Medium | [📃](docs/56.%20Merge%20Intervals.md) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](code/cpp/62.cpp) | Medium | [📃](docs/62.%20Unique%20Paths.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](code/cpp/74.cpp) | Medium | [📃](docs/74.%20Search%20a%202D%20Matrix.md) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](code/cpp/75.cpp) | Medium | [📃](docs/75.%20Sort%20Colors.md) |
