@@ -72,6 +72,7 @@
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](code/cpp/441.cpp) | Easy | [📃](docs/441.%20Arranging%20Coins.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](code/cpp/451.cpp) | Medium | [📃](docs/451.%20Sort%20Characters%20By%20Frequency.md) |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](code/cpp/461.cpp) | Easy | [📃](docs/461.%20Hamming%20Distance.md) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | [C++](code/cpp/470.cpp) | Medium | [📃](docs/470.%20Implement%20Rand10%28%29%20Using%20Rand7%28%29.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
