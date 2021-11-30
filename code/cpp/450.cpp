@@ -24,6 +24,7 @@ class Solution {
             return nullptr;
         }
 
+        // searching for target
         if (root->val == key) {
             root = deleteAndMerge(root);
         } else if (root->val > key) {
@@ -42,8 +43,6 @@ class Solution {
             node = node->left ? node->left : node->right;
         }
         // node has both two children
-        // replace node by largest node in left subtree, or
-        // replace node by smallest node in right subtree
         else {
             auto prev = node->right, cur = node->right;
             while (cur->left) {
