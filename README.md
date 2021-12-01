@@ -53,6 +53,7 @@
 | 167 |  | [C++](code/cpp/167.cpp) |  |  |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [C++](code/cpp/187.cpp) | Medium | [📃](docs/187.%20Repeated%20DNA%20Sequences.md) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](code/cpp/198.cpp) | Medium | [📃](docs/198.%20House%20Robber.md) |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](code/cpp/199.cpp) | Medium | [📃](docs/199.%20Binary%20Tree%20Right%20Side%20View.md) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](code/cpp/200.cpp) | Medium | [📃](docs/200.%20Number%20of%20Islands.md) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [C++](code/cpp/202.cpp) | Easy | [📃](docs/202.%20Happy%20Number.md) |
