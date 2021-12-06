@@ -52,7 +52,7 @@ class Solution2 {
     }
 
     int dfs(TreeNode *root, unordered_map<TreeNode *, int> &memo) {
-        if (memo[root]) {
+        if (memo.find(root) != end(memo)) {
             return memo[root];
         }
 
