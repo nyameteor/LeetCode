@@ -84,6 +84,7 @@
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](code/cpp/739.cpp) | Medium | [📃](docs/739.%20Daily%20Temperatures.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](code/cpp/958.cpp) | Medium | [📃](docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](code/cpp/994.cpp) | Medium | [📃](docs/994.%20Rotting%20Oranges.md) |
+| 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](code/cpp/1217.cpp) | Easy | [📃](docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](code/cpp/1286.cpp) | Medium | [📃](docs/1286.%20Iterator%20for%20Combination.md) |
 
 ## Links
