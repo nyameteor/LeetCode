@@ -86,6 +86,7 @@
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](code/cpp/994.cpp) | Medium | [📃](docs/994.%20Rotting%20Oranges.md) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](code/cpp/1217.cpp) | Easy | [📃](docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](code/cpp/1286.cpp) | Medium | [📃](docs/1286.%20Iterator%20for%20Combination.md) |
+| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](code/cpp/1306.cpp) | Medium | [📃](docs/1306.%20Jump%20Game%20III.md) |
 
 ## Links
 
