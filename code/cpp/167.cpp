@@ -1,33 +1,41 @@
-#include <cstdio>
 #include <iostream>
-#include <set>
-#include <stack>
-#include <string>
 #include <vector>
-
 using namespace std;
 
-vector<int> twoSum(vector<int> &numbers, int target) {
-    int l = 0, r = numbers.size() - 1;
-    while (l < numbers.size() && r >= 0 && l < r) {
-        if (numbers[l] + numbers[r] == target) {
-            break;
-        } else if (numbers[l] + numbers[r] < target) {
-            l++;
-        } else if (numbers[l] + numbers[r] > target) {
-            r--;
+class Solution {
+  public:
+    vector<int> twoSum(vector<int> &numbers, int target) {
+        int l = 0, r = numbers.size() - 1;
+        while (l < r) {
+            if (numbers[l] + numbers[r] == target) {
+                break;
+            } else if (numbers[l] + numbers[r] < target) {
+                l++;
+            } else {
+                r--;
+            }
         }
+        return vector<int>{l + 1, r + 1};
     }
-    return vector<int>{l + 1, r + 1};
+};
+
+void printResult(vector<int> v) {
+    for (auto x : v) {
+        cout << x << ' ';
+    }
+    cout << endl;
 }
 
 int main() {
-    int target = 9;
-    vector<int> nums = {2, 7, 11, 15};
-    vector<int> ans = twoSum(nums, target);
-    for (int i = 0; i < ans.size(); i++) {
-        printf("%d ", ans[i]);
-    }
+    Solution solution;
+    vector<int> nums;
+
+    nums = {2, 7, 11, 15};
+    printResult(solution.twoSum(nums, 9));
+    nums = {5, 25, 75};
+    printResult(solution.twoSum(nums, 100));
+    nums = {2, 3, 4};
+    printResult(solution.twoSum(nums, 6));
 
     return 0;
 }
