@@ -59,6 +59,7 @@
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](code/cpp/200.cpp) | Medium | [📃](docs/200.%20Number%20of%20Islands.md) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [C++](code/cpp/202.cpp) | Easy | [📃](docs/202.%20Happy%20Number.md) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](code/java/206.java) | Easy | [📃](docs/206.%20Reverse%20Linked%20List.md) |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](code/cpp/210.cpp) | Medium | [📃](docs/210.%20Course%20Schedule%20II.md) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](code/java/215.java) | Medium | [📃](docs/215.%20Kth%20Largest%20Element%20in%20an%20Array.md) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](code/cpp/221.cpp) | Medium | [📃](docs/221.%20Maximal%20Square.md) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [C++](code/cpp/222.cpp) | Medium | [📃](docs/222.%20Count%20Complete%20Tree%20Nodes.md) |
