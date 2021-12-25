@@ -64,6 +64,7 @@
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](code/cpp/221.cpp) | Medium | [📃](docs/221.%20Maximal%20Square.md) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [C++](code/cpp/222.cpp) | Medium | [📃](docs/222.%20Count%20Complete%20Tree%20Nodes.md) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](code/java/226.java) | Easy | [📃](docs/226.%20Invert%20Binary%20Tree.md) |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](code/cpp/227.cpp) | Medium | [📃](docs/227.%20Basic%20Calculator%20II.md) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](code/cpp/231.cpp) | Easy | [📃](docs/231.%20Power%20of%20Two.md) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](code/java/232.java) | Easy | [📃](docs/232.%20Implement%20Queue%20using%20Stacks.md) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](code/cpp/234.cpp) | Easy | [📃](docs/234.%20Palindrome%20Linked%20List.md) |
