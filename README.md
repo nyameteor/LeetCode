@@ -96,6 +96,7 @@
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](code/cpp/994.cpp) | Medium | [📃](docs/994.%20Rotting%20Oranges.md) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [C++](code/cpp/997.cpp) | Easy | [📃](docs/997.%20Find%20the%20Town%20Judge.md) |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [C++](code/cpp/1010.cpp) | Medium | [📃](docs/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md) |
+| 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | [C++](code/cpp/1015.cpp) | Medium | [📃](docs/1015.%20Smallest%20Integer%20Divisible%20by%20K.md) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [C++](code/cpp/1200.cpp) | Easy | [📃](docs/1200.%20Minimum%20Absolute%20Difference.md) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](code/cpp/1217.cpp) | Easy | [📃](docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](code/cpp/1286.cpp) | Medium | [📃](docs/1286.%20Iterator%20for%20Combination.md) |
