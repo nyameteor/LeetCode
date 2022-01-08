@@ -9,6 +9,7 @@
 | --- | ----- | -------- | ---------- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](code/cpp/1.cpp), [Java](code/java/1.java) | Easy | [📃](docs/1.%20Two%20Sum.md) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](code/cpp/9.cpp) | Easy | [📃](docs/9.%20Palindrome%20Number.md) |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](code/cpp/13.cpp) | Easy | [📃](docs/13.%20Roman%20to%20Integer.md) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](code/cpp/15.cpp) | Medium | [📃](docs/15.%203Sum.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](code/cpp/16.cpp) | Medium | [📃](docs/16.%203Sum%20Closest.md) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](code/java/21.java) | Easy | [📃](docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
