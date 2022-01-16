@@ -20,6 +20,7 @@
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](code/java/29.java) | Medium | [📃](docs/29.%20Divide%20Two%20Integers.md) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](code/cpp/31.cpp) | Medium | [📃](docs/31.%20Next%20Permutation.md) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](code/cpp/33.cpp) | Medium | [📃](docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](code/cpp/36.cpp) | Medium | [📃](docs/36.%20Valid%20Sudoku.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](code/cpp/42.cpp) | Hard | [📃](docs/42.%20Trapping%20Rain%20Water.md) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](code/cpp/43.cpp) | Medium | [📃](docs/43.%20Multiply%20Strings.md) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](code/cpp/46.cpp) | Medium | [📃](docs/46.%20Permutations.md) |
