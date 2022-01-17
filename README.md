@@ -93,6 +93,7 @@
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [C++](code/cpp/655.cpp) | Medium | [📃](docs/655.%20Print%20Binary%20Tree.md) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](code/cpp/739.cpp) | Medium | [📃](docs/739.%20Daily%20Temperatures.md) |
+| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [C++](code/cpp/849.cpp) | Medium | [📃](docs/849.%20Maximize%20Distance%20to%20Closest%20Person.md) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C++](code/cpp/938.cpp) | Easy | [📃](docs/938.%20Range%20Sum%20of%20BST.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](code/cpp/958.cpp) | Medium | [📃](docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [C++](code/cpp/973.cpp) | Medium | [📃](docs/973.%20K%20Closest%20Points%20to%20Origin.md) |
