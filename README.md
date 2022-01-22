@@ -8,6 +8,7 @@
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](code/cpp/1.cpp), [Java](code/java/1.java) | Easy | [📃](docs/1.%20Two%20Sum.md) |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](code/cpp/4.cpp) | Hard | [📃](docs/4.%20Median%20of%20Two%20Sorted%20Arrays.md) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](code/cpp/8.cpp) | Medium | [📃](docs/8.%20String%20to%20Integer%20%28atoi%29.md) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](code/cpp/9.cpp) | Easy | [📃](docs/9.%20Palindrome%20Number.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](code/cpp/13.cpp) | Easy | [📃](docs/13.%20Roman%20to%20Integer.md) |
