@@ -85,6 +85,7 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [C++](code/cpp/404.cpp) | Easy | [📃](docs/404.%20Sum%20of%20Left%20Leaves.md) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Java](code/java/415.java) | Easy | [📃](docs/415.%20Add%20Strings.md) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](code/cpp/416.cpp) | Medium | [📃](docs/416.%20Partition%20Equal%20Subset%20Sum.md) |
+| 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](code/cpp/438.cpp) | Medium | [📃](docs/438.%20Find%20All%20Anagrams%20in%20a%20String.md) |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](code/cpp/441.cpp) | Easy | [📃](docs/441.%20Arranging%20Coins.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](code/cpp/448.cpp) | Easy | [📃](docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [C++](code/cpp/450.cpp) | Medium | [📃](docs/450.%20Delete%20Node%20in%20a%20BST.md) |
