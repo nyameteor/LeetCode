@@ -76,6 +76,7 @@
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](code/cpp/234.cpp) | Easy | [📃](docs/234.%20Palindrome%20Linked%20List.md) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](code/cpp/236.cpp) | Medium | [📃](docs/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](code/cpp/242.cpp) | Easy | [📃](docs/242.%20Valid%20Anagram.md) |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](code/cpp/258.cpp) | Easy | [📃](docs/258.%20Add%20Digits.md) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [C++](code/cpp/290.cpp) | Easy | [📃](docs/290.%20Word%20Pattern.md) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](code/cpp/300.cpp) | Medium | [📃](docs/300.%20Longest%20Increasing%20Subsequence.md) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](code/cpp/328.cpp) | Medium | [📃](docs/328.%20Odd%20Even%20Linked%20List.md) |
