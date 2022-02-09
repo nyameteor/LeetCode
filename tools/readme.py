@@ -9,7 +9,7 @@ import shutil
 
 from pathlib import Path
 from urllib.parse import quote
-from utils import insert_lines_after_matching
+from utils import insert_lines_after_matching, sed
 
 
 def main():
@@ -20,11 +20,15 @@ def main():
         "1": {
             "title": "[Two Sum](https://leetcode.com/problems/...)",
             "solution": [
-                "[C++](cpp/1.cpp)",
-                "[Java](java/1.java)",
+                "[C++](code/cpp/1.cpp)",
+                "[Java](code/java/1.java)",
             ]
             "difficulty": "Easy",
-            "doc": "[📃](doc/1.md)"
+            "topics": [
+                "Array", 
+                "Hash Table"
+            ],
+            "doc": "[📃](docs/1.md)"
         }
     }
 
@@ -108,6 +112,7 @@ def main():
                     "title": "",
                     "solution": [],
                     "difficulty": "",
+                    "topics": [],
                     "doc": ""
                 }
             rel_code_file = code_file.relative_to(root_dir)
@@ -150,6 +155,7 @@ def main():
         if number in problems:
             problems[number]["title"] = f"[{title}]({problem_link})"
             problems[number]["difficulty"] = f"{difficulty}"
+            problems[number]["topics"] = f"{topic}".strip().split(', ')
             problems[number]["doc"] = f"[📃]({doc_url})"
         else:
             logging.warning("No code file found, ignored...")
@@ -164,6 +170,62 @@ def main():
 
     shutil.copy(template_file, output_file)
     matching_line = "| --- | ----- | -------- | ---------- | --- |\n"
+    insert_lines_after_matching(output_file, matching_line, lines)
+
+    topic_map = {}
+    for number, problem in sorted(problems.items()):
+        problem_topics = problem["topics"]
+        if problem_topics is None:
+            continue
+
+        for topic in problem_topics:
+            if topic_map.get(topic) is None:
+                topic_map[topic] = {
+                    "problems": {},
+                    "doc_path": ""
+                }
+                topic_map[topic]["doc_path"] = root_dir / \
+                    'docs' / 'topics' / f'{topic}.md'
+            topic_map[topic]["problems"][number] = problem
+
+    # filter topic map
+    topic_map = dict(filter(lambda e: len(
+        e[1]["problems"]) >= 2, topic_map.items()))
+
+    topics_all = list(topic_map.keys())
+    topics_all.sort()
+    topic_template = cwd / 'template' / 'topic.md'
+    for topic in topics_all:
+        doc_path = topic_map[topic]["doc_path"]
+        problems = topic_map[topic]["problems"]
+        shutil.copy(str(topic_template), str(doc_path))
+        sed("<TOPIC>", topic, str(doc_path))
+        lines = []
+        for number, problem in sorted(problems.items()):
+            title = problem["title"]
+            solution = problem["solution"]
+            difficulty = problem["difficulty"]
+            doc = problem["doc"]
+            # handle relative path
+            doc = re.sub(r'(docs)', r'../../\1', doc)
+            solution = list(map(lambda x: re.sub(
+                '(code)', r'../../\1', x), solution))
+            solution = ', '.join(solution)
+            line = f"| {number} | {title} | {solution} | {difficulty} | {doc} |\n"
+            lines.append(line)
+        matching_line = "| --- | ----- | -------- | ---------- | --- |\n"
+        insert_lines_after_matching(str(doc_path), matching_line, lines)
+        logging.debug(f"Topic: {topic} doc file generated")
+
+    lines = []
+    lines.append("\n")
+    for topic in topics_all:
+        doc_path = topic_map[topic]["doc_path"]
+        count = len(topic_map[topic]["problems"])
+        doc_url = quote(str(doc_path.relative_to(root_dir)))
+        line = f"- [{topic} ({count})]({doc_url})\n"
+        lines.append(line)
+    matching_line = "## Topics\n"
     insert_lines_after_matching(output_file, matching_line, lines)
 
 

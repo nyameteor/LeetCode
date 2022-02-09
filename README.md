@@ -1,6 +1,7 @@
 # LeetCode
 
 - [Problems](#problems)
+- [Topics](#topics)
 - [Links](#links)
 
 ## Problems
@@ -112,6 +113,41 @@
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](code/cpp/1217.cpp) | Easy | [📃](docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](code/cpp/1286.cpp) | Medium | [📃](docs/1286.%20Iterator%20for%20Combination.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](code/cpp/1306.cpp) | Medium | [📃](docs/1306.%20Jump%20Game%20III.md) |
+
+## Topics
+
+- [Array (42)](docs/topics/Array.md)
+- [Backtracking (4)](docs/topics/Backtracking.md)
+- [Binary Search (9)](docs/topics/Binary%20Search.md)
+- [Binary Search Tree (4)](docs/topics/Binary%20Search%20Tree.md)
+- [Binary Tree (20)](docs/topics/Binary%20Tree.md)
+- [Bit Manipulation (5)](docs/topics/Bit%20Manipulation.md)
+- [Breadth-First Search (14)](docs/topics/Breadth-First%20Search.md)
+- [Bucket Sort (2)](docs/topics/Bucket%20Sort.md)
+- [Counting (3)](docs/topics/Counting.md)
+- [Depth-First Search (20)](docs/topics/Depth-First%20Search.md)
+- [Design (4)](docs/topics/Design.md)
+- [Divide and Conquer (5)](docs/topics/Divide%20and%20Conquer.md)
+- [Dynamic Programming (16)](docs/topics/Dynamic%20Programming.md)
+- [Graph (3)](docs/topics/Graph.md)
+- [Greedy (2)](docs/topics/Greedy.md)
+- [Hash Table (22)](docs/topics/Hash%20Table.md)
+- [Heap(Priority Queue) (4)](docs/topics/Heap%28Priority%20Queue%29.md)
+- [Linked List (11)](docs/topics/Linked%20List.md)
+- [Math (18)](docs/topics/Math.md)
+- [Matrix (6)](docs/topics/Matrix.md)
+- [Memoization (3)](docs/topics/Memoization.md)
+- [Monotonic Stack (3)](docs/topics/Monotonic%20Stack.md)
+- [Quickselect (3)](docs/topics/Quickselect.md)
+- [Recursion (7)](docs/topics/Recursion.md)
+- [Simulation (4)](docs/topics/Simulation.md)
+- [Sliding Window (2)](docs/topics/Sliding%20Window.md)
+- [Sorting (11)](docs/topics/Sorting.md)
+- [Stack (10)](docs/topics/Stack.md)
+- [String (15)](docs/topics/String.md)
+- [Tree (21)](docs/topics/Tree.md)
+- [Trie (2)](docs/topics/Trie.md)
+- [Two Pointers (13)](docs/topics/Two%20Pointers.md)
 
 ## Links
 
