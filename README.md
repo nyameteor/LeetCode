@@ -134,7 +134,7 @@
 - [Hash Table (22)](docs/topics/Hash%20Table.md)
 - [Heap(Priority Queue) (4)](docs/topics/Heap%28Priority%20Queue%29.md)
 - [Linked List (11)](docs/topics/Linked%20List.md)
-- [Math (18)](docs/topics/Math.md)
+- [Math (19)](docs/topics/Math.md)
 - [Matrix (6)](docs/topics/Matrix.md)
 - [Memoization (3)](docs/topics/Memoization.md)
 - [Monotonic Stack (3)](docs/topics/Monotonic%20Stack.md)

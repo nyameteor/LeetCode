@@ -9,6 +9,7 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](../../code/cpp/9.cpp) | Easy | [📃](../../docs/9.%20Palindrome%20Number.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](../../code/java/29.java) | Medium | [📃](../../docs/29.%20Divide%20Two%20Integers.md) |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](../../code/cpp/43.cpp) | Medium | [📃](../../docs/43.%20Multiply%20Strings.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](../../code/java/50.java) | Medium | [📃](../../docs/50.%20Pow%28x%2C%20n%29.md) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](../../code/cpp/62.cpp) | Medium | [📃](../../docs/62.%20Unique%20Paths.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](../../code/cpp/70.cpp) | Easy | [📃](../../docs/70.%20Climbing%20Stairs.md) |
