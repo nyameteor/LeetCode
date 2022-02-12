@@ -6,6 +6,7 @@
 
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](../../code/cpp/5.cpp) | Medium | [📃](../../docs/5.%20Longest%20Palindromic%20Substring.md) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](../../code/cpp/22.cpp) | Medium | [📃](../../docs/22.%20Generate%20Parentheses.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](../../code/cpp/53.cpp) | Easy | [📃](../../docs/53.%20Maximum%20Subarray.md) |

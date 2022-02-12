@@ -10,6 +10,7 @@
 | --- | ----- | -------- | ---------- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](code/cpp/1.cpp), [Java](code/java/1.java) | Easy | [📃](docs/1.%20Two%20Sum.md) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](code/cpp/4.cpp) | Hard | [📃](docs/4.%20Median%20of%20Two%20Sorted%20Arrays.md) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](code/cpp/5.cpp) | Medium | [📃](docs/5.%20Longest%20Palindromic%20Substring.md) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](code/cpp/8.cpp) | Medium | [📃](docs/8.%20String%20to%20Integer%20%28atoi%29.md) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](code/cpp/9.cpp) | Easy | [📃](docs/9.%20Palindrome%20Number.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](code/cpp/13.cpp) | Easy | [📃](docs/13.%20Roman%20to%20Integer.md) |
@@ -128,7 +129,7 @@
 - [Depth-First Search (20)](docs/topics/Depth-First%20Search.md)
 - [Design (4)](docs/topics/Design.md)
 - [Divide and Conquer (5)](docs/topics/Divide%20and%20Conquer.md)
-- [Dynamic Programming (16)](docs/topics/Dynamic%20Programming.md)
+- [Dynamic Programming (17)](docs/topics/Dynamic%20Programming.md)
 - [Graph (3)](docs/topics/Graph.md)
 - [Greedy (2)](docs/topics/Greedy.md)
 - [Hash Table (22)](docs/topics/Hash%20Table.md)
@@ -144,7 +145,7 @@
 - [Sliding Window (2)](docs/topics/Sliding%20Window.md)
 - [Sorting (11)](docs/topics/Sorting.md)
 - [Stack (10)](docs/topics/Stack.md)
-- [String (15)](docs/topics/String.md)
+- [String (16)](docs/topics/String.md)
 - [Tree (21)](docs/topics/Tree.md)
 - [Trie (2)](docs/topics/Trie.md)
 - [Two Pointers (13)](docs/topics/Two%20Pointers.md)
