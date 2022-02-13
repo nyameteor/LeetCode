@@ -21,6 +21,7 @@
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](../../code/cpp/56.cpp) | Medium | [📃](../../docs/56.%20Merge%20Intervals.md) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](../../code/cpp/74.cpp) | Medium | [📃](../../docs/74.%20Search%20a%202D%20Matrix.md) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](../../code/cpp/75.cpp) | Medium | [📃](../../docs/75.%20Sort%20Colors.md) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](../../code/cpp/78.cpp) | Medium | [📃](../../docs/78.%20Subsets.md) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](../../code/cpp/84.cpp) | Hard | [📃](../../docs/84.%20Largest%20Rectangle%20in%20Histogram.md) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](../../code/cpp/118.cpp) | Easy | [📃](../../docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](../../code/java/121.java) | Easy | [📃](../../docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |

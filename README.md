@@ -35,6 +35,7 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](code/cpp/70.cpp) | Easy | [📃](docs/70.%20Climbing%20Stairs.md) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](code/cpp/74.cpp) | Medium | [📃](docs/74.%20Search%20a%202D%20Matrix.md) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](code/cpp/75.cpp) | Medium | [📃](docs/75.%20Sort%20Colors.md) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](code/cpp/78.cpp) | Medium | [📃](docs/78.%20Subsets.md) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](code/cpp/84.cpp) | Hard | [📃](docs/84.%20Largest%20Rectangle%20in%20Histogram.md) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [C++](code/cpp/96.cpp) | Medium | [📃](docs/96.%20Unique%20Binary%20Search%20Trees.md) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [C++](code/cpp/98.cpp) | Medium | [📃](docs/98.%20Validate%20Binary%20Search%20Tree.md) |
@@ -117,12 +118,12 @@
 
 ## Topics
 
-- [Array (42)](docs/topics/Array.md)
-- [Backtracking (4)](docs/topics/Backtracking.md)
+- [Array (43)](docs/topics/Array.md)
+- [Backtracking (5)](docs/topics/Backtracking.md)
 - [Binary Search (9)](docs/topics/Binary%20Search.md)
 - [Binary Search Tree (4)](docs/topics/Binary%20Search%20Tree.md)
 - [Binary Tree (20)](docs/topics/Binary%20Tree.md)
-- [Bit Manipulation (5)](docs/topics/Bit%20Manipulation.md)
+- [Bit Manipulation (6)](docs/topics/Bit%20Manipulation.md)
 - [Breadth-First Search (14)](docs/topics/Breadth-First%20Search.md)
 - [Bucket Sort (2)](docs/topics/Bucket%20Sort.md)
 - [Counting (3)](docs/topics/Counting.md)
