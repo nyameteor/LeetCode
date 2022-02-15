@@ -42,6 +42,7 @@
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](code/java/101.java) | Easy | [📃](docs/101.%20Symmetric%20Tree.md) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](code/java/102.java) | Medium | [📃](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal.md) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](code/cpp/103.cpp) | Medium | [📃](docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](code/cpp/104.cpp) | Easy | [📃](docs/104.%20Maximum%20Depth%20of%20Binary%20Tree.md) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](code/cpp/113.cpp) | Medium | [📃](docs/113.%20Path%20Sum%20II.md) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](code/cpp/114.cpp) | Medium | [📃](docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](code/cpp/116.cpp) | Medium | [📃](docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md) |
@@ -122,12 +123,12 @@
 - [Backtracking (5)](docs/topics/Backtracking.md)
 - [Binary Search (9)](docs/topics/Binary%20Search.md)
 - [Binary Search Tree (4)](docs/topics/Binary%20Search%20Tree.md)
-- [Binary Tree (20)](docs/topics/Binary%20Tree.md)
+- [Binary Tree (21)](docs/topics/Binary%20Tree.md)
 - [Bit Manipulation (6)](docs/topics/Bit%20Manipulation.md)
-- [Breadth-First Search (14)](docs/topics/Breadth-First%20Search.md)
+- [Breadth-First Search (15)](docs/topics/Breadth-First%20Search.md)
 - [Bucket Sort (2)](docs/topics/Bucket%20Sort.md)
 - [Counting (3)](docs/topics/Counting.md)
-- [Depth-First Search (20)](docs/topics/Depth-First%20Search.md)
+- [Depth-First Search (21)](docs/topics/Depth-First%20Search.md)
 - [Design (4)](docs/topics/Design.md)
 - [Divide and Conquer (5)](docs/topics/Divide%20and%20Conquer.md)
 - [Dynamic Programming (17)](docs/topics/Dynamic%20Programming.md)
@@ -147,7 +148,7 @@
 - [Sorting (11)](docs/topics/Sorting.md)
 - [Stack (10)](docs/topics/Stack.md)
 - [String (16)](docs/topics/String.md)
-- [Tree (21)](docs/topics/Tree.md)
+- [Tree (22)](docs/topics/Tree.md)
 - [Trie (2)](docs/topics/Trie.md)
 - [Two Pointers (13)](docs/topics/Two%20Pointers.md)
 

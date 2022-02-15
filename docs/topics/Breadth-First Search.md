@@ -9,6 +9,7 @@
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](../../code/java/101.java) | Easy | [📃](../../docs/101.%20Symmetric%20Tree.md) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](../../code/java/102.java) | Medium | [📃](../../docs/102.%20Binary%20Tree%20Level%20Order%20Traversal.md) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [C++](../../code/cpp/103.cpp) | Medium | [📃](../../docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](../../code/cpp/104.cpp) | Easy | [📃](../../docs/104.%20Maximum%20Depth%20of%20Binary%20Tree.md) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](../../code/cpp/116.cpp) | Medium | [📃](../../docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](../../code/cpp/133.cpp) | Medium | [📃](../../docs/133.%20Clone%20Graph.md) |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](../../code/cpp/199.cpp) | Medium | [📃](../../docs/199.%20Binary%20Tree%20Right%20Side%20View.md) |
