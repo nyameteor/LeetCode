@@ -97,7 +97,7 @@ def main():
         code_filelist = code_info["filelist"]
         for code_file in code_filelist:
             code_res = find_match(str(code_file), code_info["pattern"])
-            if(code_res) == None:
+            if code_res is None:
                 continue
 
             number = code_res.group(1)
@@ -123,7 +123,7 @@ def main():
 
     for doc_file in doc_filelist:
         doc_res = find_match(str(doc_file), doc_pattern)
-        if doc_res == None:
+        if doc_res is None:
             continue
 
         number = doc_res.group(1)
@@ -182,7 +182,7 @@ def main():
             if topic_map.get(topic) is None:
                 topic_map[topic] = {
                     "problems": {},
-                    "doc_path": ""
+                    "doc_path": Path()
                 }
                 topic_map[topic]["doc_path"] = root_dir / \
                     'docs' / 'topics' / f'{topic}.md'
@@ -217,13 +217,11 @@ def main():
         insert_lines_after_matching(str(doc_path), matching_line, lines)
         logging.debug(f"Topic: {topic} doc file generated")
 
-    lines = []
-    lines.append("\n")
+    lines = ["\n"]
     for topic in topics_all:
         doc_path = topic_map[topic]["doc_path"]
-        count = len(topic_map[topic]["problems"])
         doc_url = quote(str(doc_path.relative_to(root_dir)))
-        line = f"- [{topic} ({count})]({doc_url})\n"
+        line = f"- [{topic}]({doc_url})\n"
         lines.append(line)
     matching_line = "## Topics\n"
     insert_lines_after_matching(output_file, matching_line, lines)
@@ -234,7 +232,7 @@ def find_match(filename: str, pattern):
     return match result from pattern
     """
     matched = pattern.search(filename)
-    if(matched is None):
+    if matched is None:
         logging.warning(f"The filename {filename} is invalid, ignored.")
         return None
     else:
