@@ -26,6 +26,7 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](../../code/cpp/118.cpp) | Easy | [📃](../../docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](../../code/java/121.java) | Easy | [📃](../../docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](../../code/java/122.java) | Easy | [📃](../../docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](../../code/cpp/136.cpp) | Easy | [📃](../../docs/136.%20Single%20Number.md) |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [C++](../../code/cpp/154.cpp) | Hard | [📃](../../docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](../../code/cpp/167.cpp) | Easy | [📃](../../docs/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](../../code/java/189.java) | Medium | [📃](../../docs/189.%20Rotate%20Array.md) |
