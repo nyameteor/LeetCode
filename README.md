@@ -64,6 +64,7 @@
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](code/cpp/155.cpp) | Easy | [📃](docs/155.%20Min%20Stack.md) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](code/java/160.java) | Easy | [📃](docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](code/cpp/167.cpp) | Easy | [📃](docs/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](code/cpp/169.cpp) | Easy | [📃](docs/169.%20Majority%20Element.md) |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [C++](code/cpp/187.cpp) | Medium | [📃](docs/187.%20Repeated%20DNA%20Sequences.md) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](code/java/189.java) | Medium | [📃](docs/189.%20Rotate%20Array.md) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](code/cpp/198.cpp) | Medium | [📃](docs/198.%20House%20Robber.md) |

@@ -30,6 +30,7 @@
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](../../code/cpp/136.cpp) | Easy | [📃](../../docs/136.%20Single%20Number.md) |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [C++](../../code/cpp/154.cpp) | Hard | [📃](../../docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](../../code/cpp/167.cpp) | Easy | [📃](../../docs/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](../../code/cpp/169.cpp) | Easy | [📃](../../docs/169.%20Majority%20Element.md) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](../../code/java/189.java) | Medium | [📃](../../docs/189.%20Rotate%20Array.md) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](../../code/cpp/198.cpp) | Medium | [📃](../../docs/198.%20House%20Robber.md) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](../../code/cpp/200.cpp) | Medium | [📃](../../docs/200.%20Number%20of%20Islands.md) |

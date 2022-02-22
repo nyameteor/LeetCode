@@ -16,6 +16,7 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](../../code/cpp/142.cpp) | Medium | [📃](../../docs/142.%20Linked%20List%20Cycle%20II.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](../../code/java/146.java) | Medium | [📃](../../docs/146.%20LRU%20Cache.md) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](../../code/java/160.java) | Easy | [📃](../../docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](../../code/cpp/169.cpp) | Easy | [📃](../../docs/169.%20Majority%20Element.md) |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [C++](../../code/cpp/187.cpp) | Medium | [📃](../../docs/187.%20Repeated%20DNA%20Sequences.md) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [C++](../../code/cpp/202.cpp) | Easy | [📃](../../docs/202.%20Happy%20Number.md) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [C++](../../code/cpp/242.cpp) | Easy | [📃](../../docs/242.%20Valid%20Anagram.md) |
