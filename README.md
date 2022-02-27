@@ -60,6 +60,7 @@
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](code/java/144.java) | Easy | [📃](docs/144.%20Binary%20Tree%20Preorder%20Traversal.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](code/java/146.java) | Medium | [📃](docs/146.%20LRU%20Cache.md) |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [C++](code/cpp/147.cpp) | Medium | [📃](docs/147.%20Insertion%20Sort%20List.md) |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [C++](code/cpp/148.cpp) | Medium | [📃](docs/148.%20Sort%20List.md) |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [C++](code/cpp/154.cpp) | Hard | [📃](docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [C++](code/cpp/155.cpp) | Easy | [📃](docs/155.%20Min%20Stack.md) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](code/java/160.java) | Easy | [📃](docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |

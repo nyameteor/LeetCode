@@ -13,6 +13,7 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](../../code/cpp/142.cpp) | Medium | [📃](../../docs/142.%20Linked%20List%20Cycle%20II.md) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](../../code/java/146.java) | Medium | [📃](../../docs/146.%20LRU%20Cache.md) |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [C++](../../code/cpp/147.cpp) | Medium | [📃](../../docs/147.%20Insertion%20Sort%20List.md) |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [C++](../../code/cpp/148.cpp) | Medium | [📃](../../docs/148.%20Sort%20List.md) |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](../../code/java/160.java) | Easy | [📃](../../docs/160.%20Intersection%20of%20Two%20Linked%20Lists.md) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](../../code/java/206.java) | Easy | [📃](../../docs/206.%20Reverse%20Linked%20List.md) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](../../code/cpp/234.cpp) | Easy | [📃](../../docs/234.%20Palindrome%20Linked%20List.md) |
