@@ -25,5 +25,6 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [C++](../../code/cpp/404.cpp) | Easy | [📃](../../docs/404.%20Sum%20of%20Left%20Leaves.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](../../code/java/543.java) | Easy | [📃](../../docs/543.%20Diameter%20of%20Binary%20Tree.md) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [C++](../../code/cpp/655.cpp) | Medium | [📃](../../docs/655.%20Print%20Binary%20Tree.md) |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](../../code/cpp/662.cpp) | Medium | [📃](../../docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C++](../../code/cpp/938.cpp) | Easy | [📃](../../docs/938.%20Range%20Sum%20of%20BST.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](../../code/cpp/1306.cpp) | Medium | [📃](../../docs/1306.%20Jump%20Game%20III.md) |

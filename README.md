@@ -106,6 +106,7 @@
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C++](code/cpp/476.cpp) | Easy | [📃](docs/476.%20Number%20Complement.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [C++](code/cpp/655.cpp) | Medium | [📃](docs/655.%20Print%20Binary%20Tree.md) |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](code/cpp/662.cpp) | Medium | [📃](docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](code/cpp/739.cpp) | Medium | [📃](docs/739.%20Daily%20Temperatures.md) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [C++](code/cpp/849.cpp) | Medium | [📃](docs/849.%20Maximize%20Distance%20to%20Closest%20Person.md) |

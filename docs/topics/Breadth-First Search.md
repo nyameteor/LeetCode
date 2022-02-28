@@ -18,6 +18,7 @@
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](../../code/java/226.java) | Easy | [📃](../../docs/226.%20Invert%20Binary%20Tree.md) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [C++](../../code/cpp/404.cpp) | Easy | [📃](../../docs/404.%20Sum%20of%20Left%20Leaves.md) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [C++](../../code/cpp/655.cpp) | Medium | [📃](../../docs/655.%20Print%20Binary%20Tree.md) |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](../../code/cpp/662.cpp) | Medium | [📃](../../docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](../../code/cpp/958.cpp) | Medium | [📃](../../docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](../../code/cpp/994.cpp) | Medium | [📃](../../docs/994.%20Rotting%20Oranges.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](../../code/cpp/1306.cpp) | Medium | [📃](../../docs/1306.%20Jump%20Game%20III.md) |
