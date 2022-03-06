@@ -23,3 +23,4 @@
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](../../code/cpp/300.cpp) | Medium | [📃](../../docs/300.%20Longest%20Increasing%20Subsequence.md) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](../../code/cpp/337.cpp) | Medium | [📃](../../docs/337.%20House%20Robber%20III.md) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](../../code/cpp/416.cpp) | Medium | [📃](../../docs/416.%20Partition%20Equal%20Subset%20Sum.md) |
+| 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | [C++](../../code/cpp/799.cpp) | Medium | [📃](../../docs/799.%20Champagne%20Tower.md) |

@@ -109,6 +109,7 @@
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](code/cpp/662.cpp) | Medium | [📃](docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](code/cpp/739.cpp) | Medium | [📃](docs/739.%20Daily%20Temperatures.md) |
+| 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | [C++](code/cpp/799.cpp) | Medium | [📃](docs/799.%20Champagne%20Tower.md) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [C++](code/cpp/849.cpp) | Medium | [📃](docs/849.%20Maximize%20Distance%20to%20Closest%20Person.md) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C++](code/cpp/938.cpp) | Easy | [📃](docs/938.%20Range%20Sum%20of%20BST.md) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [C++](code/cpp/941.cpp) | Easy | [📃](docs/941.%20Valid%20Mountain%20Array.md) |
