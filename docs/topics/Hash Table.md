@@ -9,6 +9,7 @@
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](../../code/cpp/1.cpp), [Java](../../code/java/1.java) | Easy | [📃](../../docs/1.%20Two%20Sum.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](../../code/cpp/36.cpp) | Medium | [📃](../../docs/36.%20Valid%20Sudoku.md) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](../../code/cpp/105.cpp) | Medium | [📃](../../docs/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](../../code/cpp/133.cpp) | Medium | [📃](../../docs/133.%20Clone%20Graph.md) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](../../code/cpp/139.cpp), [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](../../code/cpp/140.cpp), [Java](../../code/java/140.java) | Hard | [📃](../../docs/140.%20Word%20Break%20II.md) |

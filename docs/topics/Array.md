@@ -24,6 +24,7 @@
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](../../code/cpp/75.cpp) | Medium | [📃](../../docs/75.%20Sort%20Colors.md) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](../../code/cpp/78.cpp) | Medium | [📃](../../docs/78.%20Subsets.md) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](../../code/cpp/84.cpp) | Hard | [📃](../../docs/84.%20Largest%20Rectangle%20in%20Histogram.md) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](../../code/cpp/105.cpp) | Medium | [📃](../../docs/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](../../code/cpp/118.cpp) | Easy | [📃](../../docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](../../code/java/121.java) | Easy | [📃](../../docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](../../code/java/122.java) | Easy | [📃](../../docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
