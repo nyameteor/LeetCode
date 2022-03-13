@@ -8,6 +8,7 @@
 | --- | ----- | -------- | ---------- | --- |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](../../code/cpp/5.cpp) | Medium | [📃](../../docs/5.%20Longest%20Palindromic%20Substring.md) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](../../code/cpp/22.cpp) | Medium | [📃](../../docs/22.%20Generate%20Parentheses.md) |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](../../code/cpp/32.cpp) | Hard | [📃](../../docs/32.%20Longest%20Valid%20Parentheses.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](../../code/cpp/53.cpp) | Easy | [📃](../../docs/53.%20Maximum%20Subarray.md) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](../../code/cpp/62.cpp) | Medium | [📃](../../docs/62.%20Unique%20Paths.md) |

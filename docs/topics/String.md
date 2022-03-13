@@ -10,6 +10,7 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](../../code/cpp/8.cpp) | Medium | [📃](../../docs/8.%20String%20to%20Integer%20%28atoi%29.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](../../code/cpp/22.cpp) | Medium | [📃](../../docs/22.%20Generate%20Parentheses.md) |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](../../code/cpp/32.cpp) | Hard | [📃](../../docs/32.%20Longest%20Valid%20Parentheses.md) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](../../code/cpp/43.cpp) | Medium | [📃](../../docs/43.%20Multiply%20Strings.md) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](../../code/cpp/139.cpp), [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](../../code/cpp/140.cpp), [Java](../../code/java/140.java) | Hard | [📃](../../docs/140.%20Word%20Break%20II.md) |

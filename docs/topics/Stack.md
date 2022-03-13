@@ -6,6 +6,7 @@
 
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](../../code/cpp/32.cpp) | Hard | [📃](../../docs/32.%20Longest%20Valid%20Parentheses.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [C++](../../code/cpp/84.cpp) | Hard | [📃](../../docs/84.%20Largest%20Rectangle%20in%20Histogram.md) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](../../code/cpp/114.cpp) | Medium | [📃](../../docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md) |
