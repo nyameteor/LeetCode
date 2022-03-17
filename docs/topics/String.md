@@ -23,4 +23,5 @@
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Java](../../code/java/415.java) | Easy | [📃](../../docs/415.%20Add%20Strings.md) |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](../../code/cpp/438.cpp) | Medium | [📃](../../docs/438.%20Find%20All%20Anagrams%20in%20a%20String.md) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](../../code/cpp/451.cpp) | Medium | [📃](../../docs/451.%20Sort%20Characters%20By%20Frequency.md) |
+| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [C++](../../code/cpp/856.cpp) | Medium | [📃](../../docs/856.%20Score%20of%20Parentheses.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](../../code/cpp/1286.cpp) | Medium | [📃](../../docs/1286.%20Iterator%20for%20Combination.md) |
