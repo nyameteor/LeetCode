@@ -18,3 +18,4 @@
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [C++](../../code/cpp/394.cpp) | Medium | [📃](../../docs/394.%20Decode%20String.md) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](../../code/cpp/739.cpp) | Medium | [📃](../../docs/739.%20Daily%20Temperatures.md) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [C++](../../code/cpp/856.cpp) | Medium | [📃](../../docs/856.%20Score%20of%20Parentheses.md) |
+| 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [C++](../../code/cpp/895.cpp) | Hard | [📃](../../docs/895.%20Maximum%20Frequency%20Stack.md) |
