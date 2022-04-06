@@ -45,6 +45,7 @@
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](../../code/cpp/674.cpp) | Easy | [📃](../../docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](../../code/cpp/739.cpp) | Medium | [📃](../../docs/739.%20Daily%20Temperatures.md) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [C++](../../code/cpp/849.cpp) | Medium | [📃](../../docs/849.%20Maximize%20Distance%20to%20Closest%20Person.md) |
+| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [C++](../../code/cpp/923.cpp) | Medium | [📃](../../docs/923.%203Sum%20With%20Multiplicity.md) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [C++](../../code/cpp/941.cpp) | Easy | [📃](../../docs/941.%20Valid%20Mountain%20Array.md) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [C++](../../code/cpp/973.cpp) | Medium | [📃](../../docs/973.%20K%20Closest%20Points%20to%20Origin.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](../../code/cpp/994.cpp) | Medium | [📃](../../docs/994.%20Rotting%20Oranges.md) |

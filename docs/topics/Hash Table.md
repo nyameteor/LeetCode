@@ -28,6 +28,7 @@
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](../../code/cpp/451.cpp) | Medium | [📃](../../docs/451.%20Sort%20Characters%20By%20Frequency.md) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [C++](../../code/cpp/454.cpp) | Medium | [📃](../../docs/454.%204Sum%20II.md) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [C++](../../code/cpp/895.cpp) | Hard | [📃](../../docs/895.%20Maximum%20Frequency%20Stack.md) |
+| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [C++](../../code/cpp/923.cpp) | Medium | [📃](../../docs/923.%203Sum%20With%20Multiplicity.md) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [C++](../../code/cpp/997.cpp) | Easy | [📃](../../docs/997.%20Find%20the%20Town%20Judge.md) |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [C++](../../code/cpp/1010.cpp) | Medium | [📃](../../docs/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md) |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | [C++](../../code/cpp/1015.cpp) | Medium | [📃](../../docs/1015.%20Smallest%20Integer%20Divisible%20by%20K.md) |

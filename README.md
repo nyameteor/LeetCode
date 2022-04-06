@@ -115,6 +115,7 @@
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [C++](code/cpp/849.cpp) | Medium | [📃](docs/849.%20Maximize%20Distance%20to%20Closest%20Person.md) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [C++](code/cpp/856.cpp) | Medium | [📃](docs/856.%20Score%20of%20Parentheses.md) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [C++](code/cpp/895.cpp) | Hard | [📃](docs/895.%20Maximum%20Frequency%20Stack.md) |
+| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [C++](code/cpp/923.cpp) | Medium | [📃](docs/923.%203Sum%20With%20Multiplicity.md) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [C++](code/cpp/938.cpp) | Easy | [📃](docs/938.%20Range%20Sum%20of%20BST.md) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [C++](code/cpp/941.cpp) | Easy | [📃](docs/941.%20Valid%20Mountain%20Array.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](code/cpp/958.cpp) | Medium | [📃](docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |

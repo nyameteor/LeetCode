@@ -21,3 +21,4 @@
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](../../code/java/189.java) | Medium | [📃](../../docs/189.%20Rotate%20Array.md) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [C++](../../code/cpp/202.cpp) | Easy | [📃](../../docs/202.%20Happy%20Number.md) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](../../code/cpp/234.cpp) | Easy | [📃](../../docs/234.%20Palindrome%20Linked%20List.md) |
+| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [C++](../../code/cpp/923.cpp) | Medium | [📃](../../docs/923.%203Sum%20With%20Multiplicity.md) |
