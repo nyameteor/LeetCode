@@ -1,12 +1,52 @@
 #include <cstdio>
 #include <iostream>
 #include <map>
+#include <queue>
 #include <vector>
 
 using namespace std;
 
-// Bucket Sort
+/**
+ * Heap
+ */
 class Solution {
+  public:
+    vector<int> topKFrequent(vector<int> &nums, int k) {
+        map<int, int> count;
+        for (auto num : nums) {
+            count[num]++;
+        }
+
+        // initialize a heap with most frequent elements at the top
+        auto cmp = [](const auto &p1, const auto &p2) {
+            return p1.second > p2.second;
+        };
+        priority_queue<pair<int, int>, vector<pair<int, int>>, decltype(cmp)>
+            pq(cmp);
+
+        // keep k elements in the heap
+        for (auto p : count) {
+            pq.push(p);
+        }
+        while (size(pq) > k) {
+            pq.pop();
+        }
+
+        // build an result array
+        vector<int> top(k);
+        for (int i = k - 1; i >= 0; i--) {
+            top[i] = pq.top().first;
+            pq.pop();
+        }
+
+        return top;
+    }
+};
+
+/**
+ * Bucket Sort
+ */
+class Solution2 {
   public:
     vector<int> topKFrequent(vector<int> &nums, int k) {
 
