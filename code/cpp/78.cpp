@@ -10,7 +10,7 @@ using namespace std;
  * Space: O(1)
  */
 class Solution {
-  public:
+public:
     vector<vector<int>> subsets(vector<int> &nums) {
         vector<vector<int>> res;
         vector<int> cur;
@@ -41,7 +41,7 @@ class Solution {
  * Space: O(2^n)
  */
 class Solution2 {
-  public:
+public:
     vector<vector<int>> subsets(vector<int> &nums) {
         vector<vector<int>> res;
         vector<int> subset;
@@ -69,7 +69,7 @@ class Solution2 {
  * Cascading
  */
 class Solution3 {
-  public:
+public:
     vector<vector<int>> subsets(vector<int> &nums) {
         vector<vector<int>> res;
         vector<int> subset;

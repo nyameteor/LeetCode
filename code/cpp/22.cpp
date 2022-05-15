@@ -5,7 +5,7 @@ using namespace std;
 
 // Backtracking
 class Solution {
-  public:
+public:
     vector<string> generateParenthesis(int n) {
         vector<string> res;
         dfs(res, "", n, 0, 0);
@@ -28,7 +28,7 @@ class Solution {
 
 // Backtracking with strict definition
 class Solution2 {
-  public:
+public:
     vector<string> generateParenthesis(int n) {
         vector<string> res;
         string path;

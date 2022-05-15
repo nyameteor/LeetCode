@@ -3,7 +3,7 @@
 using namespace std;
 
 class Node {
-  public:
+public:
     int val;
     Node *left;
     Node *right;
@@ -21,7 +21,7 @@ class Node {
  * BFS - Left to Right
  */
 class Solution {
-  public:
+public:
     Node *connect(Node *root) {
         // edge case
         if (!root) {

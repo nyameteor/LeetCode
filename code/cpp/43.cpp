@@ -7,7 +7,7 @@ using namespace std;
  * https://github.com/haoel/leetcode/blob/master/algorithms/cpp/multiplyStrings/multiplyStrings.cpp
  */
 class Solution {
-  public:
+public:
     string multiply(string num1, string num2) {
         string res;
         int shift = 0;
@@ -63,7 +63,7 @@ class Solution {
  * Original, not optimized
  */
 class Solution2 {
-  public:
+public:
     string multiply(string num1, string num2) {
         string res = "";
         for (int i = num1.size() - 1; i >= 0; i--) {

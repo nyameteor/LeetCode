@@ -11,7 +11,7 @@ using namespace std;
  *  - if already visited, stop further exploration of this path.
  */
 class Solution {
-  public:
+public:
     bool canReach(vector<int> &arr, int start) {
         vector<bool> visited(arr.size(), false);
         queue<int> q;

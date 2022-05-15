@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int scoreOfParentheses(string s) {
         stack<int> st;
         st.push(0); // avoid edge case

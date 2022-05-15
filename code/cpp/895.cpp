@@ -4,13 +4,15 @@
 using namespace std;
 
 class FreqStack {
-  private:
+private:
     unordered_map<int, int> freq;
     unordered_map<int, stack<int>> group;
     int max_freq;
 
-  public:
-    FreqStack() { max_freq = 0; }
+public:
+    FreqStack() {
+        max_freq = 0;
+    }
 
     void push(int val) {
         freq[val]++;

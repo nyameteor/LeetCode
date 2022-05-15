@@ -7,7 +7,7 @@ using namespace std;
  * Time: O(n), Space: O(1)
  */
 class Solution {
-  public:
+public:
     int hammingDistance(int x, int y) {
         int c = x ^ y; // Bitwise XOR
 
@@ -26,7 +26,7 @@ class Solution {
  * Time: O(n), Space: O(1)
  */
 class Solution2 {
-  public:
+public:
     int hammingDistance(int x, int y) {
         int c = x ^ y;
 

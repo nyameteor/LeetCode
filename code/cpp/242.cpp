@@ -7,7 +7,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool isAnagram(string s, string t) {
         // initialize all elements to 0
         int record[26] = {0};

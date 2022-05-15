@@ -11,7 +11,7 @@ using namespace std;
  * (When using quick sort as sorting algorithm)
  */
 class Solution {
-  public:
+public:
     vector<vector<int>> minimumAbsDifference(vector<int> &arr) {
         vector<vector<int>> res;
         sort(arr.begin(), arr.end());
@@ -36,5 +36,6 @@ class Solution {
 /**
  * Counting Sort
  *
- * Refer: https://leetcode.com/problems/minimum-absolute-difference/discuss/1637287
+ * Refer:
+ * https://leetcode.com/problems/minimum-absolute-difference/discuss/1637287
  */

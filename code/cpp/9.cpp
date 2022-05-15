@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool isPalindrome(int x) {}
 };
 
@@ -13,7 +13,7 @@ class Solution {
  * Time: O(n), Space: O(n)
  */
 class Solution2 {
-  public:
+public:
     bool isPalindrome(int x) {
         if (x < 0) {
             return false;

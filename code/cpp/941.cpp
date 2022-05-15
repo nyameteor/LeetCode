@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool validMountainArray(vector<int> &arr) {
         int N = size(arr);
         int i = 0;

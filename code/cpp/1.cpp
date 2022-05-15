@@ -14,7 +14,7 @@ using namespace std;
  * Use nested loops to find target combination in k-combinations.
  */
 class Solution {
-  public:
+public:
     vector<int> twoSum(vector<int> &nums, int target) {
         vector<int> res(2, 0);
 
@@ -42,7 +42,7 @@ class Solution {
  * This implementation is a bit of tricky, but not difficult to understand
  */
 class Solution2 {
-  public:
+public:
     vector<int> twoSum(vector<int> &nums, int target) {
         vector<int> res(2, 0);
         unordered_map<int, int> m;

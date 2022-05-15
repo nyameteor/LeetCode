@@ -15,7 +15,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     vector<int> rightSideView(TreeNode *root) {
         vector<int> res;
         dfs(root, res, 0);
@@ -36,7 +36,7 @@ class Solution {
 };
 
 class Solution2 {
-  public:
+public:
     vector<int> rightSideView(TreeNode *root) {
         queue<TreeNode *> q;
         vector<int> res;

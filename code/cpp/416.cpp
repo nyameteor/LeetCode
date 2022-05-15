@@ -10,7 +10,7 @@ using namespace std;
  * Time: O(2^n), Space: O(1)
  */
 class Solution {
-  public:
+public:
     bool canPartition(vector<int> &nums) {
         bool res = false;
         dfs(nums, 0, 0, 0, res);
@@ -37,8 +37,10 @@ class Solution {
  * Another implementation of recursion.
  */
 class Solution1 {
-  public:
-    bool canPartition(vector<int> &nums) { return dfs(nums, 0, 0, 0); }
+public:
+    bool canPartition(vector<int> &nums) {
+        return dfs(nums, 0, 0, 0);
+    }
 
     bool dfs(vector<int> &nums, int sum1, int sum2, int i) {
         if (i == nums.size()) {
@@ -48,7 +50,8 @@ class Solution1 {
                 return false;
             }
         }
-        return dfs(nums, sum1 + nums[i], sum2, i + 1) || dfs(nums, sum1, sum2 + nums[i], i + 1);
+        return dfs(nums, sum1 + nums[i], sum2, i + 1) ||
+               dfs(nums, sum1, sum2 + nums[i], i + 1);
     }
 };
 
@@ -56,13 +59,14 @@ class Solution1 {
  * Recursion + Memoization
  */
 class Solution2 {
-  public:
+public:
     bool canPartition(vector<int> &nums) {
         unordered_map<int, bool> memo;
         return dfs(nums, 0, 0, 0, memo);
     }
 
-    bool dfs(vector<int> &nums, int sum1, int sum2, int i, unordered_map<int, bool> &memo) {
+    bool dfs(vector<int> &nums, int sum1, int sum2, int i,
+             unordered_map<int, bool> &memo) {
         if (memo.find(sum1) != end(memo)) {
             return memo[sum1];
         }

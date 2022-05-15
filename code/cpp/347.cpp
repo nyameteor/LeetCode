@@ -10,7 +10,7 @@ using namespace std;
  * Heap
  */
 class Solution {
-  public:
+public:
     vector<int> topKFrequent(vector<int> &nums, int k) {
         map<int, int> count;
         for (auto num : nums) {
@@ -47,7 +47,7 @@ class Solution {
  * Bucket Sort
  */
 class Solution2 {
-  public:
+public:
     vector<int> topKFrequent(vector<int> &nums, int k) {
 
         map<int, int> cnts;

@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool wordPattern(string pattern, string s) {
         unordered_map<char, string> mapA; // pattern -> word
         unordered_map<string, char> mapB; // word -> pattern

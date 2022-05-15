@@ -9,7 +9,7 @@ using namespace std;
  * Min-Heap
  */
 class Solution {
-  public:
+public:
     vector<vector<int>> kClosest(vector<vector<int>> &points, int k) {
         // {index in points, dinstance to origin}
         auto cmp = [](pair<int, int> left, pair<int, int> right) {

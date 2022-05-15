@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int compareVersion(string version1, string version2) {
         vector<int> v1 = splitAndTrim(version1);
         vector<int> v2 = splitAndTrim(version2);

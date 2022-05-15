@@ -9,7 +9,7 @@ using namespace std;
  * Time: O(n), Space: O(n)
  */
 class Solution {
-  public:
+public:
     vector<int> dailyTemperatures(vector<int> &temperatures) {
         int size = temperatures.size();
         vector<int> res(size);
@@ -36,7 +36,7 @@ class Solution {
  * Time: O(n^2), Space: O(1)
  */
 class Solution2 {
-  public:
+public:
     vector<int> dailyTemperatures(vector<int> &temperatures) {
         vector<int> res;
 

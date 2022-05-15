@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int longestValidParentheses(string s) {
         int max_len = 0;
         stack<int> st;

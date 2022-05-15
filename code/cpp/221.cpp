@@ -6,7 +6,7 @@ using namespace std;
  * Brute Force (Optimized)
  */
 class Solution {
-  public:
+public:
     int maximalSquare(vector<vector<char>> &matrix) {
         int maxLen = 0;
         int n = matrix.size(), m = n > 0 ? matrix[0].size() : 0;
@@ -49,7 +49,7 @@ class Solution {
  * Recommended
  */
 class Solution2 {
-  public:
+public:
     int maximalSquare(vector<vector<char>> &matrix) {
         int r = matrix.size(), c = r > 0 ? matrix[0].size() : 0;
         // add dummy row and cloum to avoid corner case
@@ -77,7 +77,7 @@ class Solution2 {
  * Have to use lots of temporary variables, need to be optimized
  */
 class Solution3 {
-  public:
+public:
     int maximalSquare(vector<vector<char>> &matrix) {
         int n = matrix.size(), m = n > 0 ? matrix[0].size() : 0;
         // add dummy row and cloum to avoid corner case

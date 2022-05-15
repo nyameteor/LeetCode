@@ -14,7 +14,7 @@ struct ListNode {
  * Sort by swapping nodes
  */
 class Solution {
-  public:
+public:
     ListNode *insertionSortList(ListNode *head) {
         auto dummy = new ListNode(0, head);
         auto q = dummy, pPrev = head, p = head->next;

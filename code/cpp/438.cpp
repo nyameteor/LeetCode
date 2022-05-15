@@ -6,7 +6,7 @@ using namespace std;
 
 // Sliding Window, Vector(with scheme)
 class Solution {
-  public:
+public:
     vector<int> findAnagrams(string s, string p) {
         int p_size = size(p);
         int s_size = size(s);
@@ -44,7 +44,7 @@ class Solution {
 
 // Sliding Window, Hash Table
 class Solution2 {
-  public:
+public:
     vector<int> findAnagrams(string s, string p) {
         int p_size = size(p);
         int s_size = size(s);

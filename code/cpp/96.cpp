@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int numTrees(int n) {
         vector<int> a((n + 1), 0);
         a[0] = 1;

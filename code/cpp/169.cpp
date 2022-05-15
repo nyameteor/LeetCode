@@ -8,7 +8,7 @@ using namespace std;
  * Use Hashmap to count element occurrences efficiently.
  */
 class Solution {
-  public:
+public:
     int majorityElement(vector<int> &nums) {
         unordered_map<int, int> freq;
         for (int i = 0; i < size(nums); i++) {
@@ -33,7 +33,7 @@ class Solution {
  * https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
  */
 class Solution2 {
-  public:
+public:
     int majorityElement(vector<int> &nums) {
         int count = 0;
         int candidate = -1;

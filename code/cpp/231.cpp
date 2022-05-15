@@ -10,7 +10,7 @@ using namespace std;
  * Refer: https://leetcode.com/problems/power-of-two/discuss/63974
  */
 class Solution {
-  public:
+public:
     bool isPowerOfTwo(int n) {
         if (n > 0) {
             return !(n & (n - 1));
@@ -26,7 +26,7 @@ class Solution {
  * (Time Limit Exceeded)
  */
 class Solution2 {
-  public:
+public:
     bool isPowerOfTwo(int n) {
         while ((n & 1) == 0) {
             n = n >> 1;

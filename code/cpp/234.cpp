@@ -15,7 +15,7 @@ struct ListNode {
 
 // Reverse the second half of the linked list
 class Solution {
-  public:
+public:
     bool isPalindrome(ListNode *head) {
         ListNode *pMid = findMiddle(head);
         ListNode *pRev = reverseLinkedList(pMid);
@@ -57,7 +57,7 @@ class Solution {
 
 // Use an array to simulate
 class Solution2 {
-  public:
+public:
     bool isPalindrome(ListNode *head) {
         ListNode *p = head;
         int length = 0;

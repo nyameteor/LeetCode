@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int threeSumMulti(vector<int> &arr, int target) {
         int MOD = 1000000007;
         int N = size(arr);

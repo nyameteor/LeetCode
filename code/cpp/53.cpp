@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int maxSubArray(vector<int> &nums) {
         int maxSum = INT32_MIN;
         int sum = 0;

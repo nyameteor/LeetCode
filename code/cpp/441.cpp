@@ -12,7 +12,7 @@ using namespace std;
  * Time: O(logN), Space: O(1)
  */
 class Solution {
-  public:
+public:
     int arrangeCoins(int n) {
         long l = 1,
              r = n; // n is the simplest upper bound, we might shrink it by
@@ -41,7 +41,7 @@ class Solution {
  * Time: O(sqrt(N)), Space: O(1)
  */
 class Solution2 {
-  public:
+public:
     int arrangeCoins(int n) {
         int i = 1;
         while (i <= n) {

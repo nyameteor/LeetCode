@@ -6,7 +6,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int climbStairs(int n) {
         map<int, int> memo;
         return dp(n, memo);

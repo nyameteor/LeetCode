@@ -3,11 +3,11 @@
 using namespace std;
 
 class Solution {
-  private:
+private:
     vector<int> order;
     vector<int> indegree;
 
-  public:
+public:
     vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites) {
         vector<vector<int>> G(numCourses);
         indegree = vector<int>(numCourses, 0);
@@ -35,8 +35,9 @@ class Solution {
         indegree[v] = -1;   // mark current vertex as visited
         for (int w : G[v]) {
             indegree[w]--;
-            if (indegree[w] == 0) { // if there's a next vertex having 0 indegree
-                dfs(G, w);          // then we traverse it.
+            if (indegree[w] ==
+                0) {       // if there's a next vertex having 0 indegree
+                dfs(G, w); // then we traverse it.
             }
         }
     }

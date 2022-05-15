@@ -9,7 +9,7 @@ using namespace std;
  * Time: O(logn) ~ O(n)
  */
 class Solution {
-  public:
+public:
     int findMin(vector<int> &nums) {
         int l = 0, r = nums.size() - 1, m;
         int res = 0;

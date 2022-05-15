@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int singleNumber(vector<int> &nums) {
         unordered_set<int> set;
         for (auto num : nums) {
@@ -19,7 +19,7 @@ class Solution {
 };
 
 class Solution2 {
-  public:
+public:
     int singleNumber(vector<int> &nums) {
         int res = 0;
         for (auto num : nums) {

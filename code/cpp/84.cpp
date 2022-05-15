@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int largestRectangleArea(vector<int> &heights) {
         int maxArea = 0;
 

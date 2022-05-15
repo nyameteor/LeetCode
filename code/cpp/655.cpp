@@ -13,7 +13,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     vector<vector<string>> printTree(TreeNode *root) {
         int height = getHeight(root) - 1;
         int m = height + 1;

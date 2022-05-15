@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int myAtoi(string s) {
         if (size(s) == 0 || s[0] == '\0') {
             return 0;

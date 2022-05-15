@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     vector<string> findRepeatedDnaSequences(string s) {
         vector<string> res;
 
@@ -21,7 +21,7 @@ class Solution {
  * Time: O(n), Space: O(n)
  */
 class Solution2 {
-  public:
+public:
     vector<string> findRepeatedDnaSequences(string s) {
         vector<string> res;
         unordered_map<string, int> m;

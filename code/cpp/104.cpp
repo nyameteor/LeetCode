@@ -15,7 +15,7 @@ struct TreeNode {
  * Depth First Search
  */
 class Solution {
-  public:
+public:
     int maxDepth(TreeNode *root) {
         int max_depth = 0;
         dfs(max_depth, 0, root);
@@ -37,7 +37,7 @@ class Solution {
  * Bredth First Search
  */
 class Solution2 {
-  public:
+public:
     int maxDepth(TreeNode *root) {
         if (!root) {
             return 0;

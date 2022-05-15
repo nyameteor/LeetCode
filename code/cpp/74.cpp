@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool searchMatrix(vector<vector<int>> &matrix, int target) {
         // pointer: low, high, mid
         int l, h, m;

@@ -6,7 +6,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int threeSumClosest(vector<int> &nums, int target) {
         // edge case
         if (nums.size() == 3) {

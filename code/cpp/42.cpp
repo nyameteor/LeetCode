@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     // Two Pointer
     // Time Limit Exceeded
     int trap(vector<int> &height) {

@@ -18,7 +18,7 @@ struct TreeNode {
  * Space: O(H), for recursive stack
  */
 class Solution {
-  public:
+public:
     TreeNode *deleteNode(TreeNode *root, int key) {
         if (!root) {
             return nullptr;

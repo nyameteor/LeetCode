@@ -9,7 +9,7 @@ using namespace std;
  * Space: O(1)
  */
 class Solution {
-  public:
+public:
     double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
         if (size(nums1) > size(nums2)) {
             // make sure nums1 is shorter

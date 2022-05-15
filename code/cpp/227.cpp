@@ -10,7 +10,7 @@ using namespace std;
  * https://github.com/haoel/leetcode/blob/master/algorithms/cpp/basicCalculator/BasicCalculator.II.cpp
  */
 class Solution {
-  public:
+public:
     int calculate(string s) {
         stack<int> num_stk; // put the numbers
         stack<char> op_stk; // put the operators

@@ -9,11 +9,11 @@ using namespace std;
  *  2. another stack store the minimum number when it changes.
  */
 class MinStack {
-  private:
+private:
     vector<int> stack;
     vector<int> minStack;
 
-  public:
+public:
     MinStack() {
         stack = {};
         minStack = {};

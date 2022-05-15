@@ -14,7 +14,7 @@ using namespace std;
  * Space: O(n)
  */
 class Solution {
-  public:
+public:
     bool isHappy(int n) {
         unordered_set<int> s;
 

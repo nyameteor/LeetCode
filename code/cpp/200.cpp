@@ -6,10 +6,10 @@ using namespace std;
  * Union Find
  */
 class Solution {
-  private:
+private:
     vector<int> s;
 
-  public:
+public:
     int numIslands(vector<vector<char>> &grid) {
         int m = grid.size();
         int n = grid[0].size();

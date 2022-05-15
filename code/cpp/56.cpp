@@ -7,7 +7,7 @@ using namespace std;
  * Sorting, easy to understand
  */
 class Solution {
-  public:
+public:
     vector<vector<int>> merge(vector<vector<int>> &intervals) {
         vector<vector<int>> res;
         sort(intervals.begin(), intervals.end(),
@@ -45,7 +45,7 @@ class Solution {
  * Sorting, with simplified steps
  */
 class Solution2 {
-  public:
+public:
     vector<vector<int>> merge(vector<vector<int>> &intervals) {
         sort(intervals.begin(), intervals.end());
 

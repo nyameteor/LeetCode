@@ -16,7 +16,7 @@ struct ListNode {
  * linked list has a cycle in it.
  */
 class Solution {
-  public:
+public:
     bool hasCycle(ListNode *head) {
         ListNode *p = head, *q = head;
         while (p != nullptr && q != nullptr && q->next != nullptr) {

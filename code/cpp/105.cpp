@@ -12,7 +12,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
         if (size(preorder) == 0) {
             return nullptr;
@@ -47,13 +47,13 @@ class Solution {
 };
 
 class Solution2 {
-  public:
+public:
     TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) {
         return buildHelper(preorder, 0, size(preorder), inorder, 0,
                            size(inorder));
     }
 
-  private:
+private:
     TreeNode *buildHelper(vector<int> &preorder, int b1, int e1,
                           vector<int> &inorder, int b2, int e2) {
 

@@ -25,7 +25,7 @@ struct TreeNode {
  * Simple and intuitive
  */
 class Solution {
-  public:
+public:
     int countNodes(TreeNode *root) {
         int level = 0, maxLevel = 0, lastLevelCnt = 0;
         dfs(root, level, maxLevel, lastLevelCnt);

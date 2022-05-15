@@ -15,7 +15,7 @@ struct TreeNode {
 
 /* Morris Traversal */
 class Solution {
-  public:
+public:
     void flatten(TreeNode *root) {
         if (root == nullptr) {
             return;

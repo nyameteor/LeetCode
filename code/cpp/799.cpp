@@ -6,7 +6,7 @@ using namespace std;
  * Dynamic Programming
  */
 class Solution {
-  public:
+public:
     double champagneTower(int poured, int query_row, int query_glass) {
         vector<double> currCups(1, 0);
         currCups[0] = poured;
@@ -29,7 +29,7 @@ class Solution {
  * Another implementation, one row with in-place
  */
 class Solution2 {
-  public:
+public:
     double champagneTower(int poured, int query_row, int query_glass) {
         double cups[query_row + 1];
         fill(cups, cups + query_row + 1, 0);

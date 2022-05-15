@@ -16,7 +16,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     // Two stacks
     vector<vector<int>> zigzagLevelOrder(TreeNode *root) {
         stack<TreeNode *> s1;

@@ -15,7 +15,7 @@ struct TreeNode {
 
 /* Recursion */
 class Solution {
-  public:
+public:
     vector<vector<int>> pathSum(TreeNode *root, int targetSum) {
         vector<vector<int>> paths;
         vector<int> path;
@@ -44,7 +44,7 @@ class Solution {
 
 /* Recursive Backtracking */
 class Solution2 {
-  public:
+public:
     vector<vector<int>> pathSum(TreeNode *root, int targetSum) {
         vector<vector<int>> paths;
         vector<int> path;

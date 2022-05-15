@@ -12,7 +12,7 @@ using namespace std;
  * Refer: https://en.wikipedia.org/wiki/Digital_root#Congruence_formula
  */
 class Solution {
-  public:
+public:
     int addDigits(int num) {
         if (num == 0) {
             return 0;
@@ -26,7 +26,7 @@ class Solution {
  * Naive Implementation
  */
 class Solution {
-  public:
+public:
     int addDigits(int num) {
         while (num >= 10) {
             int tmpNum = num;

@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int minCostToMoveChips(vector<int> &position) {
         int evenCnt = 0, oddCnt = 0;
         for (auto p : position) {
@@ -21,7 +21,7 @@ class Solution {
  * check parity with `bitand`
  */
 class Solution2 {
-  public:
+public:
     int minCostToMoveChips(vector<int> &position) {
         int evenCnt = 0, oddCnt = 0;
         for (auto p : position) {

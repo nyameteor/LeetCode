@@ -9,14 +9,15 @@ struct TreeNode {
     TreeNode *right;
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right)
+        : val(x), left(left), right(right) {}
 };
 
 /**
  * BFS, Optimized for BST
  */
 class Solution {
-  public:
+public:
     int rangeSumBST(TreeNode *root, int low, int high) {
         queue<TreeNode *> q;
         q.push(root);
@@ -44,7 +45,7 @@ class Solution {
  * DFS, Optimized for BST
  */
 class Solution2 {
-  public:
+public:
     int rangeSumBST(TreeNode *root, int low, int high) {
         if (!root) {
             return 0;
@@ -52,8 +53,9 @@ class Solution2 {
 
         int val = root->val;
         return (val >= low && val <= high ? val : 0) +
-               (val > low ? rangeSumBST(root->left, low, high) : 0) +  // pruning
-               (val < high ? rangeSumBST(root->right, low, high) : 0); // pruning
+               (val > low ? rangeSumBST(root->left, low, high) : 0) + // pruning
+               (val < high ? rangeSumBST(root->right, low, high)
+                           : 0); // pruning
     }
 };
 

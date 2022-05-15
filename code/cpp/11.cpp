@@ -7,7 +7,7 @@ using namespace std;
  * In leetcode it's slower than without greedy, don't know why.
  */
 class Solution {
-  public:
+public:
     int maxArea(vector<int> &height) {
         int l = 0, r = size(height) - 1;
         int max_area = 0;
@@ -36,7 +36,7 @@ class Solution {
  * Two Pointers
  */
 class Solution2 {
-  public:
+public:
     int maxArea(vector<int> &height) {
         int l = 0, r = size(height) - 1;
         int max_area = 0;

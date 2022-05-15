@@ -17,7 +17,7 @@ struct ListNode {
  *      at where they start checking, that place is the cycle's start-point
  */
 class Solution {
-  public:
+public:
     ListNode *detectCycle(ListNode *head) {
         while (head != nullptr) {
             ListNode *p = head, *q = head;
@@ -55,10 +55,10 @@ class Solution {
  * Theory: todo
  */
 class Solution2 {
-  private:
+private:
     ListNode *p, *q;
 
-  public:
+public:
     ListNode *detectCycle(ListNode *head) {
         if (!hasCycle(head)) {
             return nullptr;

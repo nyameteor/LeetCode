@@ -17,8 +17,10 @@ struct TreeNode {
  * Time: O(n^2)
  */
 class Solution {
-  public:
-    int rob(TreeNode *root) { return dfs(root); }
+public:
+    int rob(TreeNode *root) {
+        return dfs(root);
+    }
 
     int dfs(TreeNode *root) {
         if (!root) {
@@ -45,7 +47,7 @@ class Solution {
  * Time: O(n)
  */
 class Solution2 {
-  public:
+public:
     int rob(TreeNode *root) {
         unordered_map<TreeNode *, int> memo;
         return dfs(root, memo);

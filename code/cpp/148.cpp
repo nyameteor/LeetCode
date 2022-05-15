@@ -19,7 +19,7 @@ struct ListNode {
  * TODO: optimization
  */
 class Solution {
-  public:
+public:
     ListNode *sortList(ListNode *head) {
         if (!head) {
             return nullptr;
@@ -104,7 +104,7 @@ class Solution {
  * Use array to simulate
  */
 class Solution2 {
-  public:
+public:
     ListNode *sortList(ListNode *head) {
         vector<int> v;
 

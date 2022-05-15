@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int smallestRepunitDivByK(int k) {
         int n = 1;
         int i = 1;

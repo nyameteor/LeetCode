@@ -14,7 +14,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     bool isValidBST(TreeNode *root) {
         vector<int> path;
         inOrder(root, path);

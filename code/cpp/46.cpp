@@ -7,7 +7,7 @@ using namespace std;
  * Backtracking, only backtrack at path
  */
 class Solution {
-  public:
+public:
     vector<vector<int>> permute(vector<int> &nums) {
         vector<vector<int>> paths;
         vector<int> path;
@@ -39,7 +39,7 @@ class Solution {
  * It's a straightforward solution with good performance
  */
 class Solution2 {
-  public:
+public:
     vector<vector<int>> permute(vector<int> &nums) {
         vector<vector<int>> paths;
         vector<int> path;

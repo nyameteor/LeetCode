@@ -20,7 +20,7 @@ using namespace std;
  * https://en.cppreference.com/w/cpp/container/priority_queue
  */
 class Solution {
-  public:
+public:
     string frequencySort(string s) {
         unordered_map<char, int> freq;
         for (auto c : s) {

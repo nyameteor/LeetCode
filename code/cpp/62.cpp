@@ -9,7 +9,7 @@ using namespace std;
  * Time: O(m*n), Space: O(m+n)
  */
 class Solution {
-  public:
+public:
     int uniquePaths(int m, int n) {
         map<pair<int, int>, int> memo;
         return dfs(m, n, memo);
@@ -36,7 +36,7 @@ class Solution {
  * Time: O(2^(m+n)), Space: O(m+n)
  */
 class Solution2 {
-  public:
+public:
     int uniquePaths(int m, int n) {
         if (m == 0 || n == 0) {
             return 0;

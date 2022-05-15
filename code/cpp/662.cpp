@@ -14,7 +14,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     int widthOfBinaryTree(TreeNode *root) {
 
         if (!root) {

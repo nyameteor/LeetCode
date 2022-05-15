@@ -5,7 +5,7 @@ using namespace std;
 
 /* dynamic programming */
 class Solution {
-  public:
+public:
     int lengthOfLIS(vector<int> &nums) {
         int maxLen = 0;
 

@@ -18,7 +18,7 @@ using namespace std;
  * Time: O(n^2), Space: O(n^2)
  */
 class Solution {
-  public:
+public:
     string longestPalindrome(string s) {
         int N = size(s);
         if (N < 2) {
@@ -58,7 +58,7 @@ class Solution {
  * Time: O(n^3), Space: O(1)
  */
 class Solution2 {
-  public:
+public:
     string longestPalindrome(string s) {
         string res = "";
         int N = size(s);

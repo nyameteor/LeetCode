@@ -14,7 +14,7 @@ struct TreeNode {
 };
 
 class Solution {
-  public:
+public:
     bool isCompleteTree(TreeNode *root) {
         bool isEnd = false;
         queue<TreeNode *> q;

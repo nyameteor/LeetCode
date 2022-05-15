@@ -5,7 +5,7 @@ using namespace std;
  * Rotate Groups of Four Cells
  */
 class Solution {
-  public:
+public:
     void rotate(vector<vector<int>> &matrix) {
         int N = size(matrix);
         int n = N - 1;
@@ -26,7 +26,7 @@ class Solution {
  * Reverse on Diagonal and then Reverse Left to Right
  */
 class Solution2 {
-  public:
+public:
     void rotate(vector<vector<int>> &matrix) {
         transpose(matrix);
         reflect(matrix);

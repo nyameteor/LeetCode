@@ -6,7 +6,7 @@ using namespace std;
  * Todo: Optimize
  */
 class Solution {
-  public:
+public:
     int numPairsDivisibleBy60(vector<int> &time) {
         vector<int> R(60, 0); // R: reminders
         for (auto t : time) {

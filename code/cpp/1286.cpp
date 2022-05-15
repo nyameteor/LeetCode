@@ -7,7 +7,7 @@ using namespace std;
  * Generate combinations with DFS
  */
 class CombinationIterator {
-  private:
+private:
     queue<string> combinations;
 
     // generate combinations
@@ -26,7 +26,7 @@ class CombinationIterator {
         }
     }
 
-  public:
+public:
     CombinationIterator(string characters, int combinationLength) {
         dfs("", characters, combinationLength);
     }
@@ -37,7 +37,9 @@ class CombinationIterator {
         return s;
     }
 
-    bool hasNext() { return !combinations.empty(); }
+    bool hasNext() {
+        return !combinations.empty();
+    }
 };
 
 int main() {

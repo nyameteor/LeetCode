@@ -1,5 +1,5 @@
 class Solution {
-  public:
+public:
     int sumOfLeftLeaves(TreeNode *root) {
         int sum = 0;
         dfs(root, sum);
@@ -26,7 +26,7 @@ class Solution {
  * Refer: https://leetcode.com/problems/sum-of-left-leaves/discuss/1558055
  */
 class Solution {
-  public:
+public:
     int sumOfLeftLeaves(TreeNode *root) {
         int sum = 0;
         dfs(root, sum, false);

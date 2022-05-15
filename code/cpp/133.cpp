@@ -6,7 +6,7 @@
 using namespace std;
 
 class Node {
-  public:
+public:
     int val;
     vector<Node *> neighbors;
     Node() {
@@ -27,7 +27,7 @@ class Node {
  * Clone graph with BFS
  */
 class Solution {
-  public:
+public:
     Node *cloneGraph(Node *node) {
         if (!node) {
             return nullptr;

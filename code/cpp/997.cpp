@@ -6,7 +6,7 @@ using namespace std;
  * Count degree of vertex
  */
 class Solution {
-  public:
+public:
     int findJudge(int n, vector<vector<int>> &trust) {
         vector<int> indegree(n + 1, 0);
         vector<int> outdegree(n + 1, 0);
@@ -30,7 +30,7 @@ class Solution {
  * `indegree - outdegree = N - 1` become the judge.
  */
 class Solution2 {
-  public:
+public:
     int findJudge(int n, vector<vector<int>> &trust) {
         vector<int> count(n + 1, 0);
         for (auto t : trust) {

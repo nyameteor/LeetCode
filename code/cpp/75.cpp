@@ -6,7 +6,7 @@ using namespace std;
  * Dutch Flag Algorithm by Dijkstra
  */
 class Solution {
-  public:
+public:
     void sortColors(vector<int> &nums) {
         int i = 0, j = 0, k = nums.size() - 1;
 

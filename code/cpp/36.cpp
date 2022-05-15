@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool isValidSudoku(vector<vector<char>> &board) {
         for (int i = 0; i < 9; i = i + 3) {
             for (int j = 0; j < 9; j = j + 3) {

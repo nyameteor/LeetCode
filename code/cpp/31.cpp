@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     void nextPermutation(vector<int> &nums) {
         int i, j;
         for (i = nums.size() - 1; i > 0; i--) {

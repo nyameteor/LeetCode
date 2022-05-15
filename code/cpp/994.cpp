@@ -19,7 +19,7 @@ using namespace std;
  * Optimized
  */
 class Solution {
-  public:
+public:
     int orangesRotting(vector<vector<int>> &grid) {
         queue<pair<int, int>> q;
         int fresh = 0;
@@ -75,14 +75,14 @@ class Solution {
  * Same ieda, but not optimized
  */
 class Solution2 {
-  private:
+private:
     struct cell {
         int row;
         int col;
         cell(int r, int c) : row(r), col(c) {}
     };
 
-  public:
+public:
     int orangesRotting(vector<vector<int>> &grid) {
         queue<cell *> q;
         int fresh = 0;

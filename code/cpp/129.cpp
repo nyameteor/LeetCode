@@ -13,8 +13,10 @@ struct TreeNode {
  * Time: O(n), Space: O(1)
  */
 class Solution {
-  public:
-    int sumNumbers(TreeNode *root) { return dfs(root, 0); }
+public:
+    int sumNumbers(TreeNode *root) {
+        return dfs(root, 0);
+    }
 
     int dfs(TreeNode *root, int cur) {
         if (root == nullptr) {
@@ -40,7 +42,7 @@ class Solution {
  * Time: O(n), Space: O(1)
  */
 class Solution2 {
-  public:
+public:
     int sumNumbers(TreeNode *root) {
         int pathSum = 0, allSum = 0;
         dfs(root, pathSum, allSum);
@@ -70,7 +72,7 @@ class Solution2 {
  * Time: O(n), Space: O(n)
  */
 class Solution3 {
-  public:
+public:
     int sumNumbers(TreeNode *root) {
         vector<int> path;
         int sum = 0;

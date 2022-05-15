@@ -7,7 +7,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int rand10() {
         int row, col, res;
 

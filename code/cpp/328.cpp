@@ -11,7 +11,7 @@ struct ListNode {
 };
 
 class Solution {
-  public:
+public:
     ListNode *oddEvenList(ListNode *head) {
         if (!head || !head->next) {
             return head;

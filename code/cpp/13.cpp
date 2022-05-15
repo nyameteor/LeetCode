@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int romanToInt(string s) {
         int res = 0;
         int sz = size(s);

@@ -6,7 +6,7 @@ using namespace std;
  * Flip Bits from Right to Left - Extra Space
  */
 class Solution {
-  public:
+public:
     int findComplement(int num) {
         int res = 0;
         int i = 0; // position of bit
@@ -24,7 +24,7 @@ class Solution {
  * Flip Bits from Right to Left - In-place
  */
 class Solution2 {
-  public:
+public:
     int findComplement(int num) {
         int i = 1;
         while (i <= num) {

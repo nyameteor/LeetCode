@@ -3,7 +3,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int maxDistToClosest(vector<int> &seats) {
         int res = 0;
         int sz = size(seats);

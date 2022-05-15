@@ -7,7 +7,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     bool wordBreak(string s, vector<string> &wordDict) {
         map<string, bool> memo = {};
         return dp(s, wordDict, memo);

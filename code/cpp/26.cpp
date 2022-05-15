@@ -6,7 +6,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     int removeDuplicates(vector<int> &nums) {
         // edge case
         if (nums.size() == 0)

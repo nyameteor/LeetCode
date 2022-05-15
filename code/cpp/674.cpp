@@ -5,10 +5,10 @@ using namespace std;
 /**
  * Sliding Window
  *
- * Idea: 
+ * Idea:
  */
 class Solution {
-  public:
+public:
     int findLengthOfLCIS(vector<int> &nums) {
         int res = 0;
 

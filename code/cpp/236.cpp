@@ -4,7 +4,7 @@
 using namespace std;
 
 class Solution {
-  public:
+public:
     // Ordinary way, find the path and comapre the path.
     TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) {
         vector<TreeNode *> path_p, path_q;
