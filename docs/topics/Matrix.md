@@ -13,3 +13,4 @@
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](../../code/cpp/200.cpp) | Medium | [📃](../../docs/200.%20Number%20of%20Islands.md) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](../../code/cpp/221.cpp) | Medium | [📃](../../docs/221.%20Maximal%20Square.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](../../code/cpp/994.cpp) | Medium | [📃](../../docs/994.%20Rotting%20Oranges.md) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](../../code/cpp/1091.cpp) | Medium | [📃](../../docs/1091.%20Shortest%20Path%20in%20Binary%20Matrix.md) |

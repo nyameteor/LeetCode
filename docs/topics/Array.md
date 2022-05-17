@@ -52,6 +52,7 @@
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](../../code/cpp/994.cpp) | Medium | [📃](../../docs/994.%20Rotting%20Oranges.md) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [C++](../../code/cpp/997.cpp) | Easy | [📃](../../docs/997.%20Find%20the%20Town%20Judge.md) |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [C++](../../code/cpp/1010.cpp) | Medium | [📃](../../docs/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](../../code/cpp/1091.cpp) | Medium | [📃](../../docs/1091.%20Shortest%20Path%20in%20Binary%20Matrix.md) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [C++](../../code/cpp/1200.cpp) | Easy | [📃](../../docs/1200.%20Minimum%20Absolute%20Difference.md) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](../../code/cpp/1217.cpp) | Easy | [📃](../../docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](../../code/cpp/1306.cpp) | Medium | [📃](../../docs/1306.%20Jump%20Game%20III.md) |

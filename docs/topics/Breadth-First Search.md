@@ -21,4 +21,5 @@
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](../../code/cpp/662.cpp) | Medium | [📃](../../docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [C++](../../code/cpp/958.cpp) | Medium | [📃](../../docs/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.md) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](../../code/cpp/994.cpp) | Medium | [📃](../../docs/994.%20Rotting%20Oranges.md) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [C++](../../code/cpp/1091.cpp) | Medium | [📃](../../docs/1091.%20Shortest%20Path%20in%20Binary%20Matrix.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](../../code/cpp/1306.cpp) | Medium | [📃](../../docs/1306.%20Jump%20Game%20III.md) |
