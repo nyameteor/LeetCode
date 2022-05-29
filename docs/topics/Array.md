@@ -56,3 +56,4 @@
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [C++](../../code/cpp/1200.cpp) | Easy | [📃](../../docs/1200.%20Minimum%20Absolute%20Difference.md) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](../../code/cpp/1217.cpp) | Easy | [📃](../../docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](../../code/cpp/1306.cpp) | Medium | [📃](../../docs/1306.%20Jump%20Game%20III.md) |
+| 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [C++](../../code/cpp/1584.cpp) | Medium | [📃](../../docs/1584.%20Min%20Cost%20to%20Connect%20All%20Points.md) |
