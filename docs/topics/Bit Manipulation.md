@@ -13,3 +13,4 @@
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](../../code/cpp/231.cpp) | Easy | [📃](../../docs/231.%20Power%20of%20Two.md) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](../../code/cpp/461.cpp) | Easy | [📃](../../docs/461.%20Hamming%20Distance.md) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C++](../../code/cpp/476.cpp) | Easy | [📃](../../docs/476.%20Number%20Complement.md) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [Go](../../code/go/1461.go) | Medium | [📃](../../docs/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md) |

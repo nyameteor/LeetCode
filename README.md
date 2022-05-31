@@ -130,6 +130,7 @@
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](code/cpp/1217.cpp) | Easy | [📃](docs/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](code/cpp/1286.cpp) | Medium | [📃](docs/1286.%20Iterator%20for%20Combination.md) |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](code/cpp/1306.cpp) | Medium | [📃](docs/1306.%20Jump%20Game%20III.md) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [Go](code/go/1461.go) | Medium | [📃](docs/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [C++](code/cpp/1584.cpp) | Medium | [📃](docs/1584.%20Min%20Cost%20to%20Connect%20All%20Points.md) |
 
 ## Topics
@@ -149,6 +150,7 @@
 - [Dynamic Programming](docs/topics/Dynamic%20Programming.md)
 - [Graph](docs/topics/Graph.md)
 - [Greedy](docs/topics/Greedy.md)
+- [Hash Function](docs/topics/Hash%20Function.md)
 - [Hash Table](docs/topics/Hash%20Table.md)
 - [Heap(Priority Queue)](docs/topics/Heap%28Priority%20Queue%29.md)
 - [Linked List](docs/topics/Linked%20List.md)
@@ -158,6 +160,7 @@
 - [Monotonic Stack](docs/topics/Monotonic%20Stack.md)
 - [Quickselect](docs/topics/Quickselect.md)
 - [Recursion](docs/topics/Recursion.md)
+- [Rolling Hash](docs/topics/Rolling%20Hash.md)
 - [Simulation](docs/topics/Simulation.md)
 - [Sliding Window](docs/topics/Sliding%20Window.md)
 - [Sorting](docs/topics/Sorting.md)
