@@ -39,6 +39,7 @@
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](../../code/java/215.java) | Medium | [📃](../../docs/215.%20Kth%20Largest%20Element%20in%20an%20Array.md) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](../../code/cpp/221.cpp) | Medium | [📃](../../docs/221.%20Maximal%20Square.md) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](../../code/cpp/300.cpp) | Medium | [📃](../../docs/300.%20Longest%20Increasing%20Subsequence.md) |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Go](../../code/go/304.go) | Medium | [📃](../../docs/304.%20Range%20Sum%20Query%202D%20-%20Immutable.md) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](../../code/cpp/347.cpp) | Medium | [📃](../../docs/347.%20Top%20K%20Frequent%20Elements.md) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](../../code/cpp/416.cpp) | Medium | [📃](../../docs/416.%20Partition%20Equal%20Subset%20Sum.md) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](../../code/cpp/448.cpp) | Easy | [📃](../../docs/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.md) |

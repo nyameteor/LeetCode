@@ -91,6 +91,7 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](code/cpp/258.cpp) | Easy | [📃](docs/258.%20Add%20Digits.md) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [C++](code/cpp/290.cpp) | Easy | [📃](docs/290.%20Word%20Pattern.md) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](code/cpp/300.cpp) | Medium | [📃](docs/300.%20Longest%20Increasing%20Subsequence.md) |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Go](code/go/304.go) | Medium | [📃](docs/304.%20Range%20Sum%20Query%202D%20-%20Immutable.md) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](code/cpp/328.cpp) | Medium | [📃](docs/328.%20Odd%20Even%20Linked%20List.md) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](code/cpp/337.cpp) | Medium | [📃](docs/337.%20House%20Robber%20III.md) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](code/cpp/347.cpp) | Medium | [📃](docs/347.%20Top%20K%20Frequent%20Elements.md) |
