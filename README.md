@@ -31,7 +31,7 @@
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](code/cpp/46.cpp) | Medium | [📃](docs/46.%20Permutations.md) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [C++](code/cpp/48.cpp) | Medium | [📃](docs/48.%20Rotate%20Image.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
-| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [C++](code/cpp/51.cpp) | Hard | [📃](docs/51.%20N-Queens.md) |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [C++](code/cpp/51.cpp), [Go](code/go/51.go) | Hard | [📃](docs/51.%20N-Queens.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](code/cpp/53.cpp) | Easy | [📃](docs/53.%20Maximum%20Subarray.md) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](code/cpp/54.cpp) | Medium | [📃](docs/54.%20Spiral%20Matrix.md) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [C++](code/cpp/56.cpp) | Medium | [📃](docs/56.%20Merge%20Intervals.md) |
