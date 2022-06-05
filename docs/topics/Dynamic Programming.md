@@ -10,6 +10,7 @@
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](../../code/cpp/22.cpp) | Medium | [📃](../../docs/22.%20Generate%20Parentheses.md) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](../../code/cpp/32.cpp) | Hard | [📃](../../docs/32.%20Longest%20Valid%20Parentheses.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Go](../../code/go/45.go) | Medium | [📃](../../docs/45.%20Jump%20Game%20II.md) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](../../code/cpp/53.cpp) | Easy | [📃](../../docs/53.%20Maximum%20Subarray.md) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](../../code/cpp/62.cpp) | Medium | [📃](../../docs/62.%20Unique%20Paths.md) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](../../code/cpp/70.cpp) | Easy | [📃](../../docs/70.%20Climbing%20Stairs.md) |

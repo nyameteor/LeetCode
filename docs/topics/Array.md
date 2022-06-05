@@ -16,6 +16,7 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](../../code/cpp/33.cpp) | Medium | [📃](../../docs/33.%20Search%20in%20Rotated%20Sorted%20Array.md) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](../../code/cpp/36.cpp) | Medium | [📃](../../docs/36.%20Valid%20Sudoku.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Go](../../code/go/45.go) | Medium | [📃](../../docs/45.%20Jump%20Game%20II.md) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](../../code/cpp/46.cpp) | Medium | [📃](../../docs/46.%20Permutations.md) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [C++](../../code/cpp/48.cpp) | Medium | [📃](../../docs/48.%20Rotate%20Image.md) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [C++](../../code/cpp/51.cpp), [Go](../../code/go/51.go) | Hard | [📃](../../docs/51.%20N-Queens.md) |

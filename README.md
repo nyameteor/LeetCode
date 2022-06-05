@@ -28,6 +28,7 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](code/cpp/36.cpp) | Medium | [📃](docs/36.%20Valid%20Sudoku.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](code/cpp/42.cpp) | Hard | [📃](docs/42.%20Trapping%20Rain%20Water.md) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](code/cpp/43.cpp) | Medium | [📃](docs/43.%20Multiply%20Strings.md) |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Go](code/go/45.go) | Medium | [📃](docs/45.%20Jump%20Game%20II.md) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](code/cpp/46.cpp) | Medium | [📃](docs/46.%20Permutations.md) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [C++](code/cpp/48.cpp) | Medium | [📃](docs/48.%20Rotate%20Image.md) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](code/java/50.java) | Medium | [📃](docs/50.%20Pow%28x%2C%20n%29.md) |
