@@ -6,6 +6,7 @@
 
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](../../code/go/3.go) | Medium | [📃](../../docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters.md) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](../../code/cpp/5.cpp) | Medium | [📃](../../docs/5.%20Longest%20Palindromic%20Substring.md) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](../../code/cpp/8.cpp) | Medium | [📃](../../docs/8.%20String%20to%20Integer%20%28atoi%29.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
