@@ -15,3 +15,4 @@
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [C++](../../code/cpp/222.cpp) | Medium | [📃](../../docs/222.%20Count%20Complete%20Tree%20Nodes.md) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [C++](../../code/cpp/300.cpp) | Medium | [📃](../../docs/300.%20Longest%20Increasing%20Subsequence.md) |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](../../code/cpp/441.cpp) | Easy | [📃](../../docs/441.%20Arranging%20Coins.md) |
+| 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Go](../../code/go/1658.go) | Medium | [📃](../../docs/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.md) |

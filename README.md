@@ -136,6 +136,7 @@
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](code/cpp/1306.cpp) | Medium | [📃](docs/1306.%20Jump%20Game%20III.md) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [Go](code/go/1461.go) | Medium | [📃](docs/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [C++](code/cpp/1584.cpp) | Medium | [📃](docs/1584.%20Min%20Cost%20to%20Connect%20All%20Points.md) |
+| 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Go](code/go/1658.go) | Medium | [📃](docs/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.md) |
 
 ## Topics
 
@@ -162,6 +163,7 @@
 - [Matrix](docs/topics/Matrix.md)
 - [Memoization](docs/topics/Memoization.md)
 - [Monotonic Stack](docs/topics/Monotonic%20Stack.md)
+- [Prefix Sum](docs/topics/Prefix%20Sum.md)
 - [Quickselect](docs/topics/Quickselect.md)
 - [Recursion](docs/topics/Recursion.md)
 - [Rolling Hash](docs/topics/Rolling%20Hash.md)
