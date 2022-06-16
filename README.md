@@ -112,6 +112,7 @@
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | [C++](code/cpp/470.cpp) | Medium | [📃](docs/470.%20Implement%20Rand10%28%29%20Using%20Rand7%28%29.md) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [C++](code/cpp/476.cpp) | Easy | [📃](docs/476.%20Number%20Complement.md) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](code/java/543.java) | Easy | [📃](docs/543.%20Diameter%20of%20Binary%20Tree.md) |
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [Go](code/go/583.go) | Medium | [📃](docs/583.%20Delete%20Operation%20for%20Two%20Strings.md) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | [C++](code/cpp/655.cpp) | Medium | [📃](docs/655.%20Print%20Binary%20Tree.md) |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [C++](code/cpp/662.cpp) | Medium | [📃](docs/662.%20Maximum%20Width%20of%20Binary%20Tree.md) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [C++](code/cpp/674.cpp) | Easy | [📃](docs/674.%20Longest%20Continuous%20Increasing%20Subsequence.md) |

@@ -24,6 +24,7 @@
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Java](../../code/java/415.java) | Easy | [📃](../../docs/415.%20Add%20Strings.md) |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](../../code/cpp/438.cpp) | Medium | [📃](../../docs/438.%20Find%20All%20Anagrams%20in%20a%20String.md) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [C++](../../code/cpp/451.cpp) | Medium | [📃](../../docs/451.%20Sort%20Characters%20By%20Frequency.md) |
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [Go](../../code/go/583.go) | Medium | [📃](../../docs/583.%20Delete%20Operation%20for%20Two%20Strings.md) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [C++](../../code/cpp/856.cpp) | Medium | [📃](../../docs/856.%20Score%20of%20Parentheses.md) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | [C++](../../code/cpp/1286.cpp) | Medium | [📃](../../docs/1286.%20Iterator%20for%20Combination.md) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [Go](../../code/go/1461.go) | Medium | [📃](../../docs/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.md) |
