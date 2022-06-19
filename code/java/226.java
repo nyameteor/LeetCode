@@ -22,16 +22,10 @@ class Solution {
         if (root == null)
             return null;
 
-        swap(root);
-        invertTree(root.left);
-        invertTree(root.right);
+        TreeNode tmpLeft = invertTree(root.left);
+        root.left = invertTree(root.right);
+        root.right = tmpLeft;
 
         return root;
-    }
-
-    private void swap(TreeNode root) {
-        TreeNode tmp = root.left;
-        root.left = root.right;
-        root.right = tmp;
     }
 }
