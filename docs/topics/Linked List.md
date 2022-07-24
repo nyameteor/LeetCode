@@ -8,6 +8,7 @@
 | --- | ----- | -------- | ---------- | --- |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](../../code/java/21.java) | Easy | [📃](../../docs/21.%20Merge%20Two%20Sorted%20Lists.md) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Java](../../code/java/25.java) | Hard | [📃](../../docs/25.%20Reverse%20Nodes%20in%20k-Group.md) |
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Go](../../code/go/86.go) | Medium | [📃](../../docs/86.%20Partition%20List.md) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](../../code/cpp/114.cpp) | Medium | [📃](../../docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](../../code/cpp/141.cpp) | Easy | [📃](../../docs/141.%20Linked%20List%20Cycle.md) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](../../code/cpp/142.cpp) | Medium | [📃](../../docs/142.%20Linked%20List%20Cycle%20II.md) |

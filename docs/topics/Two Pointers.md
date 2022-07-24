@@ -13,6 +13,7 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](../../code/cpp/31.cpp) | Medium | [📃](../../docs/31.%20Next%20Permutation.md) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](../../code/cpp/42.cpp) | Hard | [📃](../../docs/42.%20Trapping%20Rain%20Water.md) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](../../code/cpp/75.cpp) | Medium | [📃](../../docs/75.%20Sort%20Colors.md) |
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | [Go](../../code/go/86.go) | Medium | [📃](../../docs/86.%20Partition%20List.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](../../code/cpp/141.cpp) | Easy | [📃](../../docs/141.%20Linked%20List%20Cycle.md) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](../../code/cpp/142.cpp) | Medium | [📃](../../docs/142.%20Linked%20List%20Cycle%20II.md) |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [C++](../../code/cpp/148.cpp) | Medium | [📃](../../docs/148.%20Sort%20List.md) |
