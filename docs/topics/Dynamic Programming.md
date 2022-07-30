@@ -19,7 +19,7 @@
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](../../code/cpp/118.cpp) | Easy | [📃](../../docs/118.%20Pascal%27s%20Triangle.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](../../code/java/121.java) | Easy | [📃](../../docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](../../code/java/122.java) | Easy | [📃](../../docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](../../code/cpp/139.cpp), [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](../../code/cpp/140.cpp), [Java](../../code/java/140.java) | Hard | [📃](../../docs/140.%20Word%20Break%20II.md) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](../../code/cpp/198.cpp) | Medium | [📃](../../docs/198.%20House%20Robber.md) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](../../code/cpp/221.cpp) | Medium | [📃](../../docs/221.%20Maximal%20Square.md) |

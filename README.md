@@ -61,7 +61,7 @@
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [C++](code/cpp/129.cpp) | Medium | [📃](docs/129.%20Sum%20Root%20to%20Leaf%20Numbers.md) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](code/cpp/133.cpp) | Medium | [📃](docs/133.%20Clone%20Graph.md) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](code/cpp/136.cpp) | Easy | [📃](docs/136.%20Single%20Number.md) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](code/cpp/139.cpp), [Java](code/java/139.java), [Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Java](code/java/139.java), [Python](code/py3/139.py) | Medium | [📃](docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](code/cpp/140.cpp), [Java](code/java/140.java) | Hard | [📃](docs/140.%20Word%20Break%20II.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](code/cpp/141.cpp) | Easy | [📃](docs/141.%20Linked%20List%20Cycle.md) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](code/cpp/142.cpp) | Medium | [📃](docs/142.%20Linked%20List%20Cycle%20II.md) |

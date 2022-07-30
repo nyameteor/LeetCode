@@ -12,7 +12,7 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](../../code/cpp/36.cpp) | Medium | [📃](../../docs/36.%20Valid%20Sudoku.md) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](../../code/cpp/105.cpp) | Medium | [📃](../../docs/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](../../code/cpp/133.cpp) | Medium | [📃](../../docs/133.%20Clone%20Graph.md) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](../../code/cpp/139.cpp), [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Java](../../code/java/139.java), [Python](../../code/py3/139.py) | Medium | [📃](../../docs/139.%20Word%20Break.md) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [C++](../../code/cpp/140.cpp), [Java](../../code/java/140.java) | Hard | [📃](../../docs/140.%20Word%20Break%20II.md) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](../../code/cpp/141.cpp) | Easy | [📃](../../docs/141.%20Linked%20List%20Cycle.md) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](../../code/cpp/142.cpp) | Medium | [📃](../../docs/142.%20Linked%20List%20Cycle%20II.md) |
