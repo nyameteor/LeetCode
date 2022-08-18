@@ -9,6 +9,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Go](../../code/go/3.go) | Medium | [📃](../../docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters.md) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](../../code/cpp/5.cpp) | Medium | [📃](../../docs/5.%20Longest%20Palindromic%20Substring.md) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](../../code/cpp/8.cpp) | Medium | [📃](../../docs/8.%20String%20to%20Integer%20%28atoi%29.md) |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](../../code/go/12.go) | Medium | [📃](../../docs/12.%20Integer%20to%20Roman.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](../../code/cpp/22.cpp) | Medium | [📃](../../docs/22.%20Generate%20Parentheses.md) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](../../code/cpp/32.cpp) | Hard | [📃](../../docs/32.%20Longest%20Valid%20Parentheses.md) |

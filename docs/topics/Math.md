@@ -7,6 +7,7 @@
 | #   | Title | Solution | Difficulty | Doc |
 | --- | ----- | -------- | ---------- | --- |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](../../code/cpp/9.cpp) | Easy | [📃](../../docs/9.%20Palindrome%20Number.md) |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Go](../../code/go/12.go) | Medium | [📃](../../docs/12.%20Integer%20to%20Roman.md) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [C++](../../code/cpp/13.cpp) | Easy | [📃](../../docs/13.%20Roman%20to%20Integer.md) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Java](../../code/java/29.java) | Medium | [📃](../../docs/29.%20Divide%20Two%20Integers.md) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](../../code/cpp/43.cpp) | Medium | [📃](../../docs/43.%20Multiply%20Strings.md) |
