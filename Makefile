@@ -11,10 +11,10 @@ help:  ## Display this help
 
 .PHONY: doc
 doc: ## Create a new doc from template (with interactive mode)
-	@python3 tools/new_doc.py
+	@python3 tools/gen_doc.py
 
 .PHONY: readme
 readme: ## Update README.md
-	@python3 tools/readme.py
+	@python3 tools/gen_readme.py
 	@mv README-generated.md README.md
 	@echo "Updated README.md successfully!"
