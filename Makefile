@@ -16,5 +16,4 @@ doc: ## Create a new doc from template (with interactive mode)
 .PHONY: readme
 readme: ## Update README.md
 	@python3 tools/gen_readme.py
-	@mv README-generated.md README.md
 	@echo "Updated README.md successfully!"

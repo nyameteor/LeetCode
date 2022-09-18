@@ -1,17 +1,18 @@
 # LeetCode
 
-- [Problems](#problems)
-- [Topics](#topics)
-- [Links](#links)
+- [Sort by Title](#sort-by-title)
+- [Sort by Number](#sort-by-number)
+- [References](#references)
 
-## Problems
+## Sort by Title
 
-| #   | Title | Solution | Difficulty | Doc |
-| --- | ----- | -------- | ---------- | --- |
+Please see folder [problems](problems).
 
-## Topics
+## Sort by Number
 
-## Links
+<SOLUTION_LIST>
+
+## References
 
 - [Triple-Z/LeetCode](https://github.com/Triple-Z/LeetCode) - Thanks a lot!
 - [haoel/leetcode](https://github.com/haoel/leetcode)
