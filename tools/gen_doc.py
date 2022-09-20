@@ -3,44 +3,63 @@
 # Thanks to https://github.com/Triple-Z/LeetCode/blob/master/utils/new_doc.py .
 
 import shutil
-from utils import sed
+from utils import sed, gen_from_template
+import re
 
 from pathlib import Path
 
+CUR_DIR: Path = Path(__file__).parents[0]
+ROOT_DIR: Path = CUR_DIR / '..'
+PROBLEMS_DIR: Path = ROOT_DIR / 'problems'
+
+TEMPL_FILE: Path = ROOT_DIR / 'tools' / 'template' / 'solution.md'
+
 
 def main():
-    number = input("Input problem number:")
-    title = input("Input problem title:")
-    difficulty = input("Input problem difficulty(e:Easy, m:Medium, h:Hard):")
+    number = input("Number:")
+    title = input("Title:")
+    difficulty = input("Difficulty (e:Easy, m:Medium, h:Hard):")
     difficulty = {
         'e': 'Easy',
         'm': 'Medium',
         'h': 'Hard',
     }.get(difficulty)
 
-    cwd = Path(__file__).parents[0]
-    root_dir = cwd / '..'
-
-    topics_str = input('Input the problem topics (sep in comma): ')
-    topics = topics_str.split(',')
+    topic = input("Topics (sep in comma): ")
+    topics = topic.split(',')
     for i, topic in enumerate(topics):
         topics[i] = topic.strip()
+    topic = ", ".join(topics)
 
-    link = input('Input the problem link: ')
-    if not (link.startswith('http://') or link.startswith('https://')):
-        print('The problem link must be start with `http://` or `https://`')
+    link = input("Link:")
+    if not (link.startswith("http://") or link.startswith("https://")):
+        print("Link must be start with `http://` or `https://`")
         exit(1)
-    filename = f"{number}. {title}"
-    template_path = root_dir / 'tools' / 'template' / 'solution.md'
-    doc_path = root_dir / 'docs' / f"{filename}.md"
-    shutil.copy(template_path, doc_path)
-    sed("<NUMBER>", number, doc_path)
-    sed("<TITLE>", title, doc_path)
-    sed("<DIFFICULTY>", difficulty, doc_path)
-    sed("<TOPICS>", ", ".join(topics), doc_path)
-    sed("<LINK>", link, doc_path)
 
-    print(f"\nCreate doc at: {doc_path}")
+    name_pattern = re.compile(
+        r'(?:http|https):\/\/leetcode.com\/problems\/(.*)\/',
+        re.ASCII
+    )
+    problem_name = name_pattern.search(link).group(1)
+
+    problem_dir = PROBLEMS_DIR / problem_name
+    Path.mkdir(problem_dir, exist_ok=True)
+
+    # Store metadata to doc
+    doc_file = problem_dir / "README.md"
+    gen_from_template(
+        src=TEMPL_FILE,
+        dst=doc_file,
+        pattern_map={
+            "<NUMBER>": number,
+            "<TITLE>": title,
+            "<DIFFICULTY>": difficulty,
+            "<TOPICS>": topic,
+            "<LINK>": link
+        }
+    )
+
+    print(f"\nCreate doc at: {doc_file}")
 
 
 if __name__ == "__main__":

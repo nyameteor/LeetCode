@@ -4,6 +4,13 @@ import shutil
 import subprocess
 import os
 from tempfile import mkstemp
+from pathlib import Path
+
+
+def gen_from_template(src: Path, dst: Path, pattern_map: dict):
+    shutil.copy(src=src, dst=dst)
+    for k, v in pattern_map.items():
+        sed(pattern=k, replace=v, source=dst)
 
 
 # Refer: https://stackoverflow.com/a/40843600
@@ -63,24 +70,3 @@ def is_tracked(filepath):
         return False
     else:
         return True
-
-
-# Refer: https://stackoverflow.com/a/21286092
-def insert_lines_after_matching(filepath, content, lines):
-    """
-    insert lines after matched specific line
-    """
-    if not os.path.exists(filepath):
-        print("File not exist!")
-        return False
-    with open(filepath, "r")as in_file:
-        buf = in_file.readlines()
-
-    with open(filepath, "w")as out_file:
-        for line in buf:
-            if line == content:
-                for l in lines:
-                    line = line + l
-            out_file.write(line)
-
-    return True
