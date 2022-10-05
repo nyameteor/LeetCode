@@ -4,26 +4,28 @@
 
 set -o errexit \
     -o nounset \
-    -o xtrace
+    # -o xtrace
 
 readonly CUR_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 readonly OUT_DIR="${CUR_DIR}/../out"
-readonly JAVA_OUT="Solution"
-readonly CPP_OUT="solution.out"
 
 run_cpp() {
     local src_file="${1}"
+    local out_file="solution.out"
 
-    g++ -g -std=c++17 "${src_file}" --output "${OUT_DIR}/${CPP_OUT}" &&
-        "${OUT_DIR}/${CPP_OUT}"
+    g++ -g \
+        -std=c++17 "${src_file}" \
+        --output "${OUT_DIR}/${out_file}" \
+        && "${OUT_DIR}/${out_file}"
 }
 
 run_java() {
     local src_file="${1}"
+    local out_file="Solution"
 
-    javac -d "${OUT_DIR}" "${src_file}" &&
-        cd "${OUT_DIR}" &&
-        java -ea "${JAVA_OUT}"
+    javac -d "${OUT_DIR}" "${src_file}" \
+        && cd "${OUT_DIR}" \
+        && java -ea "${out_file}"
 }
 
 main() {
