@@ -134,6 +134,7 @@ Please see folder [problems](problems).
 | 941 | [ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [C++](problems/valid-mountain-array/answer.cpp) | [📃](problems/valid-mountain-array) |
 | 958 | [ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [C++](problems/check-completeness-of-a-binary-tree/answer.cpp) | [📃](problems/check-completeness-of-a-binary-tree) |
 | 973 | [ K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [C++](problems/k-closest-points-to-origin/answer.cpp) | [📃](problems/k-closest-points-to-origin) |
+| 981 | [ Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 994 | [ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [C++](problems/rotting-oranges/answer.cpp) | [📃](problems/rotting-oranges) |
 | 997 | [ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C++](problems/find-the-town-judge/answer.cpp) | [📃](problems/find-the-town-judge) |
 | 1010 | [ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Medium | [C++](problems/pairs-of-songs-with-total-durations-divisible-by-60/answer.cpp) | [📃](problems/pairs-of-songs-with-total-durations-divisible-by-60) |
