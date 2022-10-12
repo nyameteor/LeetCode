@@ -132,7 +132,7 @@ def get_problem(problem_dir: Path) -> Problem:
         r'#\s(\d*).(.*)\s*\n\n'
         + r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n'
         + r'-\sTopics:(.*)\s*\n'
-        + r'-\sLink:\s((?:http|https):\/\/.*)\s*\n',
+        + r'-\sLink:\s((?:http|https)://.*)\s*\n',
         re.ASCII
     )
 
@@ -150,6 +150,7 @@ def get_problem(problem_dir: Path) -> Problem:
             topics = matches.group(4)
             link = matches.group(5)
             number = int(number)
+            title = title.strip()
             topics = topics.strip().split(', ')
 
     # Match code files

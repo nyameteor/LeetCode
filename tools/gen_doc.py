@@ -2,11 +2,10 @@
 
 # Thanks to https://github.com/Triple-Z/LeetCode/blob/master/utils/new_doc.py .
 
-import shutil
-from utils import sed, gen_from_template
 import re
-
 from pathlib import Path
+
+from utils import gen_from_template
 
 CUR_DIR: Path = Path(__file__).parents[0]
 ROOT_DIR: Path = CUR_DIR / '..'
@@ -37,7 +36,7 @@ def main():
         exit(1)
 
     name_pattern = re.compile(
-        r'(?:http|https):\/\/leetcode.com\/problems\/(.*)\/',
+        r'(?:http|https)://leetcode.com/problems/(.*)/',
         re.ASCII
     )
     problem_name = name_pattern.search(link).group(1)
