@@ -23,6 +23,7 @@ Please see folder [problems](problems).
 | 13 | [ Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [C++](problems/roman-to-integer/answer.cpp) | [📃](problems/roman-to-integer) |
 | 15 | [ 3Sum](https://leetcode.com/problems/3sum/) | Medium | [C++](problems/3sum/answer.cpp) | [📃](problems/3sum) |
 | 16 | [ 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [C++](problems/3sum-closest/answer.cpp) | [📃](problems/3sum-closest) |
+| 18 | [ 4Sum](https://leetcode.com/problems/4sum/) | Medium | [Go](problems/4sum/answer.go) | [📃](problems/4sum) |
 | 21 | [ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Java](problems/merge-two-sorted-lists/answer.java) | [📃](problems/merge-two-sorted-lists) |
 | 22 | [ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [C++](problems/generate-parentheses/answer.cpp) | [📃](problems/generate-parentheses) |
 | 25 | [ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Java](problems/reverse-nodes-in-k-group/answer.java) | [📃](problems/reverse-nodes-in-k-group) |
