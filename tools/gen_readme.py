@@ -42,6 +42,8 @@ def main():
         }
     )
 
+    logging.info("Updated README.md successfully!")
+
 
 def gen_problem_table(problems: list[Problem]) -> str:
     body = []

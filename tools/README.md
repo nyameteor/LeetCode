@@ -1,10 +1,9 @@
 # Tools
 
-Display help.
+Go to project folder.
 
 ```shell
 cd LeetCode
-make help
 ```
 
 Input problem metadata interactively, it will create a new folder `./problems/*` and store metadata in `./problems/*/README.md`.
@@ -19,7 +18,7 @@ Update the table items in `./README.md`.
 make readme
 ```
 
-Compile and run source file.
+Compile and run source code.
 
 ```shell
 ./tools/run_code.sh problems/*/answer.cpp

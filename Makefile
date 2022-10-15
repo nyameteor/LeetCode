@@ -16,4 +16,3 @@ doc:	## Create a new problem folder and doc file (interactive mode)
 .PHONY: readme
 readme:	## Update README.md
 	@python3 tools/gen_readme.py
-	@echo "Updated README.md successfully!"
