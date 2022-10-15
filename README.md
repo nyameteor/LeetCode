@@ -35,6 +35,7 @@ Please see folder [problems](problems).
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](problems/valid-sudoku/answer.cpp) | [📃](problems/valid-sudoku) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](problems/trapping-rain-water/answer.cpp) | [📃](problems/trapping-rain-water) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [C++](problems/multiply-strings/answer.cpp) | [📃](problems/multiply-strings) |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [Go](problems/jump-game-ii/answer.go) | [📃](problems/jump-game-ii) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [C++](problems/permutations/answer.cpp) | [📃](problems/permutations) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [C++](problems/rotate-image/answer.cpp) | [📃](problems/rotate-image) |
