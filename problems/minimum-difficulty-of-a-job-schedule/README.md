@@ -69,8 +69,10 @@ Here is a virtualization for `jobDifficulty = [6, 5, 4, 3, 2, 1]`, `d = 3`:
 
 **References**
 
+- [[Go] DP | Unit-test][go-dp]
 - [[LeetCode The Hard Way] Explained Line By Line][explain]
 
 [10]: https://leetcode.com/problems/regular-expression-matching/
 [44]: https://leetcode.com/problems/wildcard-matching/
+[go-dp]: https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/solutions/2709149/go-dp-unit-test/
 [explain]: https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/solutions/2708161/leetcode-the-hard-way-explained-line-by-line/
