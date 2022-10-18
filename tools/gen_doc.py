@@ -36,7 +36,7 @@ def main():
         exit(1)
 
     name_pattern = re.compile(
-        r'(?:http|https)://leetcode.com/problems/(.*)/',
+        r'^(?:http|https)://leetcode.com/problems/(.+?)/(|.+?/)$',
         re.ASCII
     )
     problem_name = name_pattern.search(link).group(1)

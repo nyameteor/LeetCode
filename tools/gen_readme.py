@@ -155,11 +155,17 @@ def get_problem(problem_dir: Path) -> Problem:
             title = title.strip()
             topics = topics.strip().split(', ')
 
-    # Match code files
+    # Match solution files
+
+    # Try to match code file by suffix
+    # e.g. answer.cpp, answer.java...
     files: list[Path] = []
+    dirs: list[Path] = []
     for child in problem_dir.iterdir():
         if child.is_file():
             files.append(child)
+        elif child.is_dir():
+            dirs.append(child)
 
     code_name_by_suffix = {
         ".cpp": "C++",
@@ -175,6 +181,14 @@ def get_problem(problem_dir: Path) -> Problem:
         suffix = file.suffix
         if suffix in code_name_by_suffix.keys():
             solution_files[code_name_by_suffix[suffix]] = file
+
+    # If matches none, try to match sub folder
+    # e.g. cpp/*.cpp, java/*.java
+    if len(solution_files) == 0:
+        for dir in dirs:
+            name = f".{dir.name}"
+            if name in code_name_by_suffix.keys():
+                solution_files[code_name_by_suffix[name]] = dir
 
     return Problem(
         number=number,
