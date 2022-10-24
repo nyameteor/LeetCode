@@ -31,15 +31,7 @@ def main():
     topic = ", ".join(topics)
 
     link = input("Link:")
-    if not (link.startswith("http://") or link.startswith("https://")):
-        print("Link must be start with `http://` or `https://`")
-        exit(1)
-
-    name_pattern = re.compile(
-        r'^(?:http|https)://leetcode.com/problems/(.+?)/(|.+?/)$',
-        re.ASCII
-    )
-    problem_name = name_pattern.search(link).group(1)
+    link, problem_name = parse_link(link)
 
     problem_dir = PROBLEMS_DIR / problem_name
     Path.mkdir(problem_dir, exist_ok=True)
@@ -59,6 +51,26 @@ def main():
     )
 
     print(f"\nCreate doc at: {doc_file}")
+
+
+def parse_link(link: str):
+    """
+    Accept inputs:
+        https://leetcode.com/problems/*/
+        https://leetcode.com/problems/*/description/
+    """
+    if not (link.startswith("http://") or link.startswith("https://")):
+        print("Link must be start with `http://` or `https://`")
+        exit(1)
+
+    link_pattern = re.compile(
+        r'^(http|https)(://leetcode.com/problems/)(.+?)/(|.+?/)$',
+        re.ASCII
+    )
+    problem_name = link_pattern.search(link).group(3)
+    link = link_pattern.sub(r"\g<1>\g<2>\g<3>/", link)
+
+    return link, problem_name
 
 
 if __name__ == "__main__":
