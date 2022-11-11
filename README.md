@@ -27,7 +27,7 @@ Please see folder [problems](problems).
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Java](problems/merge-two-sorted-lists/answer.java) | [📃](problems/merge-two-sorted-lists) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [C++](problems/generate-parentheses/answer.cpp) | [📃](problems/generate-parentheses) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Java](problems/reverse-nodes-in-k-group/answer.java) | [📃](problems/reverse-nodes-in-k-group) |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [C++](problems/remove-duplicates-from-sorted-array/answer.cpp), [Python](problems/remove-duplicates-from-sorted-array/answer.26.py) | [📃](problems/remove-duplicates-from-sorted-array) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Go](problems/remove-duplicates-from-sorted-array/answer.go) | [📃](problems/remove-duplicates-from-sorted-array) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [Java](problems/divide-two-integers/answer.java) | [📃](problems/divide-two-integers) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](problems/next-permutation/answer.cpp) | [📃](problems/next-permutation) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](problems/longest-valid-parentheses/answer.cpp) | [📃](problems/longest-valid-parentheses) |
