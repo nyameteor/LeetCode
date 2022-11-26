@@ -49,6 +49,7 @@ Please see folder [problems](problems).
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C++](problems/search-a-2d-matrix/answer.cpp) | [📃](problems/search-a-2d-matrix) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](problems/sort-colors/answer.cpp) | [📃](problems/sort-colors) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](problems/subsets/answer.cpp) | [📃](problems/subsets) |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Go](problems/word-search/answer.go) | [📃](problems/word-search) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [C++](problems/largest-rectangle-in-histogram/answer.cpp) | [📃](problems/largest-rectangle-in-histogram) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Go](problems/partition-list/answer.go) | [📃](problems/partition-list) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [C++](problems/unique-binary-search-trees/answer.cpp) | [📃](problems/unique-binary-search-trees) |
