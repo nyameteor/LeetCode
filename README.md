@@ -110,6 +110,7 @@ Please see folder [problems](problems).
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](problems/odd-even-linked-list/answer.cpp) | [📃](problems/odd-even-linked-list) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | [C++](problems/house-robber-iii/answer.cpp) | [📃](problems/house-robber-iii) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [C++](problems/top-k-frequent-elements/answer.cpp) | [📃](problems/top-k-frequent-elements) |
+| 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [C++](problems/decode-string/answer.cpp) | [📃](problems/decode-string) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](problems/sum-of-left-leaves/answer.cpp) | [📃](problems/sum-of-left-leaves) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Java](problems/add-strings/answer.java) | [📃](problems/add-strings) |
