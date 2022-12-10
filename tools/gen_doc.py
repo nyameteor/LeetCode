@@ -74,4 +74,7 @@ def parse_link(link: str):
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('\nProcess terminated by keyboard interrupt.')
