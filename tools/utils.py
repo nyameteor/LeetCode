@@ -1,5 +1,4 @@
 import re
-import sys
 import shutil
 import subprocess
 import os
@@ -13,8 +12,7 @@ def gen_from_template(src: Path, dst: Path, pattern_map: dict):
         sed(pattern=k, replace=v, source=dst)
 
 
-# Refer: https://stackoverflow.com/a/40843600
-def sed(pattern, replace, source, dest=None, count=0):
+def sed(pattern, replace, source, dest=None, count=1):
     """Reads a source file and writes the destination file.
 
     In each line, replaces pattern with replace.
@@ -24,36 +22,30 @@ def sed(pattern, replace, source, dest=None, count=0):
         replace (str): replacement str
         source  (str): input filename
         count (int): number of occurrences to replace
-        dest (str):   destination filename, if not given, source will be over written.
+        dest (str): destination filename, if not given, source will be over written.
+
+    Ref: 
+        https://stackoverflow.com/a/40843600
     """
-
-    fin = open(source, 'r')
-    num_replaced = count
-
-    if dest:
-        fout = open(dest, 'w')
-    else:
-        fd, name = mkstemp()
-        fout = open(name, 'w')
-
-    for line in fin:
-        out = re.sub(pattern, replace, line)
-        fout.write(out)
-
-        if out != line:
-            num_replaced += 1
-        if count and num_replaced > count:
-            break
-    try:
-        fout.writelines(fin.readlines())
-    except Exception as E:
-        raise E
-
-    fin.close()
-    fout.close()
-
+    overwrite = False
     if not dest:
-        shutil.move(name, source)
+        _, dest = mkstemp()
+        overwrite = True
+
+    num_replaced = 0
+    with open(source, 'r') as fin, open(dest, 'w') as fout:
+        for line in fin:
+            out = re.sub(pattern, replace, line)
+            fout.write(out)
+
+            if out != line:
+                num_replaced += 1
+            if num_replaced >= count:
+                break
+        fout.writelines(fin.readlines())
+
+    if overwrite:
+        shutil.move(dest, source)
 
 
 def is_tracked(filepath):
@@ -63,10 +55,9 @@ def is_tracked(filepath):
     if not os.path.exists(filepath):
         print("File not exist!")
         return False
-    # Check if file is tracked
     output = subprocess.run(
-        ["git", "ls-files", f"{filepath}"], capture_output=True, text=True)
-    if output.stdout == '':
-        return False
-    else:
-        return True
+        ["git", "ls-files", f"{filepath}"],
+        capture_output=True,
+        text=True
+    )
+    return output.stdout != ''

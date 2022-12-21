@@ -66,16 +66,16 @@ def gen_problem_table(problems: list[Problem]) -> str:
             f"| {number} | {title} | {difficulty} | {solution} | {doc} |"
         )
 
-    header = [
+    head = [
         "| #   | Title | Difficulty | Solution | Doc |",
         "| --- | ----- | ---------- | -------- | --- |"
     ]
-    table = "\n".join([*header, *body])
+    table = "\n".join([*head, *body])
 
     return table
 
 
-def sort_problems(problems: list[Problem], sort_key: str, desc=False) -> list[Problem]:
+def sort_problems(problems: list[Problem], sort_key: str, reverse=False) -> list[Problem]:
     def compare(a, b):
         if getattr(a, sort_key) < getattr(b, sort_key):
             return -1
@@ -87,7 +87,7 @@ def sort_problems(problems: list[Problem], sort_key: str, desc=False) -> list[Pr
     return sorted(
         problems,
         key=functools.cmp_to_key(compare),
-        reverse=desc
+        reverse=reverse
     )
 
 
@@ -109,7 +109,7 @@ def get_problems(problems_dir: Path) -> list[Problem]:
 
 def get_problem(problem_dir: Path) -> Problem:
     """
-    example problem:
+    Example problem:
     {
         "number": 1,
         "title": "Two Sum",
@@ -156,9 +156,8 @@ def get_problem(problem_dir: Path) -> Problem:
             topics = topics.strip().split(', ')
 
     # Match solution files
-
-    # Try to match code file by suffix
-    # e.g. answer.cpp, answer.java...
+    # Try to match code file by suffix.
+    # E.g., answer.cpp, solution.java.
     files: list[Path] = []
     dirs: list[Path] = []
     for child in problem_dir.iterdir():
@@ -182,8 +181,8 @@ def get_problem(problem_dir: Path) -> Problem:
         if suffix in code_name_by_suffix.keys():
             solution_files[code_name_by_suffix[suffix]] = file
 
-    # If matches none, try to match sub folder
-    # e.g. cpp/*.cpp, java/*.java
+    # If file suffix matches none, try to match sub folder.
+    # E.g., cpp/*.cpp, java/*.java.
     if len(solution_files) == 0:
         for dir in dirs:
             name = f".{dir.name}"
