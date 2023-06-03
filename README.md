@@ -140,6 +140,7 @@ Please see folder [problems](problems).
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [C++](problems/3sum-with-multiplicity/answer.cpp) | [📃](problems/3sum-with-multiplicity) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](problems/range-sum-of-bst/answer.cpp) | [📃](problems/range-sum-of-bst) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [C++](problems/valid-mountain-array/answer.cpp) | [📃](problems/valid-mountain-array) |
+| 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy | [Racket](problems/verifying-an-alien-dictionary/answer.rkt) | [📃](problems/verifying-an-alien-dictionary) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [C++](problems/check-completeness-of-a-binary-tree/answer.cpp) | [📃](problems/check-completeness-of-a-binary-tree) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [C++](problems/k-closest-points-to-origin/answer.cpp) | [📃](problems/k-closest-points-to-origin) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
