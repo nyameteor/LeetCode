@@ -15,6 +15,24 @@ PROBLEMS_DIR: Path = ROOT_DIR / 'problems'
 
 @dataclass(frozen=True)
 class Problem(object):
+    """
+    Example problem:
+    {
+        "number": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "topics": [
+            "Array",
+            "Hash Table"
+        ],
+        "link": "https://leetcode.com/problems/two-sum/",
+        "folder": Path("two-sum"),
+        "solution_files": {
+            "C++": Path("two-sum/answer.cpp")
+        }
+        "doc_file": Path("two-sum/README.md"),
+    }
+    """
     number: int
     title: str
     difficulty: str
@@ -108,25 +126,6 @@ def get_problems(problems_dir: Path) -> list[Problem]:
 
 
 def get_problem(problem_dir: Path) -> Problem:
-    """
-    Example problem:
-    {
-        "number": 1,
-        "title": "Two Sum",
-        "difficulty": "Easy",
-        "topics": [
-            "Array",
-            "Hash Table"
-        ],
-        "link": "https://leetcode.com/problems/two-sum/",
-        "folder": Path("two-sum"),
-        "solution_files": {
-            "C++": Path("two-sum/answer.cpp")
-        }
-        "doc_file": Path("two-sum/README.md"),
-    }
-    """
-
     # Extract metadata from doc
     doc_file = problem_dir / 'README.md'
 
@@ -173,6 +172,7 @@ def get_problem(problem_dir: Path) -> Problem:
         ".go": "Go",
         ".rust": "Rust",
         ".js": "JS",
+        ".rkt": "Racket",
     }
 
     solution_files = {}
