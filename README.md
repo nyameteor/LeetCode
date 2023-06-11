@@ -150,6 +150,7 @@ Please see folder [problems](problems).
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | Medium | [C++](problems/smallest-integer-divisible-by-k/answer.cpp) | [📃](problems/smallest-integer-divisible-by-k) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | Medium | [Go](problems/uncrossed-lines/answer.go) | [📃](problems/uncrossed-lines) |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | [C++](problems/shortest-path-in-binary-matrix/answer.cpp) | [📃](problems/shortest-path-in-binary-matrix) |
+| 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) | Medium | [Go](problems/snapshot-array/answer.go) | [📃](problems/snapshot-array) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | Easy | [C++](problems/minimum-absolute-difference/answer.cpp) | [📃](problems/minimum-absolute-difference) |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [C++](problems/minimum-cost-to-move-chips-to-the-same-position/answer.cpp) | [📃](problems/minimum-cost-to-move-chips-to-the-same-position) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | Medium | [C++](problems/iterator-for-combination/answer.cpp) | [📃](problems/iterator-for-combination) |
