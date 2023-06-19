@@ -125,7 +125,7 @@ def get_problems(problems_dir: Path) -> list[Problem]:
     return problems
 
 
-def get_problem(problem_dir: Path) -> Problem:
+def get_problem(problem_dir: Path) -> Problem | None:
     # Extract metadata from doc
     doc_file = problem_dir / 'README.md'
 
@@ -142,17 +142,13 @@ def get_problem(problem_dir: Path) -> Problem:
         file_head = ''.join([next(f) for x in range(10)])
         matches = pattern.search(file_head)
         if matches is None:
-            logging.warning(
-                f'Cannot get metadata from {doc_file}, file head = {file_head}.')
-        else:
-            number = matches.group(1)
-            title = matches.group(2)
-            difficulty = matches.group(3)
-            topics = matches.group(4)
-            link = matches.group(5)
-            number = int(number)
-            title = title.strip()
-            topics = topics.strip().split(', ')
+            logging.warning(f'Cannot get metadata from {doc_file}, Skipped.')
+            return None
+        number = int(matches.group(1))
+        title = matches.group(2).strip()
+        difficulty = matches.group(3)
+        topics = matches.group(4).strip().split(', ')
+        link = matches.group(5)
 
     # Match solution files
     # Try to match code file by suffix.

@@ -2,25 +2,25 @@
 
 Go to project folder.
 
-```shell
+```sh
 cd LeetCode
 ```
 
-Input problem metadata interactively, it will create a new folder `./problems/*` and store metadata in `./problems/*/README.md`.
+To create a problem document file `./problems/<problem-name>/README.md` (requires to input problem metadata interactively):
 
-```shell
+```sh
 make doc
 ```
 
-Update the table items in `./README.md`.
+To update the problem tables in `./README.md`:
 
-```shell
+```sh
 make readme
 ```
 
-Compile and run source code.
+To compile and run a problem solution:
 
-```shell
-./tools/run_code.sh problems/*/answer.cpp
-./tools/run_code.sh problems/*/answer.java
+```sh
+./tools/run_code.sh "problems/<problem-name>/answer.cpp"
+./tools/run_code.sh "problems/<problem-name>/answer.java"
 ```
