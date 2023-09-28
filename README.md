@@ -136,6 +136,7 @@ Please see folder [problems](problems).
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [Go](problems/image-overlap/answer.go) | [📃](problems/image-overlap) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Medium | [C++](problems/maximize-distance-to-closest-person/answer.cpp) | [📃](problems/maximize-distance-to-closest-person) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [C++](problems/score-of-parentheses/answer.cpp) | [📃](problems/score-of-parentheses) |
+| 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [C++](problems/maximum-frequency-stack/answer.cpp) | [📃](problems/maximum-frequency-stack) |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [C++](problems/3sum-with-multiplicity/answer.cpp) | [📃](problems/3sum-with-multiplicity) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](problems/range-sum-of-bst/answer.cpp) | [📃](problems/range-sum-of-bst) |
