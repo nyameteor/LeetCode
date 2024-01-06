@@ -4,10 +4,20 @@
 
 set -o errexit \
     -o nounset \
-    # -o xtrace
+    -o xtrace
 
 readonly CUR_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 readonly OUT_DIR="${CUR_DIR}/../out"
+
+run_c() {
+    local src_file="${1}"
+    local out_file="solution.out"
+
+    gcc -g \
+        "${src_file}" \
+        --output "${OUT_DIR}/${out_file}" &&
+        "${OUT_DIR}/${out_file}"
+}
 
 run_cpp() {
     local src_file="${1}"
@@ -15,17 +25,17 @@ run_cpp() {
 
     g++ -g \
         -std=c++17 "${src_file}" \
-        --output "${OUT_DIR}/${out_file}" \
-        && "${OUT_DIR}/${out_file}"
+        --output "${OUT_DIR}/${out_file}" &&
+        "${OUT_DIR}/${out_file}"
 }
 
 run_java() {
     local src_file="${1}"
     local out_file="Solution"
 
-    javac -d "${OUT_DIR}" "${src_file}" \
-        && cd "${OUT_DIR}" \
-        && java -ea "${out_file}"
+    javac -d "${OUT_DIR}" "${src_file}" &&
+        cd "${OUT_DIR}" &&
+        java -ea "${out_file}"
 }
 
 main() {
@@ -36,6 +46,9 @@ main() {
     local extension="${filename##*.}"
 
     case "${extension}" in
+    c)
+        run_c "${src_file}"
+        ;;
     cpp)
         run_cpp "${src_file}"
         ;;

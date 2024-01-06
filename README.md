@@ -12,7 +12,7 @@ Please see folder [problems](problems).
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [C++](problems/two-sum/answer.cpp), [Java](problems/two-sum/answer.java) | [📃](problems/two-sum) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [C](problems/two-sum/answer.c), [C++](problems/two-sum/answer.cpp), [Java](problems/two-sum/answer.java) | [📃](problems/two-sum) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Go](problems/longest-substring-without-repeating-characters/answer.go) | [📃](problems/longest-substring-without-repeating-characters) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [C++](problems/median-of-two-sorted-arrays/answer.cpp) | [📃](problems/median-of-two-sorted-arrays) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [C++](problems/longest-palindromic-substring/answer.cpp) | [📃](problems/longest-palindromic-substring) |
@@ -70,7 +70,7 @@ Please see folder [problems](problems).
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [C++](problems/sum-root-to-leaf-numbers/answer.cpp) | [📃](problems/sum-root-to-leaf-numbers) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [C++](problems/clone-graph/answer.cpp) | [📃](problems/clone-graph) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](problems/single-number/answer.cpp) | [📃](problems/single-number) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Java](problems/word-break/answer.java), [Python](problems/word-break/answer.139.py) | [📃](problems/word-break) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Python](problems/word-break/answer.139.py), [Java](problems/word-break/answer.java) | [📃](problems/word-break) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](problems/word-break-ii/answer.cpp), [Java](problems/word-break-ii/answer.java) | [📃](problems/word-break-ii) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](problems/linked-list-cycle/answer.cpp) | [📃](problems/linked-list-cycle) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [C++](problems/linked-list-cycle-ii/answer.cpp) | [📃](problems/linked-list-cycle-ii) |

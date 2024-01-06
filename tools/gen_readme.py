@@ -155,13 +155,14 @@ def get_problem(problem_dir: Path) -> Problem | None:
     # E.g., answer.cpp, solution.java.
     files: list[Path] = []
     dirs: list[Path] = []
-    for child in problem_dir.iterdir():
+    for child in sorted(problem_dir.iterdir()):
         if child.is_file():
             files.append(child)
         elif child.is_dir():
             dirs.append(child)
 
     code_name_by_suffix = {
+        ".c": "C",
         ".cpp": "C++",
         ".java": "Java",
         ".py": "Python",
