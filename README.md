@@ -163,6 +163,7 @@ Please see folder [problems](problems).
 | 1339 | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [Go](problems/maximum-product-of-splitted-binary-tree/answer.go) | [📃](problems/maximum-product-of-splitted-binary-tree) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C](problems/balance-a-binary-search-tree/answer.c) | [📃](problems/balance-a-binary-search-tree) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | Medium | [Go](problems/check-if-a-string-contains-all-binary-codes-of-size-k/answer.go) | [📃](problems/check-if-a-string-contains-all-binary-codes-of-size-k) |
+| 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C](problems/number-of-good-leaf-nodes-pairs/answer.c) | [📃](problems/number-of-good-leaf-nodes-pairs) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [C++](problems/min-cost-to-connect-all-points/answer.cpp) | [📃](problems/min-cost-to-connect-all-points) |
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | [Go](problems/minimum-operations-to-reduce-x-to-zero/answer.go) | [📃](problems/minimum-operations-to-reduce-x-to-zero) |
 
