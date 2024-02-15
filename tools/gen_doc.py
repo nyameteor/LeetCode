@@ -7,10 +7,9 @@ from pathlib import Path
 
 from utils import gen_from_template
 
-CUR_DIR: Path = Path(__file__).parents[0]
-ROOT_DIR: Path = CUR_DIR / '..'
-PROBLEMS_DIR: Path = ROOT_DIR / 'problems'
 
+ROOT_DIR: Path = Path(__file__).parent.parent
+PROBLEMS_DIR: Path = ROOT_DIR / 'problems'
 TEMPL_FILE: Path = ROOT_DIR / 'tools' / 'template' / 'solution.md'
 
 
@@ -37,7 +36,7 @@ def main():
     Path.mkdir(problem_dir, exist_ok=True)
 
     # Store metadata to doc
-    doc_file = problem_dir / "README.md"
+    doc_file = (problem_dir / "README.md").resolve()
     gen_from_template(
         src=TEMPL_FILE,
         dst=doc_file,
