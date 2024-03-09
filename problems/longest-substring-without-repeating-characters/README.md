@@ -42,11 +42,11 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 ### Sliding Window
 
-使用滑动窗口搜索：
+Search using the sliding window:
 
-- 若没有重复的字符，则扩大右边界；
-- 若出现重复的字符，则缩小左边界；
-- 每次移动时，计算当前子字符串长度，并尝试更新最大子字符串长度。
+- If there are no repeated characters, expand the right border;
+- If repeated characters appear, reduce the left border;
+- On each move, calculate the current substring length and try to update the maximum substring length.
 
 **References:**
 
