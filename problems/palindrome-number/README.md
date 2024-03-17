@@ -48,10 +48,14 @@ Output: false
 
 ## Solution
 
-### Convert to String/Array
+### Convert to string or array
 
-将 int 转换为 string/array 后，使用头尾两个指针同时向中心遍历，通过头尾索引对应元素是否相等判断回文，普通直观的方法。
+Convert the integer to string or array, then check if it is a palindrome.
 
-### Revert half of the number
+### Reverse half of the number
 
 Todo
+
+References:
+
+- https://leetcode.com/problems/palindrome-number/solutions/3651712/2-method-s-c-java-python-beginner-friendly/
