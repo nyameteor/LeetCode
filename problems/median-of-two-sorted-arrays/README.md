@@ -39,22 +39,26 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ### Binary Search
 
-寻找 A1, A2 两个已排序数组的中位数 M：
+We want to find the median `M` of two sorted arrays `A1`, `A2`. Let `N1 = size(A)`, `N2 = size(A2)`. Denote the cut point `C1` cut `A1` into `[...L1, R1...]`, `C2` cut `A2` into `[...L2, R2...]`; `C1`, `C2` will satisfy `C1 + C2 = (N1 + N2) / 2`, which means `[...L1] + [...L2]` and `[R1...] + [R2...]` have the same sizes.
 
-- 对 A1 和 A2 进行切分，设 `N1 = size(A)`，`N2 = size(A2)`：
-  - 设切点 C1 将 A1 切分为 [...L1 | R1...]，切点 C2 将 A2 切分为 [...L2 | R2...]；
-  - C1、C2 满足 `C1 + C2 = floor((N1 + N2) / 2)`，即 [...L1] + [...L2] 和 [R1...] + [R2...] 具有相同数量的元素。
-- 使用二分搜索法，在 A1 上搜索目标的切点 C1：
-  - 初始化：
-    - 设 `lo = 0`, `hi = N1`；
-    - 设 `C1 = (lo + hi) / 2`，且 `C2 = floor((N1 + N2) / 2) - C1`。
-  - 搜索：
-    - 若 `L1 > R2`，说明 C1 过大，故令 `hi = C1 - 1`；
-    - 若 `L2 > R1`，说明 C1 过小，故令 `lo = C1 + 1`；
-    - 若 `L1 <= R2 && L2 <= R1`，则 C1 为目标切分点。由于 C1 和 C2 的和为常数，此时 C2 亦确定。
-- 计算中位数 M：
-  - 若 N1 + N2 为奇数，则 `M = min(R1, R2)`；
-  - 若 N1 + N2 为偶数，则 `M = (max(L1, L2) + min(R1, R2)) / 2`。
+We can use the binary search method to find the target `C1` in `A1`:
+
+- Initialization:
+  - Let `low = 0`, `high = N1`.
+  - Let `C1 = (low + high) / 2`, `C2 = (N1 + N2) / 2 - C1`.
+- Search:
+  - If `L1 > R2`, then `C1` is too large, so let `high = C1 - 1`;
+  - If `L2 > R1`, then `C1` is too small, so let `low = C1 + 1`;
+  - If `L1 <= R2 && L2 <= R1`, then `C1` is the target.
+
+Since we know `C1 + C2`, we also know `C2`.
+
+Then we can calculate the median `M`:
+
+- If `N1 + N2` is odd, then `M = min(R1, R2)`;
+- If `N1 + N2` is even, then `M = (max(L1, L2) + min(R1, R2)) / 2`.
+
+Example:
 
 ```shell
 A1      1 2 3 4             N1: 4
@@ -82,4 +86,7 @@ M = R = min(R1, R2) = min(3, 3) = 3.
 
 ```
 
-Refer: stellari@leetcode https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2471
+Reference:
+
+- https://leetcode.com/problems/median-of-two-sorted-arrays/solutions/2471/very-concise-o-log-min-m-n-iterative-solution-with-detailed-explanation/
+- https://leetcode.com/problems/median-of-two-sorted-arrays/editorial/
