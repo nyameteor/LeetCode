@@ -7,33 +7,24 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func main() {
-	var list = createListNode([]int{1, 2, 3, 4, 5})
-	fmt.Println(createNums(reverseList(list)))
-}
-
 func reverseList(head *ListNode) *ListNode {
-	if head == nil {
-		return nil
-	}
+	var prev *ListNode = nil
+	var curr *ListNode = head
+	var next *ListNode
 
-	prev := head
-	cur := head.Next
-	next := cur
-
-	for cur != nil {
-		next = cur.Next
-		cur.Next = prev
-
-		if prev == head {
-			prev.Next = nil
-		}
-
-		prev = cur
-		cur = next
+	for curr != nil {
+		next = curr.Next
+		curr.Next = prev
+		prev = curr
+		curr = next
 	}
 
 	return prev
+}
+
+func main() {
+	var list = createListNode([]int{1, 2, 3, 4, 5})
+	fmt.Println(createNums(reverseList(list)))
 }
 
 func createListNode(nums []int) *ListNode {

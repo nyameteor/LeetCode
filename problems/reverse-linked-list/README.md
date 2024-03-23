@@ -42,41 +42,39 @@ Output: []
 
 ## Solution
 
-### Iteration
+We can reverse the linked list in-place with three pointers: `prev`, `curr`, `next`.
 
-遍历迭代，通过三个遍历指针 `backword`, `current`, `forward` 将链表元素反转（通过改变 `current.next` 的值）。
+Example:
 
-Example 1:
-
-```shell
+```text
 ------ init --------
 
-1 -> 2 -> 3 -> 4 -> 5       b = h, c = h.next, f = c
-b   c,f
+NULL    1 -> 2 -> 3 -> 4 -> 5 -> NULL     p = null, c = head
+p       c
 
 ------ loop --------
 
 -------- 1 ---------
 
-1 -> 2 -> 3 -> 4 -> 5       f = c.next
-b    c    f
+NULL    1 -> 2 -> 3 -> 4 -> 5 -> NULL     n = c->next
+p       c    n
 
-1 <- 2    3 -> 4 -> 5       c.next = b
-b    c    f
+NULL <- 1 -> 2 -> 3 -> 4 -> 5 -> NULL     c->next = p
+p       c    n
 
-1 <- 2    3 -> 4 -> 5       b = c, c = f
-     b   f,c
+NULL <- 1 -> 2 -> 3 -> 4 -> 5 -> NULL     p = c, c = n
+        p    c
 
 -------- 2 ---------
 
-1 <- 2    3 -> 4 -> 5       f = c.next
-     b    c    f
+NULL <- 1 -> 2 -> 3 -> 4 -> 5 -> NULL     n = c->next
+        p    c    n
 
-1 <- 2 <- 3    4 -> 5       c.next = b
-     b    c    f
+NULL <- 1 <- 2 -> 3 -> 4 -> 5 -> NULL     c->next = p
+        p    c    n
 
-1 <- 2 <- 3    4 -> 5       b = c, c = f
-          b   f,c
+NULL <- 1 -> 2 -> 3 -> 4 -> 5 -> NULL     p = c, c = n
+             p    c
 
 ...
 ```
