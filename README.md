@@ -149,6 +149,7 @@ Please see folder [problems](problems).
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [C++](problems/check-completeness-of-a-binary-tree/answer.cpp) | [📃](problems/check-completeness-of-a-binary-tree) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [C++](problems/k-closest-points-to-origin/answer.cpp) | [📃](problems/k-closest-points-to-origin) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
+| 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [Python](problems/subarrays-with-k-different-integers/answer.py) | [📃](problems/subarrays-with-k-different-integers) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [C++](problems/rotting-oranges/answer.cpp) | [📃](problems/rotting-oranges) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C++](problems/find-the-town-judge/answer.cpp) | [📃](problems/find-the-town-judge) |
 | 998 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/) | Medium | [C](problems/maximum-binary-tree-ii/answer.c) | [📃](problems/maximum-binary-tree-ii) |
