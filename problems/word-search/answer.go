@@ -13,9 +13,7 @@ func exist(board [][]byte, word string) bool {
 
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
-			res := false
-			dfs(&res, board, seen, i, j, m, n, word, 0)
-			if res {
+			if dfs(board, seen, i, j, m, n, word, 0) {
 				return true
 			}
 		}
@@ -24,33 +22,42 @@ func exist(board [][]byte, word string) bool {
 	return false
 }
 
-func dfs(res *bool, board [][]byte, seen [][]bool, i, j, m, n int, word string, pos int) {
+func dfs(board [][]byte, seen [][]bool, i, j, m, n int, word string, pos int) bool {
 	if pos == len(word) {
-		*res = true
-		return
+		return true
 	}
 
-	if !(i >= 0 && i < m && j >= 0 && j < n) {
-		return
+	if !(0 <= i && i < m) || !(0 <= j && j < n) {
+		return false
 	}
 
 	if seen[i][j] || board[i][j] != word[pos] {
-		return
+		return false
 	}
 
 	seen[i][j] = true
 	pos++
-	dfs(res, board, seen, i-1, j, m, n, word, pos)
-	dfs(res, board, seen, i+1, j, m, n, word, pos)
-	dfs(res, board, seen, i, j-1, m, n, word, pos)
-	dfs(res, board, seen, i, j+1, m, n, word, pos)
+	if dfs(board, seen, i-1, j, m, n, word, pos) {
+		return true
+	}
+	if dfs(board, seen, i+1, j, m, n, word, pos) {
+		return true
+	}
+	if dfs(board, seen, i, j-1, m, n, word, pos) {
+		return true
+	}
+	if dfs(board, seen, i, j+1, m, n, word, pos) {
+		return true
+	}
 	pos--
 	seen[i][j] = false
+	return false
 }
 
 func main() {
 	var board [][]byte
 	var word string
+	var res bool
 
 	board = [][]byte{
 		{'A', 'B', 'C', 'E'},
@@ -59,13 +66,16 @@ func main() {
 	}
 
 	word = "ABCCED"
-	fmt.Println(exist(board, word) == true)
+	res = exist(board, word)
+	fmt.Println(res == true)
 
 	word = "SEE"
-	fmt.Println(exist(board, word) == true)
+	res = exist(board, word)
+	fmt.Println(res == true)
 
 	word = "ABCB"
-	fmt.Println(exist(board, word) == false)
+	res = exist(board, word)
+	fmt.Println(res == false)
 
 	board = [][]byte{
 		{'C', 'A', 'A'},
@@ -74,7 +84,8 @@ func main() {
 	}
 
 	word = "AAB"
-	fmt.Println(exist(board, word) == true)
+	res = exist(board, word)
+	fmt.Println(res == true)
 
 	board = [][]byte{
 		{'A', 'B', 'C', 'E'},
@@ -83,12 +94,14 @@ func main() {
 	}
 
 	word = "ABCESEEEFS"
-	fmt.Println(exist(board, word) == true)
+	res = exist(board, word)
+	fmt.Println(res == true)
 
 	board = [][]byte{
 		{'A'},
 	}
 
 	word = "A"
-	fmt.Println(exist(board, word) == true)
+	res = exist(board, word)
+	fmt.Println(res == true)
 }
