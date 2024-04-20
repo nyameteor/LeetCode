@@ -39,9 +39,7 @@ Output: [0]
 
 ## Solution
 
-合并两个有序链表。
-
 ### Iteration
 
-- 将 `prev` 作为构造结果的遍历指针，将 `l1`, `l2` 作为遍历 `l1`, `l2` 链表的指针。
-- 通过在结果的 head 前添加一个 dummy head，很好地避开 head 的 edge case。
+- We can use pointer `prev` to construct the result, and use pointer `l1` to iterate linked list `l1`, use `l2` to iterate linked list `l2`.
+- To avoid the edge case, we can add a dummy pointer before the result pointer.
