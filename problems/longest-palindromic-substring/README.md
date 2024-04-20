@@ -30,24 +30,16 @@ Output: "bb"
 
 ## Solution
 
-### Dynamic Programming
+### Two pointers
 
-定义 `P(i, j)` 为子串 `s[i...j]` 是否为回文串。
+For each character `s[i]`:
 
-容易得出递推式为：
+- Assume palindrome has odd length, extend it as much as possible starting from `left = i` and `right = i`.
+- Assume palindrome has even length, extend it as much as possible starting from `left = i` and `right = i+1`.
 
-```shell
-# 若当前子串左右结尾处的两个字符相同，且去掉左右结尾的字符后的子串为回文串，则当前子串也为回文串
-P(i, j) = P(i+1, j-1) && s[i] == s[j]
-```
+And update the longest palindrome if needed.
 
-由于当前状态与 `P(i+1, j-1)` 有关，仅当 `size(s) >= 3` 时 `i+1` 和 `j-1` 才合法，故存在两种边界情况：
+References:
 
-```shell
-# 只有一个字符的子串
-P(i, i) = true
-# 只有两个字符的子串
-P(i, i+1) = (s[i] == s[i+1])
-```
-
-最后，由于转换函数为 `P(i, j) = P(i+1, j-1)`，由于 i+1 在 i 之前先被求值，j-1 在 j 之前先被求值，因此最好让 i 以递减序列遍历，j 以递增序列遍历。
+- https://leetcode.com/problems/longest-palindromic-substring/solutions/2928/very-simple-clean-java-solution/
+- https://leetcode.com/problems/longest-palindromic-substring/solutions/151144/bottom-up-dp-two-pointers/

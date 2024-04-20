@@ -15,7 +15,7 @@ Please see folder [problems](problems).
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [C](problems/two-sum/answer.c), [C++](problems/two-sum/answer.cpp), [Java](problems/two-sum/answer.java) | [📃](problems/two-sum) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Go](problems/longest-substring-without-repeating-characters/answer.go) | [📃](problems/longest-substring-without-repeating-characters) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [C++](problems/median-of-two-sorted-arrays/answer.cpp) | [📃](problems/median-of-two-sorted-arrays) |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [C++](problems/longest-palindromic-substring/answer.cpp) | [📃](problems/longest-palindromic-substring) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Python](problems/longest-palindromic-substring/answer.py) | [📃](problems/longest-palindromic-substring) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [C++](problems/string-to-integer-atoi/answer.cpp) | [📃](problems/string-to-integer-atoi) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [C++](problems/palindrome-number/answer.cpp) | [📃](problems/palindrome-number) |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](problems/container-with-most-water/answer.cpp) | [📃](problems/container-with-most-water) |
