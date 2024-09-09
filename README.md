@@ -176,6 +176,7 @@ Please see folder [problems](problems).
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C](problems/number-of-good-leaf-nodes-pairs/answer.c) | [📃](problems/number-of-good-leaf-nodes-pairs) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [C++](problems/min-cost-to-connect-all-points/answer.cpp) | [📃](problems/min-cost-to-connect-all-points) |
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | [Go](problems/minimum-operations-to-reduce-x-to-zero/answer.go) | [📃](problems/minimum-operations-to-reduce-x-to-zero) |
+| 2326 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [Go](problems/spiral-matrix-iv/answer.go) | [📃](problems/spiral-matrix-iv) |
 
 ## References
 
