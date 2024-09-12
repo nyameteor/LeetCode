@@ -130,6 +130,7 @@ Please see folder [problems](problems).
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](problems/diameter-of-binary-tree/answer.java) | [📃](problems/diameter-of-binary-tree) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Go](problems/delete-operation-for-two-strings/answer.go) | [📃](problems/delete-operation-for-two-strings) |
+| 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [C++](problems/print-binary-tree/answer.cpp) | [📃](problems/print-binary-tree) |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [C++](problems/maximum-width-of-binary-tree/answer.cpp) | [📃](problems/maximum-width-of-binary-tree) |
