@@ -179,6 +179,7 @@ Please see folder [problems](problems).
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [C++](problems/min-cost-to-connect-all-points/answer.cpp) | [📃](problems/min-cost-to-connect-all-points) |
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | [Go](problems/minimum-operations-to-reduce-x-to-zero/answer.go) | [📃](problems/minimum-operations-to-reduce-x-to-zero) |
 | 2326 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [Go](problems/spiral-matrix-iv/answer.go) | [📃](problems/spiral-matrix-iv) |
+| 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [Go](problems/longest-subarray-with-maximum-bitwise-and/answer.go) | [📃](problems/longest-subarray-with-maximum-bitwise-and) |
 
 ## References
 
