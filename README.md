@@ -128,6 +128,7 @@ Please see folder [problems](problems).
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | Medium | [C++](problems/implement-rand10-using-rand7/answer.cpp) | [📃](problems/implement-rand10-using-rand7) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | [C++](problems/number-complement/answer.cpp) | [📃](problems/number-complement) |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
+| 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [Go](problems/minimum-time-difference/answer.go) | [📃](problems/minimum-time-difference) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](problems/diameter-of-binary-tree/answer.java) | [📃](problems/diameter-of-binary-tree) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Go](problems/delete-operation-for-two-strings/answer.go) | [📃](problems/delete-operation-for-two-strings) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
