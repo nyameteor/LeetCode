@@ -1,8 +1,8 @@
-# <NUMBER>. <TITLE>
+# {number}. {title}
 
-- Difficulty: <DIFFICULTY>
-- Topics: <TOPICS>
-- Link: <LINK>
+- Difficulty: {difficulty}
+- Topics: {topics}
+- Link: {link}
 
 ## Description
 

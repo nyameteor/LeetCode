@@ -6,11 +6,10 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from utils import gen_from_template
 
 CUR_DIR: Path = Path(__file__).parents[0]
-ROOT_DIR: Path = CUR_DIR / '..'
-PROBLEMS_DIR: Path = ROOT_DIR / 'problems'
+ROOT_DIR: Path = CUR_DIR / ".."
+PROBLEMS_DIR: Path = ROOT_DIR / "problems"
 
 
 @dataclass(frozen=True)
@@ -33,6 +32,7 @@ class Problem(object):
         "doc_file": Path("two-sum/README.md"),
     }
     """
+
     number: int
     title: str
     difficulty: str
@@ -47,18 +47,14 @@ def main():
     logging.basicConfig(level=logging.DEBUG)
 
     problems = get_problems(problems_dir=PROBLEMS_DIR)
-    gen_from_template(
-        src=CUR_DIR / 'template' / 'README.md',
-        dst=ROOT_DIR / 'README.md',
-        pattern_map={
-            "<PROBLEM_TABLE>": gen_problem_table(
-                problems=sort_problems(
-                    problems=problems,
-                    sort_key="number"
-                )
-            )
-        }
+    templ_file = CUR_DIR / "template" / "README.md"
+    readme_text = templ_file.read_text().format(
+        problem_table=gen_problem_table(
+            problems=sort_problems(problems=problems, sort_key="number")
+        )
     )
+    readme_file = ROOT_DIR / "README.md"
+    readme_file.write_text(readme_text)
 
     logging.info("Updated README.md successfully!")
 
@@ -80,20 +76,20 @@ def gen_problem_table(problems: list[Problem]) -> str:
             solutions.append(f"[{key}]({value.relative_to(ROOT_DIR)})")
         solution = ", ".join(solutions)
 
-        body.append(
-            f"| {number} | {title} | {difficulty} | {solution} | {doc} |"
-        )
+        body.append(f"| {number} | {title} | {difficulty} | {solution} | {doc} |")
 
     head = [
         "| #   | Title | Difficulty | Solution | Doc |",
-        "| --- | ----- | ---------- | -------- | --- |"
+        "| --- | ----- | ---------- | -------- | --- |",
     ]
     table = "\n".join([*head, *body])
 
     return table
 
 
-def sort_problems(problems: list[Problem], sort_key: str, reverse=False) -> list[Problem]:
+def sort_problems(
+    problems: list[Problem], sort_key: str, reverse=False
+) -> list[Problem]:
     def compare(a, b):
         if getattr(a, sort_key) < getattr(b, sort_key):
             return -1
@@ -102,11 +98,7 @@ def sort_problems(problems: list[Problem], sort_key: str, reverse=False) -> list
         else:
             return 0
 
-    return sorted(
-        problems,
-        key=functools.cmp_to_key(compare),
-        reverse=reverse
-    )
+    return sorted(problems, key=functools.cmp_to_key(compare), reverse=reverse)
 
 
 def get_problems(problems_dir: Path) -> list[Problem]:
@@ -127,27 +119,27 @@ def get_problems(problems_dir: Path) -> list[Problem]:
 
 def get_problem(problem_dir: Path) -> Problem | None:
     # Extract metadata from doc
-    doc_file = problem_dir / 'README.md'
+    doc_file = problem_dir / "README.md"
 
     pattern = re.compile(
-        r'#\s(\d*).(.*)\s*\n\n'
-        + r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n'
-        + r'-\sTopics:(.*)\s*\n'
-        + r'-\sLink:\s((?:http|https)://.*)\s*\n',
-        re.ASCII
+        r"#\s(\d*).(.*)\s*\n\n"
+        + r"-\sDifficulty:\s(Easy|Medium|Hard)\s*\n"
+        + r"-\sTopics:(.*)\s*\n"
+        + r"-\sLink:\s((?:http|https)://.*)\s*\n",
+        re.ASCII,
     )
 
     number, title, difficulty, topics, link = None, None, None, None, None
-    with open(doc_file, 'r') as f:
-        file_head = ''.join([next(f) for x in range(10)])
+    with open(doc_file, "r") as f:
+        file_head = "".join([next(f) for x in range(10)])
         matches = pattern.search(file_head)
         if matches is None:
-            logging.warning(f'Cannot get metadata from {doc_file}, Skipped.')
+            logging.warning(f"Cannot get metadata from {doc_file}, Skipped.")
             return None
         number = int(matches.group(1))
         title = matches.group(2).strip()
         difficulty = matches.group(3)
-        topics = matches.group(4).strip().split(', ')
+        topics = matches.group(4).strip().split(", ")
         link = matches.group(5)
 
     # Match solution files
@@ -194,9 +186,9 @@ def get_problem(problem_dir: Path) -> Problem | None:
         topics=topics,
         folder=problem_dir,
         doc_file=doc_file,
-        solution_files=solution_files
+        solution_files=solution_files,
     )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

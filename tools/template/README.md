@@ -10,7 +10,7 @@ Please see folder [problems](problems).
 
 ## Sort by Number
 
-<PROBLEM_TABLE>
+{problem_table}
 
 ## References
 

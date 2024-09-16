@@ -1,8 +1,7 @@
-# <TOPIC>
+# {topic}
 
 - [Problems](#problems)
 
 ## Problems
 
-| #   | Title | Solution | Difficulty | Doc |
-| --- | ----- | -------- | ---------- | --- |
+{problem_table}
