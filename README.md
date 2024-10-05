@@ -132,6 +132,7 @@ Please see folder [problems](problems).
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [Go](problems/minimum-time-difference/answer.go) | [📃](problems/minimum-time-difference) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](problems/diameter-of-binary-tree/answer.java) | [📃](problems/diameter-of-binary-tree) |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [Go](problems/permutation-in-string/answer.go) | [📃](problems/permutation-in-string) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Go](problems/delete-operation-for-two-strings/answer.go) | [📃](problems/delete-operation-for-two-strings) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
