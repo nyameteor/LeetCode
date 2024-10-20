@@ -166,6 +166,7 @@ Please see folder [problems](problems).
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | Medium | [C++](problems/smallest-integer-divisible-by-k/answer.cpp) | [📃](problems/smallest-integer-divisible-by-k) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | Medium | [Go](problems/uncrossed-lines/answer.go) | [📃](problems/uncrossed-lines) |
 | 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | [C++](problems/shortest-path-in-binary-matrix/answer.cpp) | [📃](problems/shortest-path-in-binary-matrix) |
+| 1106 | [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [Go](problems/parsing-a-boolean-expression/answer.go) | [📃](problems/parsing-a-boolean-expression) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C](problems/longest-common-subsequence/answer.c) | [📃](problems/longest-common-subsequence) |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) | Medium | [Go](problems/snapshot-array/answer.go) | [📃](problems/snapshot-array) |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | Medium | [Python](problems/remove-zero-sum-consecutive-nodes-from-linked-list/answer.py) | [📃](problems/remove-zero-sum-consecutive-nodes-from-linked-list) |
