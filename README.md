@@ -187,6 +187,7 @@ Please see folder [problems](problems).
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | [Go](problems/minimum-operations-to-reduce-x-to-zero/answer.go) | [📃](problems/minimum-operations-to-reduce-x-to-zero) |
 | 2326 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [Go](problems/spiral-matrix-iv/answer.go) | [📃](problems/spiral-matrix-iv) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [Go](problems/longest-subarray-with-maximum-bitwise-and/answer.go) | [📃](problems/longest-subarray-with-maximum-bitwise-and) |
+| 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) | Hard | [Go](problems/height-of-binary-tree-after-subtree-removal-queries/answer.go) | [📃](problems/height-of-binary-tree-after-subtree-removal-queries) |
 
 ## References
 
