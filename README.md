@@ -141,6 +141,7 @@ Please see folder [problems](problems).
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [C++](problems/print-binary-tree/answer.cpp) | [📃](problems/print-binary-tree) |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [C++](problems/maximum-width-of-binary-tree/answer.cpp) | [📃](problems/maximum-width-of-binary-tree) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [C++](problems/longest-continuous-increasing-subsequence/answer.cpp) | [📃](problems/longest-continuous-increasing-subsequence) |
+| 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [Go](problems/maximum-sum-of-3-non-overlapping-subarrays/answer.go) | [📃](problems/maximum-sum-of-3-non-overlapping-subarrays) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
