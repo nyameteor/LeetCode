@@ -130,6 +130,7 @@ Please see folder [problems](problems).
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [C++](problems/4sum-ii/answer.cpp) | [📃](problems/4sum-ii) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [C++](problems/hamming-distance/answer.cpp) | [📃](problems/hamming-distance) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | Medium | [C++](problems/implement-rand10-using-rand7/answer.cpp) | [📃](problems/implement-rand10-using-rand7) |
+| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Go](problems/ones-and-zeroes/answer.go) | [📃](problems/ones-and-zeroes) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | [C++](problems/number-complement/answer.cpp) | [📃](problems/number-complement) |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [Go](problems/minimum-time-difference/answer.go) | [📃](problems/minimum-time-difference) |
