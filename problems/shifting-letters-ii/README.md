@@ -78,3 +78,15 @@ Given `arr = [2, 4, 5, 7]`:
 - **Simpler**: Avoids iterating over entire ranges for each update.
 
 This technique is ideal for problems with frequent range updates, such as **Shifting Letters**.
+
+### Additional Note: Sweep Line Algorithm
+
+The [**Sweep Line Algorithm**](https://en.wikipedia.org/wiki/Sweep_line_algorithm) is a general computational technique often used in geometry and scheduling problems, where you process a set of "events" sorted by time or position. These events represent the start and end of intervals or changes in a system.
+
+#### How Sweep Line and Difference Array are Related
+
+- **Event-driven Updates**: Both techniques process "events" at specific intervals (like the start or end of a range) and maintain a running state or result.
+- **Efficient Processing**: The **Difference Array** can be thought of as a specific case of the **Sweep Line Algorithm** applied to range updates. Instead of processing every element in a range, you mark changes at the boundaries and then compute the final result via a prefix sum.
+- **Common Use Case**: Both techniques are useful when multiple updates are performed over ranges or intervals, and the goal is to efficiently compute the final result after all updates are applied.
+
+While the **Difference Array** is a specialized technique for handling range updates efficiently, the **Sweep Line Algorithm** is more general and often used in computational geometry problems, such as interval intersection, scheduling, or line segment problems.
