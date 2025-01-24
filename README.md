@@ -97,6 +97,7 @@ Please see folder [problems](problems).
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C++](problems/number-of-islands/answer.cpp) | [📃](problems/number-of-islands) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [C++](problems/happy-number/answer.cpp) | [📃](problems/happy-number) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Go](problems/reverse-linked-list/answer.go) | [📃](problems/reverse-linked-list) |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Go](problems/course-schedule/answer.go) | [📃](problems/course-schedule) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Go](problems/implement-trie-prefix-tree/answer.go) | [📃](problems/implement-trie-prefix-tree) |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | [C++](problems/course-schedule-ii/answer.cpp) | [📃](problems/course-schedule-ii) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Java](problems/kth-largest-element-in-an-array/answer.java) | [📃](problems/kth-largest-element-in-an-array) |
