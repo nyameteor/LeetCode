@@ -47,20 +47,21 @@ Output: [0]
 
 ## Solution
 
-### Topological Sort
+The problem can be solved using **Topological Sort** via **Kahn's Algorithm**.
 
-拓扑排序。给定一组有向图，将所有的顶点排序，使得所有的有向边均从排在前面的元素指向排在后面的元素（或者说明无法做到这一点）。
+1. **Graph Representation**:
+   - Treat courses as nodes and prerequisites as directed edges in a graph.
+   - Track the in-degree (number of prerequisites) for each course.
 
-一种在排序时检测有向环的方式是，使用一个数组 indgree 记录排序过程中所有顶点的入度。
+2. **Process Nodes**:
+   - Start with courses that have no prerequisites (in-degree = 0).
+   - Use a **queue** to process these courses.
+   - For each course, reduce the in-degree of its dependent courses. If a dependent course’s in-degree becomes zero, add it to the queue.
 
-- 遍历图 G 中所有的顶点，设当前顶点为 v
-  - 若 v 的入度为 0，则可以对该顶点进行广度/深度优先搜索：
-    - 将 v 加入到结果序列 s 中
-    - 将 v 的入度赋值为 -1 （将 v 标记为已访问）
-    - 遍历 v 指向的所有顶点，设当前顶点为 w
-      - 将 w 的入度 - 1 （w 少了一个前置的顶点 v，故入度需要减 1）
-      - 若 w 的入度为 0，则将 w 加入到待遍历的队列/栈中
-  - 若 v 的入度不为 0，跳过
-- 检查结果序列 s
-  - 若 s 包含所有顶点，则返回结果序列
-  - 若 s 不包含所有顶点，则说明图中存在环，返回空
+3. **Cycle Detection**:
+   - If all courses are processed and added to the result list, return the list.
+   - If not, return an empty array (indicating a cycle).
+
+### References
+
+- https://en.wikipedia.org/wiki/Topological_sorting#Algorithms
