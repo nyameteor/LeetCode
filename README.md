@@ -37,7 +37,7 @@ Please see folder [problems](problems).
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [C++](problems/multiply-strings/answer.cpp) | [📃](problems/multiply-strings) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [Go](problems/jump-game-ii/answer.go) | [📃](problems/jump-game-ii) |
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [C++](problems/permutations/answer.cpp) | [📃](problems/permutations) |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Go](problems/permutations/answer.go) | [📃](problems/permutations) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [C++](problems/rotate-image/answer.cpp) | [📃](problems/rotate-image) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Java](problems/powx-n/answer.java) | [📃](problems/powx-n) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [C++](problems/n-queens/answer.cpp), [Go](problems/n-queens/answer.go) | [📃](problems/n-queens) |
