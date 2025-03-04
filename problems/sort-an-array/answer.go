@@ -6,6 +6,7 @@ import (
 	"slices"
 )
 
+// Selection sort: Find the smallest item and put it at the front.
 func selectionSort(nums []int) {
 	n := len(nums)
 
@@ -22,6 +23,7 @@ func selectionSort(nums []int) {
 	}
 }
 
+// Insertion sort: Insert current item into its correct position in the sorted portion.
 func insertionSort(nums []int) {
 	n := len(nums)
 
@@ -38,6 +40,7 @@ func insertionSort(nums []int) {
 	}
 }
 
+// Merge Sort: Merge two sorted halves into one sorted whole.
 func mergeSort(nums []int) {
 	merge := func(left, right []int) []int {
 		m := len(left)
@@ -88,6 +91,7 @@ func mergeSort(nums []int) {
 	copy(nums, result)
 }
 
+// Partition(quick) sort: Partition items around a pivot.
 func quickSort(nums []int) {
 	partition := func(arr []int, left, right int) int {
 		pivot := arr[left]
