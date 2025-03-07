@@ -214,6 +214,7 @@ Please see folder [problems](problems).
 | 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) | Hard | [Go](problems/height-of-binary-tree-after-subtree-removal-queries/answer.go) | [📃](problems/height-of-binary-tree-after-subtree-removal-queries) |
 | 2463 | [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | [Go](problems/minimum-total-distance-traveled/answer.go) | [📃](problems/minimum-total-distance-traveled) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium | [Go](problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/answer.go) | [📃](problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | Medium | [Go](problems/closest-prime-numbers-in-range/answer.go) | [📃](problems/closest-prime-numbers-in-range) |
 
 ## References
 
