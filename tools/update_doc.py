@@ -8,8 +8,27 @@ from pathlib import Path
 
 
 CUR_DIR: Path = Path(__file__).parents[0]
-ROOT_DIR: Path = CUR_DIR / ".."
+ROOT_DIR: Path = CUR_DIR.parent
 PROBLEMS_DIR: Path = ROOT_DIR / "problems"
+
+METADATA_PATTERN = re.compile(
+    r"#\s(\d*).(.*)\s*\n\n"
+    + r"-\sDifficulty:\s(Easy|Medium|Hard)\s*\n"
+    + r"-\sTopics:(.*)\s*\n"
+    + r"-\sLink:\s((?:http|https)://.*)\s*\n",
+    re.ASCII,
+)
+
+CODE_SUFFIX_MAP = {
+    ".c": "C",
+    ".cpp": "C++",
+    ".java": "Java",
+    ".py": "Python",
+    ".go": "Go",
+    ".rust": "Rust",
+    ".js": "JS",
+    ".rkt": "Racket",
+}
 
 
 @dataclass(frozen=True)
@@ -40,14 +59,18 @@ class Problem(object):
     topics: list[str]
     folder: Path
     doc_file: Path
-    solution_files: dict
+    solution_files: dict[str, Path]
 
 
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
     problems = get_problems(problems_dir=PROBLEMS_DIR)
+    logging.info(f"Retrieved {len(problems)} problems.")
+
     templ_file = CUR_DIR / "template" / "README.md"
+    logging.info(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
+
     readme_text = templ_file.read_text().format(
         problem_table=gen_problem_table(
             problems=sort_problems(problems=problems, sort_key="number")
@@ -56,7 +79,7 @@ def main():
     readme_file = ROOT_DIR / "README.md"
     readme_file.write_text(readme_text)
 
-    logging.info("Updated README.md successfully!")
+    logging.info(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully!")
 
 
 def gen_problem_table(problems: list[Problem]) -> str:
@@ -118,65 +141,53 @@ def get_problems(problems_dir: Path) -> list[Problem]:
 
 
 def get_problem(problem_dir: Path) -> Problem | None:
-    # Extract metadata from doc
-    doc_file = problem_dir / "README.md"
 
-    pattern = re.compile(
-        r"#\s(\d*).(.*)\s*\n\n"
-        + r"-\sDifficulty:\s(Easy|Medium|Hard)\s*\n"
-        + r"-\sTopics:(.*)\s*\n"
-        + r"-\sLink:\s((?:http|https)://.*)\s*\n",
-        re.ASCII,
-    )
-
-    number, title, difficulty, topics, link = None, None, None, None, None
-    with open(doc_file, "r") as f:
-        file_head = "".join([next(f) for x in range(10)])
-        matches = pattern.search(file_head)
-        if matches is None:
-            logging.warning(f"Cannot get metadata from {doc_file}, Skipped.")
+    def extract_metadata(doc_file: Path) -> tuple | None:
+        try:
+            with doc_file.open("r") as f:
+                file_head = "".join(next(f) for _ in range(10))  # Read first 10 lines
+        except Exception as e:
+            logging.warning(f"Error reading {doc_file}: {e}")
             return None
-        number = int(matches.group(1))
-        title = matches.group(2).strip()
-        difficulty = matches.group(3)
-        topics = matches.group(4).strip().split(", ")
-        link = matches.group(5)
 
-    # Match solution files
-    # Try to match code file by suffix.
-    # E.g., answer.cpp, solution.java.
-    files: list[Path] = []
-    dirs: list[Path] = []
-    for child in sorted(problem_dir.iterdir()):
-        if child.is_file():
-            files.append(child)
-        elif child.is_dir():
-            dirs.append(child)
+        match = METADATA_PATTERN.search(file_head)
+        if not match:
+            logging.warning(f"Cannot extract metadata from {doc_file}, skipping.")
+            return None
 
-    code_name_by_suffix = {
-        ".c": "C",
-        ".cpp": "C++",
-        ".java": "Java",
-        ".py": "Python",
-        ".go": "Go",
-        ".rust": "Rust",
-        ".js": "JS",
-        ".rkt": "Racket",
-    }
+        number = int(match.group(1))
+        title = match.group(2).strip()
+        difficulty = match.group(3)
+        topics = match.group(4).strip().split(", ")
+        link = match.group(5)
 
-    solution_files = {}
-    for file in files:
-        suffix = file.suffix
-        if suffix in code_name_by_suffix.keys():
-            solution_files[code_name_by_suffix[suffix]] = file
+        return number, title, difficulty, topics, link
 
-    # If file suffix matches none, try to match sub folder.
-    # E.g., cpp/*.cpp, java/*.java.
-    if len(solution_files) == 0:
-        for dir in dirs:
-            name = f".{dir.name}"
-            if name in code_name_by_suffix.keys():
-                solution_files[code_name_by_suffix[name]] = dir
+    def find_solution_files(problem_dir: Path) -> dict[str, Path]:
+        solution_files = {
+            CODE_SUFFIX_MAP[file.suffix]: file
+            for file in problem_dir.iterdir()
+            if file.is_file() and file.suffix in CODE_SUFFIX_MAP
+        }
+
+        # If no direct matches, try subdirectories
+        # E.g., cpp/*.cpp, java/*.java.
+        if not solution_files:
+            solution_files = {
+                CODE_SUFFIX_MAP[f".{subdir.name}"]: subdir
+                for subdir in problem_dir.iterdir()
+                if subdir.is_dir() and f".{subdir.name}" in CODE_SUFFIX_MAP
+            }
+
+        return solution_files
+
+    doc_file = problem_dir / "README.md"
+    metadata = extract_metadata(doc_file)
+    if not metadata:
+        return None
+
+    number, title, difficulty, topics, link = metadata
+    solution_files = find_solution_files(problem_dir)
 
     return Problem(
         number=number,

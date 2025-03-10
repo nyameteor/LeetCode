@@ -74,7 +74,7 @@ Please see folder [problems](problems).
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [C++](problems/clone-graph/answer.cpp) | [📃](problems/clone-graph) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | [Go](problems/gas-station/answer.go) | [📃](problems/gas-station) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](problems/single-number/answer.cpp) | [📃](problems/single-number) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Python](problems/word-break/answer.139.py), [Java](problems/word-break/answer.java) | [📃](problems/word-break) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Java](problems/word-break/answer.java), [Python](problems/word-break/answer.139.py) | [📃](problems/word-break) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](problems/word-break-ii/answer.cpp), [Java](problems/word-break-ii/answer.java) | [📃](problems/word-break-ii) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](problems/linked-list-cycle/answer.cpp) | [📃](problems/linked-list-cycle) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [C++](problems/linked-list-cycle-ii/answer.cpp) | [📃](problems/linked-list-cycle-ii) |
