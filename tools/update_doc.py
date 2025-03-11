@@ -8,9 +8,8 @@ from pathlib import Path
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger("update_doc")
 
-CUR_DIR: Path = Path(__file__).parents[0]
-ROOT_DIR: Path = CUR_DIR.parent
-PROBLEMS_DIR: Path = ROOT_DIR / "problems"
+CUR_DIR = Path(__file__).parent
+ROOT_DIR = CUR_DIR.parent
 
 
 @dataclass(frozen=True)
@@ -45,7 +44,8 @@ class Problem(object):
 
 
 def main():
-    problems = get_problems(problems_dir=PROBLEMS_DIR)
+    problems_dir = ROOT_DIR / "problems"
+    problems = get_problems(problems_dir=problems_dir)
     problems = sorted(problems, key=lambda p: p.number)
     logger.info(f"Retrieved {len(problems)} problems.")
 
