@@ -51,29 +51,10 @@ Output: 1
 
 ## Solution
 
-给定两个为整数的被除数和除数，在不使用乘法、除法和 mod 运算符的情况下将两个整数相除，返回商。
+To solve the problem of dividing two integers without multiplication, division, or modulus operators:
 
-## Recursion
-
-使用快速幂的思路，本题中将加法改为减法：当除数翻倍，被除数减不下去的时候，递归尝试以较小的倍数继续减。
-
-Base Case:
-
-```shell
-dividend - divisor  < 0, return 0
-dividend - divisor == 0, return 1
-```
-
-递归方程式：
-
-- （不知如何清楚地表达，待补充）
-
-- Time: O(log(n))
-
-这个问题比较坑的地方是除数、被除数、商都可能出现等于 INT_MIN 的边缘情况，如果每个都考虑会变得很复杂。
-
-比较好的方式是将被除数与除数转换为 long 类型，再计算商；返回商的时候判断边缘情况（这样只需判断一次）。
-
-### Bit Manipulation
-
-Todo
+1. **Overflow Handling**: The only overflow case is dividing `math.MinInt32` by `-1`, which exceeds the 32-bit range. This is handled upfront by returning `math.MaxInt32`.
+2. **Sign Determination**: Check if the result should be negative by comparing the signs of the dividend and divisor.
+3. **Absolute Values**: Work with the absolute values of the dividend and divisor to simplify the division logic.
+4. **Bit Manipulation**: Use bit shifting to perform division efficiently. Shift the divisor left (multiply by powers of 2) until it exceeds the dividend, then subtract and adjust the quotient.
+5. **Return Result**: Adjust the sign of the quotient and return the result.
