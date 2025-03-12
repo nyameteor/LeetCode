@@ -41,5 +41,5 @@ Output: [0]
 
 ### Iteration
 
-- We can use pointer `prev` to construct the result, and use pointer `l1` to iterate linked list `l1`, use `l2` to iterate linked list `l2`.
+- We can use pointer `curr` to construct the result, and use pointer `p1` to iterate linked list `l1`, use `p2` to iterate linked list `l2`.
 - To avoid the edge case, we can add a dummy pointer before the result pointer.
