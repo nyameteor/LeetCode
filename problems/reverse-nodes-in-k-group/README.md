@@ -55,78 +55,11 @@ Output: [1]
 
 ## Solution
 
-给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
+### Recursive Approach
 
-翻转链表并不麻烦，可以参考 [206. Reverse Linked List](./docs/206.%20Reverse%20Linked%20List.md)。但本题需要按照 k 进行分组，需要考虑的细节比较多：
+1. Count k nodes: Traverse the list to check if there are at least k nodes.
+2. Reverse first k nodes: If we have k nodes, reverse them using a helper function.
+3. Recursively process the remaining list: The next node after reversal points to the result of the recursive call.
+4. Base case: If fewer than k nodes remain, return the head as is.
 
-- 按照 k 分组，每次翻转前判断剩余的节点是否大于 k，若小于 k 则不翻转
-- 翻转子链表时，翻转自身后还需要将子链表的 head 与上一个子链表连接，将 tail 与下一个子链表连接。第一个子链表的 head 前没有节点，为了防止特判可以加一个 dummy head
-
-```shell
-k = 3
-
-------------------- init ----------------------
-# add dummy head to avoid corner case
-# d: dummy head
-
- d
- |
--1 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
-
------------ reverse first group ---------------
-# p: sub list previous, n: sub list next
-
--1 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7       p = d, t = d
-p,t
-
--1 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7       t = t.next * k
-p               t
-
-        sub list to be reversed
-           |
-      h ------- t
-      |         |
--1 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7       h = p.next, n = t.next
- p                   n
-
-# revese sub list, return new head and tail
-# h: head, t: tail, new head will be `t`, new tail be `h`
-# b: backfoward, c: current, f: foward
-
-1 -> 2 -> 3
-h         t
-
-1 -> 2 -> 3         b = head, c = b.next, f = b.next
-b   c,f
-----------------
-1 <- 2    3         f = c.next, c.next = b
-b    c    f
-
-1 <- 2    3         b = c, c = f
-     b   c,f
------------------
-1 <- 2 <- 3         f = c.next, c.next = b
-     b    c    f
-
-1 <- 2 <- 3         b = c, c = f
-          b   c,f
------------------   b == t, return new head, new tail
-
-# connect sub list head and tail
--1    3 -> 2 -> 1    4 -> 5 -> 6 -> 7
- p    h         t    n
-
--1 -> 3 -> 2 -> 1 -> 4 -> 5 -> 6 -> 7
- p    h         t    n
-
--1 -> 3 -> 2 -> 1 -> 4 -> 5 -> 6 -> 7       p = t
-               p,t
-
----------- reverse second group ---------------
-
--1 -> 3 -> 2 -> 1 -> 4 -> 5 -> 6 -> 7
-               p,t
-...
-```
-
-更多内容可以参考[官方题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/k-ge-yi-zu-fan-zhuan-lian-biao-by-leetcode-solutio/)。
+References: https://leetcode.com/problems/reverse-nodes-in-k-group/solutions/523641/c-iterative-solution-recursive-solution/

@@ -26,7 +26,7 @@ Please see folder [problems](problems).
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | [Go](problems/4sum/answer.go) | [📃](problems/4sum) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Go](problems/merge-two-sorted-lists/answer.go) | [📃](problems/merge-two-sorted-lists) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [C++](problems/generate-parentheses/answer.cpp) | [📃](problems/generate-parentheses) |
-| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Java](problems/reverse-nodes-in-k-group/answer.java) | [📃](problems/reverse-nodes-in-k-group) |
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Go](problems/reverse-nodes-in-k-group/answer.go) | [📃](problems/reverse-nodes-in-k-group) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Go](problems/remove-duplicates-from-sorted-array/answer.go) | [📃](problems/remove-duplicates-from-sorted-array) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [Java](problems/divide-two-integers/answer.java) | [📃](problems/divide-two-integers) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](problems/next-permutation/answer.cpp) | [📃](problems/next-permutation) |
