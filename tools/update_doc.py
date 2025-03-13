@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
+from collections import defaultdict
 import logging
 import re
 from dataclasses import dataclass
 from pathlib import Path
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
 logger = logging.getLogger("update_doc")
 
 CUR_DIR = Path(__file__).parent
@@ -16,6 +17,7 @@ ROOT_DIR = CUR_DIR.parent
 class Problem(object):
     """
     Example problem:
+
     {
         "number": 1,
         "title": "Two Sum",
@@ -41,63 +43,6 @@ class Problem(object):
     directory: Path
     doc_file: Path
     solution_files: dict[str, Path]
-
-
-def main():
-    problems_dir = ROOT_DIR / "problems"
-    problems = get_problems(problems_dir=problems_dir)
-    problems = sorted(problems, key=lambda p: p.number)
-    logger.info(f"Retrieved {len(problems)} problems.")
-
-    templ_file = CUR_DIR / "template" / "README.md"
-    logger.info(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
-
-    problem_table = gen_problem_table(problems=problems)
-    readme_text = templ_file.read_text().format(problem_table=problem_table)
-    readme_file = ROOT_DIR / "README.md"
-    readme_file.write_text(readme_text)
-
-    logger.info(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully!")
-
-
-def gen_problem_table(problems: list[Problem]) -> str:
-    body = []
-    for problem in problems:
-        number = problem.number
-        title = f"[{problem.title}]({problem.link})"
-        difficulty = problem.difficulty
-
-        # Special for GitHub: use `directory` instead of `doc_file`,
-        # because GitHub will render README.md automatically,
-        # but it may lead to ambiguity.
-        doc = f"[📃]({problem.directory.relative_to(ROOT_DIR)})"
-
-        solutions = []
-        for key, value in problem.solution_files.items():
-            solutions.append(f"[{key}]({value.relative_to(ROOT_DIR)})")
-        solution = ", ".join(solutions)
-
-        body.append(f"| {number} | {title} | {difficulty} | {solution} | {doc} |")
-
-    head = [
-        "| #   | Title | Difficulty | Solution | Doc |",
-        "| --- | ----- | ---------- | -------- | --- |",
-    ]
-    table = "\n".join([*head, *body])
-
-    return table
-
-
-def get_problems(problems_dir: Path) -> list[Problem]:
-    problems = []
-
-    for child in problems_dir.iterdir():
-        if child.is_dir():
-            problem = ProblemExtractor(child).get_problem()
-            if problem is not None:
-                problems.append(problem)
-
-    return problems
 
 
 class ProblemExtractor:
@@ -182,6 +127,100 @@ class ProblemExtractor:
             doc_file=self.doc_file,
             solution_files=solution_files,
         )
+
+
+def get_problems(problems_dir: Path) -> list[Problem]:
+    problems = []
+
+    for child in problems_dir.iterdir():
+        if child.is_dir():
+            problem = ProblemExtractor(child).get_problem()
+            if problem is not None:
+                problems.append(problem)
+
+    return problems
+
+
+def gen_problem_table(problems: list[Problem]) -> str:
+    body = []
+    for problem in problems:
+        number = problem.number
+        title = f"[{problem.title}]({problem.link})"
+        difficulty = problem.difficulty
+
+        # Special for GitHub: use `directory` instead of `doc_file`,
+        # because GitHub will render README.md automatically,
+        # but it may lead to ambiguity.
+        doc = f"[📃]({problem.directory.relative_to(ROOT_DIR)})"
+
+        solutions = []
+        for key, value in problem.solution_files.items():
+            solutions.append(f"[{key}]({value.relative_to(ROOT_DIR)})")
+        solution = ", ".join(solutions)
+
+        body.append(f"| {number} | {title} | {difficulty} | {solution} | {doc} |")
+
+    head = [
+        "| #   | Title | Difficulty | Solution | Doc |",
+        "| --- | ----- | ---------- | -------- | --- |",
+    ]
+    table = "\n".join([*head, *body])
+
+    return table
+
+
+def print_repo_stats(problems: list[Problem]):
+    total_problems = len(problems)
+    total_topics = defaultdict(int)
+    total_difficulties = defaultdict(int)
+    total_languages = defaultdict(int)
+
+    # Gather stats
+    for problem in problems:
+        # Count topics
+        for topic in problem.topics:
+            total_topics[topic] += 1
+        # Count difficulty
+        total_difficulties[problem.difficulty] += 1
+        # Count solution languages
+        for language in problem.solution_files:
+            total_languages[language] += 1
+
+    # Print stats
+    print("=" * 50)
+    print(f"Total Problems: {total_problems}")
+
+    print("-" * 50)
+
+    print("Difficulty Breakdown:")
+    for difficulty, count in total_difficulties.items():
+        print(f"  {difficulty: <10}: {count}")
+
+    print("-" * 50)
+
+    print("Solution Languages Breakdown:")
+    for language, count in total_languages.items():
+        print(f"  {language: <10}: {count}")
+    print("=" * 50)
+
+
+def main():
+    problems_dir = ROOT_DIR / "problems"
+    problems = get_problems(problems_dir=problems_dir)
+    problems = sorted(problems, key=lambda p: p.number)
+    logger.info(f"Retrieved {len(problems)} problems.")
+
+    templ_file = CUR_DIR / "template" / "README.md"
+    logger.info(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
+
+    problem_table = gen_problem_table(problems=problems)
+    readme_text = templ_file.read_text().format(problem_table=problem_table)
+    readme_file = ROOT_DIR / "README.md"
+    readme_file.write_text(readme_text)
+
+    logger.info(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully!")
+
+    print_repo_stats(problems=problems)
 
 
 if __name__ == "__main__":
