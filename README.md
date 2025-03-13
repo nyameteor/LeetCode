@@ -57,7 +57,7 @@ Please see folder [problems](problems).
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [C++](problems/unique-binary-search-trees/answer.cpp) | [📃](problems/unique-binary-search-trees) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [Go](problems/interleaving-string/answer.go) | [📃](problems/interleaving-string) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](problems/validate-binary-search-tree/answer.cpp) | [📃](problems/validate-binary-search-tree) |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [Java](problems/symmetric-tree/answer.java) | [📃](problems/symmetric-tree) |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [Go](problems/symmetric-tree/answer.go) | [📃](problems/symmetric-tree) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Java](problems/binary-tree-level-order-traversal/answer.java) | [📃](problems/binary-tree-level-order-traversal) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [C++](problems/binary-tree-zigzag-level-order-traversal/answer.cpp) | [📃](problems/binary-tree-zigzag-level-order-traversal) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [C++](problems/maximum-depth-of-binary-tree/answer.cpp) | [📃](problems/maximum-depth-of-binary-tree) |
