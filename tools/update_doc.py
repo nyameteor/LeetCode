@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-from collections import defaultdict
 import logging
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -169,7 +169,7 @@ def gen_problem_table(problems: list[Problem]) -> str:
     return table
 
 
-def print_repo_stats(problems: list[Problem]):
+def print_problems_stats(problems: list[Problem]):
     total_problems = len(problems)
     total_topics = defaultdict(int)
     total_difficulties = defaultdict(int)
@@ -220,7 +220,7 @@ def main():
 
     logger.info(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully!")
 
-    print_repo_stats(problems=problems)
+    print_problems_stats(problems=problems)
 
 
 if __name__ == "__main__":
