@@ -38,26 +38,13 @@ Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25
 
 ## Solution
 
-### Brute Force
+We can use **exponentiation by squaring** to efficiently compute `x^n` for both positive and negative `n`. The approach recursively reduces the problem size by halving the exponent in each step:
 
-暴力计算的时间复杂度为 O(n) 会超时。
+- For even `n`, the result is computed as `half * half`, where `half = x^(n/2)`.
+- For odd `n`, it is `x * half * half`, which includes an extra multiplication by `x` for the odd exponent.
 
-关于快速幂：[Quick Pow](https://oi-wiki.org/math/quick-pow/)
+For negative exponents, we compute the reciprocal (`1 / x^(-n)`), ensuring correct handling of large values using `int64` for the exponent.
 
-### Recursion
+Time Complexity: O(log n)
 
-使用 Recursion，递推方程如下：
-
-```
-// i % 2 == 0
-Pow(x, i) = Pow(x * x, i/2)
-
-// i % 2 == 1
-Pow(x, i) = Pow(x * x, (i-1)/2) * x
-```
-
-n < 0 时，求 `Pow(x,n)` 可以转换为求 `1 / Pow(x, -n)`。
-
-另外，`n = -2^31(INT_MIN)` 为 edge case，此时直接将 `n` 赋值为 `-n` 会溢出，需要单独处理。
-
-- Time: O(log(n))
+References: https://en.wikipedia.org/wiki/Exponentiation_by_squaring
