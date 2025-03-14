@@ -56,21 +56,4 @@ Output: [1,2]
 
 ## Solution
 
-给定二叉树的根节点，返回其节点值的前序遍历的结果列表。
-
-### Recursion
-
-非常简单直观，放上 [Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal) 的伪码：
-
-```shell
-procedure preorder(node)
-    if node = null
-        return
-    visit(node)
-    preorder(node.left)
-    preorder(node.right)
-```
-
-### Iteration
-
-- Todo
+References: https://en.wikipedia.org/wiki/Tree_traversal#Depth-first_search_implementation
