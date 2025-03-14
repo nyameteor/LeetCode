@@ -39,23 +39,8 @@ Output: "0"
 
 ## Solution
 
-给定两个非负整数，`num1` 和 `num2` 表示为字符串，返回 _`num1`_ 和 _`num2`_ 的和（表示为字符串）。
+We can add two large numbers represented as strings by:
 
-简单的模拟题，不能直接用 String 转 Integer 方法，所以需要模拟加法的过程，从右到左对数字逐个相加，并处理进位。
-
-注意 char 和 int 的互相转换，Java 中 int 和 char 互相转换示例：
-
-```java
-int a = 1;
-char b = '2';
-
-// int to char
-char c = (char) (a + '0');
-
-// char to int
-int d = b - '0';
-```
-
-注意在循环体内，字符串的联接应当通过 StringBuilder 进行。
-
-原因：反编译出的字节码文件显示使用 `+` 的字符串联接每次循环都会 new 一个 StringBuilder 对象然后操作，最后通过 toString 方法返回 String 对象，造成内存资源浪费并降低运行速度。
+1. Iterating from right to left, adding the corresponding digits along with any carry.
+2. Appending the sum to a result slice.
+3. Reversing the result slice to get the correct order.
