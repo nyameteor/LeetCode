@@ -80,7 +80,7 @@ Please see folder [problems](problems).
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [C++](problems/linked-list-cycle-ii/answer.cpp) | [📃](problems/linked-list-cycle-ii) |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C](problems/reorder-list/answer.c) | [📃](problems/reorder-list) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Java](problems/binary-tree-preorder-traversal/answer.java) | [📃](problems/binary-tree-preorder-traversal) |
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [Java](problems/lru-cache/answer.java) | [📃](problems/lru-cache) |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [Go](problems/lru-cache/answer.go) | [📃](problems/lru-cache) |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | Medium | [C++](problems/insertion-sort-list/answer.cpp) | [📃](problems/insertion-sort-list) |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [C++](problems/sort-list/answer.cpp) | [📃](problems/sort-list) |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](problems/evaluate-reverse-polish-notation/answer.c) | [📃](problems/evaluate-reverse-polish-notation) |

@@ -43,18 +43,25 @@ lRUCache.get(4);    // return 4
 - `1 <= capacity <= 3000`
 - `0 <= key <= 10^4`
 - `0 <= value <= 10^5`
-- At most 2` * 10^5` calls will be made to `get` and `put`.
+- At most `2 * 10^5` calls will be made to `get` and `put`.
 
 ## Solution
 
-经典的模拟题，通过最久未使用算法（LRU）实现缓存替换机制。
+The LRU (Least Recently Used) cache can be efficiently implemented using a combination of a **hash map** and a **doubly linked list**.
 
-### Hash Table + Queue
+- **Hash Map**: Stores key-value pairs and provides O(1) access to nodes in the doubly linked list.
+- **Doubly Linked List**: Tracks usage order, with the most recently used node at the front and the least recently used at the back. It allows O(1) insertion and removal of nodes.
 
-比较粗暴易懂的方法，优化使用的数据结构后也只快过 5% 的提交。
+### Operations
 
-- 使用一个 Hash Table 保存 key-value 作为缓存
-- 使用一个 Queue 保存 key，作为存储 `Recently Used` 的序列，Queue 的队头为 `Least Recently Used`
-- 按以下条件调整 Queue 中元素的顺序：
-  - 当 LRUCache 的 get 和 put 方法访问到 key 时，更新 LRU（将 key 先删除后插入，使 Queue 中的 key 移动至队尾）
-  - 当 LRUCache 的 put 方法未访问到 key 且 capacity 已满时，置换 LRU (Queue 队头出队，后插入 key 到 Queue）
+- **`get(key)`**: Returns the value if the key exists, moving the node to the front (most recently used). Returns `-1` if not found.
+- **`put(key, value)`**: Updates the value or adds a new key-value pair. Evicts the least recently used node if the cache exceeds its capacity.
+
+### Complexity
+
+- **Time**: O(1) for both `get` and `put`.
+- **Space**: O(capacity).
+
+### References
+
+Doubly linked list: https://en.wikipedia.org/wiki/Doubly_linked_list
