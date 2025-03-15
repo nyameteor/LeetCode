@@ -42,23 +42,12 @@ rotate 2 steps to the right: [3,99,-1,-100]
 
 ## Solution
 
-### Extra Space
+We can simulate a circular right shift using **reversals**.
 
-使用额外空间。简单直观，但空间性能较差。
+**Steps**:
 
-- time: O(n)
-- space: O(n)
+1. **Reverse the entire array**: Moves the last elements to the front in reverse order.
+2. **Reverse the first `k` elements**: Restores their correct order.
+3. **Reverse the remaining `n-k` elements**: Restores the rest of the array to complete the rotation.
 
-### Array Flip-over
-
-可通过多次反转数组达到旋转数组的效果（不清楚背后的原理...）。
-
-该题是向右旋转数组，步骤如下：
-
-- 反转整个数组 (反转数组不需额外空间，时间复杂度为 O(n))
-- 反转前 `k` 个元素 && 反转 `k` 到末尾的元素
-
-如果是向左旋转数组，那么将上述步骤反过来即可。
-
-- time: O(n)
-- space: O(1)
+This approach performs the rotation in-place with constant space.
