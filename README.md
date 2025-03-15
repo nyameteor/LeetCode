@@ -87,7 +87,7 @@ Please see folder [problems](problems).
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Go](problems/reverse-words-in-a-string/answer.go) | [📃](problems/reverse-words-in-a-string) |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | [C++](problems/find-minimum-in-rotated-sorted-array-ii/answer.cpp) | [📃](problems/find-minimum-in-rotated-sorted-array-ii) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy | [C++](problems/min-stack/answer.cpp) | [📃](problems/min-stack) |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Java](problems/intersection-of-two-linked-lists/answer.java) | [📃](problems/intersection-of-two-linked-lists) |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Go](problems/intersection-of-two-linked-lists/answer.go) | [📃](problems/intersection-of-two-linked-lists) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [Go](problems/find-peak-element/answer.go) | [📃](problems/find-peak-element) |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C++](problems/compare-version-numbers/answer.cpp) | [📃](problems/compare-version-numbers) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [C++](problems/two-sum-ii-input-array-is-sorted/answer.cpp) | [📃](problems/two-sum-ii-input-array-is-sorted) |

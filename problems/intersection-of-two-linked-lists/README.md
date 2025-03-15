@@ -76,40 +76,40 @@ Explanation: The two lists do not intersect, so return null.
 
 ## Solution
 
-编写一个程序，找到两个单链表相交的起始节点，若两个链表没有相交则返回 null。
+### Approach: Two Pointers
 
-## Two Pointers, One-Pass
+- **Steps**:
+  - Use two pointers (`curA` and `curB`), starting from `headA` and `headB` respectively.
+  - Traverse each list normally; when a pointer reaches the end, move it to the start of the other list.
+  - This ensures both pointers travel the same total distance (A + B).
 
-非常巧妙的方法，使用两个指针遍历这两个链表，当指针遍历到列表末尾时，从另一个链表的头开始遍历。这确保了两个指针会同时到达交点（或末尾）。
+- **Key Observations**:
+  - If the lists intersect, the pointers meet at the intersection node.
+  - If there’s no intersection, both pointers reach `nil` simultaneously.
 
-设 listA 的长度为 `m`，listB 的长度为 `n`。
+- **Time Complexity**: O(m + n).
+- **Space Complexity**: O(1).
 
-指针 `pA` 和 `pB` 从各自链表的头开始遍历，直到 `pA == pB` 时退出：
+### Examples
 
-- 若两个链表存在交点，在两个指针走完 `m+n` 个位置前，两个指针一定会在某个位置相等，退出循环；
-- 若两个链表不存在交点，在两个指针走完 `m+n` 个位置后，两个指针都为 null（同时到达链表末尾），退出循环；
-- 返回该指针。
+Has Intersection:
 
-Example 2:
-
-```shell
-0 -> 9 -> 1 -> 2 -> 4 -> 3 -> 2 -> 4
-                    * tailA
-                              * 交点
-          * tailB
-3 -> 2 -> 4 -> 0 -> 9 -> 1 -> 2 -> 4
+```text
+A: 0 -> 9 -> 1 -> 2 -> 4 -> 3 -> 2 -> 4 -> null
+                                 ^
+                                 * intersection
+                                 v
+B: 3 -> 2 -> 4 -> 0 -> 9 -> 1 -> 2 -> 4 -> null
 ```
 
-Example 3:
+No Intersection:
 
-```shell
-2 -> 6 -> 4 -> 1 -> 5 -> null
-          * tailA
-                         * 无交点
-     * tailB
-1 -> 5 -> 2 -> 6 -> 4 -> null
+```text
+A: 2 -> 6 -> 4 -> 1 -> 5 -> null
+
+B: 1 -> 5 -> 2 -> 6 -> 4 -> null
 ```
 
-**References**
+### References
 
 - https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/2116221/Visual-Explanation-or-One-Pass-JAVA
