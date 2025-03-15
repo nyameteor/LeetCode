@@ -36,32 +36,8 @@ Output: 1
 
 ## Solution
 
-给定二叉树的根，返回树的直径长度。二叉树的直径是树中任意两个节点之间最长路径的长度。此路径可能会也可能不会通过根。
+### Intuition
 
-### Recursion
-
-看到这个问题画图，首先想到的是二叉树的直径 = 左右子树的深度之和，容易得出：
-
-```shell
-# 基本情况
-node == null, diameter(node) = 0
-
-# 递推方程
-node != null, diameter(node) = 1 + max(diameter(node.left), diameter(node.right))
-```
-
-但这样只符合路径经过根节点的情况，实际路径不一定经过根节点，如在这个情况，[8, 6, 4, 2, 5, 7, 9] 的路径长度大于 [8, 6, 4, 2, 1, 3]：
-
-```shell
-        1
-       / \
-      2   3
-     / \
-    4   5
-   /     \
-  6       7
- /         \
-8           9
-```
-
-故可以设置一个额外的全局变量 maximum，递归时更新 `maximum = max(maximum, 左右子树深度之和)`，最后答案返回 maximum。
+- The **diameter** of a tree is the longest path between any two nodes, which can be thought of as passing through some node’s left and right subtrees.
+- For each node, the **diameter** passing through it is the sum of its **left subtree height** and **right subtree height**.
+- To efficiently compute this, we use **post-order DFS** (bottom-up), where each node calculates its height while simultaneously updating the maximum diameter encountered.
