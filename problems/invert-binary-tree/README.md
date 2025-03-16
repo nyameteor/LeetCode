@@ -40,14 +40,12 @@ Output: []
 
 ## Solution
 
-### Recursion
+### Approach: Recursion
 
-- 若根节点为 null，返回 null
-- 若根节点不为 null
-  1. 递归调用反转根节点的左孩子
-  2. 递归调用反转根节点的右孩子
-  3. 左右交换根节点的左孩子和右孩子
+- **Swap** the left and right children of each node.
+- **Recursively** invert the left and right subtrees.
+- **Base case**: Return `nil` if the node is `nil`.
 
-### Iteration
+**Time Complexity**: **O(n)**, where `n` is the number of nodes.
 
-Todo
+**Space Complexity**: **O(h)**, where `h` is the height of the tree (due to recursion stack).
