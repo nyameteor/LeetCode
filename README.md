@@ -108,7 +108,7 @@ Please see folder [problems](problems).
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Go](problems/invert-binary-tree/answer.go) | [📃](problems/invert-binary-tree) |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [C++](problems/basic-calculator-ii/answer.cpp) | [📃](problems/basic-calculator-ii) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C++](problems/power-of-two/answer.cpp) | [📃](problems/power-of-two) |
-| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Java](problems/implement-queue-using-stacks/answer.java) | [📃](problems/implement-queue-using-stacks) |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Go](problems/implement-queue-using-stacks/answer.go) | [📃](problems/implement-queue-using-stacks) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](problems/palindrome-linked-list/answer.cpp) | [📃](problems/palindrome-linked-list) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [C++](problems/lowest-common-ancestor-of-a-binary-tree/answer.cpp) | [📃](problems/lowest-common-ancestor-of-a-binary-tree) |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | [Go](problems/different-ways-to-add-parentheses/answer.go) | [📃](problems/different-ways-to-add-parentheses) |

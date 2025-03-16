@@ -48,10 +48,20 @@ myQueue.empty(); // return false
 
 ## Solution
 
-使用栈实现队列。这是一道设计题，考察对栈和队列的理解。
+### Approach: Queue Using Two Stacks
 
-由于栈输出的是输入序列的逆序，因此可以维护两个栈，一个负责输入，一个负责输出，通过两次逆序，达到和队列相同的正序输出的效果：
+- Use two stacks: `inputStack` for enqueueing and `outputStack` for dequeueing.
+- **`push(x)`**: Push onto `inputStack`.
+- **`pop()`**: If `outputStack` is empty, transfer elements from `inputStack` to `outputStack` and pop from `outputStack`.
+- **`peek()`**: If `outputStack` is empty, transfer elements from `inputStack` to `outputStack` and return the top of `outputStack`.
+- **`empty()`**: Return true if both stacks are empty.
 
-- queue.push(x) -> inputStack.push(x)
-- queue.pop() -> 若 ouputStack 为空，将 inputStack 中的**全部**元素导入到 ouputStack（只有全部导入才能实现逆序）；若 outputStack 不为空，outpuStack.pop()
-- queue.empty() -> 若 inputStack, outputStack 均为空，则 queue 为空
+### Time Complexity
+
+- **`push(x)`**: O(1).
+- **`pop()` and `peek()`**: Amortized O(1).
+- **`empty()`**: O(1).
+
+### Space Complexity
+
+- **O(n)**, where `n` is the number of elements in the queue.
