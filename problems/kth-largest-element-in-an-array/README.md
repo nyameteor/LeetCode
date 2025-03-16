@@ -31,20 +31,12 @@ Output: 4
 
 ## Solution
 
-在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+### Approach: Heap (Priority Queue)
 
-### Heap(Priority Queue)
+- **Use a Min-Heap** to maintain the top `k` largest elements.
+- Push elements into the heap until it contains `k` elements. Once the heap exceeds `k` elements, pop the smallest element (the root of the min-heap).
+- After processing all elements, the root of the heap will be the `k`th largest element.
 
-采用一个小顶堆（min heap），维护其容量为 k，来保存前 k 个最大的元素，堆顶（root node）即为第 k 个最大的元素（堆中的最小值）。
+**Time Complexity**: **O(n log k)**, where `n` is the length of the array and `k` is the size of the heap. Each heap operation (push/pop) takes `O(log k)` time.
 
-- 当堆的规模等于 k，将新元素与堆顶比较
-  - 若新元素大于堆顶，则将堆顶推出，将新元素入堆
-  - 若新元素小于等于堆顶，则略过
-- 当堆的规模小于 k，将新元素入堆
-- 数组遍历完后，返回堆顶
-
-关于堆的更多内容参考：[Heap (data structure)](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
-
-### Quick Select
-
-Todo
+**Space Complexity**: **O(k)**, as we store at most `k` elements in the heap.
