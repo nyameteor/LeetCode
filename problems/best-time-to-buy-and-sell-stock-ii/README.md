@@ -1,6 +1,6 @@
 # 122. Best Time to Buy and Sell Stock II
 
-- Difficulty: Easy
+- Difficulty: Medium
 - Topics: Array, Dynamic Programming, Greedy
 - Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
@@ -45,11 +45,6 @@ Explanation: In this case, no transaction is done, i.e., max profit = 0.
 
 ## Solution
 
-### Dynamic Programming
+### Approach: Greedy
 
-与 [121. Best Time to Buy and Sell Stock](121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) 的区别只在不限制交易的次数，递推关系稍微改一下就好：
-
-```shell
-table(i, 0) = max(table(i-1, 0), table(i-1, 1) + price[i])
-table(i, 1) = max(table(i-1, 1), table(i-1, 0) - price[i])
-```
+The problem can be solved by summing all positive price changes between consecutive days. For each day, if the price increases from the previous day, we consider it as a profit and add the difference to the total profit. This approach mimics buying at the local minimum and selling at the local maximum.
