@@ -35,18 +35,18 @@ Output: [["Q"]]
 
 ## Solution
 
-### Backtracking
+### Approach: Backtracking
 
-We can use depth-first search approach to search all permutations of position for `N` queens.
+The N-Queens problem can be solved using **Backtracking**, which explores all potential placements of queens row by row.
 
-During the search:
+1. **DFS**: Start by placing a queen in each column of the current row. Recursively try placing queens in subsequent rows.
+2. **Backtracking**: If no valid placements are found, backtrack by removing the last placed queen and trying the next column.
+3. **Validity Check**: A queen's position `(i, j)` is valid if:
+   - No other queen shares the same column.
+   - No other queen is on the same diagonal.
+4. **Board Construction**: Once a valid configuration is found, construct the board and store the result.
 
-- if `size(B) == N`, then we find a valid permutation, add to result, and exit current search.
-- if a position `{i, j}` is valid(no two queen attack each other), then add to board `B`.
-- search positions in next row `{i+1, 0}, {i+1, 1}, ..., {i+1, N-1}`.
-- (backtracking) remove the last position `{i, j}` from `B`.
-
-**References:**
+### References
 
 - https://en.wikipedia.org/wiki/Eight_queens_puzzle#Exercise_in_algorithm_design
 - https://leetcode.com/problems/n-queens/discuss/2107948/C%2B%2B-or-Easy-Explanation-w-Backtracking

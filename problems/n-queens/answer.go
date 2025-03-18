@@ -1,86 +1,52 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func solveNQueens(n int) [][]string {
-	var postions [][]int
-	var res [][]string
-	for j := 0; j < n; j++ {
-		solver(&res, &postions, n, 0, j)
-	}
-
+	res := make([][]string, 0)
+	dfs(make([]int, 0), 0, n, &res)
 	return res
 }
 
-func solver(res *[][]string, positions *[][]int, n int, i int, j int) {
-	if i >= n {
+func dfs(positions []int, row int, n int, res *[][]string) {
+	if row == n {
+		*res = append(*res, buildBoard(positions))
 		return
 	}
 
-	if !isPosValid(positions, i, j) {
-		return
+	for col := range n {
+		if isValidPosition(positions, col) {
+			dfs(append(positions, col), row+1, n, res)
+		}
 	}
-
-	(*positions) = append((*positions), []int{i, j})
-
-	if len(*positions) == n {
-		(*res) = append((*res), convertRes(positions, n))
-	}
-
-	for k := 0; k < n; k++ {
-		solver(res, positions, n, i+1, k)
-	}
-
-	(*positions) = (*positions)[:len(*positions)-1]
 }
 
-func isPosValid(positions *[][]int, i int, j int) bool {
-	for k := range *positions {
-		x := (*positions)[k][0]
-		y := (*positions)[k][1]
-
-		if i == x || j == y || i-x == j-y || i-x == -(j-y) {
+func isValidPosition(positions []int, newColumn int) bool {
+	newRow := len(positions)
+	for row, col := range positions {
+		if col == newColumn || row-newRow == col-newColumn || row-newRow == -(col-newColumn) {
 			return false
 		}
 	}
-
 	return true
 }
 
-func convertRes(positions *[][]int, n int) []string {
-	res := make([]string, n)
-	for i := range *positions {
-		x := (*positions)[i][0]
-		y := (*positions)[i][1]
-
-		s := ""
-		for j := 0; j < n; j++ {
-			if j == y {
-				s += "Q"
-			} else {
-				s += "."
-			}
+func buildBoard(positions []int) []string {
+	n := len(positions)
+	board := make([]string, n)
+	for r, c := range positions {
+		row := make([]rune, n)
+		for j := range row {
+			row[j] = '.'
 		}
-
-		res[x] = s
+		row[c] = 'Q'
+		board[r] = string(row)
 	}
-
-	return res
-}
-
-func printResult(res [][]string) {
-	for i := range res {
-		for j := range res[i] {
-			fmt.Print(res[i][j], " ")
-		}
-		fmt.Println()
-	}
+	return board
 }
 
 func main() {
-	printResult(solveNQueens(1))
-	printResult(solveNQueens(4))
-	printResult(solveNQueens(8))
+	fmt.Println(solveNQueens(1))
+	fmt.Println(solveNQueens(4))
+	fmt.Println(solveNQueens(8))
 }
