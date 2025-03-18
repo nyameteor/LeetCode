@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 type TreeNode struct {
 	Val   int
@@ -9,33 +12,28 @@ type TreeNode struct {
 }
 
 func pathSum(root *TreeNode, targetSum int) [][]int {
-	curPath := []int{}
-	resPaths := [][]int{}
-	lookup(root, &targetSum, &curPath, &resPaths)
-
-	return resPaths
+	res := make([][]int, 0)
+	path := make([]int, 0)
+	dfs(root, targetSum, &path, &res)
+	return res
 }
 
-func lookup(root *TreeNode, target *int, curPath *[]int, resPaths *[][]int) {
+func dfs(root *TreeNode, remain int, path *[]int, res *[][]int) {
 	if root == nil {
 		return
 	}
 
-	*curPath = append(*curPath, root.Val)
-	*target -= root.Val
+	*path = append(*path, root.Val)
+	remain -= root.Val
 
-	if *target == 0 && root.Left == nil && root.Right == nil {
-		// make a copy
-		resPath := make([]int, len(*curPath))
-		copy(resPath, *curPath)
-		*resPaths = append(*resPaths, resPath)
+	if root.Left == nil && root.Right == nil && remain == 0 {
+		*res = append(*res, slices.Clone(*path))
 	}
 
-	lookup(root.Left, target, curPath, resPaths)
-	lookup(root.Right, target, curPath, resPaths)
+	dfs(root.Left, remain, path, res)
+	dfs(root.Right, remain, path, res)
 
-	*target += root.Val
-	*curPath = (*curPath)[:len(*curPath)-1]
+	*path = (*path)[:len(*path)-1]
 }
 
 func main() {
@@ -47,39 +45,19 @@ func main() {
 		Left: &TreeNode{
 			Val: 4,
 			Left: &TreeNode{
-				Val: 11,
-				Left: &TreeNode{
-					Val:   7,
-					Left:  nil,
-					Right: nil,
-				},
-				Right: &TreeNode{
-					Val:   2,
-					Left:  nil,
-					Right: nil,
-				},
+				Val:   11,
+				Left:  &TreeNode{Val: 7},
+				Right: &TreeNode{Val: 2},
 			},
 			Right: nil,
 		},
 		Right: &TreeNode{
-			Val: 8,
-			Left: &TreeNode{
-				Val:   13,
-				Left:  nil,
-				Right: nil,
-			},
+			Val:  8,
+			Left: &TreeNode{Val: 13},
 			Right: &TreeNode{
-				Val: 4,
-				Left: &TreeNode{
-					Val:   5,
-					Left:  nil,
-					Right: nil,
-				},
-				Right: &TreeNode{
-					Val:   1,
-					Left:  nil,
-					Right: nil,
-				},
+				Val:   4,
+				Left:  &TreeNode{Val: 5},
+				Right: &TreeNode{Val: 1},
 			},
 		},
 	}

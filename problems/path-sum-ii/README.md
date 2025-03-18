@@ -46,12 +46,10 @@ Output: []
 
 ## Solution
 
-### Recursive Backtracking
+### Approach: Backtracking
 
-使用递归实现 DFS，求 root-to-leaf path 时可以加上 Backtrack 回退到上一步以重用 path，减少内存使用。
+We use **Backtracking** and **Depth-First Search (DFS)** to explore all root-to-leaf paths and find those that sum to `targetSum`.
 
-Refer: [Wikipedia/Backtracking](https://en.wikipedia.org/wiki/Backtracking)
-
-### Iteration
-
-Todo
+1. **Recursive DFS**: Traverse the tree, keeping track of the current path and remaining sum.
+2. **Valid Path Check**: If a leaf node is reached and the remaining sum is `0`, store the path.
+3. **Backtracking**: After exploring a node’s children, remove it from the path to backtrack.
