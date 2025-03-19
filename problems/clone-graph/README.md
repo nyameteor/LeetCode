@@ -78,12 +78,14 @@ Output: [[2],[1]]
 
 ## Solution
 
-### Clone with Breadth-First Search
+### Approach: Depth-First Search
 
-创建一个 `cloneMap`，key 为 source 节点，value 为 clone 节点。初始化：cloneMap[root] = new Node(root->val)
+1. Use **DFS with a hashmap** to track cloned nodes and prevent cycles.
+2. For each node:
+   - If it’s already in the hashmap, return the cloned node.
+   - Otherwise, create a clone, store it, and recursively clone its neighbors.
+3. Ensures **O(V + E)** time complexity by visiting each node and edge once.
 
-使用 BFS，遍历 source graph 的同时创建 clone graph。
+### Approach: Breadth-First Search
 
-TODO: 补充具体过程
-
-Refer: [haoel/leetcode/cloneGraph.cpp](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/cloneGraph/cloneGraph.cpp)
+References: [haoel/leetcode/cloneGraph.cpp](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/cloneGraph/cloneGraph.cpp)

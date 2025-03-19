@@ -71,7 +71,7 @@ Please see folder [problems](problems).
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Go](problems/best-time-to-buy-and-sell-stock/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [Go](problems/best-time-to-buy-and-sell-stock-ii/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock-ii) |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [C++](problems/sum-root-to-leaf-numbers/answer.cpp) | [📃](problems/sum-root-to-leaf-numbers) |
-| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [C++](problems/clone-graph/answer.cpp) | [📃](problems/clone-graph) |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [Go](problems/clone-graph/answer.go) | [📃](problems/clone-graph) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | [Go](problems/gas-station/answer.go) | [📃](problems/gas-station) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](problems/single-number/answer.cpp) | [📃](problems/single-number) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Go](problems/word-break/answer.go) | [📃](problems/word-break) |
