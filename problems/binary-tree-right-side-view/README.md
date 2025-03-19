@@ -38,18 +38,8 @@ Output: []
 
 ## Solution
 
-二叉树的右视图，即返回的结果序列 res 为二叉树每一层最靠右的节点。
+### Approach: Depth-First Search
 
-### Depth-First Search
-
-DFS 时添加 level 变量记录当前层数（深度）。
-
-递归时先右子树，再左子树。将当前 level 中访问的第一个节点添加到 res 中。
-
-### Breadth-First Search
-
-BFS 时添加 level 变量记录当前层数（深度），并添加一个 levelSize 变量用于辅助计算 level。
-
-levelSize 记为当前 queue 的大小（即当前 level 节点的数量），循环 levelSize 次后本层的节点全部出队，下层的节点全部入队，此时 level++。
-
-遍历时先右子树，再左子树。将当前 level 中访问的第一个节点添加到 res 中。
+1. Traverse the **right subtree first** to prioritize rightmost nodes at each level.
+2. Append the first node encountered at each level to the result list.
+3. Use a helper function to track depth and update the result.

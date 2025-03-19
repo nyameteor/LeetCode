@@ -95,7 +95,7 @@ Please see folder [problems](problems).
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [C++](problems/repeated-dna-sequences/answer.cpp) | [📃](problems/repeated-dna-sequences) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Go](problems/rotate-array/answer.go) | [📃](problems/rotate-array) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C++](problems/house-robber/answer.cpp) | [📃](problems/house-robber) |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [C++](problems/binary-tree-right-side-view/answer.cpp) | [📃](problems/binary-tree-right-side-view) |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [Go](problems/binary-tree-right-side-view/answer.go) | [📃](problems/binary-tree-right-side-view) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C++](problems/number-of-islands/answer.cpp) | [📃](problems/number-of-islands) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [C++](problems/happy-number/answer.cpp) | [📃](problems/happy-number) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Go](problems/reverse-linked-list/answer.go) | [📃](problems/reverse-linked-list) |
