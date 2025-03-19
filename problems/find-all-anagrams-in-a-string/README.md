@@ -40,6 +40,21 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 ### Sliding Window
 
-Use sliding window of fixed length to get all substrings, then check if the substring is an anagrams of given pattern.
+### Approach: Sliding Window + Frequency Count
 
-For 2 strings to be anagrams of each other, they should have same elements with same frequency.
+This solution efficiently finds anagrams using the **Sliding Window technique** with **constant space (O(1))** for character frequency tracking.
+
+1. **Frequency Count Initialization**
+   - Create two frequency arrays (`pFreq`, `windowFreq`) of size `26` (for lowercase English letters).
+   - Populate them with the frequency of `p` and the first window in `s`.
+
+2. **Matching Character Count (`matchCount`)**
+   - Count how many characters have matching frequencies in `pFreq` and `windowFreq`.
+
+3. **Sliding Window Processing**
+   - Move the window one step at a time.
+   - **Remove** the outgoing left character and **add** the incoming right character.
+   - Update `matchCount` dynamically, ensuring we only compare affected characters.
+
+4. **Efficiently Check for Anagram Match**
+   - If `matchCount == 26`, the window is a valid anagram.
