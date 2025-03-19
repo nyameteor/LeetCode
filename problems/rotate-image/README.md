@@ -36,18 +36,17 @@ Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 
 ## Solution
 
-Refer: https://leetcode.com/problems/rotate-image/solution/
+### Approach: Transpose + Reverse
 
-### Rotate Groups of Four Cells
+To rotate the matrix **90 degrees clockwise** in-place:
 
-观察旋转图像时，单元格是如何成组移动的：
+1. **Transpose** the matrix by swapping rows and columns.
+2. **Reverse** the order of elements in each row.
 
-![img](https://leetcode.com/problems/rotate-image/Figures/48/48_angles.png)
+This approach modifies the matrix directly without using extra space, making it memory efficient.
 
-可以遍历矩阵，每次取一组四个单元格进行旋转。
+### References
 
-### Transpose and Reflect
+Many image processing libraries (e.g., **PIL**) use a similar technique for rotating images:
 
-首先围绕主对角线反转矩阵单元，然后将矩阵单元从左到右反转（对应线性代数中的矩阵转置和矩阵反射操作）。
-
-优雅的实现方式，也是许多矩阵标准库中的实现。
+- [PIL Image.rotate Implementation](https://github.com/python-pillow/Pillow/blob/e1bf0f647f769fd42ed7e73c0d73672896204e2a/src/PIL/Image.py#L2376)
