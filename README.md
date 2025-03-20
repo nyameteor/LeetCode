@@ -119,7 +119,7 @@ Please see folder [problems](problems).
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Go](problems/range-sum-query-2d-immutable/answer.go) | [📃](problems/range-sum-query-2d-immutable) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](problems/odd-even-linked-list/answer.cpp) | [📃](problems/odd-even-linked-list) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | [C++](problems/house-robber-iii/answer.cpp) | [📃](problems/house-robber-iii) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [C++](problems/top-k-frequent-elements/answer.cpp) | [📃](problems/top-k-frequent-elements) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 386 | [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [Go](problems/lexicographical-numbers/answer.go) | [📃](problems/lexicographical-numbers) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [C++](problems/decode-string/answer.cpp) | [📃](problems/decode-string) |
