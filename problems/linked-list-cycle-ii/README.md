@@ -52,16 +52,13 @@ Explanation: There is no cycle in the linked list.
 
 ## Solution
 
-### Two Pointers, Brute Force (Accepted)
+### Approach: Two Pointers
 
-暴力解法，对链表中的每个节点依次使用“双指针检查环”算法，直到找到某个节点，快慢指针相遇的位置为该节点，说明该节点是环的开始节点。
+- Use two pointers: `slow` moves one step, `fast` moves two.
+- If they meet, a cycle exists.
+- Reset one pointer to `head` and move both one step at a time.
+- The meeting point is the cycle’s starting node.
 
-Time Complexity: O(n^2)
+### References
 
-### Two Pointers, Two Pass
-
-对链表使用“双指针检查环”算法，而后将慢指针移回 head，之后两个原本的快慢指针以相同的速度移动（每次一步），双指针再次相遇的地方即是环的开始节点。
-
-该解法只需两躺遍历。
-
-Time Complexity: O(n)
+https://en.wikipedia.org/wiki/Cycle_detection
