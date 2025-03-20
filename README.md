@@ -76,7 +76,7 @@ Please see folder [problems](problems).
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](problems/single-number/answer.cpp) | [📃](problems/single-number) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Go](problems/word-break/answer.go) | [📃](problems/word-break) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [Go](problems/word-break-ii/answer.go) | [📃](problems/word-break-ii) |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](problems/linked-list-cycle/answer.cpp) | [📃](problems/linked-list-cycle) |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Go](problems/linked-list-cycle/answer.go) | [📃](problems/linked-list-cycle) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [C++](problems/linked-list-cycle-ii/answer.cpp) | [📃](problems/linked-list-cycle-ii) |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C](problems/reorder-list/answer.c) | [📃](problems/reorder-list) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Go](problems/binary-tree-preorder-traversal/answer.go) | [📃](problems/binary-tree-preorder-traversal) |

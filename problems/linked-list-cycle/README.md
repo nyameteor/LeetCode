@@ -52,10 +52,11 @@ Explanation: There is no cycle in the linked list.
 
 ## Solution
 
-### Two Pointers
+### Approach: Two Pointers
 
-使用快慢指针 `fast` 和 `slow` 同时从头遍历链表，若二者在某一个节点相遇，说明该链表存在环。
+- Use two pointers: `slow` moves one step, `fast` moves two.
+- If they meet, a cycle exists; if `fast` reaches `nil`, no cycle.
 
-### Hash Table
+### References
 
-Todo
+https://en.wikipedia.org/wiki/Cycle_detection
