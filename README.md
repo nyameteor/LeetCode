@@ -139,7 +139,7 @@ Please see folder [problems](problems).
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Go](problems/ones-and-zeroes/answer.go) | [📃](problems/ones-and-zeroes) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | [C++](problems/number-complement/answer.cpp) | [📃](problems/number-complement) |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
-| 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/) | Medium | [Go](problems/longest-palindromic-subsequence/answer.go) | [📃](problems/longest-palindromic-subsequence) |
+| 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | [Go](problems/longest-palindromic-subsequence/answer.go) | [📃](problems/longest-palindromic-subsequence) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [Go](problems/minimum-time-difference/answer.go) | [📃](problems/minimum-time-difference) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Go](problems/diameter-of-binary-tree/answer.go) | [📃](problems/diameter-of-binary-tree) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [Go](problems/permutation-in-string/answer.go) | [📃](problems/permutation-in-string) |
