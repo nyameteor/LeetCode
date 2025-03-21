@@ -40,12 +40,13 @@ def main():
     )
 
     def parse_link(link: str):
-        link_pattern = re.compile(
-            r"^(http|https)://leetcode\.com/problems/(.+?)/", re.ASCII
-        )
+        link_pattern = re.compile(r"^(https://leetcode\.com/problems)/(.+?)/", re.ASCII)
         match = link_pattern.match(link)
         if match:
-            return link, match.group(2)  # Extract normalized problem name
+            problems_url = match.group(1)
+            problem_name = match.group(2)
+            cleaned_link = f"{problems_url}/{problem_name}/"
+            return cleaned_link, problem_name
         raise ValueError("Invalid LeetCode problem link.")
 
     link, problem_name = prompt_input("Link: ", parse_link)
