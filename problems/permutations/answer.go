@@ -6,14 +6,16 @@ import (
 )
 
 func permute(nums []int) [][]int {
-	var res [][]int
-	dfs(nums, make([]bool, len(nums)), make([]int, 0), &res)
+	res := make([][]int, 0)
+	path := make([]int, 0, len(nums))
+	dfs(nums, make([]bool, len(nums)), &path, &res)
 	return res
 }
 
-func dfs(nums []int, used []bool, path []int, res *[][]int) {
-	if len(path) >= len(nums) {
-		*res = append(*res, slices.Clone(path))
+func dfs(nums []int, used []bool, path *[]int, res *[][]int) {
+	if len(*path) == len(nums) {
+		*res = append(*res, slices.Clone(*path))
+		return
 	}
 
 	for i := range nums {
@@ -22,7 +24,11 @@ func dfs(nums []int, used []bool, path []int, res *[][]int) {
 		}
 
 		used[i] = true
-		dfs(nums, used, append(path, nums[i]), res)
+		*path = append(*path, nums[i])
+
+		dfs(nums, used, path, res)
+
+		*path = (*path)[:len(*path)-1]
 		used[i] = false
 	}
 }

@@ -6,19 +6,22 @@ import (
 )
 
 func combine(n int, k int) [][]int {
-	var res [][]int
-	dfs(n, k, 1, make([]int, 0), &res)
+	res := make([][]int, 0)
+	path := make([]int, 0, k)
+	dfs(n, k, 1, &path, &res)
 	return res
 }
 
-func dfs(n int, k int, start int, path []int, res *[][]int) {
-	if len(path) >= k {
-		*res = append(*res, slices.Clone(path))
+func dfs(n int, k int, start int, path *[]int, res *[][]int) {
+	if len(*path) == k {
+		*res = append(*res, slices.Clone(*path))
 		return
 	}
 
 	for i := start; i <= n; i++ {
-		dfs(n, k, i+1, append(path, i), res)
+		*path = append(*path, i)
+		dfs(n, k, i+1, path, res)
+		*path = (*path)[:len(*path)-1]
 	}
 }
 
