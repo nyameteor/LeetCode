@@ -70,6 +70,7 @@ Please see folder [problems](problems).
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [C++](problems/pascals-triangle/answer.cpp) | [📃](problems/pascals-triangle) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Go](problems/best-time-to-buy-and-sell-stock/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [Go](problems/best-time-to-buy-and-sell-stock-ii/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock-ii) |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [Go](problems/binary-tree-maximum-path-sum/answer.go) | [📃](problems/binary-tree-maximum-path-sum) |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [C++](problems/sum-root-to-leaf-numbers/answer.cpp) | [📃](problems/sum-root-to-leaf-numbers) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [Go](problems/clone-graph/answer.go) | [📃](problems/clone-graph) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | [Go](problems/gas-station/answer.go) | [📃](problems/gas-station) |
