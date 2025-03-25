@@ -46,7 +46,7 @@ Please see folder [problems](problems).
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [C++](problems/merge-intervals/answer.cpp) | [📃](problems/merge-intervals) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [C++](problems/unique-paths/answer.cpp) | [📃](problems/unique-paths) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](problems/climbing-stairs/answer.cpp) | [📃](problems/climbing-stairs) |
-| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C++](problems/search-a-2d-matrix/answer.cpp) | [📃](problems/search-a-2d-matrix) |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [Go](problems/search-a-2d-matrix/answer.go) | [📃](problems/search-a-2d-matrix) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](problems/sort-colors/answer.cpp) | [📃](problems/sort-colors) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [Go](problems/combinations/answer.go) | [📃](problems/combinations) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](problems/subsets/answer.cpp) | [📃](problems/subsets) |

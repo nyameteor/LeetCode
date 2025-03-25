@@ -38,29 +38,17 @@ Output: false
 
 ## Solution
 
-### Binary Search
+### Approach: Binary Search on Flattened Matrix
 
-按照条件，可以使用两次二分查找，先搜列，再搜行。列的匹配需要加额外判断条件。
+Treat the matrix as a 1D array and apply binary search:
 
-```shell
-matrix              target = 3
-   0  1  2  3
-0  1  3  5  7
-1  10 11 16 20
-2  23 30 34 60
+1. Convert the 2D indices to a single index: `row = m / numCols`, `col = m % numCols`.
+2. Binary search:
+   - If the value equals the target, return `true`.
+   - If greater, adjust `r = m - 1`; if smaller, adjust `l = m + 1`.
+3. Return `false` if the target is not found.
 
-search in row
-0   1   2
-1   10  23          target < matrix[m][0], r = m - 1
-l  m  h
+**Complexity**:
 
-1   10  23          m < rowSize - 1, matrix[m][0] <= target < matrix[m+1][0], row = m
-l,m,r
-
-search in col
-0  1  2  3
-1  3  5  7
-(standar binary search, skip...)
-
-row = 0, col = 1
-```
+- **Time**: `O(log(m * n))`
+- **Space**: `O(1)`
