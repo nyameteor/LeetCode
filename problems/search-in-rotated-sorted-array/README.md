@@ -45,13 +45,18 @@ Output: -1
 
 ## Solution
 
-### Binary Search
+### Approach: Binary Search on Rotated Sorted Array
 
-本题输入的数组经过了旋转，故为局部有序。要在局部有序的数组上使用二分查找，需要添加判断条件查找范围内的数组是否有序。本题中可以通过比较 `nums[left]` 和 `nums[mid]` 的关系，来判断哪一个范围内的数组是有序的：
+- The array is rotated, so part of it is sorted.
+- Perform binary search:
+  - If the left part is sorted (`nums[m] >= nums[l]`), check if the target is in this part. If so, discard the right half; otherwise, discard the left half.
+  - If the right part is sorted (`nums[m] < nums[l]`), check if the target is in this part. If so, discard the left half; otherwise, discard the right half.
+- Repeat until the target is found or the search space is exhausted.
 
-- if nums[left] <= nums[mid], 前半段数组 [left, mid] 有序。若 target 在 [left, mid] 范围内，在前半段搜索，否则在后半段搜索。
-- if nums[left] > nums[mid], 后半段数组 [mid+1, right] 有序。若 target 在 [mid+1, right] 范围内，在后半段搜索，否则在前半段搜索。
+**Complexity**:
 
-Time: O(log n), Space: O(1)
+- Time: `O(log n)`.
 
-更多：[Wikipedia/Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+### References
+
+- [Wikipedia/Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)

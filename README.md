@@ -31,7 +31,7 @@ Please see folder [problems](problems).
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [Go](problems/divide-two-integers/answer.go) | [📃](problems/divide-two-integers) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](problems/next-permutation/answer.cpp) | [📃](problems/next-permutation) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](problems/longest-valid-parentheses/answer.cpp) | [📃](problems/longest-valid-parentheses) |
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [C++](problems/search-in-rotated-sorted-array/answer.cpp) | [📃](problems/search-in-rotated-sorted-array) |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](problems/search-in-rotated-sorted-array/answer.go) | [📃](problems/search-in-rotated-sorted-array) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](problems/valid-sudoku/answer.cpp) | [📃](problems/valid-sudoku) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](problems/trapping-rain-water/answer.cpp) | [📃](problems/trapping-rain-water) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [C++](problems/multiply-strings/answer.cpp) | [📃](problems/multiply-strings) |
