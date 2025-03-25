@@ -105,7 +105,7 @@ Please see folder [problems](problems).
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | [Go](problems/course-schedule-ii/answer.go) | [📃](problems/course-schedule-ii) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [C++](problems/maximal-square/answer.cpp) | [📃](problems/maximal-square) |
-| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [C++](problems/count-complete-tree-nodes/answer.cpp) | [📃](problems/count-complete-tree-nodes) |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [Go](problems/count-complete-tree-nodes/answer.go) | [📃](problems/count-complete-tree-nodes) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Go](problems/invert-binary-tree/answer.go) | [📃](problems/invert-binary-tree) |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [C++](problems/basic-calculator-ii/answer.cpp) | [📃](problems/basic-calculator-ii) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C++](problems/power-of-two/answer.cpp) | [📃](problems/power-of-two) |

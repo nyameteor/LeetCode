@@ -43,22 +43,15 @@ Output: 1
 
 ## Solution
 
-### Backtracking
+### Approach: Binary Search on a Complete Binary Tree
 
-比较简单直观的思路：
+- A complete binary tree has all levels fully filled except possibly the last, which is left-aligned.
+- Compute the left and right subtree heights:
+  - If they are equal, the left subtree is a perfect tree of height `h`, contributing `2^h - 1` nodes. Recur on the right subtree.
+  - Otherwise, the right subtree is a perfect tree of height `h-1`, contributing `2^(h-1) - 1` nodes. Recur on the left subtree.
+- This reduces the problem to `O(log n * log n)`, as height calculation takes `O(log n)`, and recursion runs `O(log n)` times.
 
-1. 计算树的最大层数；
-2. 统计最后一层的节点数：如果一个节点是叶子节点，且当前层是当前最大层，那么该节点在最后一层；
-3. 节点数 = 2^(最大层数 -1) - 1 + 最后一层的节点数。
+**Complexity**:
 
-```shell
-          1
-      /       \
-     2         3
-   /   \     /   \
-  4     5   6     7
- / \
-8   9
-```
-
-可以加上剪枝，比如上图中深度搜索到 5 的时候，5 虽然是叶子，但所在层数小于树的最大层数，所以之后可以不继续搜索了。
+- Time: `O(log n * log n)`
+- Space: `O(log n)` (recursive call stack).
