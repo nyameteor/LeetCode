@@ -161,6 +161,7 @@ Please see folder [problems](problems).
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](problems/daily-temperatures/answer.cpp) | [📃](problems/daily-temperatures) |
+| 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [Go](problems/delete-and-earn/answer.go) | [📃](problems/delete-and-earn) |
 | 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | Medium | [C++](problems/champagne-tower/answer.cpp) | [📃](problems/champagne-tower) |
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [Go](problems/image-overlap/answer.go) | [📃](problems/image-overlap) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Medium | [C++](problems/maximize-distance-to-closest-person/answer.cpp) | [📃](problems/maximize-distance-to-closest-person) |
