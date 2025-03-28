@@ -54,7 +54,7 @@ Inorder:
 - Find this root node in `inorder`, we can find the range of `left subtree` and `right subtree`.
 - The base case is `preorder` and `inorder` both empty.
 
-Denote `i` as the index of current root in `inorder`:
+Denote `i` as the lenght of `left subtree`:
 
 |          | range of left subtree | range of right subtree |
 | -------- | --------------------- | ---------------------- |
