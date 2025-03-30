@@ -118,7 +118,7 @@ Please see folder [problems](problems).
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [C++](problems/add-digits/answer.cpp) | [📃](problems/add-digits) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | [C++](problems/word-pattern/answer.cpp) | [📃](problems/word-pattern) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C++](problems/longest-increasing-subsequence/answer.cpp) | [📃](problems/longest-increasing-subsequence) |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Go](problems/longest-increasing-subsequence/answer.go) | [📃](problems/longest-increasing-subsequence) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Go](problems/range-sum-query-2d-immutable/answer.go) | [📃](problems/range-sum-query-2d-immutable) |
 | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | [Go](problems/minimum-height-trees/answer.go) | [📃](problems/minimum-height-trees) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](problems/odd-even-linked-list/answer.cpp) | [📃](problems/odd-even-linked-list) |

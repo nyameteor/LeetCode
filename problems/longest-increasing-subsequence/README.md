@@ -41,43 +41,37 @@ Output: 1
 
 ## Solution
 
-给定一个无序的整数数组，找到其中最长上升子序列的长度。
+The problem requires finding the **longest strictly increasing subsequence** (LIS) in an array. A **subsequence** allows skipping elements but must maintain the original order.
 
-### Dynamic Programming
+### Approach: Dynamic Programming
 
-动态规划很适合解决子序列问题，但子结构需要设置合理，否则无法找出递推关系。
+#### Key Observations
 
-将 table[i] 表示为**包含** i 位置的元素的最长上升子序列长度（不能表示为总的最长上升子序列长度，即不论是否包含 i 位置元素）。
+1. **Each element contributes to an increasing subsequence**
+   - Every number in `nums` can either **start a new subsequence** or **extend an existing one**.
 
-设 j 属于 [0, i)，若 j 位置的元素包含在以 i 位置结尾的最长上升子序列中：
+2. **The LIS ending at each index depends on previous elements**
+   - If `nums[i]` is greater than `nums[j]` (`j < i`), then `nums[i]` can extend the subsequence ending at `j`.
 
-由于该子序列是**上升**的，故满足以下条件：
+3. **Recursive Structure**
+   - Define `dp[i]` as the **length of the LIS ending at index `i`**.
+   - To compute `dp[i]`, check **all previous indices `j`** where `nums[j] < nums[i]`, then take the **longest** valid subsequence and extend it:
 
-- nums[j] < nums[i]
+     ```
+     dp[i] = max(dp[i], dp[j] + 1)
+     ```
 
-同时，由于该子序列是**最长**的，故满足以下条件：
+   - The overall LIS is the maximum value in `dp`.
 
-- maximum = max_of table[j]
-- table[i] = maximum + 1
+#### Complexity
 
-故可以得到递推关系如下：
+- Time: `O(n^2)`
+- Space: `O(n)`
 
-```shell
-maximum = max_of table[j]
-table[i] = maximum + 1
-
-where   0 <= j < i
-        nums[j] < nums[i]
-```
-
-在程序中 `maximum` 作为中间变量可以省略，递推关系可写作 `table[i] = max(table[i], talbe[j]), j in [0, i)`
-
-最后，对所有 table[i] 取最大值，得到该题结果。
-
-Todo: 寻求清晰的数学表达式，如：取一个序列（如一段数组）中的最大值
-
-Refer: [Triple-Z/LeetCode/docs/300](https://github.com/Triple-Z/LeetCode/blob/master/docs/300.%20Longest%20Increasing%20Subsequence%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md)
-
-### Binary Search
+### Approach: Binary Search
 
 Todo
+
+### References
+
+[[C++/Python] DP, Binary Search, BIT, Segment Tree Solutions - Picture explain - O(NlogN)](https://leetcode.com/problems/longest-increasing-subsequence/solutions/1326308/c-python-dp-binary-search-bit-segment-tree-solutions-picture-explain-o-nlogn)
