@@ -39,20 +39,19 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 ## Solution
 
-### Recursion + Memoization
+This problem can be solved using **Dynamic Programming** on a binary tree. For each node, there are two options:
 
-设偷盗以 $A$ 为根结点的树能获益的最大值为 $C(A)$。
+1. **Rob the node**: Skip its children and add their "not robbed" values.
+2. **Don't rob the node**: Consider the maximum of robbing or not robbing its children.
 
-$C(A)$ 的方程：
+**Steps:**
 
-$$
-C(A) =
-    \begin{cases}
-        0 & A = null  \\
-        A.val & A.left = null \land A.right = null\\
-        max\{ C(A.left) + C(A.right),
-            A.val + (C(A.left.left) + C(A.left.right))
-            + (C(A.right.left) + C(A.right.right))
-        \}  & A.left \lor A.right
-    \end{cases}
-$$
+- Use a postorder DFS traversal to compute, at each node, the maximum money from both choices.
+- Propagate the results upwards and return the maximum value for the root.
+
+**Complexity:**
+
+- **Time:** O(n), where n is the number of nodes.
+- **Space:** O(h), where h is the tree height due to recursion.
+
+Alternatively, a **top-down DP with memoization** approach can be used, but it introduces additional overhead due to the hashmap.
