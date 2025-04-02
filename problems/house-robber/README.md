@@ -35,19 +35,27 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 ## Solution
 
-### Dynamic Programming
+This problem can be solved using **Dynamic Programming**.
 
-给定一个包含 $n$ 个元素的数组 $A$（下标自 1 开始），设偷盗 $A$ 中前 $n$ 个元素能获益的最大值为 $C(n)$。
+**Key Idea:**
 
-$C(n)$ 的方程：
+At each house `i`, choose between:
 
-$$
-C(n) =
-    \begin{cases}
-        0 & n = 0 \\
-        A_1 & n = 1 \\
-        max\{C(n-2) + A_n, C(n-1)\} & n \geq 2
-    \end{cases}
-$$
+1. **Robbing:** `nums[i] + dp[i-2]`
+2. **Skipping** `dp[i-1]`
 
-计算 $C(n)$ 的过程中存在重叠子问题，可用动态规划优化。
+**Recurrence Relation:**
+
+```
+dp[i] = max(dp[i-1], nums[i] + dp[i-2])
+```
+
+**Approach:**
+
+- **Bottom-Up DP:** Iteratively track the max profit.
+- **Top-Down DP:** Recursively compute with memoization.
+
+**Complexity:**
+
+- **Time:** O(n).
+- **Space:** O(1) (optimized using two variables instead of a `dp` array).
