@@ -44,9 +44,10 @@ Output: true
 
 ## Solution
 
-This problem has two approaches: top down and bottom up way.
+**Approaches:**
 
-For me, finding out the bottom up recursive way was not `easy`.
+- **Top-down:** Recursively compute height and check balance.
+- **Bottom-up:** Propagate height and detect imbalance early.
 
 **References**
 
