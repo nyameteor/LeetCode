@@ -47,22 +47,15 @@ freqStack.pop();   // return 4, as 4, 5 and 7 is the most frequent, but 4 is clo
 
 **Constraints:**
 
-- `0 <= val <= 109`
-- At most `2 * 104` calls will be made to `push` and `pop`.
+- `0 <= val <= 10^9`
+- At most `2 * 10^4` calls will be made to `push` and `pop`.
 - It is guaranteed that there will be at least one element in the stack before calling `pop`.
 
 ## Solution
 
-Refer: https://leetcode.com/problems/maximum-frequency-stack/solution/
+### Approach: Stack by Frequency
 
-### Stack of Stacks
-
-Use `freq` to map from x to the number of occurences of x.
-
-Use `maxfreq` to be the current maximum frequency of any element in the stack.
-
-Use `group` to map from frequency to a stack of elements with that frequency.
-
-The `group` is the key to the main question: among elements with the same maximum frequency, how do we know which element is most recent? The method is to use a stack to query this information, the top of the stack is the most recent.
-
-This is a Every elegant solution.
+- **Track Frequency:** Use a `freq` map to keep count of how many times each element appears.
+- **Stack by Frequency:** Use `stacks`, where each index corresponds to a frequency. The stack at each index holds elements that have that specific frequency.
+- **Push:** Increment the frequency and append the element to the corresponding frequency stack.
+- **Pop:** Remove and return the element from the highest frequency stack. If that stack becomes empty, remove it.

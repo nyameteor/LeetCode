@@ -170,7 +170,7 @@ Please see folder [problems](problems).
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [C++](problems/score-of-parentheses/answer.cpp) | [📃](problems/score-of-parentheses) |
 | 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-postorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
-| 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [C++](problems/maximum-frequency-stack/answer.cpp) | [📃](problems/maximum-frequency-stack) |
+| 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [C++](problems/3sum-with-multiplicity/answer.cpp) | [📃](problems/3sum-with-multiplicity) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](problems/range-sum-of-bst/answer.cpp) | [📃](problems/range-sum-of-bst) |
