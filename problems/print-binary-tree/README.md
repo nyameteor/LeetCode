@@ -48,8 +48,14 @@ Output:
 
 ## Solution
 
-### DFS/BFS Two Pass
+### Observations
 
-- 由于每个节点放置在矩阵中的的位置依赖于树的高度，所以先用一次 DFS/BFS 获取树的深度。
-- 再用 DFS/BFS 保存每一个节点到结果矩阵中。
-  - 以 BFS 为例，由于左子树和右子树放置在矩阵中的位置，与当前的节点放置的位置有对应关系，所以 Queue 中除了保存当前节点，还需要保存当前节点的位置信息（row 与 column）。由于 row 即为深度，在 BFS 的过程中可求，所以 Queue 中可以额外保存当前节点的 column，示例：`queue<pair<TreeNode*, int>>`
+- The matrix width is `2^height - 1` to center all nodes properly.
+- Each node is placed at the center of its column range.
+- Left and right children go into the left and right halves of that range.
+
+### Approach
+
+1. Compute the tree height.
+2. Initialize a `height x (2^height - 1)` matrix of empty strings.
+3. Recursively fill each node at the midpoint of its column bounds.
