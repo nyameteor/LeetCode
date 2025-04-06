@@ -47,27 +47,23 @@ Output: 1
 
 ## Solution
 
-给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
+### Observations
 
-### Recursion
+1. Each node has 0, 1, or 2 children, and both `p` and `q` must exist in the tree.
+2. We want to search for p and q starting from the root and bubble up information about their location.
 
-按照*最近公共祖先*的定义，可发现：
+### Steps
 
-- 找到 p, q 节点的路径 path_p, path_q
-- p, q 的最近公共祖先即是 path_p 和 path_q 中最后一个相同的节点。
+For each node, we want to check: "Does the left subtree or right subtree contain p or q?"
 
-```shell
-# Example 1
-path_p = [3, 5]
-path_q = [3, 1]
-lca = 3
+- Base Case:
+  - If the current node is nil, return nil.
+  - If the current node is `p` or `q`, return the current node — it might be the ancestor.
 
-# Example 2
-path_p = [3, 5]
-path_q = [3, 5, 2, 4]
-lca = 5
-```
-
-故可以创建一个 `findPath` 方法，获取 p 和 q 的 path 后遍历返回其最后一个相同的节点。
-
-Todo: findPath 方法说明
+- Recursive Case:
+  - If both left and right return non-nil, this means:
+    - `p` was found in one subtree.
+    - `q` was found in the other.
+    - So the current node is the lowest common ancestor.
+  - If only one side is non-nil, bubble that node up.
+  - If both are nil, bubble nil up.
