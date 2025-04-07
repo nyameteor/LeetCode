@@ -39,14 +39,5 @@ Output: 1
 
 ## Solution
 
-### Two Pointers
-
-We have an array `A` of length `N`, `A` stores the height of vertical lines.
-
-1. Let the initial container have the maximum width, we start from outermost lines.
-   - initial `i = 0`
-   - initial `j = N - 1`
-2. Go to container with shorter width, if there is a vertical line longer than current containers shorter line.
-   - if A[i] < A[j], then i++
-   - else, then j--
-   - when i == j, end the loop
+- Use two pointers starting from both ends.
+- Always move the **shorter line** inward to maximize area, since width decreases, and we need a taller line to potentially increase the area.
