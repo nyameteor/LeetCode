@@ -43,59 +43,12 @@ Output: [0]
 
 ## Solution
 
-### Morris Traversal
+1. **Basic Approach**:
+   - Flatten recursively in **post-order**.
+   - Move the left subtree to the right, and attach the original right subtree.
+   - **O(n)** time, **O(1)** extra space.
 
-对这个方法不怎么了解，需要再看。
-
-Time: O(n), Space: O(n)
-
-```shell
-    1
-   / \
-  2   5
- / \   \
-3   4   6
-
-    1                   move left sub-tree of 1 to right
-     \
-      2     5
-     / \     \
-    3   4     6
-
-    1                   insert right sub-tree of 1 to rightmost node
-     \
-      2
-     / \
-    3   4
-         \
-          5
-           \
-            6
-
-    1                   move left sub-tree of 2 to right
-     \
-      2     4
-       \     \
-        3     5
-               \
-                6
-
-    1                   insert right sub-tree of 2 to rightmost node
-     \
-      2
-       \
-        3
-         \
-          4
-           \
-            5
-             \
-              6
-...
-```
-
-Refer:
-
-- [Wikipedia/Morris-traversal-using-threading](https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading)
-- [leetcode/binary-tree-inorder-traversal/morris-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/solution/)
-- [详细通俗的思路分析，多解法](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/)
+2. **Optimized Approach**:
+   - Use a `prev` pointer during a recursive **post-order** traversal.
+   - Set each node's right pointer to the previous node, and its left pointer to `null`.
+   - **O(n)** time, **O(1)** extra space. More efficient than the basic approach.
