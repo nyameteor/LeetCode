@@ -32,18 +32,13 @@ Output: "56088"
 
 ## Solution
 
-本题正要求实现大数（使用字符串表示）的相乘，要求不使用内建的 Biginter 库或者将字符串转换为数字（会溢出）再相乘。
+This problem simulates manual string-based multiplication. There are two main approaches:
 
-一些语言（如 Python）中，也会将超出类型上界的大数转换为字符串，以便进行后续运算。
+- **Digit-by-digit multiplication**: Multiply each digit of `num2` with `num1`, shift by position, and sum all partial results.
+- **Positional accumulation**: Multiply every digit pair and accumulate results by position, handling carry inline. This method is more efficient and concise.
 
-官方题解：https://leetcode.com/problems/multiply-strings/solution/
+### References
 
-### Elementary Math
-
-简单地模拟乘法计算的过程。可以用一些 C++ 字符处理的技巧（见代码）。
-
-![slide1](https://leetcode.com/problems/multiply-strings/Figures/43/Slide1.JPG)
-
-![slide2](https://leetcode.com/problems/multiply-strings/Figures/43/Slide2.JPG)
-
-![slide3](https://leetcode.com/problems/multiply-strings/Figures/43/Slide3.JPG)
+- [Editorial](https://leetcode.com/problems/multiply-strings/editorial/)
+- [C++ Solution](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/multiplyStrings/multiplyStrings.cpp)
+- [Golang Solution](https://leetcode.com/problems/multiply-strings/solutions/529103/golang-solution/)

@@ -34,7 +34,7 @@ Please see folder [problems](problems).
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](problems/search-in-rotated-sorted-array/answer.go) | [📃](problems/search-in-rotated-sorted-array) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](problems/valid-sudoku/answer.cpp) | [📃](problems/valid-sudoku) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](problems/trapping-rain-water/answer.cpp) | [📃](problems/trapping-rain-water) |
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [C++](problems/multiply-strings/answer.cpp) | [📃](problems/multiply-strings) |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [Go](problems/multiply-strings/answer.go) | [📃](problems/multiply-strings) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [Go](problems/jump-game-ii/answer.go) | [📃](problems/jump-game-ii) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Go](problems/permutations/answer.go) | [📃](problems/permutations) |
