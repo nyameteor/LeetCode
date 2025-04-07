@@ -49,7 +49,7 @@ Please see folder [problems](problems).
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [Go](problems/search-a-2d-matrix/answer.go) | [📃](problems/search-a-2d-matrix) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](problems/sort-colors/answer.cpp) | [📃](problems/sort-colors) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [Go](problems/combinations/answer.go) | [📃](problems/combinations) |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](problems/subsets/answer.cpp) | [📃](problems/subsets) |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Go](problems/subsets/answer.go) | [📃](problems/subsets) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Go](problems/word-search/answer.go) | [📃](problems/word-search) |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [Go](problems/remove-duplicates-from-sorted-array-ii/answer.go) | [📃](problems/remove-duplicates-from-sorted-array-ii) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [C++](problems/largest-rectangle-in-histogram/answer.cpp) | [📃](problems/largest-rectangle-in-histogram) |
