@@ -40,12 +40,19 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 
 ## Solution
 
-按照 Binary Search Tree 的定义：
+### Observations
 
-- 左子树**所有**节点的 val 均小于 node 的 val
-- 右子树**所有**节点的 val 均大于 node 的 val
-- 左右子树也是 Binary Search Tree
+In a **Binary Search Tree (BST)**, each node must satisfy:
 
-### Depth-First Search with in-order
+- All nodes in the left subtree are **strictly less** than the current node.
+- All nodes in the right subtree are **strictly greater** than the current node.
 
-对 Binary Search Tree 进行 in-order 遍历，可以发现序列是**从小到大有序**的，可依此来判断。
+### Approach
+
+- Perform DFS with value range constraints.
+- At each node, check: `minVal < node.Val < maxVal`.
+- Recursively update bounds:
+  - Left child: `maxVal = node.Val`
+  - Right child: `minVal = node.Val`
+
+This enforces global BST rules, not just local relationships.

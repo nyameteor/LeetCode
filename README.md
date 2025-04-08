@@ -57,7 +57,7 @@ Please see folder [problems](problems).
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [C++](problems/unique-binary-search-trees/answer.cpp) | [📃](problems/unique-binary-search-trees) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [Go](problems/interleaving-string/answer.go) | [📃](problems/interleaving-string) |
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](problems/validate-binary-search-tree/answer.cpp) | [📃](problems/validate-binary-search-tree) |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Go](problems/validate-binary-search-tree/answer.go) | [📃](problems/validate-binary-search-tree) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [Go](problems/symmetric-tree/answer.go) | [📃](problems/symmetric-tree) |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Go](problems/binary-tree-level-order-traversal/answer.go) | [📃](problems/binary-tree-level-order-traversal) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [C++](problems/binary-tree-zigzag-level-order-traversal/answer.cpp) | [📃](problems/binary-tree-zigzag-level-order-traversal) |
