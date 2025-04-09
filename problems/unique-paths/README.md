@@ -54,14 +54,9 @@ Output: 6
 
 ## Solution
 
-### Dynamic Programming
+### Observations
 
-本题是适合使用动态规划求解的经典案例。
-
-递归公式为：
-
-$$
-C_(m, n) = 0, m = 0 \lor n = 0 \\
-C_(m, n) = 1, m = 1 \land n = 1 \\
-C_(m, n) = C_(m - 1, n) + C_(m, n - 1), m \geq 2 \land n \geq 2
-$$
+- The robot can only move **down** or **right**.
+- Any path is a combination of `m-1` downs and `n-1` rights.
+- In the DP approach, each cell depends on the cell **below** and the cell **to the right** (top-down), or the cell **above** and the cell **to the left** (bottom-up).
+- The base case is the destination cell, which has **1** path (staying there).
