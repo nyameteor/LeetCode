@@ -94,7 +94,7 @@ Please see folder [problems](problems).
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C++](problems/compare-version-numbers/answer.cpp) | [📃](problems/compare-version-numbers) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [C++](problems/two-sum-ii-input-array-is-sorted/answer.cpp) | [📃](problems/two-sum-ii-input-array-is-sorted) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C++](problems/majority-element/answer.cpp) | [📃](problems/majority-element) |
-| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [C++](problems/repeated-dna-sequences/answer.cpp) | [📃](problems/repeated-dna-sequences) |
+| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [Go](problems/repeated-dna-sequences/answer.go) | [📃](problems/repeated-dna-sequences) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Go](problems/rotate-array/answer.go) | [📃](problems/rotate-array) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Go](problems/house-robber/answer.go) | [📃](problems/house-robber) |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [Go](problems/binary-tree-right-side-view/answer.go) | [📃](problems/binary-tree-right-side-view) |

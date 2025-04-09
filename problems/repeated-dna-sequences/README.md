@@ -35,6 +35,13 @@ Output: ["AAAAAAAAAA"]
 
 ## Solution
 
-### Brute Force
+### Approach: Sliding Window + HashSet
 
-思路：使用 Hash Table 统计每个可能序列的出现次数，如果一个序列出现不止一次，则将其添加到结果中。
+- Use a **sliding window** of length 10 to extract all substrings.
+- Track substrings seen once in a `seen` set.
+- Track substrings seen more than once in a `repeated` set.
+- Return all sequences in `repeated`.
+
+### Approach: Rolling Hash
+
+Todo.
