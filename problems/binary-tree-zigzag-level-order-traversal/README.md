@@ -38,21 +38,6 @@ Output: []
 
 ## Solution
 
-### Level Order with Queue + Reverse
-
-比较简单直观的方法，借助 queue 进行层序遍历，根据 zigzag 的条件，反转特定一层的结果。
-
-### Level Order with Two Stacks
-
-借助两个 stack 达到 zigzag level order 的效果：
-
-```shell
-depth                                  stack                                                        result
- 0              3                      pop st2(3), push node.left, node.right -> st1                [3]
-            /       \
- 1         9         8                 pop st1(9, 8), push node.right, node.left -> st2             [8, 9]
-         /   \     /   \
- 2      1     3   7     6              pop st2(6, 7, 3, 1), push node.left node.right -> st1        [1, 3, 7, 6]
-             / \       / \
- 3          4   5     2   3            pop st1(4, 5, 2, 3), push node.right, node.left -> st2       [3, 2, 5, 4]
-```
+- Use a queue (BFS) to process nodes level by level.
+- A flag (`even`) tracks whether to reverse the order for each level.
+- For each level, collect node values and reverse if needed, then add them to the result.
