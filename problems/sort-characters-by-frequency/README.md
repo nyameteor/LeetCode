@@ -44,16 +44,10 @@ Note that 'A' and 'a' are treated as two different characters.
 
 ## Solution
 
-### Priority Queue
-
-1. 使用 map `freq` 计数每个字符出现的次数；
-2. 使用 priority queue `q` 辅助对 `freq` 进行排序；
-3. pop `q` 中的所有元素，构造结果 string 即可。
-
-推荐使用 unorderd_map 而不是 map，因为 unorderd_map 的实现是 hash table，而 map 的实现是 balanced binary tree，前者搜索的时间复杂度更低。
-
-参考：https://hackingcpp.com/cpp/std/associative_containers.html
-
-### Bucket Sort
-
-Todo
+- **Count frequencies** of all characters using a hash map.
+- **Bucket Sort**:
+  - Create buckets where index `i` holds characters that appear `i` times.
+  - Iterate buckets in reverse (high to low frequency) and build the result string.
+  - Complexity: `O(n)` time, `O(n)` space.
+- **Alternative**: Use sorting with custom comparator or a max heap (`O(n log k)` time and `O(n)` space, where `k` is the number of unique characters).
+- All characters with the same frequency must be grouped together.
