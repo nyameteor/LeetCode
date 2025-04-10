@@ -43,10 +43,12 @@ Output: [-1,0,3,4,5]
 
 ## Solution
 
-### Sort by swapping nodes
+### Approach
 
-条件中允许修改节点值，故实现插入排序可通过交换节点间的值。
+Iterate through the list, inserting each element into its correct position in the sorted portion.
 
-### Sort by swapping values
+### Steps
 
-Todo 绘图表示
+1. Use a dummy node to simplify the insertion process.
+2. For each element, find its correct position within the sorted portion and insert it.
+3. Using extra space simplifies the algorithm but requires `O(n)` space, while the in-place approach uses `O(1)` space.
