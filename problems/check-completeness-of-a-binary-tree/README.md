@@ -37,14 +37,4 @@ Explanation: The node with value 7 isn't as far left as possible.
 
 ## Solution
 
-判断一棵二叉树的完整性。在一颗二叉树中，若除最后一层外的其余层都是满的，并且最后一层要么是满的，要么在右边缺少连续若干节点，则此二叉树为完全二叉树（Complete Binary Tree）。
-
-判断的过程思考得不清楚，需要再看。
-
-- 层序遍历，若节点为 null，则设二叉树的 isEnd 为 true
-- 若下次循环时 isEnd 为 true，则说明有多个 End，不满足完全二叉树定义，返回 false
-
-Refer:
-
-- [Wikipedia/Types of binary trees](https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees)
-- [leetcode/dicuss/1437393](https://leetcode.com/problems/check-completeness-of-a-binary-tree/discuss/1437393/C%2B%2B-bfs)
+**Key Idea:** In a complete tree, after encountering a `null` node in level-order traversal, all following nodes must be `null`.
