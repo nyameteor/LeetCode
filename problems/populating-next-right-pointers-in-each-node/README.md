@@ -50,15 +50,20 @@ Output: []
 
 ## Solution
 
-### BFS - Left to Right
+### Approach: Queue-Based BFS
 
-Traverse nodes in each level, connect current node to next node:
+Uses a queue to traverse level-by-level and connect nodes right-to-left.
 
-- if the current node is the last one of its level, then the next node will be NULL;
-- else, then the next node is the next front of queue.
+- Time: `O(n)`
+- Space: `O(n)`
 
-This solution is intuitive, but it doesn't take full advantage of the **perfect binary tree**, so it can be optimized.
+### Approach: Constant Space BFS
 
-### BFS - Right to Left
+Utilize the perfect binary tree property. For each node, connect `left -> right`, and if `next` exists, connect `right -> next.left`.
 
-Refer: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/discuss/1654181
+- Time: `O(n)`
+- Space: `O(1)`
+
+### References
+
+- [[C++/Python/Java] Simple Solution w/ Images & Explanation | BFS + DFS + O(1) Optimized BFS](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/solutions/1654181/c-python-java-simple-solution-w-images-explanation-bfs-dfs-o-1-optimized-bfs/)
