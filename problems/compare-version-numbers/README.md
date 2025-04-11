@@ -51,8 +51,8 @@ Explanation: version1's revision 0 is "0", while version2's revision 0 is "1". 0
 
 ## Solution
 
-### Convert to integer array then compare
+### Approach: Two Pointers
 
-Make a function to split version string with delimiter `.` and trim the leading `0`s, then convert the splited strings to integer.
+Traverse both version strings using two pointers. At each segment (delimited by `'.'`), parse the integer value and compare.
 
-Use this function to convert version string to array of integer. To compare version numbers, just compare each integer in the array.
+**Key Idea:** Treat missing segments as `0`, and ignore leading zeros when comparing.
