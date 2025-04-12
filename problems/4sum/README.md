@@ -31,42 +31,17 @@ Output: [[2,2,2,2]]
 **Constraints:**
 
 - `1 <= nums.length <= 200`
-- `-109 <= nums[i] <= 109`
-- `-109 <= target <= 109`
+- `-10^9 <= nums[i] <= 10^9`
+- `-10^9 <= target <= 10^9`
 
 ## Solution
 
-**Two Pointers**
+### Approach
 
-Sort the array and use two pointers pattern.
+- Sort the array to simplify duplicate handling and enable two-pointer scanning.
+- Use a recursive `kSum` function:
+  - For `k > 2`, fix one number and recursively solve `(k-1)`-Sum.
+  - For `k == 2`, apply the two-pointer technique.
+- Skip duplicates at each level to avoid repeating subsets.
 
-For kSum, we have `k-2` nested loops to enumerate all combinations of `k-2` values. When `k==2`, call `twoSum` and terminate the recursion.
-
-```text
-target: 27
-k: 5
-                                    2sum
-                                     |
-                         _________________________
-                         |                       |
-1       2        6       7       8       9       10
-k       k-1      k-2     l                       r
-                 |_______________________________|
-                                 |
-                                3sum
-
---> [1, 2, 6, 8, 10]
-
-                                        2sum
-                                         |
-                                 _________________
-                                 |               |
-1       2        6       7       8       9       10
-k       k-1              k-2     l               r
-                         |_______________________|
-                                     |
-                                    3sum
---> [1, 2, 7, 8, 9]
-```
-
-References: https://leetcode.com/problems/4sum/solutions/666283/4sum/
+This approach works efficiently for small values of `k` (like 3Sum and 4Sum).
