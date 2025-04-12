@@ -48,14 +48,9 @@ Output: false
 
 ## Solution
 
-### Convert to string or array
+### Approach
 
-Convert the integer to string or array, then check if it is a palindrome.
+- Negative numbers are not palindromes.
+- Reverse the number and compare with the original.
 
-### Reverse half of the number
-
-Todo
-
-References:
-
-- https://leetcode.com/problems/palindrome-number/solutions/3651712/2-method-s-c-java-python-beginner-friendly/
+**Optimization:** To improve performance and avoid overflow, reverse only half of the digits and compare with the other half.

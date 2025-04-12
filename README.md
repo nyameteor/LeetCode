@@ -17,7 +17,7 @@ Please see folder [problems](problems).
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Go](problems/median-of-two-sorted-arrays/answer.go) | [📃](problems/median-of-two-sorted-arrays) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Go](problems/longest-palindromic-substring/answer.go) | [📃](problems/longest-palindromic-substring) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Go](problems/string-to-integer-atoi/answer.go) | [📃](problems/string-to-integer-atoi) |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [C++](problems/palindrome-number/answer.cpp) | [📃](problems/palindrome-number) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Go](problems/palindrome-number/answer.go) | [📃](problems/palindrome-number) |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Go](problems/container-with-most-water/answer.go) | [📃](problems/container-with-most-water) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Go](problems/integer-to-roman/answer.go) | [📃](problems/integer-to-roman) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Go](problems/roman-to-integer/answer.go) | [📃](problems/roman-to-integer) |
