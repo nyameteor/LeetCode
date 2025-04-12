@@ -37,56 +37,31 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Solution
 
-### Binary Search
+### Binary Search (Recursive)
 
-We want to find the median `M` of two sorted arrays `A1`, `A2`. Let `N1 = size(A)`, `N2 = size(A2)`. Denote the cut point `C1` cut `A1` into `[...L1, R1...]`, `C2` cut `A2` into `[...L2, R2...]`; `C1`, `C2` will satisfy `C1 + C2 = (N1 + N2) / 2`, which means `[...L1] + [...L2]` and `[R1...] + [R2...]` have the same sizes.
+- Find the **k-th smallest element** in the union of two arrays recursively:
+  - Discard `k/2` elements from the array with the smaller `k/2`-th element
+  - Base cases:
+    - If one array is empty: return `k`-th from the other
+    - If `k == 1`: return min of both heads
 
-We can use the binary search method to find the target `C1` in `A1`:
+- Median is:
+  - Odd total: `findKth(k)`
+  - Even total: average of `findKth(k)` and `findKth(k+1)`
 
-- Initialization:
-  - Let `low = 0`, `high = N1`.
-  - Let `C1 = (low + high) / 2`, `C2 = (N1 + N2) / 2 - C1`.
-- Search:
-  - If `L1 > R2`, then `C1` is too large, so let `high = C1 - 1`;
-  - If `L2 > R1`, then `C1` is too small, so let `low = C1 + 1`;
-  - If `L1 <= R2 && L2 <= R1`, then `C1` is the target.
+### Binary Search (Iterative)
 
-Since we know `C1 + C2`, we also know `C2`.
+- Perform binary search on the **shorter array** to find the correct partition:
+  - Partition `nums1` at `i`, and `nums2` at `j = (m+n+1)/2 - i`
+  - Invariant: `max(left1, left2) <= min(right1, right2)`
 
-Then we can calculate the median `M`:
+- If valid partition:
+  - Odd total: return `max(left1, left2)`
+  - Even total: return average of `max(left1, left2)` and `min(right1, right2)`
 
-- If `N1 + N2` is odd, then `M = min(R1, R2)`;
-- If `N1 + N2` is even, then `M = (max(L1, L2) + min(R1, R2)) / 2`.
+- Use `math.MinInt32` and `math.MaxInt32` to handle empty partitions.
 
-Example:
+### Reference
 
-```shell
-A1      1 2 3 4             N1: 4
-          ^ ^
-         L1 R1
-index   0 1 2 3             C1: C1 + C2 = C
-            ^
-            C1
-
-A2      1 2 3 4 5           N2: 5
-          ^ ^
-         L2 R2
-index   0 1 2 3 4           C2: C2 + C1 = C
-            ^
-            C2
-
-A       1 1 2 2 3 3 4 4 5   N: N1 + N2 = 9
-              ^ ^
-              L R
-index   0 1 2 3 4 5 6 7 8   C: floor((N1 + N2) / 2) = 4
-                ^
-                C
-
-M = R = min(R1, R2) = min(3, 3) = 3.
-
-```
-
-Reference:
-
-- https://leetcode.com/problems/median-of-two-sorted-arrays/solutions/2471/very-concise-o-log-min-m-n-iterative-solution-with-detailed-explanation/
 - https://leetcode.com/problems/median-of-two-sorted-arrays/editorial/
+- https://leetcode.com/problems/median-of-two-sorted-arrays/solutions/2471/very-concise-o-log-min-m-n-iterative-solution-with-detailed-explanation/
