@@ -22,7 +22,7 @@ Please see folder [problems](problems).
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Go](problems/integer-to-roman/answer.go) | [📃](problems/integer-to-roman) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Go](problems/roman-to-integer/answer.go) | [📃](problems/roman-to-integer) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Go](problems/3sum/answer.go) | [📃](problems/3sum) |
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [C++](problems/3sum-closest/answer.cpp) | [📃](problems/3sum-closest) |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Go](problems/3sum-closest/answer.go) | [📃](problems/3sum-closest) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | [Go](problems/4sum/answer.go) | [📃](problems/4sum) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Go](problems/merge-two-sorted-lists/answer.go) | [📃](problems/merge-two-sorted-lists) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Go](problems/generate-parentheses/answer.go) | [📃](problems/generate-parentheses) |

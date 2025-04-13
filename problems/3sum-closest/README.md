@@ -35,5 +35,12 @@ Output: 0
 
 ## Solution
 
-Similar to [15. 3Sum](../3sum/README.md), we can also use two pointers approach. Sort the array, and get target `sum` by iterating with left and right pointers.
-The difference is that the solution can contain the same number, such as `-1, -1, 1`.
+### Key Idea
+
+Similar to [15. 3Sum](../3sum/README.md), we can also use two pointers approach:
+
+- Sort the array and fix one number at a time.
+- Use two pointers to find the other two numbers whose sum is closest to the target.
+- Track the minimum distance between current sum and target.
+
+This reduces the time complexity from **O(n^3)** to **O(n^2)**.
