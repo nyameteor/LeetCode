@@ -42,14 +42,10 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 ## Solution
 
-Refer: https://leetcode.com/problems/3sum-with-multiplicity/solution/
+### Key Idea
 
-### Three Pointer
+- Fix the third element `arr[k]`, and look for earlier pairs `(i, j)` such that `arr[i] + arr[j] == target - arr[k]`.
+- Use a hash map to store the frequency of all pair sums formed before `k`.
+- For each `k`, add `freq[target - arr[k]]` to the result.
 
-1. Sort array `A`.
-2. Set `T = target - A[i]`, then we can use two-pointer to find `A[j] + A[k] == T`.
-   - initial `j = i + 1`
-   - initial `k = A.size() - 1`
-3. Denote multiplicity of `x` as `M(x)`. Whenever `A[j] + A[k] == T`:
-   - if `A[j] != A[k]`, the number of pairs is `M(A[j]) * M(A[k])`.
-   - if `A[j] == A[k]`, the number of pairs is `M * (M - 1) / 2`, where `M = M(A[j]) = k - j + 1`.
+This reduces the time complexity from O(n^3) to O(n^2) by incrementally building pair sum frequencies and avoiding repeated triplet checks.

@@ -172,7 +172,7 @@ Please see folder [problems](problems).
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-postorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
-| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [C++](problems/3sum-with-multiplicity/answer.cpp) | [📃](problems/3sum-with-multiplicity) |
+| 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [Go](problems/3sum-with-multiplicity/answer.go) | [📃](problems/3sum-with-multiplicity) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](problems/range-sum-of-bst/answer.cpp) | [📃](problems/range-sum-of-bst) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [C++](problems/valid-mountain-array/answer.cpp) | [📃](problems/valid-mountain-array) |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy | [Racket](problems/verifying-an-alien-dictionary/answer.rkt) | [📃](problems/verifying-an-alien-dictionary) |
