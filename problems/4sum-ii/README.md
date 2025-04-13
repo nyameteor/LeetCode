@@ -40,12 +40,10 @@ Output: 1
 
 ## Solution
 
-### Hash Table
+### Key Idea
 
-Idea: Count number of solution `a + b + c + d = 0 -> a + b = -(c + d)`.
-
-- Iterate through the first 2 arrays and count the frequency of all possible sums of pairs: `map(a + b, frequency)`.
-- Iterate through the other 2 arrays, when `-(c + d)` is a valid key in map, means `a + b = -(c + d)`, and there are `map[-(c + d)]` matches in this case, so `matches += map[-(c + d)]`.
-- The count of `matches` is the required result.
-
-Time: O(N^2)
+- The equation `a + b + c + d == 0` can be rearranged as `(a + b) == -(c + d)`.
+- Instead of checking all 4-tuples directly, we split the arrays into two pairs:
+  - Compute all possible sums of elements from `nums1` and `nums2`, and store their frequencies in a hash map.
+  - Then, for each sum of elements from `nums3` and `nums4`, check how many times the negated sum appears in the map.
+- This observation reduces the problem from **O(n^4)** to **O(n^2)** time complexity by using hashing.
