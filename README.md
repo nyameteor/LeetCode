@@ -68,7 +68,7 @@ Please see folder [problems](problems).
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [Go](problems/path-sum-ii/answer.go) | [📃](problems/path-sum-ii) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [Go](problems/flatten-binary-tree-to-linked-list/answer.go) | [📃](problems/flatten-binary-tree-to-linked-list) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Medium | [Go](problems/populating-next-right-pointers-in-each-node/answer.go) | [📃](problems/populating-next-right-pointers-in-each-node) |
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [C++](problems/pascals-triangle/answer.cpp) | [📃](problems/pascals-triangle) |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [Go](problems/pascals-triangle/answer.go) | [📃](problems/pascals-triangle) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Go](problems/best-time-to-buy-and-sell-stock/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [Go](problems/best-time-to-buy-and-sell-stock-ii/answer.go) | [📃](problems/best-time-to-buy-and-sell-stock-ii) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [Go](problems/binary-tree-maximum-path-sum/answer.go) | [📃](problems/binary-tree-maximum-path-sum) |

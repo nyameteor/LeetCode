@@ -6,45 +6,35 @@
 
 ## Description
 
-给定一个非负整数 `numRows`，返回杨辉三角形的前 `numRows` 行。
+Given an integer `numRows`, return the first numRows of **Pascal's triangle**.
+
+In **Pascal's triangle**, each number is the sum of the two numbers directly above it as shown:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-在杨辉三角（帕斯卡三角）中，每个数是它左上方和右上方的数的和。
+**Example 1:**
 
-```shell
-Example 1:
-
+```
 Input: numRows = 5
 Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+```
 
-Example 2:
+**Example 2:**
 
+```
 Input: numRows = 1
 Output: [[1]]
 ```
 
-Constraints:
+**Constraints:**
 
-- 1 <= numRows <= 30
+- `1 <= numRows <= 30`
 
 ## Solution
 
-如题意，比较直观的方式是按照递推关系，将每一行都按照上一行计算出来，然后在首尾补 1。
+### Key Idea
 
-个人认为一个更好的方式是在上一行的前后补 0，这样计算该行时，不需要考虑 edge case:
+Build Pascal's Triangle row by row:
 
-```shell
-              0
-            0   0
-          0   1   0
-        0   1   1   0
-      0   1   2   1   0
-    0   1   3   3   1   0
-  0   1   4   6   4   1   0
-0   0   0   0   0   0   0   0
-```
-
-- n = numRows
-- time: O(n^2)
-- space: O(n^2)
+- Each row starts and ends with 1.
+- Each inner element is the sum of the two elements above it: `res[i][j] = res[i-1][j-1] + res[i-1][j]`
