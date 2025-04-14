@@ -34,15 +34,11 @@ Output: 0
 
 ## Solution
 
-### Number Theory
+### Number Theory: Digital Root
 
-Refer: https://en.wikipedia.org/wiki/Digital_root
+The **digital root** of a natural number is the single-digit value obtained by repeatedly summing its digits until only one digit remains.
 
-The digital root (also repeated digital sum) of a natural number in a given radix is the (single digit) value obtained by an iterative process of summing digits, on each iteration using the result from the previous iteration to compute a digit sum. The process continues until a single-digit number is reached.
-
-在数学中，数根是自然数的一种性质。数根是将一自然数的各个位数相加，若得到的值大于底数(base, radix)，则继续将各位数相加，直到其值小于底数为止。
-
-Congruence formula
+In base $b$, the digital root $dr_b(n)$ can be computed directly using modular arithmetic:
 
 $$
 dr_b(n) =
@@ -52,6 +48,10 @@ dr_b(n) =
     \end{cases}
 $$
 
-### Simulation
+### Simulation Approach
 
-Naive implementation, pass.
+A straightforward implementation recursively sums the digits until the result is less than 10.
+
+### References
+
+- [Digital root](https://en.wikipedia.org/wiki/Digital_root)

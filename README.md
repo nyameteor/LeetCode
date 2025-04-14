@@ -116,7 +116,7 @@ Please see folder [problems](problems).
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Go](problems/search-a-2d-matrix-ii/answer.go) | [📃](problems/search-a-2d-matrix-ii) |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | [Go](problems/different-ways-to-add-parentheses/answer.go) | [📃](problems/different-ways-to-add-parentheses) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C++](problems/valid-anagram/answer.cpp) | [📃](problems/valid-anagram) |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [C++](problems/add-digits/answer.cpp) | [📃](problems/add-digits) |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [Go](problems/add-digits/answer.go) | [📃](problems/add-digits) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | [C++](problems/word-pattern/answer.cpp) | [📃](problems/word-pattern) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Go](problems/longest-increasing-subsequence/answer.go) | [📃](problems/longest-increasing-subsequence) |
