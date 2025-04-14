@@ -30,34 +30,19 @@ Output: 1
 
 ## Solution
 
-### Math + Dynamic Programming
+### Key Idea
 
-设 $A(n)$ 为给定 ${1, 2, ... n}$ 的 $n$ 个节点时 Unique BST 的数量，其中 $A(0) = 1$（类似 $0! = 1$）。
+This problem is a classic [Catalan number](https://en.wikipedia.org/wiki/Catalan_number) application.
 
-设 $C(i, n)$ 为给定 ${1, 2, ...n}$ 的 $n$ 个节点且根节点为 $i$ 时 Unique BST 的数量，按定义可知：
+To build a BST with `n` nodes:
 
-$$
-A(n) = \sum_{i=1}^{n}C(i, n) \quad n \geq 1
-$$
+- Choose each node as the root.
+- Recursively count valid left/right subtrees (`left + right = n - 1`).
 
-通过画图观察，可以得到以下规律：
+Recurrence relation:
 
-当 i 为根节点时，剩余 n - 1 个节点中，小于 i 的数量为 i - 1，大于 i 的数量为 n - i，此时的组合共有 $A(i-1) * A(n-i)$ 种，即：
+```
+numTrees(n) = sum ((numTrees(left) * numTrees(right)) for all left in [0, n-1])
+```
 
-$$
-C(i, n) = A(i-1) * A(n-i)
-$$
-
-如 n = 5，i = 3 时，小于 i 的数量为 2，大于 i 的数量为 2，$C(3, 5) = A(2) * A(2) = 2 * 2 = 4$。
-
-由此可知，该问题有重叠的子问题，适合使用动态规划。总的方程可表示为：
-
-$$
-A(n) =
-    \begin{cases}
-        1 & \quad n = 0 \\
-        \sum_{i=1}^{n}A(i-1)*A(n-i) & \quad n \geq 1
-    \end{cases}
-$$
-
-推出递推方程后用 memoization 或 tabulation 都很简单。
+Use **top-down DP with memoization** to cache results and avoid recomputation.
