@@ -40,33 +40,7 @@ itr.hasNext(); // return False
 
 ## Solution
 
-next 和 hasNext 方法的实现则很简单，本题的重点是实现生成 Combinations 的方法。
+### Key Idea
 
-### Depth-First Search
-
-- DFS 搜索所有可能的 Combinations (本题按照词典顺序)
-- 若满足搜索条件 combination.size() 等于 `combinationLenght`，则加入用于保存 Combinations 的序列。
-
-```shell
-# characters = "abcd", length = 3
-        a
-    /   |   \
-   b    c    d
-  / \   |
- c   d  d
- |
- d
-        b
-      /   \
-     c     d
-     |
-     d
-
-        c
-        |
-        d
-
-        d
-
-# combinations = {abc, abd, acd, bcd}
-```
+Use **backtracking** to precompute all valid combinations of length `combinationLength` in lexicographical order, then store them in a list.  
+This allows `next()` and `hasNext()` to run in **O(1)** time.
