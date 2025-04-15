@@ -36,27 +36,13 @@ Output: [1,1,0]
 
 ## Solution
 
-### Monotonic Stack
+### Key Idea
 
-单调栈适合处理典型的问题：
+Use a **monotonic decreasing stack** (store indices) to efficiently find the **next warmer day** for each temperature.
 
-- Next Greater Element
-- Range queries in an array
+- Traverse the array **from right to left**.
+- For each day `i`, pop from the stack until you find a **warmer future day**.
+- If the stack is not empty, the difference in indices gives the wait time.
+- Push `i` onto the stack to be a future candidate.
 
-参考： [Medium/Monotonic Stack](https://medium.com/techtofreedom/algorithms-for-interview-2-monotonic-stack-462251689da8)
-
-```shell
-index
-0   1   2   3   4   5   6   7
-nums
-73  74  75  71  69  72  76  73
-
-monotonic stack
-0
-1   1       3   4
-2   2   2   5   5   5
-6   6   6   6   6   6   6   7
-
-result
-1   1   4   2   1   1   0   0
-```
+This avoids nested loops and ensures **O(n)** time complexity.
