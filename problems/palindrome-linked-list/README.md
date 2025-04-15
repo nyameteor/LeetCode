@@ -35,38 +35,8 @@ Output: false
 
 ## Solution
 
-### Use Array to simulate
+### Approach: Reverse Second Half
 
-简单直观的方法，把链表拷贝到一个数组中进行模拟。然后设置头尾指针向中间遍历来判断是否为回文。
-
-Time: `O(n)`, Space: `O(n)`
-
-### Reverse linked list
-
-- 使用快慢指针（快指针一次走 2 steps，慢指针一次走 1 step）找到链表 h1 的中心节点。
-- 逆转中心节点之后的节点（将后半段逆转）得到 h2。
-- 使用 h1, h2 遍历，比较节点数值，若至比较结束节点数值都相等，则链表为回文。
-
-```shell
-
-find Middle
-1 -> 2 -> 3 -> 2 -> 1 -> null       fast->next = null, middle = slow
-         slow      fast
-
-reverse second half of linked list from `mid`
-1 -> 2 -> 3 -> 2 -> 1 -> null
-         mid
-
-1 -> 2 -> 3 <- 2 <- 1
-p        mid        q
-
-traverse list with `p`, `q` two pointers
-1 -> 2 -> 3 <- 2 <- 1
-p                   q           p->val = q->val
-     p         q                p->val = q->val
-         p,q                    p = mid, loop end
-```
-
-Ref: [haoel/leetcode/PalindromeLinkedList.cpp](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/palindromeLinkedList/PalindromeLinkedList.cpp)
-
-Time: `O(n)`, Space: `O(1)`
+- Find the middle of the linked list using slow and fast pointers.
+- Reverse the second half of the linked list in-place.
+- Compare the first half with the reversed second half node by node.
