@@ -13,19 +13,19 @@ func combine(n int, k int) [][]int {
 
 func topDownBacktrack(n int, k int) [][]int {
 	res := make([][]int, 0)
-	path := make([]int, 0, k)
+	subset := make([]int, 0, k)
 
 	var dfs func(start int)
 	dfs = func(start int) {
-		if len(path) == k {
-			res = append(res, slices.Clone(path))
+		if len(subset) == k {
+			res = append(res, slices.Clone(subset))
 			return
 		}
 
 		for i := start; i <= n; i++ {
-			path = append(path, i)
+			subset = append(subset, i)
 			dfs(i + 1)
-			path = path[:len(path)-1]
+			subset = subset[:len(subset)-1]
 		}
 	}
 
@@ -35,21 +35,43 @@ func topDownBacktrack(n int, k int) [][]int {
 
 func topDown(n int, k int) [][]int {
 	res := make([][]int, 0)
-	path := make([]int, 0)
+	subset := make([]int, 0)
 
-	var dfs func(start int, path []int)
-	dfs = func(start int, path []int) {
-		if len(path) == k {
-			res = append(res, slices.Clone(path))
+	var dfs func(start int, subset []int)
+	dfs = func(start int, subset []int) {
+		if len(subset) == k {
+			res = append(res, slices.Clone(subset))
 			return
 		}
 
 		for i := start; i <= n; i++ {
-			dfs(i+1, append(path, i))
+			dfs(i+1, append(subset, i))
 		}
 	}
 
-	dfs(1, path)
+	dfs(1, subset)
+	return res
+}
+
+func bottomUp(n int, k int) [][]int {
+	res := make([][]int, 0)
+
+	for i := 1; i <= n+1-k; i++ {
+		res = append(res, []int{i})
+	}
+
+	for start := 2; start <= k; start++ {
+		newSubsets := make([][]int, 0)
+		for _, subset := range res {
+			for j := subset[len(subset)-1] + 1; j <= n+start-k; j++ {
+				newSubset := slices.Clone(subset)
+				newSubset = append(newSubset, j)
+				newSubsets = append(newSubsets, newSubset)
+			}
+		}
+		res = newSubsets
+	}
+
 	return res
 }
 
@@ -131,6 +153,10 @@ func main() {
 		{
 			name: "Top-down with backtracking",
 			fn:   topDownBacktrack,
+		},
+		{
+			name: "Bottom-up",
+			fn:   bottomUp,
 		},
 	}
 
