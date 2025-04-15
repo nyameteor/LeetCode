@@ -6,31 +6,59 @@ import (
 )
 
 func permute(nums []int) [][]int {
+	return topDownBacktrack(nums)
+}
+
+func topDownBacktrack(nums []int) [][]int {
+	n := len(nums)
 	res := make([][]int, 0)
-	path := make([]int, 0, len(nums))
-	dfs(nums, make([]bool, len(nums)), &path, &res)
+	path := make([]int, 0, n)
+	used := make([]bool, n)
+
+	var dfs func()
+	dfs = func() {
+		if len(path) == n {
+			res = append(res, slices.Clone(path))
+			return
+		}
+
+		for i := 0; i < n; i++ {
+			if used[i] {
+				continue
+			}
+			used[i] = true
+			path = append(path, nums[i])
+			dfs()
+			path = path[:len(path)-1]
+			used[i] = false
+		}
+	}
+
+	dfs()
+
 	return res
 }
 
-func dfs(nums []int, used []bool, path *[]int, res *[][]int) {
-	if len(*path) == len(nums) {
-		*res = append(*res, slices.Clone(*path))
-		return
-	}
+func bottomUp(nums []int) [][]int {
+	n := len(nums)
+	res := [][]int{{}}
 
-	for i := range nums {
-		if used[i] {
-			continue
+	for i := 0; i < n; i++ {
+		newPaths := make([][]int, 0)
+		for _, path := range res {
+			for _, num := range nums {
+				if slices.Contains(path, num) {
+					continue
+				}
+				newPath := slices.Clone(path)
+				newPath = append(newPath, num)
+				newPaths = append(newPaths, newPath)
+			}
 		}
-
-		used[i] = true
-		*path = append(*path, nums[i])
-
-		dfs(nums, used, path, res)
-
-		*path = (*path)[:len(*path)-1]
-		used[i] = false
+		res = newPaths
 	}
+
+	return res
 }
 
 func main() {
@@ -52,12 +80,33 @@ func main() {
 		},
 	}
 
-	for _, tc := range testCases {
-		actual := permute(tc.input)
-		if !slices.EqualFunc(actual, tc.expected, func(x, y []int) bool {
-			return slices.Equal(x, y)
-		}) {
-			fmt.Printf("permute(%v) = %v, expected = %v\n", tc.input, actual, tc.expected)
+	solutions := []struct {
+		name string
+		fn   func([]int) [][]int
+	}{
+		{
+			name: "Default Solution",
+			fn:   permute,
+		},
+		{
+			name: "Top-down with backtracking",
+			fn:   topDownBacktrack,
+		},
+		{
+			name: "Bottom-up",
+			fn:   bottomUp,
+		},
+	}
+
+	for _, solution := range solutions {
+		for _, tc := range testCases {
+			actual := solution.fn(tc.input)
+			if !slices.EqualFunc(actual, tc.expected, func(x, y []int) bool {
+				return slices.Equal(x, y)
+			}) {
+				fmt.Printf("[FAILED] Name: %s | Input: %v | Output: %v | Expected: %v\n",
+					solution.name, tc.input, actual, tc.expected)
+			}
 		}
 	}
 }
