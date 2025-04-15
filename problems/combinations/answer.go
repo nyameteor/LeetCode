@@ -34,16 +34,16 @@ func topDownBacktrack(n int, k int) [][]int {
 }
 
 func bottomUp(n int, k int) [][]int {
-	res := make([][]int, 0)
+	res := [][]int{{}}
 
-	for i := 1; i <= n+1-k; i++ {
-		res = append(res, []int{i})
-	}
-
-	for start := 2; start <= k; start++ {
+	for i := 1; i <= k; i++ {
 		newCombs := make([][]int, 0)
 		for _, comb := range res {
-			for j := comb[len(comb)-1] + 1; j <= n+start-k; j++ {
+			start := 1
+			if len(comb) > 0 {
+				start = comb[len(comb)-1] + 1
+			}
+			for j := start; j <= n-(k-i); j++ {
 				newComb := slices.Clone(comb)
 				newComb = append(newComb, j)
 				newCombs = append(newCombs, newComb)
