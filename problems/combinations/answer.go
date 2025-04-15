@@ -13,43 +13,23 @@ func combine(n int, k int) [][]int {
 
 func topDownBacktrack(n int, k int) [][]int {
 	res := make([][]int, 0)
-	subset := make([]int, 0, k)
+	comb := make([]int, 0, k)
 
 	var dfs func(start int)
 	dfs = func(start int) {
-		if len(subset) == k {
-			res = append(res, slices.Clone(subset))
+		if len(comb) == k {
+			res = append(res, slices.Clone(comb))
 			return
 		}
 
 		for i := start; i <= n; i++ {
-			subset = append(subset, i)
+			comb = append(comb, i)
 			dfs(i + 1)
-			subset = subset[:len(subset)-1]
+			comb = comb[:len(comb)-1]
 		}
 	}
 
 	dfs(1)
-	return res
-}
-
-func topDown(n int, k int) [][]int {
-	res := make([][]int, 0)
-	subset := make([]int, 0)
-
-	var dfs func(start int, subset []int)
-	dfs = func(start int, subset []int) {
-		if len(subset) == k {
-			res = append(res, slices.Clone(subset))
-			return
-		}
-
-		for i := start; i <= n; i++ {
-			dfs(i+1, append(subset, i))
-		}
-	}
-
-	dfs(1, subset)
 	return res
 }
 
@@ -61,15 +41,15 @@ func bottomUp(n int, k int) [][]int {
 	}
 
 	for start := 2; start <= k; start++ {
-		newSubsets := make([][]int, 0)
-		for _, subset := range res {
-			for j := subset[len(subset)-1] + 1; j <= n+start-k; j++ {
-				newSubset := slices.Clone(subset)
-				newSubset = append(newSubset, j)
-				newSubsets = append(newSubsets, newSubset)
+		newCombs := make([][]int, 0)
+		for _, comb := range res {
+			for j := comb[len(comb)-1] + 1; j <= n+start-k; j++ {
+				newComb := slices.Clone(comb)
+				newComb = append(newComb, j)
+				newCombs = append(newCombs, newComb)
 			}
 		}
-		res = newSubsets
+		res = newCombs
 	}
 
 	return res
@@ -145,10 +125,6 @@ func main() {
 		{
 			name: "Default Solution",
 			fn:   combine,
-		},
-		{
-			name: "Top-down",
-			fn:   topDown,
 		},
 		{
 			name: "Top-down with backtracking",
