@@ -47,44 +47,13 @@ Output: [1]
 
 ## Solution
 
-Take a look the following continous permutation, can you find the pattern?
+Accorading to [Wikipedia](https://en.wikipedia.org/wiki/Permutation#Generation_in_lexicographic_order):
 
-```shell
-1 2 3 4
-1 2 4 3
-1 3 2 4
-1 3 4 2
-1 4 2 3
-2 1 3 4
-...
-```
+The method goes back to [Narayana Pandita](https://en.wikipedia.org/wiki/Narayana_Pandita_(mathematician)) in 14th century India, and has been rediscovered frequently.
 
-The pattern can be descripted as below:
+The following algorithm generates the next permutation lexicographically after a given permutation. It changes the given permutation in-place.
 
-```shell
-1) from n-1 to 0, find the first place [i-1] which num[i-1] < num[i]
-2) from n-1 to i, find the first place [j] which num[j] > num[i-1]
-3) swap the num[j] with num[i-1]
-4) sort the sub-array [i, n)
-```
-
-For example:
-
-```shell
-1 4 3 2     <--1) find the first place [i-1] which num[i-1] < num[i]
-  i
-
-1 4 3 2     <--2) find the first place [j] which num[j] > num[i-1]
-i-1   j
-
-2 4 3 1     <--3) swap num[j] with num[i-1]
-i-1   j
-
-2 1 3 4     <--4) sort the sub-array [i, n]
-  i   n
-
-# Corner case
-4 3 2 1, the next permutation is 1 2 3 4
-```
-
-Ref: [haoel/leetcode/nextPermutation.cpp](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/nextPermutation/nextPermutation.cpp)
+1. Find the largest index `k` such that `a[k] < a[k + 1]`. If no such index exists, the permutation is the last permutation.
+2. Find the largest index `l` greater than `k` such that `a[k] < a[l]`.
+3. Swap the value of `a[k]` with that of `a[l]`.
+4. Reverse the sequence from `a[k + 1]` up to and including the final element `a[n]`.

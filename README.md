@@ -29,7 +29,7 @@ Please see folder [problems](problems).
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Go](problems/reverse-nodes-in-k-group/answer.go) | [📃](problems/reverse-nodes-in-k-group) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Go](problems/remove-duplicates-from-sorted-array/answer.go) | [📃](problems/remove-duplicates-from-sorted-array) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [Go](problems/divide-two-integers/answer.go) | [📃](problems/divide-two-integers) |
-| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](problems/next-permutation/answer.cpp) | [📃](problems/next-permutation) |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [Go](problems/next-permutation/answer.go) | [📃](problems/next-permutation) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](problems/longest-valid-parentheses/answer.cpp) | [📃](problems/longest-valid-parentheses) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](problems/search-in-rotated-sorted-array/answer.go) | [📃](problems/search-in-rotated-sorted-array) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](problems/valid-sudoku/answer.cpp) | [📃](problems/valid-sudoku) |
