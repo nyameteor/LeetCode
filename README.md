@@ -96,7 +96,7 @@ Please see folder [problems](problems).
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Go](problems/rotate-array/answer.go) | [📃](problems/rotate-array) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Go](problems/house-robber/answer.go) | [📃](problems/house-robber) |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [Go](problems/binary-tree-right-side-view/answer.go) | [📃](problems/binary-tree-right-side-view) |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C++](problems/number-of-islands/answer.cpp) | [📃](problems/number-of-islands) |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Go](problems/number-of-islands/answer.go) | [📃](problems/number-of-islands) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [C++](problems/happy-number/answer.cpp) | [📃](problems/happy-number) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Go](problems/reverse-linked-list/answer.go) | [📃](problems/reverse-linked-list) |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Go](problems/course-schedule/answer.go) | [📃](problems/course-schedule) |

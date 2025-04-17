@@ -43,17 +43,8 @@ Output: 3
 
 ## Solution
 
-### Union Find
+### Approach: DFS/BFS
 
-矩阵中的某个元素 a 和 b 是否连接代表一种等价关系（Equivalence Relations）或连通关系，适合使用并查集来处理。
-
-- 初始化集合 s，s 的大小为 `m * n`，用 `i * col + j` 标识 matrix 中的每个元素
-- 遍历矩阵获得连通关系，合并连通的元素为一个集合
-- 遍历集合，不交集（不交集是一个单独的连通集合）数量 = root 为自身的元素数量
-- 岛屿数量 = 不交集数量 - 水的数量
-
-Todo: 规范化表述
-
-### Depth-First Search
-
-Todo
+- Iterate through each cell in the grid.
+- When encountering a `'1'`, start a DFS/BFS to mark all connected land cells as visited (turn them into water, `'0'`).
+- Each DFS/BFS call that finds a new unvisited `'1'` represents discovering a new island, so increase the island count.
