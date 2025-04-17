@@ -37,12 +37,13 @@ Explanation: There are three ways to climb to the top.
 
 ## Solution
 
-每次可以爬 1 或 2 步任选，是无界背包问题，要求遍历整颗树，返回所有符合要求的情况的数量。
+### Key Idea
 
-用 DP 求解：
+This problem is a classic example of **dynamic programming**. The number of ways to reach the `n`-th step depends on the previous two steps:
 
-- 基本情况：`n == 0, f(n) == 1; n < 0, f(n) == 0;`
-- 递推关系：`f(n) = f(n-1) + f(n-2);`
-- 添加 memo 优化为线性时间
-- time: `O(n)`
-- space: `O(n)`
+- `dp[i] = dp[i-1] + dp[i-2]`
+
+### Observation
+
+- This is similar to the **Fibonacci sequence**.
+- Space can be optimized by storing only the last two values, reducing space complexity to **O(1)**.
