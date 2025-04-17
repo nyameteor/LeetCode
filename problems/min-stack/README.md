@@ -45,22 +45,4 @@ minStack.getMin(); // return -2
 
 ## Solution
 
-### Two Stacks
-
-使用两个栈：
-
-- 一个栈 stack 存储真正的数据
-- 一个栈 minStack 存储**当前** stack 中的最小值
-
-栈操作：
-
-- 当 stack 插入数据 val 时，检查 val 是否为当前 stack 中的最小值，若是则 val 同时插入到 minStack
-- 当 stack 弹出数据 val 时，检查 val 是否为当前 stack 中的最小值，若是则同时弹出 minStack 的栈顶
-
-```shell
-# Example
-5 2 1 4 3 1     <- keep push to stack
-5 2 1 1         <- min stack will be like this
-```
-
-Refer: [haoel/minStack.cpp](https://github.com/haoel/leetcode/blob/master/algorithms/cpp/minStack/minStack.cpp)
+Each node stores the value and the min so far. This allows `GetMin()` in **O(1)**.
