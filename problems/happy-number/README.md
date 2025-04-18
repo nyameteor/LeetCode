@@ -41,15 +41,4 @@ Output: false
 
 ## Solution
 
-### Detect Cycles with Hash Set
-
-根据题意，在验证 number 是否为 Happy Number 的过程中会出现两种情况：
-
-1. 得到不同的中间结果，最终返回 1
-2. 得到重复的中间结果，形成环
-
-可以使用一个简单的 Hash Set 来记录每次的中间结果，以此来判断是否会形成环。
-
-### Refer
-
-本题有官方题解：https://leetcode.com/problems/happy-number/solution/
+We can use a HashSet to detect cycles, or [Floyd's Cycle Detection](https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare) (slow/fast pointers) for constant space.
