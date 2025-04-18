@@ -51,12 +51,10 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 
 ## Solution
 
-### Depth-Frist Search
+### Approach: Recursive DFS
 
-- 深度优先遍历；
-- 计算当前路径的和：`pathSum = pathSum * 10 + Node.val`；
-- 当到达叶子节点时，将 pathSum 加到总体的 allSum；
+Use DFS to accumulate the path value. At each leaf, return the value; sum them all for the final result.
 
-Time: O(n), Space:O(1)
+### References
 
-另外可以参考 [@archit91 的题解](<https://leetcode.com/problems/sum-root-to-leaf-numbers/discuss/1556417/C%2B%2BPython-Recursive-and-Iterative-DFS-%2B-BFS-%2B-Morris-Traversal-O(1)-or-Beats-100>)，分析得很详细。
+- [[C++/Python] Recursive & Iterative DFS + BFS + Morris Traversal O(1)](https://leetcode.com/problems/sum-root-to-leaf-numbers/solutions/1556417/C++Python-Recursive-and-Iterative-DFS-+-BFS-+-Morris-Traversal-O/)
