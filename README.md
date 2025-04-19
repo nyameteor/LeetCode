@@ -74,7 +74,7 @@ Please see folder [problems](problems).
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [Go](problems/sum-root-to-leaf-numbers/answer.go) | [📃](problems/sum-root-to-leaf-numbers) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [Go](problems/clone-graph/answer.go) | [📃](problems/clone-graph) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | [Go](problems/gas-station/answer.go) | [📃](problems/gas-station) |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](problems/single-number/answer.cpp) | [📃](problems/single-number) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Go](problems/single-number/answer.go) | [📃](problems/single-number) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Go](problems/word-break/answer.go) | [📃](problems/word-break) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [Go](problems/word-break-ii/answer.go) | [📃](problems/word-break-ii) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Go](problems/linked-list-cycle/answer.go) | [📃](problems/linked-list-cycle) |
