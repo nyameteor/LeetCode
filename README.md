@@ -42,7 +42,7 @@ Please see folder [problems](problems).
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Go](problems/powx-n/answer.go) | [📃](problems/powx-n) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Go](problems/n-queens/answer.go) | [📃](problems/n-queens) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [C++](problems/maximum-subarray/answer.cpp) | [📃](problems/maximum-subarray) |
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [C++](problems/spiral-matrix/answer.cpp) | [📃](problems/spiral-matrix) |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Go](problems/spiral-matrix/answer.go) | [📃](problems/spiral-matrix) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Go](problems/merge-intervals/answer.go) | [📃](problems/merge-intervals) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Go](problems/unique-paths/answer.go) | [📃](problems/unique-paths) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Go](problems/climbing-stairs/answer.go) | [📃](problems/climbing-stairs) |

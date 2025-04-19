@@ -35,52 +35,13 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 ## Solution
 
-本题是一道模拟题。螺旋遍历矩阵是个向内收缩的过程，遍历时的上下界会随之变化。
+### Key Idea
 
-```shell
-matrix
-c               n
-1   2   3   4   r
-5   6   7   8
-9   10  11  12
-                m
+Use four boundaries (`top`, `bottom`, `left`, `right`) to simulate the spiral traversal. At each step, move in one of the four directions:
 
-top
-c               n
-1   2   3   4   r       [c, n), r++
-*   *   *   *
-*   *   *   *
-                m
+- Left to right
+- Top to bottom
+- Right to left (only if `top <= bottom`)
+- Bottom to top (only if `left <= right`)
 
-right
-c               n
-*   *   *   *
-*   *   *   8   r
-*   *   *   12          [r, m), n--
-                m
-
-bottom
-c           n
-*   *   *   *
-*   *   *   *   r
-9   10  11  *           [n-1, c), m--
-                m
-
-left
-c           n
-*   *   *   *
-5   *   *   *   r
-*   *   *   *   m       [m-1, r), c++
-
-top
-    c       n
-*   *   *   *
-*   6   7   *   r       [c, n), r++
-*   *   *   *   m
-...
-```
-
-另外当 matrix 只有一行或一列时（如 {1, 2} 和 {{1}, {2}}），需要额外添加条件防止 bottom 和 left 遍历到重复的内容：
-
-- 若 matrix 只有一行（ r == m ），则不遍历 bottom
-- 若 matrix 只有一列（ c == n ），则不遍历 left
+After traversing each direction, shrink the boundary to avoid revisiting. Repeat until all elements are visited.
