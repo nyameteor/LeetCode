@@ -47,10 +47,6 @@ Explanation: There is no way to reach at index 1 with value 0.
 
 ## Solution
 
-### BFS Traversal
+### Approach: BFS
 
-直观的 BFS 解法：
-
-- 使用 BFS 遍历路径。
-- 新建一个 visited 数组来标记某个 index 是否已被访问。
-  - 如果已经访问过，停止遍历这条路径。（防止成环）
+Use Breadth-First Search starting from the `start` index. From each position, try jumping to `i - arr[i]` and `i + arr[i]`, and mark visited indices to avoid cycles. Return `true` if any reachable index has value `0`.
