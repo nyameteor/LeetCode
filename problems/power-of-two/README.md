@@ -39,26 +39,23 @@ Output: false
 
 ## Solution
 
-Power of 2 means only one bit of `n` is 1.
+A number is a power of two if it has only one bit set.
 
-### Count bits
+### Bit Count Check
 
-Count the number of bits 1, if it only has one, then `n` is a power of two.
+Count the number of 1 bits in n. If there's only one, it's a power of two.
 
-### Math & Bit Hack
+### Bitwise Check
 
-We can use `n & (n - 1)` to figure out if `n` is either 0 or an exact power of two.
+Use `n > 0 && (n & (n - 1)) == 0` to check:
 
-```shell
-  1000 0000 0000 0000
-&  111 1111 1111 1111
-  ==== ==== ==== ====
-= 0000 0000 0000 0000
+```
+  1000 0000
+& 0111 1111
+= 0000 0000
 ```
 
-Refer:
+### References
 
 - https://stackoverflow.com/a/4678376
-- https://github.com/haoel/leetcode/blob/master/algorithms/cpp/powerOfTwo/PowerOfTwo.cpp
-
-More Bit hacks: http://graphics.stanford.edu/~seander/bithacks.html
+- https://graphics.stanford.edu/~seander/bithacks.html
