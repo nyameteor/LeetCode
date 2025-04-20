@@ -34,30 +34,11 @@ Output: 2
 
 ## Solution
 
-### HashMap
+Use the [Boyer–Moore majority vote algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm#Description) with these steps:
 
-定义序列长度为 N，使用 HashMap 计数每个元素的出现次数，遍历 HashMap 找到出现次数大于 N/2 的元素 m ，即为结果。
-
-C++ 中 HashMap 是不可遍历的，可以先转换为 Vector。
-
-- Time complexity: O(n)
-- Space complexity: O(n)
-
-### Boyer-Moore Voting Algorithm
-
-Refer: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
-
-多数投票算法，是一种用来寻找一组元素中占多数元素的算法，也是处理数据流的一种典型算法。
-
-伪代码表示如下：
-
-```shell
-- 定义候选元素 m，计数器 i = 0
-- 对输入序列的每一个元素 x：
-  - 若 i = 0，则 m = x
-  - 若 m = x，则 i = i + 1；否则，i = i - 1
-- 返回 m
-```
-
-- Time complexity: O(n)
-- Space complexity: O(1)
+- Initialize an element `m` and a counter `c` with `c = 0`
+- For each element `x` of the input sequence:
+  - If `c = 0`, then assign `m = x` and `c = 1`
+  - else if `m = x`, then assign `c = c + 1`
+  - else assign `c = c − 1`
+- Return `m`
