@@ -124,7 +124,7 @@ Please see folder [problems](problems).
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 386 | [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [Go](problems/lexicographical-numbers/answer.go) | [📃](problems/lexicographical-numbers) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [C++](problems/decode-string/answer.cpp) | [📃](problems/decode-string) |
-| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](problems/sum-of-left-leaves/answer.cpp) | [📃](problems/sum-of-left-leaves) |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [Go](problems/sum-of-left-leaves/answer.go) | [📃](problems/sum-of-left-leaves) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [Go](problems/add-strings/answer.go) | [📃](problems/add-strings) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [C++](problems/partition-equal-subset-sum/answer.cpp) | [📃](problems/partition-equal-subset-sum) |
 | 427 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | Medium | [Go](problems/construct-quad-tree/answer.go) | [📃](problems/construct-quad-tree) |

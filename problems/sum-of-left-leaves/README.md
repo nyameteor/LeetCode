@@ -32,14 +32,4 @@ Output: 0
 
 ## Solution
 
-### Recursive DFS
-
-本题给定了一棵二叉树，求在所有为左孩子的叶子的和。
-
-判断叶子节点很简单，那么如何判定当前节点是左孩子还是右孩子呢？一个实用的方法是，在遍历时添加一个 bool 变量，用于跟踪当前节点是左孩子还是右孩子：
-
-- 从节点 root 开始，初始化 bool 变量 `isLeft=false`，因为 root 节点不是某个节点的左孩子。
-- 递归探索左子树时，设置 `isLeft=true`；递归探索右子树时，设置 `isLeft=false`。
-- 若当前节点是叶子节点且 `isLeft=true`，返回当前节点的值；否则，返回 0。
-
-Refer: https://leetcode.com/problems/sum-of-left-leaves/discuss/1558055
+Use DFS to traverse the tree and track whether the current node is a left child. If it's a leaf node and marked as left, add its value to the sum.
