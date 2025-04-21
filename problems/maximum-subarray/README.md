@@ -1,6 +1,6 @@
 # 53. Maximum Subarray
 
-- Difficulty: Easy
+- Difficulty: Medium
 - Topics: Array, Divide and Conquer, Dynamic Programming
 - Link: https://leetcode.com/problems/maximum-subarray/
 
@@ -41,29 +41,50 @@ Output: 23
 
 ## Solution
 
-### Dynamic Programming
+### Dynamic Programming (DP)
 
-Todo
+- Idea: Track the maximum subarray sum ending at each index
+- Definition:
+  - `dp[i]` = max subarray sum ending at index `i`
+- Transition:
+  - `dp[i] = max(nums[i], nums[i] + dp[i-1])`
+- Initialization:
+  - `dp[0] = nums[0]`
+  - `maxSum = dp[0]`
+- Complexity:
+  - Time: O(n)
+  - Space: O(n)
 
-### Greedy
+---
 
-本题的贪心方法不是很直观：
+### Kadane’s Algorithm (Optimized DP)
 
-- 局部最优：若连续和 sum < 0，则放弃当前连续和（将 sum 赋值为 0），从下一个元素开始计算连续和，因为负数会使之后的和更小。
-- 全局最优：取最大连续和 max(sum)
+- Idea: Track the max subarray sum ending at the current index using a single variable
+- Definition:
+  - `curSum` = max subarray sum ending at index `i`
+- Transition:
+  - `curSum = max(nums[i], curSum + nums[i])`
+  - `maxSum = max(maxSum, curSum)`
+- Initialization:
+  - `curSum = nums[0]`
+  - `maxSum = nums[0]`
+- Complexity:
+  - Time: O(n)
+  - Space: O(1)
 
-```shell
-nums                            sums
--2   1  -3   4  -1   2   1
- i                              -2, sum += nums[i], sum < 0 -> sum = 0
-     i                           1, sum += nums[i]
-     ^   i                      -2, sum += nums[i], sum < 0 -> sum = 0
-             i                   4, sum += nums[i]
-             ^   i               3, sum += nums[i]
-             ^       i           5, sum += nums[i]
-             ^           i       6, sum += nums[i]
+### Divide and Conquer
 
-res = max sum = 6
-```
+- Recursively split the array into halves.
+- The answer is the max of:
+  1. Left half's max subarray
+  2. Right half's max subarray
+  3. Max subarray crossing the middle
+- Combine results like in merge sort.
+- Complexity:
+  - Time: O(n log n)
+  - Space: O(log n)
 
-Time: O(n), Space: O(1)
+### References
+
+- [[C++/Python] 7 Simple Solutions w/ Explanation | Brute-Force + DP + Kadane + Divide & Conquer](https://leetcode.com/problems/maximum-subarray/solutions/1595195/c-python-7-simple-solutions-w-explanation-brute-force-dp-kadane-divide-conquer/)
+- [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
