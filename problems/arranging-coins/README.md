@@ -36,46 +36,12 @@ Explanation: Because the 4th row is incomplete, we return 3.
 
 ## Solution
 
-### Brute Force
+### Approach: Binary Search
 
-琐碎的实现，从 1 开始累加判断，直至满足条件。
+- Each `i-th` row requires `i` coins, forming a total of `k * (k + 1) / 2` coins for `k` full rows.
+- We want the largest `k` such that: `k * (k + 1) / 2 <= n`.
+- Use **binary search** to efficiently find the maximum valid `k`.
 
-### Binary Search
+### References
 
-本题可使用 Binary Search，因为解题过程可以抽象为从以下 sorted array 中，找到 target index：
-
-```shell
-1   2   3   4   5   6   ...
-1   3   6   10  15  21  ...
-```
-
-本题没有直接显式给出 array， 但 array element 和 index 存在关系：`A[i] = i * (i + 1) / 2`。
-
-搜索返回的结果为：
-
-- 若 `n` 在 array 中找到，则返回对应索引；
-- 若 `n` 在 array 中未找到，则返回下界的索引 `x`，满足 `A[x]` < n < `A[x+1]`，对应退出搜索时的右指针 `r` 。
-
-Pseudocode:
-
-```plaintext
-function binary_search(T) is
-    L := 0
-    R := T # 将上界设为 T 是最简单的方法，应该可以用数学关系缩减上界
-    while L ≤ R do
-        m := floor((L + R) / 2)
-        E := m * (m + 1) / 2    # 计算索引 m 对应的元素 E
-        if E < T then
-            L := m + 1
-        else if E > T then
-            R := m - 1
-        else:
-            return m
-    return R    # 若未找到相等的 T，返回最接近的下界
-```
-
-另外参考 @zayne-siew 的[题解](<https://leetcode.com/problems/arranging-coins/discuss/1559984/C%2B%2BJavaPython-O(sqrt(n))-O(logn)-O(1)-Approaches-with-Explanation>)，写得很详细。
-
-### Math
-
-Todo
+- [[C++/Java/Python] O(sqrt(n)), O(logn), O(1) Approaches with Explanation](https://leetcode.com/problems/arranging-coins/solutions/1559984/C++JavaPython-O/)

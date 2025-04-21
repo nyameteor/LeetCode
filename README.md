@@ -130,7 +130,7 @@ Please see folder [problems](problems).
 | 427 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | Medium | [Go](problems/construct-quad-tree/answer.go) | [📃](problems/construct-quad-tree) |
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | Medium | [Go](problems/minimum-genetic-mutation/answer.go) | [📃](problems/minimum-genetic-mutation) |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | [Go](problems/find-all-anagrams-in-a-string/answer.go) | [📃](problems/find-all-anagrams-in-a-string) |
-| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [C++](problems/arranging-coins/answer.cpp) | [📃](problems/arranging-coins) |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [Go](problems/arranging-coins/answer.go) | [📃](problems/arranging-coins) |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | [Go](problems/string-compression/answer.go) | [📃](problems/string-compression) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [C++](problems/find-all-numbers-disappeared-in-an-array/answer.cpp) | [📃](problems/find-all-numbers-disappeared-in-an-array) |
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | [C++](problems/delete-node-in-a-bst/answer.cpp) | [📃](problems/delete-node-in-a-bst) |
