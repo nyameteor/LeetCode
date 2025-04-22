@@ -47,7 +47,7 @@ Please see folder [problems](problems).
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Go](problems/unique-paths/answer.go) | [📃](problems/unique-paths) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Go](problems/climbing-stairs/answer.go) | [📃](problems/climbing-stairs) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [Go](problems/search-a-2d-matrix/answer.go) | [📃](problems/search-a-2d-matrix) |
-| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](problems/sort-colors/answer.cpp) | [📃](problems/sort-colors) |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Go](problems/sort-colors/answer.go) | [📃](problems/sort-colors) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [Go](problems/combinations/answer.go) | [📃](problems/combinations) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Go](problems/subsets/answer.go) | [📃](problems/subsets) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Go](problems/word-search/answer.go) | [📃](problems/word-search) |

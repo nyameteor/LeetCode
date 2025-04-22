@@ -26,77 +26,24 @@ Input: nums = [2,0,1]
 Output: [0,1,2]
 ```
 
-**Example 3:**
-
-```
-Input: nums = [0]
-Output: [0]
-```
-
-**Example 4:**
-
-```
-Input: nums = [1]
-Output: [1]
-```
-
 **Constraints:**
 
 - `n == nums.length`
 - `1 <= n <= 300`
-- `nums[i]` is `0`, `1`, or `2`.
+- `nums[i]` is either `0`, `1`, or `2`.
 
-**Follow up:** Could you come up with a one-pass algorithm using only constant extra space?
+**Follow up:** Could you come up with a one-pass algorithm using only constant extra space?
 
 ## Solution
 
-本题是经典的 **Dutch national flag problem**，Wikipedia 上有[详细的介绍](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)。
+We can use the [Dutch National Flag Algorithm](https://en.wikipedia.org/wiki/Dutch_national_flag_problem):
 
-参考 Wikipedia 的介绍，本题的解决方案对设计排序算法很有意义，之后可以尝试补充它们的关联。
-
-init i, j := 0, k := size of A - 1;
-
-while j<=k, check A[j]:
-
-- A[j] < mid -> swap(A[i], A[j]), i++, j++
-- A[j] > mid -> swap(A[j], A[k]), k--
-- A[j] = mid -> j++
-
-```shell
- 2 0 1 2 0 1 1      i,j := 0, k := size of A - 1
- ^           ^
-i,j          k
-
-
- 2 0 1 2 0 1 1      A[j] > mid -> swap(A[j], A[k]), k--
- ^           ^
-i,j          k
-
- 1 0 1 2 0 1 2      A[j] = mid -> j++
- ^         ^
-i,j        k
-
- 1 0 1 2 0 1 2      A[j] < mid -> swap(A[i], A[j]), i++, j++
- ^ ^       ^
- i j       k
-
- 0 1 1 2 0 1 2      A[j] = mid -> j++
-   ^ ^     ^
-   i j     k
-
- 0 1 1 2 0 1 2      A[j] > mid -> swap(A[j], A[k]), k--
-   ^   ^   ^
-   i   j   k
-
- 0 1 1 1 0 2 2      A[j] = mid -> j++
-   ^   ^ ^
-   i   j k
-
- 0 1 1 1 0 2 2      A[j] < mid -> swap(A[i], A[j]), i++, j++
-   ^     ^
-   i    j,k
-
- 0 0 1 1 1 2 2      j > k, return
-     ^   ^ ^
-     i   k j
-```
+- Use three pointers:
+  - `i`: next position to place 0 (red)
+  - `j`: current element under examination
+  - `k`: next position to place 2 (blue)
+- Traverse the array once (`j <= k`):
+  - If `nums[j] == 0`: swap with `i`, increment both `i` and `j`
+  - If `nums[j] == 2`: swap with `k`, decrement `k` only (recheck `j`)
+  - If `nums[j] == 1`: just increment `j`
+- Ensures all 0s are on the left, 2s on the right, and 1s in the middle.
