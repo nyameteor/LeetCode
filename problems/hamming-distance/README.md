@@ -35,13 +35,11 @@ Output: 1
 
 ## Solution
 
-### XOR + Count bits
+- Compute `z = x ^ y` to get the differing bits.
+- Count the number of set bits (`1`s) in `z` using Brian Kernighan’s Algorithm:
+  - Repeatedly do `x &= x - 1` to clear the least significant set bit.
+  - Increment the count each time.
 
-对 x 和 y 按位异或得到 z，计算 z 中为 1 的位数（可以逐位和 1 执行按位与），即为结果。
+### References
 
-更多解法参考：[@leetcode/archit91](https://leetcode.com/problems/hamming-distance/discuss/1585474/C%2B%2BPython-4-Simple-Solutions-w-Explanations-or-XOR-and-Brian-Kernighan-method)
-
-Refer:
-
-- [Bitwise operations in C](https://en.wikipedia.org/wiki/Bitwise_operations_in_C)
-- [Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
+- [Counting bits set, Brian Kernighan's way](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetNaive)

@@ -136,7 +136,7 @@ Please see folder [problems](problems).
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | [C++](problems/delete-node-in-a-bst/answer.cpp) | [📃](problems/delete-node-in-a-bst) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Go](problems/sort-characters-by-frequency/answer.go) | [📃](problems/sort-characters-by-frequency) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [Go](problems/4sum-ii/answer.go) | [📃](problems/4sum-ii) |
-| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [C++](problems/hamming-distance/answer.cpp) | [📃](problems/hamming-distance) |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [Go](problems/hamming-distance/answer.go) | [📃](problems/hamming-distance) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | Medium | [Go](problems/implement-rand10-using-rand7/answer.go) | [📃](problems/implement-rand10-using-rand7) |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Go](problems/ones-and-zeroes/answer.go) | [📃](problems/ones-and-zeroes) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | [C++](problems/number-complement/answer.cpp) | [📃](problems/number-complement) |
