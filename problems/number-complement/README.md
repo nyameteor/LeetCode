@@ -34,8 +34,11 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 
 ## Solution
 
-### Flip Bits from Right to Left
+### Approach: Bit Masking
 
-We can simply iterate from rightmost bit, flip each bit with `^`; Or use extra space, append each flipped bit to a new result.
+- Create a mask with all bits set to `1` matching the length of `num`.
+- XOR the mask with `num` to flip all bits (get the complement).
 
-Refer: https://leetcode.com/problems/number-complement/discuss/1650035
+### References
+
+- [[C++/Python] Simple Solutions w/ Explanation | Brute-Force +Bit-Manipulation Tricks + In-Built](https://leetcode.com/problems/number-complement/solutions/1650035/c-python-simple-solutions-w-explanation-brute-force-bit-manipulation-tricks-in-built/)
