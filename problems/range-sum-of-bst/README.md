@@ -37,8 +37,6 @@ Explanation: Nodes 6, 7, and 10 are in the range [6, 10]. 6 + 7 + 10 = 23.
 
 ## Solution
 
-Refer: @archit91 https://leetcode.com/problems/range-sum-of-bst/discuss/1628229
-
 ### BFS, Optimized for BST
 
 To take advantage of the the fact that our given tree is a binary search tree and all node's value are unique, we can reduce search space in some cases by doing conditional tabulation(also called `pruning`).
@@ -50,3 +48,7 @@ To take advantage of the the fact that our given tree is a binary search tree an
 ### DFS, Optimized for BST
 
 Similar to above solution. When using DFS, we can reduce search space in some cases by doing conditional recursion.
+
+### References
+
+- [[C++/Python] Simple Solution w/ Explanation | DFS + BFS w/ Optimizations + O(1) Morris](https://leetcode.com/problems/range-sum-of-bst/solutions/1628229/c-python-simple-solution-w-explanation-dfs-bfs-w-optimizations-o-1-morris/)
