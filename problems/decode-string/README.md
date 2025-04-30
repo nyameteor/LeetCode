@@ -51,21 +51,17 @@ Output: "abccdcdcdxyz"
 
 ## Solution
 
-### Two Stack
+### Approach: Stack-Based Decoding
 
-和 **Basic Calculator** 相似的解法。使用两个栈，栈 a 存放操作的数字，栈 b 存放字符。
+- Use two stacks:
+  - One for repeat counts (`countStack`)
+  - One for accumulated strings (`strStack`)
+- Iterate through the string:
+  - If it's a digit, build the current repeat count.
+  - If it's `'['`, push the current count and string onto the stacks, then reset them.
+  - If it's `']'`, pop from both stacks and append the repeated substring.
+  - Otherwise, append the character to the current string.
 
-遍历字符串 s：
+### References
 
-- 若 s[i] 是数字，则读取所有数字的字符，将其转换为 int 类型后推入栈 a。
-- 若 s[i] 是字符 ']'：
-  - 推出栈 b 中 '[' 和 ']' 间的字符，即为经过编码后的字符串。
-  - 推出栈 a 的栈顶，即为解码的参数 k。
-  - 对编码后的字符串进行解码（重复 k 次），将解码后的字符推入栈 b。
-- 若 s[i] 是其他字符，则推入栈 b。
-
-遍历结束后，推出栈 b 中的所有字符，并逆序相加，即为结果。
-
-Tips:
-
-- c++ 中判断 char `c` 是否为数字，可以使用 `isdigit(c)`，等价于 `c >= '0' && c <= '9'`。
+- [[C++/Python] Clean & Simple Solutions w/ Explanation | Recursive + Iterative using Custom Stack](https://leetcode.com/problems/decode-string/solutions/1635464/c-python-clean-simple-solutions-w-explanation-recursive-iterative-using-custom-stack/)
