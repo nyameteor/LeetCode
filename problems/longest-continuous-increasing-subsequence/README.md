@@ -36,32 +36,8 @@ increasing.
 
 ## Solution
 
-### Sliding Window
+We can use a two-pointer sliding window approach:
 
-使用两个指针 l，r；r 作为遍历指针，l 作为锚点（anchor）记录当前递增子序列开始位置的索引，当前的 sliding window 即为 A[l, r]，子序列长度为 r - l + 1。
-
-若 nums[r-1] < nums[r]，说明从该位置 r 开始是一个新的子序列，故更新锚点 l = r。
-
-遍历中每一次中得到的子序列长度作为候选值去更新结果，最终即得到结果。
-
-```shell
- 1 3 5 2 4 2
-l,r
-
- 1 3 5 1 4 2
- l r
-
- 1 3 5 1 4 2
- l   r
-
- 1 3 5 1 4 2    nums[r-1] < nums[r], l = r
-      l,r
-
- 1 3 5 1 4 2
-       l r
-
- 1 3 5 1 4 2    nums[r-1] < nums[r], l = r
-          l,r
-```
-
-滑动窗口是本题的官方解：https://leetcode.com/problems/longest-continuous-increasing-subsequence/solution/
+- `l` marks the start of the current increasing subarray.
+- If `nums[r] <= nums[r-1]`, reset `l = r`.
+- Update `res` with the current window size: `r - l + 1`.
