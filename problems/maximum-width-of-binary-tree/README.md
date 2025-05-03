@@ -53,7 +53,7 @@ Explanation: The maximum width existing in the second level with the length 2 (3
 
 The idea is simple, as shown below, the number is the `index` of node.
 
-```shell
+```text
                                 1
             +-------------------+-------------------+
             2                                       3
@@ -75,11 +75,7 @@ So we can just:
 - Traversal the nodes by level, and **record** the index of child of the current node.
 - In each level, we find the `width` between leftmost and rightmost index, and compare it with current `max_width`.
 
-Refer:
+### References
 
-- https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106645/C%2B%2BJava-*-BFSDFS3liner-Clean-Code-With-Explanation
-- https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/1338308/C%2B%2B-DFS-and-BFS-with-no-overflow
-
-Similar Problem:
-
-- [655. Print Binary Tree.md](./655.%20Print%20Binary%20Tree.md)
+- [[C++/Java] * [BFS/DFS/3liner] Clean Code With Explanation](https://leetcode.com/problems/maximum-width-of-binary-tree/solutions/106645/C++Java-/)
+- Similar Problem: [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)

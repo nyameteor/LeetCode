@@ -152,7 +152,7 @@ Please see folder [problems](problems).
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 | 655 | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [Go](problems/print-binary-tree/answer.go) | [📃](problems/print-binary-tree) |
-| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [C++](problems/maximum-width-of-binary-tree/answer.cpp) | [📃](problems/maximum-width-of-binary-tree) |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [Go](problems/maximum-width-of-binary-tree/answer.go) | [📃](problems/maximum-width-of-binary-tree) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [Go](problems/longest-continuous-increasing-subsequence/answer.go) | [📃](problems/longest-continuous-increasing-subsequence) |
 | 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [Go](problems/maximum-sum-of-3-non-overlapping-subarrays/answer.go) | [📃](problems/maximum-sum-of-3-non-overlapping-subarrays) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
