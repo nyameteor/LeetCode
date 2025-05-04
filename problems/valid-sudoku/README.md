@@ -60,10 +60,10 @@ Explanation: Same as Example 1, except with the 5 in the top left corner being m
 
 ## Solution
 
-### Mulitple Pass
+To efficiently solve this problem, we can validate all three constraints (rows, columns, and boxes) in a single pass over the board.
 
-Check the row, column, area separately. trivial method.
+Use three arrays of sets (or fixed-size 2D arrays) to track seen numbers:
 
-### One Pass
-
-Todo
+- One for each row
+- One for each column
+- One for each 3*3 box (`boxIndex := (row / 3) * 3 + col / 3`)

@@ -32,7 +32,7 @@ Please see folder [problems](problems).
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [Go](problems/next-permutation/answer.go) | [📃](problems/next-permutation) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](problems/longest-valid-parentheses/answer.cpp) | [📃](problems/longest-valid-parentheses) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](problems/search-in-rotated-sorted-array/answer.go) | [📃](problems/search-in-rotated-sorted-array) |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](problems/valid-sudoku/answer.cpp) | [📃](problems/valid-sudoku) |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [Go](problems/valid-sudoku/answer.go) | [📃](problems/valid-sudoku) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](problems/trapping-rain-water/answer.cpp) | [📃](problems/trapping-rain-water) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [Go](problems/multiply-strings/answer.go) | [📃](problems/multiply-strings) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
