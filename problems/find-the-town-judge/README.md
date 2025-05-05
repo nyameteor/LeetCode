@@ -52,10 +52,6 @@ Output: -1
 
 ### Count degree of vertex
 
-Consider array `trust` as a graph, all pairs are directed edge.
-
-The vertex with `indegree - outdegree = N - 1` become the town judge.
-
-So we can count the indegree and outdegree of each vertex, and check at the end.
-
-Refer: https://leetcode.com/problems/find-the-town-judge/discuss/242938
+- Consider array `trust` as a graph, all pairs are directed edge.
+- The vertex with `indegree - outdegree = N - 1` become the town judge.
+- So we can count the indegree and outdegree of each vertex, and check at the end.
