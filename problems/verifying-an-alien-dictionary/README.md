@@ -43,4 +43,4 @@ Given a sequence of `words` written in the alien language, and the `order` of th
 
 ## Solution
 
-Store `{letter: order}` in a hash map, then compare words with this hash map.
+Map each letter to its position, then check if each adjacent word pair is in order.
