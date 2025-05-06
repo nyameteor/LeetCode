@@ -38,80 +38,51 @@ Output: 0
 
 ## Solution
 
-Refer: https://leetcode.com/problems/longest-valid-parentheses/solution/
+### Stack-Based Approach
 
-### Using Stack
+We can use a stack to track indices and compute lengths of valid parentheses substrings.
 
-We can make use of stack while scanning the given string to:
+**Key ideas:**
 
-1. check if the string scanned so far is valid.
-2. find the length of the longest valid string.
+- Push `-1` initially to handle edge cases.
+- For `'('`: push its index.
+- For `')'`: pop the stack.
+  - If the stack is empty, push current index (marks new base).
+  - Else, update max length as `current index - stack.top()`.
 
-In order to do so:
+This allows us to both validate the sequence and compute the longest valid substring in one pass.
 
-- start by pushing `-1` onto the stack(for handle edge case).
-- for every `(`, push `current_element_index` onto the stack.
-- for every `)`, pop the topmost element(if stack is not empty).
-  - if the stack is empty, push `current_element_index` onto the stack.
-  - else, the length of the currently valid string is `current_element_index - stack.top()`.
+**Example walkthrough:**
 
-Example:
+```text
+Input: ")())((())"
 
-```plaintext
-index   0   1   2   3   4   5   6   7   8
-string  )   (   )   )   (   (   (   )   )
+Stack:  -1
+Step 1: ')' -> pop -> stack empty -> push 0       // Stack: [0]
+Step 2: '(' -> push 1                             // Stack: [0, 1]
+Step 3: ')' -> pop -> maxLen = 2 - 0 = 2          // Stack: [0]
+Step 4: ')' -> pop -> stack empty -> push 3       // Stack: [3]
+Step 5: '(' -> push 4                             // Stack: [3, 4]
+Step 6: '(' -> push 5                             // Stack: [3, 4, 5]
+Step 7: '(' -> push 6                             // Stack: [3, 4, 5, 6]
+Step 8: ')' -> pop -> maxLen = 7 - 5 = 2          // Stack: [3, 4, 5]
+Step 9: ')' -> pop -> maxLen = 8 - 4 = 4          // Stack: [3, 4]
 
-
-stack   -1                                          init
-
-
-stack   0                                           ele = ')' => st.pop(); st.empty() => st.push(ele_index);
-
-
-stack   0   1                                       ele = '(' => st.push(ele_index);
-
-
-stack   0                                           ele = ')' => st.pop(); !st.empty() => len = ele_index - st.top();
-len     2 - 0 = 2
-
-stack   3                                           ele = ')' => st.pop(); st.emtpy() => st.push(ele_index);
-
-
-stack   3   4                                       ele = '(' => st.push(ele_index);
-
-
-stack   3   4   5                                   ele = '(' => st.push(ele_index);
-
-
-stack   3   4   5   6                               ele = '(' => st.push(ele_index);
-
-
-stack   3   4   5                                   ele = ')' => st.pop(); !st.empty() => len = ele_index - st.top();
-len     7 - 5 = 2
-
-stack   3   4                                       ele = ')' => st.pop(); !st.empty() => len = ele_index - st.top();
-len     8 - 4 = 4
-
-
-max_len = 4
-
----------------------------------------
-
-index   0   1   2
-string  (   )   )
-
-stack   -1                                          init
-
-
-stack   -1  0                                       ele = '(' => st.push(ele_index);
-
-
-stack   -1                                          ele = ')' => st.pop(); !st.empty() => len = ele_index - st.top();
-len     1 - (-1) = 2
-
-stack   2                                           ele = ')' => st.pop(); st.empty() => st.push(ele_index);
+Final max length = 4
 ```
 
 ### Dynamic Programming
 
-Todo
+We can use a `dp` array, where `dp[i]` stores the length of the longest valid parentheses substring ending at index `i`.
+
+**Key ideas:**
+
+- If `s[i] == ')'`:
+  - Case 1: If `s[i-1] == '('`, then it's a simple `"()"` pair -> `dp[i] = dp[i-2] + 2`
+  - Case 2: If `s[i-1] == ')'` and the character **before** the previous valid substring is `'('` (`s[i - dp[i-1] - 1] == '('`), then it wraps around a valid block -> `dp[i] = dp[i-1] + 2 + dp[i - dp[i-1] - 2]`
+
+Iterate through the string, update `dp[i]` accordingly, and track the maximum value.
+
+### References
+
+- [Longest Valid Parentheses | Short & Easy w/ Explanation using stack](https://leetcode.com/problems/longest-valid-parentheses/solutions/1139990/longest-valid-parentheses-short-easy-w-explanation-using-stack/)

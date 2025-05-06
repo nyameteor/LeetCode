@@ -30,7 +30,7 @@ Please see folder [problems](problems).
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Go](problems/remove-duplicates-from-sorted-array/answer.go) | [📃](problems/remove-duplicates-from-sorted-array) |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [Go](problems/divide-two-integers/answer.go) | [📃](problems/divide-two-integers) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [Go](problems/next-permutation/answer.go) | [📃](problems/next-permutation) |
-| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](problems/longest-valid-parentheses/answer.cpp) | [📃](problems/longest-valid-parentheses) |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [Go](problems/longest-valid-parentheses/answer.go) | [📃](problems/longest-valid-parentheses) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](problems/search-in-rotated-sorted-array/answer.go) | [📃](problems/search-in-rotated-sorted-array) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [Go](problems/valid-sudoku/answer.go) | [📃](problems/valid-sudoku) |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [Go](problems/sudoku-solver/answer.go) | [📃](problems/sudoku-solver) |
