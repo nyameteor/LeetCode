@@ -33,36 +33,37 @@ Output: 9
 
 ## Solution
 
-给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
+### Key Idea
 
-### Two Pointer
+To calculate water trapped at each index `i`, we need to find the tallest bar on the left and right sides:
 
-按列求每一列雨水的高度：
-
-当前列雨水面积：min(左边柱子的最高高度，右边柱子的最高高度) - 当前柱子高度。(宽度等于 1 故在数值计算上省略)
-
-遍历所有的列，使用双指针求出左右两边柱子最高的高度，按照上面的式子计算并累积结果即可。
-
-注意边界情况(第一个柱子和最后一个柱子不能接雨水)。
-
-Time: O(n^2), Space: O(1)
-
-### Dynamic Programming
-
-双指针法中寻找左右柱子的最高高度有重复计算，可以用动态规划来保存子结果：
-
-```shell
-# 使用数组 maxLeft 和 maxRight 保存位置 i 上的左边与右边柱子的最高高度
-
-# 递推关系
-maxLeft[i] = max(maxLeft[i - 1], height[i]);
-maxRight[i] = max(maxRight[i + 1], height[i]);
-
-# 使用 tabulation 法记录 maxLeft 和 maxRight
+```
+water[i] = min(maxLeft[i], maxRight[i]) - height[i]
 ```
 
-参考：[leetcode-master/problems/0042.接雨水.md](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0042.%E6%8E%A5%E9%9B%A8%E6%B0%B4.md)
+### Approach: Bottom-Up DP
 
-### Monotonic Stack
+Avoid repeated work by precomputing:
 
-Todo
+- `maxLeft[i] = max(maxLeft[i-1], height[i])`
+- `maxRight[i] = max(maxRight[i+1], height[i])`
+
+Then for each index `i`, accumulate the trapped water.
+
+Complexity:
+
+- Time: O(n)
+- Space: O(n)
+
+### Approach: Two Pointers
+
+- Use two pointers `l` and `r` at both ends, tracking `maxLeft` and `maxRight`.
+- Always move the side with the smaller height:
+  - If `height[l] <= height[r]`, water is limited by `maxLeft`, move `l++`.
+  - Else, water is limited by `maxRight`, move `r--`.
+- Accumulate trapped water at each step.
+
+Complexity:
+
+- Time: O(n)
+- Space: O(1)
