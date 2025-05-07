@@ -35,25 +35,11 @@ Output: []
 
 **Constraints:**
 
-- The number of nodes in the list is in the range `[0, 5 * 104]`.
-- `-105 <= Node.val <= 105`
+- The number of nodes in the list is in the range `[0, 5 * 10^4]`.
+- `-10^5 <= Node.val <= 10^5`
 
 **Follow up:** Can you sort the linked list in `O(n logn)` time and `O(1)` memory (i.e. constant space)?
 
 ## Solution
 
-### Natural merge Sort
-
-Refer: https://en.wikipedia.org/wiki/Merge_sort#Natural_merge_sort
-
-Use natural merge sort to linked list. Split linked list into monotonic sub linked list, then merge them until there is only one sub linked list, which means the linked list is sorted.
-
-Example:
-
-```shell
-Start       :  3  4  2  1  7  5  8  9  0  6
-Select runs : (3  4)(2)(1  7)(5  8  9)(0  6)
-Merge       : (2  3  4)(1  5  7  8  9)(0  6)
-Merge       : (1  2  3  4  5  7  8  9)(0  6)
-Merge       : (0  1  2  3  4  5  6  7  8  9)
-```
+To implement bottom-up merge sort with `O(n logn)` time and `O(1)` space, please refer to: [Bottom-up implementation](https://en.wikipedia.org/wiki/Merge_sort#Bottom-up_implementation)
