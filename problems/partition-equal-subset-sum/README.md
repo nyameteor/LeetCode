@@ -31,17 +31,17 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 ## Solution
 
-### Recursion
+### Key Idea
 
-我们需要将数组划分为两个子集。这说明对于数组的每一个元素，我们可以将其放在子集 1，或者放在子集 2。
+This is a subset sum problem: determine if a subset of `nums` sums to `total / 2`. If the total sum is odd, it's impossible.
 
-- 由于我们只关心子集内元素的总和是否相当，所以用 `sum1` 保存子集 1 的总和，`sum2` 保存子集 2 的总和。
-- 遍历数组，对于每一个元素，可以选择将其放在子集 1 并增加 `sum1`，或者放在子集 2 并增加 `sum2`。
-- 每次到达数组末尾时，检查并返回 `sum1` 和 `sum2` 是否相等。
-- 如果最终没有任何一条路径能给出相等的总和，返回 false；反之，返回 true。
+We can use dynamic programming to track possible subset sums:
 
-Refer: https://leetcode.com/problems/partition-equal-subset-sum/discuss/1624939
+- State: `dp[i][sum] = true` if a sum `sum` can be formed using the first `i` numbers, i.e., `nums[0]` to `nums[i-1]`. This indexing avoids handling the base case (`dp[0][0]` means using zero elements).
+- Transition: From `dp[i-1][sum]`:
+  - Don't take `nums[i-1]` -> `dp[i][sum] = true`
+  - Take `nums[i-1]` -> `dp[i][sum + nums[i-1]] = true`
 
-### Recursion + Memoization
+### References
 
-Todo
+- [[C++/Python] 5 Simple Solutions w/ Explanation | Optimization from Brute-Force to DP to Bitmask](https://leetcode.com/problems/partition-equal-subset-sum/solutions/1624939/c-python-5-simple-solutions-w-explanation-optimization-from-brute-force-to-dp-to-bitmask/)
