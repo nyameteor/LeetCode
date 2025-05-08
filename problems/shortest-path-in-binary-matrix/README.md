@@ -51,13 +51,11 @@ Output: -1
 
 ### Breadth-First Search
 
-Use BFS approach to find the shortest path.
+Use BFS to find the shortest path in the binary matrix.
 
-Denote `N` as the width and height of `grid`.
+Let `n` be the grid's width and height.
 
-- Use `visited` to record if cell is visited.
-- To track levels, use `len` to record number of nodes in current level.
-- Start at cell `(0, 0)`, search all adjacent cells:
-  - if the position of cell `(i, j)` is valid, and its value equal to `0`, and has not visited, then push `(i, j)` to the queue.
-- When we reach at cell `(N - 1, N - 1)`, return current level.
-- Cannot find, return `-1`.
+- Start from cell `(0, 0)` and explore all 8 adjacent directions:
+  - If a neighboring cell `(r, c)` is within bounds, has value `0`, and hasn't been visited, enqueue it.
+- When cell `(n - 1, n - 1)` is reached, return the current level (path length).
+- If the destination is unreachable, return `-1`.

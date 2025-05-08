@@ -187,7 +187,7 @@ Please see folder [problems](problems).
 | 1028 | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | Hard | [Go](problems/recover-a-tree-from-preorder-traversal/answer.go) | [📃](problems/recover-a-tree-from-preorder-traversal) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | Medium | [Go](problems/uncrossed-lines/answer.go) | [📃](problems/uncrossed-lines) |
 | 1079 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | Medium | [Go](problems/letter-tile-possibilities/answer.go) | [📃](problems/letter-tile-possibilities) |
-| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | [C++](problems/shortest-path-in-binary-matrix/answer.cpp) | [📃](problems/shortest-path-in-binary-matrix) |
+| 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | [Go](problems/shortest-path-in-binary-matrix/answer.go) | [📃](problems/shortest-path-in-binary-matrix) |
 | 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | Hard | [Go](problems/shortest-common-supersequence/answer.go) | [📃](problems/shortest-common-supersequence) |
 | 1106 | [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [Go](problems/parsing-a-boolean-expression/answer.go) | [📃](problems/parsing-a-boolean-expression) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C](problems/longest-common-subsequence/answer.c) | [📃](problems/longest-common-subsequence) |
