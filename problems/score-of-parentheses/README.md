@@ -43,27 +43,18 @@ Output: 2
 
 ## Solution
 
-Refer: https://leetcode.com/problems/score-of-parentheses/solution/
+### Split and Eval (Recursive)
 
-### Using Stack
+- Recursively split the string into balanced parts.
+- For `"()"`, return `1`.
+- For `"(A)"`, return `2 * score(A)`.
+- For `"AB"`, return `score(A) + score(B)` by summing recursively.
 
-Every position in the string has a `depth`. We need to maintain the score at the current depth we are on:
+### Stack Based (Iterative)
 
-- for every `(`, we increase the depth, and our score at the new depth is 0.
-- for every `)`, we add twice the score of the previous deeper part - except `()`, which has a score of 1.
-
-We can use stack to implement this.
-
-Example:
-
-```plaintext
-string  ()(())
-
-stack   0                                   init
-        0   0                               '(', stack.push(0)
-        1                                   ')', t = stack.pop(), stack.top() += t > 0 ? 2 * t : 1;
-        1   0                               '(', stack.push(0);
-        1   0   0                           '(', stack.push(0);
-        1   1                               ')', t = stack.pop(), stack.top() += t > 0 ? 2 * t : 1;
-        3                                   ')', t = stack.pop(), stack.top() += t > 0 ? 2 * t : 1;
-```
+- Use a stack to track score at each depth.
+- Push `0` for each `'('`, pop on `')'`.
+- On pop:
+  - If top is `0`, it's a `"()"` -> score `1`.
+  - Else, it's nested -> score `2 * top`.
+- Add the computed score to the previous stack level.

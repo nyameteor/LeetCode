@@ -164,7 +164,7 @@ Please see folder [problems](problems).
 | 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | Medium | [C++](problems/champagne-tower/answer.cpp) | [📃](problems/champagne-tower) |
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [Go](problems/image-overlap/answer.go) | [📃](problems/image-overlap) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Medium | [C++](problems/maximize-distance-to-closest-person/answer.cpp) | [📃](problems/maximize-distance-to-closest-person) |
-| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [C++](problems/score-of-parentheses/answer.cpp) | [📃](problems/score-of-parentheses) |
+| 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [Go](problems/score-of-parentheses/answer.go) | [📃](problems/score-of-parentheses) |
 | 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-postorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
