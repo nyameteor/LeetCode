@@ -14,7 +14,7 @@ Recall that arr is a mountain array if and only if:
 
 - There exists some `i` with `0 < i < arr.length - 1` such that:
 
-  - `arr[0] < arr[1] < ... < arr[i - 1] < arr[i] `
+  - `arr[0] < arr[1] < ... < arr[i - 1] < arr[i]`
   - `arr[i] > arr[i + 1] > ... > arr[arr.length - 1]`
 
 ![img](https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.png)
@@ -47,18 +47,11 @@ Output: true
 
 ## Solution
 
-### One Pass
+### Key Idea
 
-To valid if an array is a mountain array, we move strictly up, then strictly down.
+Check if the array first strictly increases, then strictly decreases.
 
-Use `N` to represent size of array `A`. Traversal the array:
-
-- First, while `arr[i] < arr[i + 1]`, do `i++`, it represent move strictly up. When the loop ends:
-  - if `i == 0`, it means peak is the start, so `A` is not a mountain array.
-  - if `i == N`, it means peak is the end, so `A` is not a mountain array.
-  - else, we check the reamaining elements:
-    while `arr[i] > arr[i + 1]`, do `i++`, it represent move strictly down. When the loop ends:
-    - if `i != N - 1`, it means there are more than one peak, so `A` is not a mountain array.
-    - else, it means `A` is a mountain array.
-
-Refer: https://leetcode.com/problems/valid-mountain-array/solution/
+- Traverse up while `arr[i] < arr[i+1]`.
+- If the peak is at the start or end, return false.
+- Traverse down while `arr[i] > arr[i+1]`.
+- If we reach the end, the array is a valid mountain.

@@ -171,7 +171,7 @@ Please see folder [problems](problems).
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
 | 923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [Go](problems/3sum-with-multiplicity/answer.go) | [📃](problems/3sum-with-multiplicity) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [Go](problems/range-sum-of-bst/answer.go) | [📃](problems/range-sum-of-bst) |
-| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [C++](problems/valid-mountain-array/answer.cpp) | [📃](problems/valid-mountain-array) |
+| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [Go](problems/valid-mountain-array/answer.go) | [📃](problems/valid-mountain-array) |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy | [Go](problems/verifying-an-alien-dictionary/answer.go) | [📃](problems/verifying-an-alien-dictionary) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [Go](problems/check-completeness-of-a-binary-tree/answer.go) | [📃](problems/check-completeness-of-a-binary-tree) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [C++](problems/k-closest-points-to-origin/answer.cpp) | [📃](problems/k-closest-points-to-origin) |
