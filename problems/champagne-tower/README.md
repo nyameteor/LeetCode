@@ -46,29 +46,15 @@ Output: 1.00000
 
 ## Solution
 
-### Dynamic Programming
+### Key Idea: Simulate Row by Row
 
-We can use 2 array to simulate this process.
+- Use a slice to track the current row's glass fill levels.
+- For each row up to `query_row`:
+  - Create the next row with `i+2` glasses.
+  - For each glass in the current row:
+    - If it overflows (>1), split the excess equally to the two glasses below.
+- At the end, return the value at `query_glass` in the final row.
 
-For cup `i` in current row which is more full than `1`, the `overflow = current_row[i] - 1`, and the cup `i` and cup `i + 1` in next row will be filled with `overflow / 2`.
+### References
 
-For example: poured = 5, query_row = 2, query_glass = 2
-
-```shell
-currRow     5
-            | \
-nextRow     0   0
-
-currRow     1
-            | \
-nextRow     2   2
-
-            1
-currRow     1   1
-            | \ | \
-nextRow    0.5  1   0.5
-
-# query (2, 2) is 0.5
-```
-
-Refer: https://leetcode.com/problems/champagne-tower/discuss/1818599/FULL-VISUAL-EXPLANATION-oror-DP-oror-Beginner-Friendly-oror-Easy-and-Simple-oror-C%2B%2B
+- [FULL VISUAL EXPLANATION || DP || Beginner Friendly || Easy and Simple || C++](https://leetcode.com/problems/champagne-tower/solutions/1818599/FULL-VISUAL-EXPLANATION-oror-DP-oror-Beginner-Friendly-oror-Easy-and-Simple-oror-C++/)
