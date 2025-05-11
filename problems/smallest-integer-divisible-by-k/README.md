@@ -42,46 +42,18 @@ Explanation: The smallest answer is n = 111, which has length 3.
 
 ## Solution
 
-### Brute Force
+### Key Idea
 
-As the hint said, `111 = 11 * 10 + 1`, we only need to store remainders modulo `k` (the number `n` is easy to overflow).
+- We're looking for the smallest number made only of `1`s (like `1`, `11`, `111`, ...) that is divisible by `k`.
+- Instead of building the number, we can simulate the remainder:
+  `newRemainder = (remainder * 10 + 1) % k`
+- Stop when remainder becomes `0` (found) or repeats (no solution).
 
-Then the problem can be divided into two cases:
+### Optimization
 
-`n` exists:
+- If `k % 2 == 0` or `k % 5 == 0`, return `-1` early (repunit numbers are never divisible by 2 or 5).
 
-We find the `n` that makes `n % k == 0`.
+### References
 
-```shell
-1 % 7
-1
-11 % 7
-4
-41 % 7
-6
-61 % 7
-5
-51 % 7
-2
-21 % 7
-0
-```
-
-no such `n` exists:
-
-The same remainder is sometimes repeated again, so the search will go in an endless loop.
-
-```shell
-1 % 6
-1
-11 % 6
-5
-51 % 6
-3
-31 % 6
-1
-11 % 6  # endless loop...
-5
-```
-
-Refer: https://leetcode.com/problems/smallest-integer-divisible-by-k/discuss/1656121
+- [[C++/Python] Simple Solution w/ Explanation | Brute+ Optimizations w/ Math & Pigeonhole](https://leetcode.com/problems/smallest-integer-divisible-by-k/solutions/1656121/c-python-simple-solution-w-explanation-brute-optimizations-w-math-pigeonhole/)
+- [Pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)
