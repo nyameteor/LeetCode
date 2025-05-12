@@ -53,13 +53,12 @@ Output: 1
 
 ## Solution
 
-### Two Pointers
+### Key Idea
 
-Scan the array `seats`, use two pointers to represent occupied seats, `i` is previous, `j` is current.
-
-the maximize distance to closest person is `distance = floor((j - i) / 2)`.
-
-Edge cases:
-
-- `j` is the first occupied seat(`i` can be represented as `i == -1`), then `distance = j - 0`
-- `i` is the last occupied seat(`j` can be represented as `j >= size(seats)`), then `distance = (size(seats) - 1) - i`, which `size(seats) - 1` is the index of last seat.
+- Traverse the `seats` array once.
+- Track the index of the last occupied seat (`last`).
+- For each occupied seat:
+  - If it's the first person, distance is from start to their position.
+  - For people in the middle, max distance is half the gap to the previous person.
+- After the loop, check the distance from the last person to the end.
+- Return the maximum of these distances.

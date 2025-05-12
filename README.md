@@ -163,7 +163,7 @@ Please see folder [problems](problems).
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [Go](problems/delete-and-earn/answer.go) | [📃](problems/delete-and-earn) |
 | 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | Medium | [Go](problems/champagne-tower/answer.go) | [📃](problems/champagne-tower) |
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [Go](problems/image-overlap/answer.go) | [📃](problems/image-overlap) |
-| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Medium | [C++](problems/maximize-distance-to-closest-person/answer.cpp) | [📃](problems/maximize-distance-to-closest-person) |
+| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Medium | [Go](problems/maximize-distance-to-closest-person/answer.go) | [📃](problems/maximize-distance-to-closest-person) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [Go](problems/score-of-parentheses/answer.go) | [📃](problems/score-of-parentheses) |
 | 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-postorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
