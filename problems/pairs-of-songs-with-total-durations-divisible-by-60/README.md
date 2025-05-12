@@ -36,6 +36,8 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 
 ## Solution
 
-### Counting
+### Key Idea: Counting Remainders
 
-Calculate the `time % 60`, and sotre that in an array of size 60, then it will be exactly same as two sum problem.
+- For each song, compute `remainder = time[i] % 60` and count the frequency of each remainder.
+- For `1 <= r < 30`, pair each `r` with `60 - r`: `count[r] * count[60 - r]`.
+- Handle special cases: remainders `0` and `30` pair with themselves: `count[r] * (count[r] - 1) / 2`.
