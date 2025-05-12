@@ -41,10 +41,8 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 
 ## Solution
 
-### Min-Heap
+### Approach: Max-Heap
 
-Construct a min-heap and pop the min elements `k` times.
-
-### Quickselect
-
-Todo
+- Use a max-heap to keep the k closest points to the origin.
+- Push each point, and pop the farthest if size > k.
+- The final heap contains the k closest points.

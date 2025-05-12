@@ -174,7 +174,7 @@ Please see folder [problems](problems).
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | [Go](problems/valid-mountain-array/answer.go) | [📃](problems/valid-mountain-array) |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy | [Go](problems/verifying-an-alien-dictionary/answer.go) | [📃](problems/verifying-an-alien-dictionary) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [Go](problems/check-completeness-of-a-binary-tree/answer.go) | [📃](problems/check-completeness-of-a-binary-tree) |
-| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [C++](problems/k-closest-points-to-origin/answer.cpp) | [📃](problems/k-closest-points-to-origin) |
+| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Go](problems/k-closest-points-to-origin/answer.go) | [📃](problems/k-closest-points-to-origin) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [Go](problems/minimum-cost-for-tickets/answer.go) | [📃](problems/minimum-cost-for-tickets) |
 | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [Python](problems/subarrays-with-k-different-integers/answer.py) | [📃](problems/subarrays-with-k-different-integers) |
