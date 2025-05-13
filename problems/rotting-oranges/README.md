@@ -50,11 +50,8 @@ Explanation: Since there are already no fresh oranges at minute 0, the answer is
 
 ## Solution
 
-### Breadth-First Search
+### Approach: Breadth-First Search
 
-1. 将所有初始时烂橘子的位置推入队列； 开始时计算所有新鲜橙子；
-2. 从烂橙子遍历，弹出队列头，到相邻的 4 个位置（上下左右），如果橙子是新鲜的，则让它腐烂，并减少新鲜橙子的数量；
-3. 重复步骤 2 后增加`time`，直到队列为空；
-4. 如果还有新鲜的橙子就返回-1，否则返回`time`。
-
-BFS 时每个节点有四个分支（上下左右），可以使用一个 pair 数组记录其移动方向，使四个分支可以在循环中处理。
+1. Count fresh oranges and enqueue all initially rotten ones.
+2. Use BFS to spread rot to adjacent fresh oranges. Decrement the fresh count as oranges rot. Track time by BFS levels.
+3. Return minutes passed if all oranges rot, else return -1.

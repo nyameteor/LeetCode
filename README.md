@@ -178,7 +178,7 @@ Please see folder [problems](problems).
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [Go](problems/minimum-cost-for-tickets/answer.go) | [📃](problems/minimum-cost-for-tickets) |
 | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [Python](problems/subarrays-with-k-different-integers/answer.py) | [📃](problems/subarrays-with-k-different-integers) |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [C++](problems/rotting-oranges/answer.cpp) | [📃](problems/rotting-oranges) |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [Go](problems/rotting-oranges/answer.go) | [📃](problems/rotting-oranges) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [Go](problems/find-the-town-judge/answer.go) | [📃](problems/find-the-town-judge) |
 | 998 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/) | Medium | [C](problems/maximum-binary-tree-ii/answer.c) | [📃](problems/maximum-binary-tree-ii) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | [Python](problems/max-consecutive-ones-iii/answer.py) | [📃](problems/max-consecutive-ones-iii) |
