@@ -34,9 +34,14 @@ Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 
 ## Solution
 
-References: https://leetcode.com/problems/max-consecutive-ones-iii/solutions/247564/java-c-python-sliding-window/
+### Approach: Sliding Window
 
-Equivalent to "find the longest subarray with at most k zeros".
+- Maintain a window with at most `k` zeros.
+- Expand the window to the right; if zeros exceed `k`, shrink from the left.
+- Track the maximum valid window length.
 
-We can use the list `zeroIdxes` to store the index of each zero.
-If the length of `zeroIdxes` is greater than `k`, then we need to remove the subarray elements before `zeroIdxes[0]`.
+Runs in O(n) time and handles all edge cases (including `k = 0`) cleanly.
+
+### References
+
+- [[Java/C++/Python] Sliding Window](https://leetcode.com/problems/max-consecutive-ones-iii/solutions/247564/java-c-python-sliding-window/)

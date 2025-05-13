@@ -181,7 +181,7 @@ Please see folder [problems](problems).
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [Go](problems/rotting-oranges/answer.go) | [📃](problems/rotting-oranges) |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [Go](problems/find-the-town-judge/answer.go) | [📃](problems/find-the-town-judge) |
 | 998 | [Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/) | Medium | [C](problems/maximum-binary-tree-ii/answer.c) | [📃](problems/maximum-binary-tree-ii) |
-| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | [Python](problems/max-consecutive-ones-iii/answer.py) | [📃](problems/max-consecutive-ones-iii) |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | [Go](problems/max-consecutive-ones-iii/answer.go) | [📃](problems/max-consecutive-ones-iii) |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Medium | [Go](problems/pairs-of-songs-with-total-durations-divisible-by-60/answer.go) | [📃](problems/pairs-of-songs-with-total-durations-divisible-by-60) |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | Medium | [Go](problems/smallest-integer-divisible-by-k/answer.go) | [📃](problems/smallest-integer-divisible-by-k) |
 | 1028 | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | Hard | [Go](problems/recover-a-tree-from-preorder-traversal/answer.go) | [📃](problems/recover-a-tree-from-preorder-traversal) |
