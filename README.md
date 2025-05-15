@@ -92,6 +92,7 @@ Please see folder [problems](problems).
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Go](problems/intersection-of-two-linked-lists/answer.go) | [📃](problems/intersection-of-two-linked-lists) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [Go](problems/find-peak-element/answer.go) | [📃](problems/find-peak-element) |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [Go](problems/compare-version-numbers/answer.go) | [📃](problems/compare-version-numbers) |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | [Go](problems/fraction-to-recurring-decimal/answer.go) | [📃](problems/fraction-to-recurring-decimal) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Go](problems/majority-element/answer.go) | [📃](problems/majority-element) |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [Go](problems/repeated-dna-sequences/answer.go) | [📃](problems/repeated-dna-sequences) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Go](problems/rotate-array/answer.go) | [📃](problems/rotate-array) |
