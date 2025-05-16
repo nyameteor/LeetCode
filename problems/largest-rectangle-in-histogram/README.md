@@ -35,49 +35,17 @@ Output: 4
 
 ## Solution
 
-### Monotonic Stack
+### Key Idea
 
-使用栈 `stH` 保存高度 `h`，栈 `stX` 保存其左侧最近的大于或等于 `h` 的元素的索引，并维持其单调性，使 `stH` 自顶向下的元素值递减。
+Use a **monotonic stack** to find the largest rectangle for each bar quickly.
 
-遍历 `heights` 数组，当插入 `heights[i] <= stH.top()` 时，弹出 `stH` 的栈顶，此时对应的区域大小为 `stH.pop() * (i - stX.pop())`。
+- The stack keeps bar indices with heights in increasing order.
+- When a shorter bar appears, pop taller bars from the stack.
+- For each popped bar, calculate the rectangle area using the current index and the previous smaller bar's index.
 
-```shell
-index     0   1   2   3   4   5   6 (dummy index to pop all left in stack)
-heights   2   1   5   6   2   3   0
+This method helps find the widest rectangle possible for every bar by knowing where smaller bars are on both sides.
 
-                      6       3
-                  5   5   2   2
-stH       2   1   1   1   1   1
+### References
 
-popH          2           6       3
-                          5       2
-                                  1
-
-                      3       5
-                  2   2   4   4
-stX       0   0   0   0   0   0
-
-popX          0           3       5
-                          2       4
-                                  0
-
-area          2           6       3
-                          10      4
-                                  6
-area = = popH * (index - popX)
-maxArea = 10
-```
-
-Refer: https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/951439/Monotonic-Stack-(C%2B%2B)
-
-单调栈即为满足单调性的栈结构：
-
-- push:
-  将元素插入单调栈时，需要满足该元素插入后，整个栈后仍满足单调性的前提下，弹出最少的元素。
-  e.g. 一个单调栈自顶向下的元素为：`{10, 11, 15, 16}`，插入 `14` 时为了保证单调性，需要先弹出 `10`, `11`，操作后栈的元素为：`{14, 15, 16}`。
-- pop:
-  从栈顶弹出元素，该元素满足单调性的某一端，如最小值。
-
-单调栈适合解决特定的问题，如下一个更大或更小的元素（Next greater or smaller element）。
-
-Refer: https://oi-wiki.org/ds/monotonous-stack/
+- [5ms O(n) Java solution explained (beats 96%)](https://leetcode.com/problems/largest-rectangle-in-histogram/solutions/28902/5ms-o-n-java-solution-explained-beats-96/)
+- [AC Python clean solution using stack 76ms](https://leetcode.com/problems/largest-rectangle-in-histogram/solutions/28917/ac-python-clean-solution-using-stack-76ms/)

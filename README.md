@@ -53,7 +53,7 @@ Please see folder [problems](problems).
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Go](problems/subsets/answer.go) | [📃](problems/subsets) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | [Go](problems/word-search/answer.go) | [📃](problems/word-search) |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [Go](problems/remove-duplicates-from-sorted-array-ii/answer.go) | [📃](problems/remove-duplicates-from-sorted-array-ii) |
-| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [C++](problems/largest-rectangle-in-histogram/answer.cpp) | [📃](problems/largest-rectangle-in-histogram) |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Go](problems/largest-rectangle-in-histogram/answer.go) | [📃](problems/largest-rectangle-in-histogram) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Go](problems/partition-list/answer.go) | [📃](problems/partition-list) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [Go](problems/unique-binary-search-trees/answer.go) | [📃](problems/unique-binary-search-trees) |
