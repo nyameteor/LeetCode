@@ -108,7 +108,7 @@ Please see folder [problems](problems).
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Go](problems/maximal-square/answer.go) | [📃](problems/maximal-square) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [Go](problems/count-complete-tree-nodes/answer.go) | [📃](problems/count-complete-tree-nodes) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Go](problems/invert-binary-tree/answer.go) | [📃](problems/invert-binary-tree) |
-| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [C++](problems/basic-calculator-ii/answer.cpp) | [📃](problems/basic-calculator-ii) |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | [Go](problems/basic-calculator-ii/answer.go) | [📃](problems/basic-calculator-ii) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [Go](problems/power-of-two/answer.go) | [📃](problems/power-of-two) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Go](problems/implement-queue-using-stacks/answer.go) | [📃](problems/implement-queue-using-stacks) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |

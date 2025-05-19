@@ -45,54 +45,37 @@ Output: 5
 
 ## Solution
 
-### Inplace Evaluation - Two Stacks
+### In-place Evaluation with Two Stacks
 
-Use two stacks, one to put numbers, another to put operators.
+Use two stacks:
 
-The priority of operators:
+- One for operands (numbers)
+- One for operators (`+`, `-`, `*`, `/`)
 
-| operator | priority |
-| -------- | -------- |
-| + -      | 1        |
-| \* /     | 2        |
+#### Operator Precedence
 
-Before put current operator, while the priority of previous operator is **greater than or equal to** the priority of current, calculate expression for once. For example:
+| Operator | Precedence |
+| -------- | ---------- |
+| `+`, `-` | 1          |
+| `*`, `/` | 2          |
 
-```plaintext
-1 + 3
+#### Key Idea
 
-    3
-+   1
-%   %
+When processing an operator:
 
------- case 1 ------
+- While the top of the operator stack has **greater or equal precedence**, evaluate it.
+- Then, push the current operator.
 
-1 + 3 / 5
+This ensures correct order of operations and left-to-right evaluation for same-precedence operators.
 
-priority of '+' is less than '/', so simply add current operator
+#### Examples
 
-    5
-/   3
-+   1
-%   %
+- `1 + 3` -> Evaluate immediately -> Result: `4`
 
------- case 2 ------
+- `1 + 3 / 5` -> `/` has higher precedence than `+`, so just push it
 
-1 + 3 - 4
+- `1 + 3 - 4` -> `-` has equal precedence to `+`, so evaluate `1 + 3`, then push `-`
 
-priority of '+' is equal to '-', so calculate expression for once
+#### Final Step
 
-    4
-%   %
-
-then add current operator
-
-    4
--   4
-%   %
-
------- cases ends ------
-
-```
-
-After we have read the full expression, calculate it while stack of operator is not empty.
+After parsing the expression, evaluate all remaining operators on the stack.
