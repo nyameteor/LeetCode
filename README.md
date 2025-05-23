@@ -47,6 +47,7 @@ Please see folder [problems](problems).
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Go](problems/merge-intervals/answer.go) | [📃](problems/merge-intervals) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Go](problems/unique-paths/answer.go) | [📃](problems/unique-paths) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Go](problems/climbing-stairs/answer.go) | [📃](problems/climbing-stairs) |
+| 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | [Go](problems/simplify-path/answer.go) | [📃](problems/simplify-path) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [Go](problems/search-a-2d-matrix/answer.go) | [📃](problems/search-a-2d-matrix) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Go](problems/sort-colors/answer.go) | [📃](problems/sort-colors) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | [Go](problems/combinations/answer.go) | [📃](problems/combinations) |
