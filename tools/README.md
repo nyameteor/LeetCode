@@ -1,40 +1,39 @@
 # Tools
 
-First, go to the project directory:
-
-```sh
-cd <path/to/this-repository>
-```
-
 ## Add a New Problem
 
 To add a new problem:
 
 ```sh
-make add-problem
-# or
-make add
+python3 tools/add_problem.py
 ```
 
-This will prompt you to input problem metadata interactively, and creates a document at `./problems/<problem-name>/README.md`.
+This will prompt you to enter metadata (name, title, link, etc.) and creates a note:
 
-After that, you can create a solution for the problem. The solution file can be named anything you like, for example: `./problems/<problem-name>/<solution-name>.cpp`
+```
+problems/<problem-name>/README.md
+```
+
+You can then add your solution, for example:
+
+```
+problems/<problem-name>/<solution-name>.cpp
+```
 
 ## Update Documentation
 
-To update the table of contents of problems in the documentation:
+To regenerate the problems table in `README.md`:
 
 ```sh
-make doc
+python3 tools/update_doc.py
 ```
 
-This updates `./README.md` with the latest problem entries.
+This scans all problems and updates the table.
 
-## Compile and Run a Solution
+## Run a Solution
 
-To compile and run a specific solution:
+To compile and run a solution (currently supports C, C++, and Java)):
 
 ```sh
-./tools/run_code.sh "problems/<problem-name>/<solution-name>.cpp"
-./tools/run_code.sh "problems/<problem-name>/<solution-name>.java"
+tools/run_code.sh "problems/<problem-name>/<solution-name>.cpp"
 ```
