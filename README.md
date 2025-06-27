@@ -110,6 +110,7 @@ See the [problems](problems) folder for all problems sorted by title.
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Go](problems/course-schedule/answer.go) | [📃](problems/course-schedule) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Go](problems/implement-trie-prefix-tree/answer.go) | [📃](problems/implement-trie-prefix-tree) |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | [Go](problems/course-schedule-ii/answer.go) | [📃](problems/course-schedule-ii) |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | [Go](problems/design-add-and-search-words-data-structure/answer.go) | [📃](problems/design-add-and-search-words-data-structure) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Go](problems/maximal-square/answer.go) | [📃](problems/maximal-square) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [Go](problems/count-complete-tree-nodes/answer.go) | [📃](problems/count-complete-tree-nodes) |
