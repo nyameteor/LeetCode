@@ -149,6 +149,7 @@ See the [problems](problems) folder for all problems sorted by title.
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | Medium | [Go](problems/implement-rand10-using-rand7/answer.go) | [📃](problems/implement-rand10-using-rand7) |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Go](problems/ones-and-zeroes/answer.go) | [📃](problems/ones-and-zeroes) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | [Go](problems/number-complement/answer.go) | [📃](problems/number-complement) |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | [Go](problems/diagonal-traverse/answer.go) | [📃](problems/diagonal-traverse) |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [C](problems/find-largest-value-in-each-tree-row/answer.c) | [📃](problems/find-largest-value-in-each-tree-row) |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | [Go](problems/longest-palindromic-subsequence/answer.go) | [📃](problems/longest-palindromic-subsequence) |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | [Go](problems/coin-change-ii/answer.go) | [📃](problems/coin-change-ii) |
