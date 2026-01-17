@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 
-import logging
 import re
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
-logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
-logger = logging.getLogger("update_doc")
 
 CUR_DIR = Path(__file__).parent
 ROOT_DIR = CUR_DIR.parent
@@ -75,12 +72,12 @@ class ProblemExtractor:
             with self.doc_file.open("r") as f:
                 file_head = "".join(next(f) for _ in range(10))  # Read first 10 lines
         except Exception as e:
-            logger.warning(f"Error reading {self.doc_file}: {e}")
+            print(f"Error reading {self.doc_file}: {e}")
             return None
 
         match = self.METADATA_PATTERN.search(file_head)
         if not match:
-            logger.warning(f"Cannot extract metadata from {self.doc_file}, skipping.")
+            print(f"Cannot extract metadata from {self.doc_file}, skipping.")
             return None
 
         number = int(match.group(1))
@@ -175,19 +172,13 @@ def print_problems_stats(problems: list[Problem]):
     total_difficulties = defaultdict(int)
     total_languages = defaultdict(int)
 
-    # Gather stats
     for problem in problems:
-        # Count topics
         for topic in problem.topics:
             total_topics[topic] += 1
-        # Count difficulty
         total_difficulties[problem.difficulty] += 1
-        # Count solution languages
         for language in problem.solution_files:
             total_languages[language] += 1
 
-    # Print stats
-    print("=" * 50)
     print(f"Total Problems: {total_problems}")
 
     print("-" * 50)
@@ -201,24 +192,23 @@ def print_problems_stats(problems: list[Problem]):
     print("Solution Languages Breakdown:")
     for language, count in total_languages.items():
         print(f"  {language: <10}: {count}")
-    print("=" * 50)
 
 
 def main():
     problems_dir = ROOT_DIR / "problems"
     problems = get_problems(problems_dir=problems_dir)
     problems = sorted(problems, key=lambda p: p.number)
-    logger.info(f"Retrieved {len(problems)} problems.")
+    print(f"Retrieved {len(problems)} problems.")
 
     templ_file = CUR_DIR / "template" / "README.md"
-    logger.info(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
+    print(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
 
     problem_table = gen_problem_table(problems=problems)
     readme_text = templ_file.read_text().format(problem_table=problem_table)
     readme_file = ROOT_DIR / "README.md"
     readme_file.write_text(readme_text)
 
-    logger.info(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully!")
+    print(f"Updated {readme_file.relative_to(ROOT_DIR)} successfully")
 
     print_problems_stats(problems=problems)
 
