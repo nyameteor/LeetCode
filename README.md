@@ -60,6 +60,7 @@ See the [problems](problems) folder for all problems sorted by title.
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [Go](problems/remove-duplicates-from-sorted-array-ii/answer.go) | [📃](problems/remove-duplicates-from-sorted-array-ii) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Go](problems/largest-rectangle-in-histogram/answer.go) | [📃](problems/largest-rectangle-in-histogram) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Go](problems/partition-list/answer.go) | [📃](problems/partition-list) |
+| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [Go](problems/gray-code/answer.go) | [📃](problems/gray-code) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [Go](problems/unique-binary-search-trees/answer.go) | [📃](problems/unique-binary-search-trees) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [Go](problems/interleaving-string/answer.go) | [📃](problems/interleaving-string) |
