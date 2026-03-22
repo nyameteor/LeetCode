@@ -32,13 +32,6 @@ func maxUncrossedLines(nums1 []int, nums2 []int) int {
 	return lookup(m-1, n-1)
 }
 
-func max(a, b int) int {
-	if a >= b {
-		return a
-	}
-	return b
-}
-
 func main() {
 	var nums1 []int
 	var nums2 []int

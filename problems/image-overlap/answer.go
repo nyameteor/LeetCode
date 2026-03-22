@@ -44,14 +44,6 @@ func nonZeroPoints(img [][]int) []point {
 	return points
 }
 
-func max(a, b int) int {
-	if a >= b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func main() {
 	var img1 [][]int
 	var img2 [][]int

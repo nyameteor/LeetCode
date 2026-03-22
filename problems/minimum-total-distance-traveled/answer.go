@@ -58,13 +58,6 @@ func abs(a int) int {
 	return a
 }
 
-func min(a, b int64) int64 {
-	if a < b {
-		return a
-	}
-	return b
-}
-
 func main() {
 	type Input struct {
 		robot   []int

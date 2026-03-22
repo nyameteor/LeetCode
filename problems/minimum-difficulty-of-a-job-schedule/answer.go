@@ -75,22 +75,6 @@ func setMap(m map[int]map[int]int, i int, j int, v int) {
 	m[i][j] = v
 }
 
-// Helper
-func min(a, b int) int {
-	if a < b {
-		return a
-	} else {
-		return b
-	}
-}
-func max(a, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func main() {
 	var jobDifficulty []int
 	var d int

@@ -39,14 +39,6 @@ func minOperations(nums []int, x int) int {
 	}
 }
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 // Depth-First Search - Time Limit Exceeded
 func minOperations1(nums []int, x int) int {
 	n := len(nums)
@@ -77,14 +69,6 @@ func dfs(nums *[]int, res *int, step int, x int, l int, r int) {
 
 	dfs(nums, res, step+1, x-(*nums)[l], l+1, r)
 	dfs(nums, res, step+1, x-(*nums)[r], l, r-1)
-}
-
-func min(a int, b int) int {
-	if a < b {
-		return a
-	} else {
-		return b
-	}
 }
 
 func main() {

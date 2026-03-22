@@ -37,14 +37,6 @@ func init2dArray(m int, n int) [][]int {
 	return arr
 }
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func main() {
 	s1 := "sea"
 	s2 := "eat"

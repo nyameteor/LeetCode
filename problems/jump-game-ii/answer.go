@@ -64,14 +64,6 @@ func dfs(memo *map[int]int, nums *[]int, n *int, x int) int {
 	return minJump
 }
 
-func min(a int, b int) int {
-	if a <= b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func main() {
 	nums := []int{2, 3, 1, 1, 4}
 	fmt.Println(jump(nums))
