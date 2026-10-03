@@ -32,7 +32,7 @@ This scans all problems and updates the table.
 
 ## Run a Solution
 
-To compile and run a solution (currently supports C, C++, and Java)):
+To compile and run a solution:
 
 ```sh
 tools/run_code.sh "problems/<problem-name>/<solution-name>.cpp"

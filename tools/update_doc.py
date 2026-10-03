@@ -58,7 +58,7 @@ class ProblemExtractor:
         ".java": "Java",
         ".py": "Python",
         ".go": "Go",
-        ".rust": "Rust",
+        ".rs": "Rust",
         ".js": "JS",
         ".rkt": "Racket",
     }

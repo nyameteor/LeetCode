@@ -3,8 +3,7 @@
 # shellcheck disable=SC2155
 
 set -o errexit \
-    -o nounset \
-    -o xtrace
+    -o nounset
 
 readonly CUR_DIR=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 readonly OUT_DIR="${CUR_DIR}/../out"
@@ -38,10 +37,28 @@ run_java() {
         java -ea "${out_file}"
 }
 
+run_go() {
+    local src_file="${1}"
+
+    go run "${src_file}"
+}
+
+run_rust() {
+    local src_file="${1}"
+    local out_file="solution.out"
+
+    rustc \
+        --edition 2024 \
+        -o "${OUT_DIR}/${out_file}" \
+        "${src_file}" &&
+        "${OUT_DIR}/${out_file}"
+}
+
 main() {
     local src_file="${1}"
 
-    # Refer: https://stackoverflow.com/a/965069
+    mkdir -p "${OUT_DIR}"
+
     local filename=$(basename -- "${src_file}")
     local extension="${filename##*.}"
 
@@ -54,6 +71,12 @@ main() {
         ;;
     java)
         run_java "${src_file}"
+        ;;
+    go)
+        run_go "${src_file}"
+        ;;
+    rs)
+        run_rust "${src_file}"
         ;;
     *)
         echo "Not a valid source file."
