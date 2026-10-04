@@ -11,7 +11,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 ## Group by Topic
 
 <details>
-<summary>Array (93)</summary>
+<summary>Array (94)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -30,6 +30,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [Go](problems/jump-game-ii/answer.go) | [📃](problems/jump-game-ii) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Go](problems/permutations/answer.go) | [📃](problems/permutations) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Go](problems/rotate-image/answer.go) | [📃](problems/rotate-image) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Rust](problems/group-anagrams/answer.rs) | [📃](problems/group-anagrams) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Go](problems/n-queens/answer.go) | [📃](problems/n-queens) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Go](problems/maximum-subarray/answer.go) | [📃](problems/maximum-subarray) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Go](problems/spiral-matrix/answer.go) | [📃](problems/spiral-matrix) |
@@ -518,7 +519,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Hash Table (48)</summary>
+<summary>Hash Table (49)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -528,6 +529,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Go](problems/roman-to-integer/answer.go) | [📃](problems/roman-to-integer) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [Go](problems/valid-sudoku/answer.go) | [📃](problems/valid-sudoku) |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [Go](problems/sudoku-solver/answer.go) | [📃](problems/sudoku-solver) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Rust](problems/group-anagrams/answer.rs) | [📃](problems/group-anagrams) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-inorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-inorder-traversal) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [Go](problems/clone-graph/answer.go) | [📃](problems/clone-graph) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [Go](problems/word-break/answer.go) | [📃](problems/word-break) |
@@ -861,13 +863,14 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Sorting (18)</summary>
+<summary>Sorting (19)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [Go](problems/3sum/answer.go) | [📃](problems/3sum) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Go](problems/3sum-closest/answer.go) | [📃](problems/3sum-closest) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | [Go](problems/4sum/answer.go) | [📃](problems/4sum) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Rust](problems/group-anagrams/answer.rs) | [📃](problems/group-anagrams) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Go](problems/merge-intervals/answer.go) | [📃](problems/merge-intervals) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Go](problems/sort-colors/answer.go) | [📃](problems/sort-colors) |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | Medium | [Go](problems/insertion-sort-list/answer.go) | [📃](problems/insertion-sort-list) |
@@ -915,7 +918,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>String (55)</summary>
+<summary>String (56)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -929,6 +932,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [Go](problems/longest-valid-parentheses/answer.go) | [📃](problems/longest-valid-parentheses) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [Go](problems/multiply-strings/answer.go) | [📃](problems/multiply-strings) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Rust](problems/group-anagrams/answer.rs) | [📃](problems/group-anagrams) |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | [Go](problems/simplify-path/answer.go) | [📃](problems/simplify-path) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [Go](problems/interleaving-string/answer.go) | [📃](problems/interleaving-string) |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [Go](problems/palindrome-partitioning/answer.go) | [📃](problems/palindrome-partitioning) |
@@ -1121,6 +1125,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [Go](problems/jump-game-ii/answer.go) | [📃](problems/jump-game-ii) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Go](problems/permutations/answer.go) | [📃](problems/permutations) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Go](problems/rotate-image/answer.go) | [📃](problems/rotate-image) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Rust](problems/group-anagrams/answer.rs) | [📃](problems/group-anagrams) |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Go](problems/powx-n/answer.go) | [📃](problems/powx-n) |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Go](problems/n-queens/answer.go) | [📃](problems/n-queens) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Go](problems/maximum-subarray/answer.go) | [📃](problems/maximum-subarray) |
