@@ -11,7 +11,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 ## Group by Topic
 
 <details>
-<summary>Array (94)</summary>
+<summary>Array (95)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -35,6 +35,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Go](problems/maximum-subarray/answer.go) | [📃](problems/maximum-subarray) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Go](problems/spiral-matrix/answer.go) | [📃](problems/spiral-matrix) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Go](problems/merge-intervals/answer.go) | [📃](problems/merge-intervals) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [Rust](problems/insert-interval/answer.rs) | [📃](problems/insert-interval) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [Go](problems/search-a-2d-matrix/answer.go) | [📃](problems/search-a-2d-matrix) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Go](problems/sort-colors/answer.go) | [📃](problems/sort-colors) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Go](problems/subsets/answer.go) | [📃](problems/subsets) |
@@ -1131,6 +1132,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [Go](problems/maximum-subarray/answer.go) | [📃](problems/maximum-subarray) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Go](problems/spiral-matrix/answer.go) | [📃](problems/spiral-matrix) |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Go](problems/merge-intervals/answer.go) | [📃](problems/merge-intervals) |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [Rust](problems/insert-interval/answer.rs) | [📃](problems/insert-interval) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Go](problems/unique-paths/answer.go) | [📃](problems/unique-paths) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Go](problems/climbing-stairs/answer.go) | [📃](problems/climbing-stairs) |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | [Go](problems/simplify-path/answer.go) | [📃](problems/simplify-path) |
