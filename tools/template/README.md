@@ -4,13 +4,13 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 ## Table of Contents
 
-- [Sort by Title](#sort-by-title)
+- [Group by Topic](#group-by-topic)
 - [Sort by Number](#sort-by-number)
 - [References](#references)
 
-## Sort by Title
+## Group by Topic
 
-See the [problems](problems) folder for all problems sorted by title.
+{topic_groups}
 
 ## Sort by Number
 

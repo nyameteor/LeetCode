@@ -138,6 +138,32 @@ def get_problems(problems_dir: Path) -> list[Problem]:
     return problems
 
 
+def gen_topic_groups(problems: list[Problem]) -> str:
+    grouped = defaultdict(list)
+    for problem in problems:
+        for topic in problem.topics:
+            topic = topic.strip()
+            if topic:
+                grouped[topic].append(problem)
+
+    blocks = []
+    for topic in sorted(grouped):
+        items = sorted(grouped[topic], key=lambda p: p.number)
+        block = "\n".join(
+            [
+                "<details>",
+                f"<summary>{topic} ({len(items)})</summary>",
+                "",
+                gen_problem_table(items),
+                "",
+                "</details>",
+            ]
+        )
+        blocks.append(block)
+
+    return "\n".join(blocks)
+
+
 def gen_problem_table(problems: list[Problem]) -> str:
     body = []
     for problem in problems:
@@ -204,7 +230,11 @@ def main():
     print(f"Reading template from: {templ_file.relative_to(ROOT_DIR)}")
 
     problem_table = gen_problem_table(problems=problems)
-    readme_text = templ_file.read_text().format(problem_table=problem_table)
+    topic_groups = gen_topic_groups(problems=problems)
+    readme_text = templ_file.read_text().format(
+        problem_table=problem_table,
+        topic_groups=topic_groups,
+    )
     readme_file = ROOT_DIR / "README.md"
     readme_file.write_text(readme_text)
 
