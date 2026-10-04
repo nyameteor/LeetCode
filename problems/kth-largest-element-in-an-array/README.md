@@ -1,7 +1,7 @@
 # 215. Kth Largest Element in an Array
 
 - Difficulty: Medium
-- Topics: Array, Divide and Conquer, Sorting, Heap(Priority Queue), Quickselect
+- Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
 - Link: https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 ## Description

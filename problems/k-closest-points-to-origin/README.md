@@ -1,7 +1,7 @@
 # 973. K Closest Points to Origin
 
 - Difficulty: Medium
-- Topics: Array, Math, Divide and Conquer, Geometry, Sorting, Heap(Priority Queue), Quickselect
+- Topics: Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect
 - Link: https://leetcode.com/problems/k-closest-points-to-origin/
 
 ## Description

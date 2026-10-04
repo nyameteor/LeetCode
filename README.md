@@ -333,7 +333,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Depth-First Search (36)</summary>
+<summary>Depth-First Search (37)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -373,6 +373,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 1457 | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium | [C](problems/pseudo-palindromic-paths-in-a-binary-tree/answer.c) | [📃](problems/pseudo-palindromic-paths-in-a-binary-tree) |
 | 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [Go](problems/course-schedule-iv/answer.go) | [📃](problems/course-schedule-iv) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C](problems/number-of-good-leaf-nodes-pairs/answer.c) | [📃](problems/number-of-good-leaf-nodes-pairs) |
+| 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) | Hard | [Go](problems/height-of-binary-tree-after-subtree-removal-queries/answer.go) | [📃](problems/height-of-binary-tree-after-subtree-removal-queries) |
 
 </details>
 <details>
@@ -422,14 +423,6 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [Go](problems/lru-cache/answer.go) | [📃](problems/lru-cache) |
-
-</details>
-<details>
-<summary>Dpeth-First Search (1)</summary>
-
-| #   | Title | Difficulty | Solution | Doc |
-| --- | ----- | ---------- | -------- | --- |
-| 2458 | [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/) | Hard | [Go](problems/height-of-binary-tree-after-subtree-removal-queries/answer.go) | [📃](problems/height-of-binary-tree-after-subtree-removal-queries) |
 
 </details>
 <details>
@@ -580,23 +573,16 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Heap (Priority Queue) (3)</summary>
-
-| #   | Title | Difficulty | Solution | Doc |
-| --- | ----- | ---------- | -------- | --- |
-| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
-| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
-
-</details>
-<details>
-<summary>Heap(Priority Queue) (4)</summary>
+<summary>Heap (Priority Queue) (7)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Go](problems/sort-characters-by-frequency/answer.go) | [📃](problems/sort-characters-by-frequency) |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Go](problems/k-closest-points-to-origin/answer.go) | [📃](problems/k-closest-points-to-origin) |
 
 </details>
