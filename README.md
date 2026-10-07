@@ -170,10 +170,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Binary Tree (37)</summary>
+<summary>Binary Tree (38)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Rust](problems/binary-tree-inorder-traversal/answer.rs) | [📃](problems/binary-tree-inorder-traversal) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [Go](problems/unique-binary-search-trees/answer.go) | [📃](problems/unique-binary-search-trees) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Go](problems/validate-binary-search-tree/answer.go) | [📃](problems/validate-binary-search-tree) |
@@ -335,10 +336,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Depth-First Search (37)</summary>
+<summary>Depth-First Search (38)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Rust](problems/binary-tree-inorder-traversal/answer.rs) | [📃](problems/binary-tree-inorder-traversal) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Go](problems/validate-binary-search-tree/answer.go) | [📃](problems/validate-binary-search-tree) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [Go](problems/symmetric-tree/answer.go) | [📃](problems/symmetric-tree) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Go](problems/balanced-binary-tree/answer.go) | [📃](problems/balanced-binary-tree) |
@@ -890,7 +892,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Stack (22)</summary>
+<summary>Stack (23)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -899,6 +901,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [Go](problems/trapping-rain-water/answer.go) | [📃](problems/trapping-rain-water) |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | [Go](problems/simplify-path/answer.go) | [📃](problems/simplify-path) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Go](problems/largest-rectangle-in-histogram/answer.go) | [📃](problems/largest-rectangle-in-histogram) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Rust](problems/binary-tree-inorder-traversal/answer.rs) | [📃](problems/binary-tree-inorder-traversal) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [Go](problems/flatten-binary-tree-to-linked-list/answer.go) | [📃](problems/flatten-binary-tree-to-linked-list) |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C](problems/reorder-list/answer.c) | [📃](problems/reorder-list) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Go](problems/binary-tree-preorder-traversal/answer.go) | [📃](problems/binary-tree-preorder-traversal) |
@@ -993,10 +996,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Tree (39)</summary>
+<summary>Tree (40)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Rust](problems/binary-tree-inorder-traversal/answer.rs) | [📃](problems/binary-tree-inorder-traversal) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [Go](problems/unique-binary-search-trees/answer.go) | [📃](problems/unique-binary-search-trees) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Go](problems/validate-binary-search-tree/answer.go) | [📃](problems/validate-binary-search-tree) |
@@ -1145,6 +1149,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [Go](problems/largest-rectangle-in-histogram/answer.go) | [📃](problems/largest-rectangle-in-histogram) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Go](problems/partition-list/answer.go) | [📃](problems/partition-list) |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [Go](problems/gray-code/answer.go) | [📃](problems/gray-code) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Rust](problems/binary-tree-inorder-traversal/answer.rs) | [📃](problems/binary-tree-inorder-traversal) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [Go](problems/unique-binary-search-trees-ii/answer.go) | [📃](problems/unique-binary-search-trees-ii) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [Go](problems/unique-binary-search-trees/answer.go) | [📃](problems/unique-binary-search-trees) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [Go](problems/interleaving-string/answer.go) | [📃](problems/interleaving-string) |
