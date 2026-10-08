@@ -603,10 +603,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Linked List (22)</summary>
+<summary>Linked List (23)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Rust](problems/add-two-numbers/answer.rs) | [📃](problems/add-two-numbers) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Go](problems/merge-two-sorted-lists/answer.go) | [📃](problems/merge-two-sorted-lists) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Go](problems/reverse-nodes-in-k-group/answer.go) | [📃](problems/reverse-nodes-in-k-group) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [Go](problems/partition-list/answer.go) | [📃](problems/partition-list) |
@@ -632,10 +633,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Math (29)</summary>
+<summary>Math (30)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Rust](problems/add-two-numbers/answer.rs) | [📃](problems/add-two-numbers) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Go](problems/palindrome-number/answer.go) | [📃](problems/palindrome-number) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [Go](problems/integer-to-roman/answer.go) | [📃](problems/integer-to-roman) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Go](problems/roman-to-integer/answer.go) | [📃](problems/roman-to-integer) |
@@ -807,10 +809,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Recursion (11)</summary>
+<summary>Recursion (12)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Rust](problems/add-two-numbers/answer.rs) | [📃](problems/add-two-numbers) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Go](problems/merge-two-sorted-lists/answer.go) | [📃](problems/merge-two-sorted-lists) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [Go](problems/reverse-nodes-in-k-group/answer.go) | [📃](problems/reverse-nodes-in-k-group) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [Go](problems/wildcard-matching/answer.go) | [📃](problems/wildcard-matching) |
@@ -1106,6 +1109,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Go](problems/two-sum/answer.go) | [📃](problems/two-sum) |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Rust](problems/add-two-numbers/answer.rs) | [📃](problems/add-two-numbers) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Go](problems/longest-substring-without-repeating-characters/answer.go) | [📃](problems/longest-substring-without-repeating-characters) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Go](problems/median-of-two-sorted-arrays/answer.go) | [📃](problems/median-of-two-sorted-arrays) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Go](problems/longest-palindromic-substring/answer.go) | [📃](problems/longest-palindromic-substring) |
