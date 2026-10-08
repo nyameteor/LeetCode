@@ -381,7 +381,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Design (14)</summary>
+<summary>Design (15)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -392,6 +392,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Go](problems/implement-queue-using-stacks/answer.go) | [📃](problems/implement-queue-using-stacks) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Go](problems/range-sum-query-2d-immutable/answer.go) | [📃](problems/range-sum-query-2d-immutable) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
@@ -522,7 +523,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Hash Table (49)</summary>
+<summary>Hash Table (50)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -547,6 +548,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [Go](problems/happy-number/answer.go) | [📃](problems/happy-number) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Go](problems/implement-trie-prefix-tree/answer.go) | [📃](problems/implement-trie-prefix-tree) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | Medium | [Go](problems/minimum-genetic-mutation/answer.go) | [📃](problems/minimum-genetic-mutation) |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | [Go](problems/find-all-anagrams-in-a-string/answer.go) | [📃](problems/find-all-anagrams-in-a-string) |
@@ -578,13 +580,14 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Heap (Priority Queue) (7)</summary>
+<summary>Heap (Priority Queue) (8)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Go](problems/sort-characters-by-frequency/answer.go) | [📃](problems/sort-characters-by-frequency) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
@@ -600,7 +603,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Linked List (21)</summary>
+<summary>Linked List (22)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -619,6 +622,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Go](problems/reverse-linked-list/answer.go) | [📃](problems/reverse-linked-list) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Go](problems/odd-even-linked-list/answer.go) | [📃](problems/odd-even-linked-list) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
@@ -1220,6 +1224,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Go](problems/odd-even-linked-list/answer.go) | [📃](problems/odd-even-linked-list) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | [Go](problems/house-robber-iii/answer.go) | [📃](problems/house-robber-iii) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
 | 386 | [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [Go](problems/lexicographical-numbers/answer.go) | [📃](problems/lexicographical-numbers) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Go](problems/decode-string/answer.go) | [📃](problems/decode-string) |
