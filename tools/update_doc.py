@@ -104,7 +104,7 @@ class ProblemExtractor:
                 if subdir.is_dir() and f".{subdir.name}" in self.CODE_SUFFIX_MAP
             }
 
-        return solution_files
+        return dict(sorted(solution_files.items()))
 
     def get_problem(self) -> Problem | None:
         metadata = self.extract_metadata()
