@@ -523,7 +523,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Hash Table (50)</summary>
+<summary>Hash Table (51)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -559,6 +559,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [Go](problems/permutation-in-string/answer.go) | [📃](problems/permutation-in-string) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
+| 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [Go](problems/delete-and-earn/answer.go) | [📃](problems/delete-and-earn) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [Go](problems/construct-binary-tree-from-preorder-and-postorder-traversal/answer.go) | [📃](problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
@@ -809,7 +810,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Recursion (12)</summary>
+<summary>Recursion (13)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -824,6 +825,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | [Go](problems/different-ways-to-add-parentheses/answer.go) | [📃](problems/different-ways-to-add-parentheses) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Go](problems/decode-string/answer.go) | [📃](problems/decode-string) |
+| 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 1106 | [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [Go](problems/parsing-a-boolean-expression/answer.go) | [📃](problems/parsing-a-boolean-expression) |
 
 </details>
@@ -899,7 +901,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Stack (23)</summary>
+<summary>Stack (24)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -919,6 +921,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Go](problems/decode-string/answer.go) | [📃](problems/decode-string) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
+| 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Go](problems/daily-temperatures/answer.go) | [📃](problems/daily-temperatures) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [Go](problems/score-of-parentheses/answer.go) | [📃](problems/score-of-parentheses) |
 | 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
@@ -929,7 +932,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>String (56)</summary>
+<summary>String (57)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -970,6 +973,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | Medium | [Go](problems/delete-operation-for-two-strings/answer.go) | [📃](problems/delete-operation-for-two-strings) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
+| 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [Go](problems/score-of-parentheses/answer.go) | [📃](problems/score-of-parentheses) |
 | 880 | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | Medium | [Python](problems/decoded-string-at-index/answer.py) | [📃](problems/decoded-string-at-index) |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy | [Go](problems/verifying-an-alien-dictionary/answer.go) | [📃](problems/verifying-an-alien-dictionary) |
@@ -1267,6 +1271,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
+| 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Go](problems/daily-temperatures/answer.go) | [📃](problems/daily-temperatures) |
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [Go](problems/delete-and-earn/answer.go) | [📃](problems/delete-and-earn) |
 | 799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | Medium | [Go](problems/champagne-tower/answer.go) | [📃](problems/champagne-tower) |
