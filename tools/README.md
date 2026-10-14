@@ -35,5 +35,5 @@ This scans all problems and updates the table.
 To compile and run a solution:
 
 ```sh
-tools/run_code.sh "problems/<problem-name>/<solution-name>.cpp"
+./run.sh "problems/<problem-name>/<solution-name>.cpp"
 ```
