@@ -43,6 +43,12 @@ run_go() {
     go run "${src_file}"
 }
 
+run_py() {
+    local src_file="${1}"
+
+    python3 "${src_file}"
+}
+
 run_rust() {
     local src_file="${1}"
     local out_file="solution.out"
@@ -75,11 +81,15 @@ main() {
     go)
         run_go "${src_file}"
         ;;
+    py)
+        run_py "${src_file}"
+        ;;
     rs)
         run_rust "${src_file}"
         ;;
     *)
-        echo "Not a valid source file."
+        echo "Not a valid source file." >&2
+        exit 1
         ;;
     esac
 }
