@@ -381,7 +381,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Design (15)</summary>
+<summary>Design (16)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -394,6 +394,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Go](problems/range-sum-query-2d-immutable/answer.go) | [📃](problems/range-sum-query-2d-immutable) |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [Go](problems/insert-delete-getrandom-o1/answer.go) | [📃](problems/insert-delete-getrandom-o1) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
@@ -423,11 +424,12 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Doubly-Linked List (1)</summary>
+<summary>Doubly-Linked List (2)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [Go](problems/lru-cache/answer.go) | [📃](problems/lru-cache) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 
 </details>
 <details>
@@ -523,7 +525,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Hash Table (51)</summary>
+<summary>Hash Table (52)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -555,6 +557,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [Go](problems/find-all-numbers-disappeared-in-an-array/answer.go) | [📃](problems/find-all-numbers-disappeared-in-an-array) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Go](problems/sort-characters-by-frequency/answer.go) | [📃](problems/sort-characters-by-frequency) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [Go](problems/4sum-ii/answer.go) | [📃](problems/4sum-ii) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Go](problems/subarray-sum-equals-k/answer.go) | [📃](problems/subarray-sum-equals-k) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [Go](problems/permutation-in-string/answer.go) | [📃](problems/permutation-in-string) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [Go](problems/find-duplicate-file-in-system/answer.go) | [📃](problems/find-duplicate-file-in-system) |
@@ -604,7 +607,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Linked List (23)</summary>
+<summary>Linked List (24)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -625,6 +628,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Go](problems/odd-even-linked-list/answer.go) | [📃](problems/odd-even-linked-list) |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
@@ -1248,6 +1252,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | [C++](problems/delete-node-in-a-bst/answer.cpp) | [📃](problems/delete-node-in-a-bst) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Go](problems/sort-characters-by-frequency/answer.go) | [📃](problems/sort-characters-by-frequency) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [Go](problems/4sum-ii/answer.go) | [📃](problems/4sum-ii) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [Go](problems/hamming-distance/answer.go) | [📃](problems/hamming-distance) |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | Medium | [Go](problems/implement-rand10-using-rand7/answer.go) | [📃](problems/implement-rand10-using-rand7) |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [Go](problems/ones-and-zeroes/answer.go) | [📃](problems/ones-and-zeroes) |
