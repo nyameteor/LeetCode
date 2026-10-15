@@ -11,7 +11,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 ## Group by Topic
 
 <details>
-<summary>Array (95)</summary>
+<summary>Array (96)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -77,6 +77,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [Go](problems/longest-continuous-increasing-subsequence/answer.go) | [📃](problems/longest-continuous-increasing-subsequence) |
 | 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [Go](problems/maximum-sum-of-3-non-overlapping-subarrays/answer.go) | [📃](problems/maximum-sum-of-3-non-overlapping-subarrays) |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Go](problems/daily-temperatures/answer.go) | [📃](problems/daily-temperatures) |
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [Go](problems/delete-and-earn/answer.go) | [📃](problems/delete-and-earn) |
@@ -135,7 +136,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Binary Search (14)</summary>
+<summary>Binary Search (15)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -149,6 +150,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Go](problems/search-a-2d-matrix-ii/answer.go) | [📃](problems/search-a-2d-matrix-ii) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Go](problems/longest-increasing-subsequence/answer.go) | [📃](problems/longest-increasing-subsequence) |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [Go](problems/arranging-coins/answer.go) | [📃](problems/arranging-coins) |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | [Go](problems/max-consecutive-ones-iii/answer.go) | [📃](problems/max-consecutive-ones-iii) |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) | Medium | [Go](problems/snapshot-array/answer.go) | [📃](problems/snapshot-array) |
@@ -381,7 +383,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Design (16)</summary>
+<summary>Design (17)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -397,6 +399,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Rust](problems/lfu-cache/answer.rs) | [📃](problems/lfu-cache) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) | Medium | [Go](problems/snapshot-array/answer.go) | [📃](problems/snapshot-array) |
@@ -747,10 +750,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Ordered Set (1)</summary>
+<summary>Ordered Set (2)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
 
 </details>
@@ -848,6 +852,14 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | --- | ----- | ---------- | -------- | --- |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [Go](problems/repeated-dna-sequences/answer.go) | [📃](problems/repeated-dna-sequences) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | Medium | [Go](problems/check-if-a-string-contains-all-binary-codes-of-size-k/answer.go) | [📃](problems/check-if-a-string-contains-all-binary-codes-of-size-k) |
+
+</details>
+<details>
+<summary>Segment Tree (1)</summary>
+
+| #   | Title | Difficulty | Solution | Doc |
+| --- | ----- | ---------- | -------- | --- |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 
 </details>
 <details>
@@ -1275,6 +1287,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [Go](problems/maximum-sum-of-3-non-overlapping-subarrays/answer.go) | [📃](problems/maximum-sum-of-3-non-overlapping-subarrays) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [Go](problems/split-linked-list-in-parts/answer.go) | [📃](problems/split-linked-list-in-parts) |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [C](problems/asteroid-collision/answer.c) | [📃](problems/asteroid-collision) |
 | 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | [Rust](problems/parse-lisp-expression/answer.rs) | [📃](problems/parse-lisp-expression) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [Go](problems/daily-temperatures/answer.go) | [📃](problems/daily-temperatures) |
