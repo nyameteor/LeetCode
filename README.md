@@ -11,7 +11,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 ## Group by Topic
 
 <details>
-<summary>Array (96)</summary>
+<summary>Array (97)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -58,6 +58,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Go](problems/number-of-islands/answer.go) | [📃](problems/number-of-islands) |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [Go](problems/maximal-square/answer.go) | [📃](problems/maximal-square) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Go](problems/search-a-2d-matrix-ii/answer.go) | [📃](problems/search-a-2d-matrix-ii) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Go](problems/longest-increasing-subsequence/answer.go) | [📃](problems/longest-increasing-subsequence) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | [Go](problems/range-sum-query-2d-immutable/answer.go) | [📃](problems/range-sum-query-2d-immutable) |
@@ -587,11 +588,12 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Heap (Priority Queue) (8)</summary>
+<summary>Heap (Priority Queue) (9)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [Go](problems/kth-largest-element-in-an-array/answer.go) | [📃](problems/kth-largest-element-in-an-array) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [Go](problems/find-median-from-data-stream/answer.go) | [📃](problems/find-median-from-data-stream) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Go](problems/top-k-frequent-elements/answer.go) | [📃](problems/top-k-frequent-elements) |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [Rust](problems/design-twitter/answer.rs) | [📃](problems/design-twitter) |
@@ -731,6 +733,14 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
+<summary>Monotonic Queue (1)</summary>
+
+| #   | Title | Difficulty | Solution | Doc |
+| --- | ----- | ---------- | -------- | --- |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
+
+</details>
+<details>
 <summary>Monotonic Stack (3)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
@@ -781,11 +791,12 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Queue (3)</summary>
+<summary>Queue (4)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Go](problems/implement-queue-using-stacks/answer.go) | [📃](problems/implement-queue-using-stacks) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | Medium | [Go](problems/design-circular-queue/answer.go) | [📃](problems/design-circular-queue) |
 | 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [Go](problems/design-circular-deque/answer.go) | [📃](problems/design-circular-deque) |
 
@@ -877,12 +888,13 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Sliding Window (7)</summary>
+<summary>Sliding Window (8)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Go](problems/longest-substring-without-repeating-characters/answer.go) | [📃](problems/longest-substring-without-repeating-characters) |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [Go](problems/repeated-dna-sequences/answer.go) | [📃](problems/repeated-dna-sequences) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | [Go](problems/find-all-anagrams-in-a-string/answer.go) | [📃](problems/find-all-anagrams-in-a-string) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [Go](problems/permutation-in-string/answer.go) | [📃](problems/permutation-in-string) |
 | 992 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [Python](problems/subarrays-with-k-different-integers/answer.py) | [📃](problems/subarrays-with-k-different-integers) |
@@ -1238,6 +1250,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Go](problems/implement-queue-using-stacks/answer.go) | [📃](problems/implement-queue-using-stacks) |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Go](problems/palindrome-linked-list/answer.go) | [📃](problems/palindrome-linked-list) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [Go](problems/lowest-common-ancestor-of-a-binary-tree/answer.go) | [📃](problems/lowest-common-ancestor-of-a-binary-tree) |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Rust](problems/sliding-window-maximum/answer.rs) | [📃](problems/sliding-window-maximum) |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [Go](problems/search-a-2d-matrix-ii/answer.go) | [📃](problems/search-a-2d-matrix-ii) |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | [Go](problems/different-ways-to-add-parentheses/answer.go) | [📃](problems/different-ways-to-add-parentheses) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [Go](problems/add-digits/answer.go) | [📃](problems/add-digits) |
