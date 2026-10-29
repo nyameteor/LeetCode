@@ -384,7 +384,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Design (17)</summary>
+<summary>Design (18)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -405,6 +405,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | [Go](problems/time-based-key-value-store/answer.go) | [📃](problems/time-based-key-value-store) |
 | 1146 | [Snapshot Array](https://leetcode.com/problems/snapshot-array/) | Medium | [Go](problems/snapshot-array/answer.go) | [📃](problems/snapshot-array) |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | Medium | [Go](problems/iterator-for-combination/answer.go) | [📃](problems/iterator-for-combination) |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [Rust](problems/design-task-manager/answer.rs) | [📃](problems/design-task-manager) |
 
 </details>
 <details>
@@ -529,7 +530,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Hash Table (52)</summary>
+<summary>Hash Table (53)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -585,10 +586,11 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [Go](problems/check-if-array-pairs-are-divisible-by-k/answer.go) | [📃](problems/check-if-array-pairs-are-divisible-by-k) |
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | [Go](problems/minimum-operations-to-reduce-x-to-zero/answer.go) | [📃](problems/minimum-operations-to-reduce-x-to-zero) |
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | Medium | [Go](problems/unique-length-3-palindromic-subsequences/answer.go) | [📃](problems/unique-length-3-palindromic-subsequences) |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [Rust](problems/design-task-manager/answer.rs) | [📃](problems/design-task-manager) |
 
 </details>
 <details>
-<summary>Heap (Priority Queue) (9)</summary>
+<summary>Heap (Priority Queue) (10)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
@@ -601,6 +603,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | [Go](problems/top-k-frequent-words/answer.go) | [📃](problems/top-k-frequent-words) |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [Go](problems/sort-an-array/answer.go) | [📃](problems/sort-an-array) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | [Go](problems/k-closest-points-to-origin/answer.go) | [📃](problems/k-closest-points-to-origin) |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [Rust](problems/design-task-manager/answer.rs) | [📃](problems/design-task-manager) |
 
 </details>
 <details>
@@ -760,12 +763,13 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 
 </details>
 <details>
-<summary>Ordered Set (2)</summary>
+<summary>Ordered Set (3)</summary>
 
 | #   | Title | Difficulty | Solution | Doc |
 | --- | ----- | ---------- | -------- | --- |
 | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [Rust](problems/my-calendar-i/answer.rs) | [📃](problems/my-calendar-i) |
 | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [Go](problems/maximum-frequency-stack/answer.go) | [📃](problems/maximum-frequency-stack) |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [Rust](problems/design-task-manager/answer.rs) | [📃](problems/design-task-manager) |
 
 </details>
 <details>
@@ -1367,6 +1371,7 @@ Solutions and notes for LeetCode problems, with [tools](tools) to help manage th
 | 2463 | [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | [Go](problems/minimum-total-distance-traveled/answer.go) | [📃](problems/minimum-total-distance-traveled) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium | [Go](problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/answer.go) | [📃](problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | Medium | [Go](problems/closest-prime-numbers-in-range/answer.go) | [📃](problems/closest-prime-numbers-in-range) |
+| 3408 | [Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [Rust](problems/design-task-manager/answer.rs) | [📃](problems/design-task-manager) |
 
 ## References
 
